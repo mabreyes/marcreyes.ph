@@ -2,9 +2,9 @@
  * fonts.scss)
  *
  * ------------------------------------------------------------------- */
- 
+
 /*
- * Libre Baskerville 
+ * Libre Baskerville
 ================================================================================ */
 @font-face {
   font-family: "librebaskerville-regular";
@@ -33,6 +33,22 @@
   src: url("../fonts/montserrat/montserrat-regular-webfont.woff2") format("woff2"), url("../fonts/montserrat/montserrat-regular-webfont.woff") format("woff");
   font-style: normal;
   font-weight: normal;
+}
+@font-face {
+  font-family: "montserrat-bold";
+  src: url("../fonts/montserrat/montserrat-bold-webfont.woff2") format("woff2"), url("../fonts/montserrat/montserrat-bold-webfont.woff") format("woff");
+  font-style: normal;
+  font-weight: normal;
+}
+
+/*
+ * Norwester
+================================================================================ */
+@font-face {
+  font-family: "norwester-regular";
+  src: url("../fonts/norwester/norwester.woff") format("woff");
+  font-style: lighter;
+  font-weight: lighter;
 }
 @font-face {
   font-family: "montserrat-bold";
