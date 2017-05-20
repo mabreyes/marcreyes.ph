@@ -73,7 +73,7 @@ body {
 }
 
 .contact-text {
-  font-family: "Roboto Slab";
+  font-family: "Source Sans Pro";
 }
 /* -------------------------------------------------------------------
  * links - (_document-setup)
@@ -1154,7 +1154,7 @@ input::-moz-focus-inner {
   margin-bottom: 1.2rem;
 }
 .section-intro .lead {
-  font-family: "montserrat-regular", sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   font-size: 1.8;
   line-height: 1.833;
 }
@@ -1471,7 +1471,7 @@ header .header-logo a {
   transform: rotate(45deg);
 }
 #menu-nav-wrap .sponsor-text {
-  font-family: "Roboto Slab", serif;
+  font-family: "Source Sans Pro", serif;
   font-size: 1.4rem;
   line-height: 3rem;
 }
@@ -1947,7 +1947,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   padding: 0 50px;
 }
 #services .services-list .service-item p {
-  font-family: 'Roboto Slab';
+  font-family: 'Source Sans Pro';
   color: rgba(242, 242, 242, 0.5);
 }
 #services .services-list .icon {
