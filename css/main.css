@@ -72,6 +72,9 @@ body {
   padding: 0;
 }
 
+.contact-text {
+  font-family: "Roboto Slab";
+}
 /* -------------------------------------------------------------------
  * links - (_document-setup)
  * ------------------------------------------------------------------- */
@@ -510,7 +513,7 @@ td:last-child {
   margin-left: -30px;
   margin-top: -30px;
   padding: 0;
-  background-color: #f9a828;
+  background-color: #07617d;
   border-radius: 100%;
   -webkit-animation: sk-scaleout 1.0s infinite ease-in-out;
   animation: sk-scaleout 1.0s infinite ease-in-out;
@@ -1299,7 +1302,7 @@ header .header-logo a {
   transition: all 0.3s ease-in-out;
 }
 #header-menu-trigger.opaque {
-  background-color: #000000;
+  background-color: #07617d;
 }
 #header-menu-trigger.opaque .header-menu-text {
   background-color: #000000;
@@ -1468,7 +1471,7 @@ header .header-logo a {
   transform: rotate(45deg);
 }
 #menu-nav-wrap .sponsor-text {
-  font-family: "librebaskerville-regular", serif;
+  font-family: "Roboto Slab", serif;
   font-size: 1.4rem;
   line-height: 3rem;
 }
@@ -1791,6 +1794,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
 }
 #about span {
   color: #07617d;
+  font-weight: 700;
 }
 #about h3 {
   font-family: "montserrat-bold", sans-serif;
@@ -1810,9 +1814,9 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   margin: 0 auto 2.4rem;
 }
 #about .lead {
-  font-family: "librebaskerville-bold", serif;
-  font-size: 4rem;
-  line-height: 1.8;
+  font-family: "Roboto Slab", serif;
+  font-size: 5rem;
+  line-height: 1.5;
   color: #2e383f;
   margin-top: 6rem;
 }
@@ -1943,6 +1947,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   padding: 0 50px;
 }
 #services .services-list .service-item p {
+  font-family: 'Roboto Slab';
   color: rgba(242, 242, 242, 0.5);
 }
 #services .services-list .icon {
@@ -1951,7 +1956,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
 }
 #services .services-list .icon i {
   font-size: 5.4rem;
-  color: #f9a828;
+  color: #07617d;
 }
 #services .services-list .h05 {
   font-size: 1.7rem;
@@ -2297,14 +2302,15 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   padding-bottom: 3rem;
 }
 #testimonial-slider p {
-  font-family: "librebaskerville-bold", serif;
+  font-family: "Roboto Slab", serif;
   font-size: 3rem;
   line-height: 1.8;
   color: #151515;
 }
 #testimonial-slider p::before, #testimonial-slider p::after {
   display: inline-block;
-  font-family: "librebaskerville-bold", serif;
+  font-family: "Roboto Slab", serif;
+  font-style: italic;
   font-size: 3.6rem;
   line-height: 1;
 }
@@ -2329,7 +2335,8 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   display: inline-block;
   vertical-align: middle;
   text-align: center;
-  font-family: "librebaskerville-bold", sans-serif;
+  font-family: "Roboto Slab", sans-serif;
+  font-weight: 700;
   font-size: 2rem;
   margin-top: .9rem;
   margin-bottom: 3rem;
@@ -2651,12 +2658,12 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   line-height: 6rem;
   padding: 0 3rem;
   width: 100%;
-  background: #f9a828;
-  color: #000000;
+  background: #07617D;
+  color: #fff;
   margin-top: .6rem;
 }
 #contact button.submitform:hover, #contact button.submitform:focus {
-  background: #f89e0f;
+  background: #07617D;
 }
 
 #message-warning, #message-success {
@@ -2871,8 +2878,8 @@ footer h4.h05::after {
   background-color: rgba(0, 0, 0, 0.9);
 }
 .footer-main #mc-form button {
-  background-color: #f9a828;
-  color: #000000;
+  background-color: #07617D;
+  color: #fff;
   width: 6rem;
   height: 6rem;
   line-height: 6rem;
@@ -2933,8 +2940,8 @@ footer h4.h05::after {
   width: 60px;
   line-height: 63px;
   text-align: center;
-  background-color: #000000;
-  color: #888;
+  background-color: #07617d;
+  color: #fff;
   text-align: center;
   text-transform: uppercase;
   -moz-transition: all 0.3s ease-in-out;
@@ -2948,11 +2955,11 @@ footer h4.h05::after {
   line-height: inherit;
 }
 #go-top a:visited {
-  background: #000000;
-  color: #888;
+  background: #07617d;
+  color: #fff;
 }
 #go-top a:hover, #go-top a:focus {
-  background: #000000;
+  background: #07617d;
   color: #FFFFFF;
 }
 
