@@ -4,7 +4,6 @@
  * ------------------------------------------------------------------- */
 
 @import url('https://fonts.googleapis.com/css?family=Roboto+Slab:400,700');
-@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400');
 
 /*
  * Libre Baskerville
@@ -50,16 +49,6 @@
 @font-face {
   font-family: "norwester-regular";
   src: url("../fonts/norwester/norwester.woff") format("woff");
-  font-style: lighter;
-  font-weight: lighter;
-}
-
-/*
- * San-Francisco
-================================================================================ */
-@font-face {
-  font-family: "san-francisco-regular";
-  src: url("../fonts/san-francisco/SanFranciscoText-Regular.woff") format("woff");
   font-style: lighter;
   font-weight: lighter;
 }

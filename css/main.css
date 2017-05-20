@@ -2675,6 +2675,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
 }
 
 #message-warning {
+  font-family: "Roboto Slab", serif;
   color: #D32B2E;
 }
 
