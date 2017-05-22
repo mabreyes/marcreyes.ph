@@ -34,7 +34,14 @@
 @import url("micons/micons.css");
 @import url("fonts.css");
 
-
+.upload-warning {
+  font-size: 1.2rem;
+  color: rgba(255, 255, 255, 0.6);
+  font-family: "Roboto Slab";
+  font-weight: lighter;
+  letter-spacing: normal;
+  margin-top: -2px;
+ }
 /* ===================================================================
  *  02. base style overrides - (_document-setup)
  *
@@ -183,7 +190,7 @@ em, i {
 }
 
 strong, b {
-  font-family: "librebaskerville-bold", serif;
+  font-family: "Roboto Slab", serif;
 }
 
 small {
@@ -556,6 +563,7 @@ input[type="text"],
 input[type="tel"],
 input[type="url"],
 input[type="password"],
+input[type="file"],
 textarea,
 select {
   display: block;
@@ -2636,9 +2644,17 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   background: rgba(255, 255, 255, 0.1);
 }
 
+#contact input[type="file"] {
+  width: 415px;
+  color: rgba(255, 255, 255, 0.6);
+  margin-bottom: 3.6rem;
+  background: rgba(255, 255, 255, 0.1);
+}
+
 #contact input[type="text"]:focus,
 #contact input[type="password"]:focus,
-#contact input[type="email"]:focus {
+#contact input[type="email"]:focus,
+#contact input[type="file"]:focus {
   color: #FFFFFF;
 }
 
@@ -2646,6 +2662,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   min-height: 21rem;
   padding: 1.8rem 2rem;
 }
+
 #contact textarea:focus {
   color: #FFFFFF;
 }
