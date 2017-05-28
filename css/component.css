@@ -225,7 +225,7 @@
     color: #f1e5e6;
     background-color: #07617D;
     display: inline-block;
-    font-weight: lighter;
+    font-weight: normal;
 }
 
 .inputfile-6:focus + label strong,

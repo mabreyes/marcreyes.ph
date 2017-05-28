@@ -10,7 +10,7 @@ This project was developed with HTML5, Sass, jQuery, CSS3, and normalize.css
 
 **DESIGN ARCHIVE**
 * [January 2017](https://marcreyesph.github.io/www-marcreyes-me/archive/Jan-2017/)
-* [April 2016](https://marcreyesph.github.io/www-marcreyes-me/)
+* [April 2017](https://marcreyesph.github.io/www-marcreyes-me/)
 
 ## Misc:
 
