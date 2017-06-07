@@ -2282,6 +2282,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
  *
  * ------------------------------------------------------------------- */
 #testimonials {
+  display: none;
   background: #FFFFFF;
   padding: 12rem 0 7.8rem;
   text-align: center;
@@ -2452,6 +2453,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
  *
  * ------------------------------------------------------------------- */
 #clients {
+  display: none;
   background-color: #e9eaea;
   padding: 4.8rem 0 4.8rem;
 }
