@@ -1902,6 +1902,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
  *
  * ------------------------------------------------------------------- */
 #services {
+  display: none;
   background-color: #19191b;
   background-image: url(../images/services-bg.jpg);
   background-repeat: no-repeat;
