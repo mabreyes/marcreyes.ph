@@ -2899,6 +2899,9 @@ footer h4.h05::after {
   width: 100%;
   background-color: rgba(0, 0, 0, 0.9);
 }
+.footer-main #mc-form input[type="email"]:focus {
+  color: #fff;
+}
 .footer-main #mc-form button {
   background-color: #07617D;
   color: #fff;
@@ -2922,7 +2925,7 @@ footer h4.h05::after {
   left: .2rem;
 }
 .footer-main #mc-form label {
-  color: #f9a828;
+  color: #07617D;
   font-family: "montserrat-regular", sans-serif;
 }
 
