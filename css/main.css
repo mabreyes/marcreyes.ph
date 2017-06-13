@@ -1604,6 +1604,7 @@ header .header-logo a {
 @-ms-keyframes blink {0%{opacity:1;} 50%{opacity:0.2;} 100%{opacity:1;}}
 @keyframes blink {0%{opacity:1;} 50%{opacity:0.2;} 100%{opacity:1;}}
     .home-content-tablecell h3 span.new-feature-marker {
+      display: none;
       background: #212121;
       position: relative;
       margin: 0px 10px 0 0;
