@@ -1559,8 +1559,8 @@ header .header-logo a {
   left: 0;
   width: 100%;
   height: 100%;
-  opacity: .5;
-  background-color: #19191b;
+  opacity: .6;
+  background-color: #000;
 }
 
 .home-content-table {
@@ -1830,7 +1830,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
    width: 100%;
    height: 100%;
    opacity: .6;
-   background-color: #000;
+   background-color: #07617d;
  }
  .shadow-activate {
    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.78);
@@ -1840,7 +1840,6 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
    color:#fff;
    width: 800px;
    margin: 10px auto;
-   text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.78);
  }
 
  @media only screen and (max-width: 1024px) {
