@@ -46,6 +46,10 @@
 .contact-email-info {
   color: #07617D;
 }
+
+.portfolio-content-separator {
+  padding: 3.4em;
+}
 /* ===================================================================
  *  02. base style overrides - (_document-setup)
  *
@@ -129,10 +133,20 @@ h1, .h01 {
   line-height: 1.35;
   letter-spacing: -.1rem;
 }
+
+@media only screen and (max-width: 1300px) {
+  .portfolio-content-separator {
+    padding: 1.4em;
+  }
+}
+
 @media only screen and (max-width: 600px) {
   h1, .h01 {
     font-size: 2.6rem;
     letter-spacing: -.07rem;
+  }
+  .portfolio-content-separator {
+    padding: 1em;
   }
 }
 
