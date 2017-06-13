@@ -14,9 +14,9 @@ a:hover {
 .btn-default,
 .btn-default:hover,
 .btn-default:focus {
-  color: #333;
+  color: #fff;
   text-shadow: none; /* Prevent inheritance from `body` */
-  background-color: #fff;
+  background-color: transparent;
   border: 1px solid #fff;
 }
 
@@ -129,7 +129,7 @@ body {
 }
 .cover .btn-lg {
   padding: 10px 20px;
-  font-weight: bold;
+  font-weight: normal;
 }
 
 
