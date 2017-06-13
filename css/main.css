@@ -74,7 +74,10 @@ html {
 }
 
 html, body {
+  width: 100%;
   height: 100%;
+  padding: 0;
+  margin: 0;
 }
 
 body {
@@ -1556,7 +1559,7 @@ header .header-logo a {
   left: 0;
   width: 100%;
   height: 100%;
-  opacity: .2;
+  opacity: .5;
   background-color: #19191b;
 }
 
@@ -1840,6 +1843,19 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.78);
  }
 
+ @media only screen and (max-width: 1024px) {
+   #news p {
+     width: auto;
+     margin: auto;
+   }
+ }
+
+ @media only screen and (max-width: 800px) {
+   #news p {
+     width: auto;
+     margin: auto;
+   }
+ }
 /* ===================================================================
  *  11. about - (_layout.scss)
  *
