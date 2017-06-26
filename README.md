@@ -6,13 +6,13 @@ Marc X is a dev + design start-up by [Marc Reyes](https://www.facebook.com/marcx
 
 Site is proudly hosted with [GitHub pages](https://pages.github.com/).
 
-This project was developed with HTML5, Sass, jQuery, CSS3, and normalize.css
+This website was developed with HTML5, Sass, jQuery, CSS3, and normalize.css
 
-**DESIGN ARCHIVE**
+### Website Design Archive
 * [January 2017](https://marcreyesph.github.io/www-marcreyes-me/archive/Jan-2017/)
 * [April 2017](https://marcreyesph.github.io/www-marcreyes-me/)
 
-### Social media:
+### Social media
 
 * Follow Marc X: [Facebook](https://facebook.com/marcreyesph), [GitHub](https://github.com/marcreyesph)
 * Follow Marc Reyes: [Facebook](https://facebook.com/marcxph), [Twitter](https://twitter.com/marcreyesph)
