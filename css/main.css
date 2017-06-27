@@ -50,6 +50,15 @@
 .portfolio-content-separator {
   padding: 3.4em;
 }
+.footer-about-info {
+  background-color: #07617d;
+  padding: 10px;
+  margin-top: -15px;
+  border-radius:5px;
+  -webkit-box-shadow: 3px 4px 42px -4px rgba(0,0,0,0.75);
+  -moz-box-shadow: 3px 4px 42px -4px rgba(0,0,0,0.75);
+  box-shadow: 3px 4px 42px -4px rgba(0,0,0,0.75);
+}
 
 /* ===================================================================
  *  02. base style overrides - (_document-setup)
@@ -1501,6 +1510,7 @@ header .header-logo a {
   transform: rotate(45deg);
 }
 #menu-nav-wrap .sponsor-text {
+  display: none;
   font-family: "Roboto Slab", serif;
   font-size: 1.4rem;
   line-height: 3rem;
