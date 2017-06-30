@@ -37,13 +37,14 @@
 .upload-warning {
   font-size: 1.2rem;
   color: rgba(255, 255, 255, 0.6);
-  font-family: "Roboto Slab";
+  font-family: "Rubik";
   font-weight: normal;
   letter-spacing: normal;
   margin-top: -2px;
  }
 
 .contact-email-info {
+  font-family: 'Rubik';
   color: #07617D;
 }
 
@@ -101,7 +102,7 @@ body {
 }
 
 .contact-text {
-  font-family: "Roboto Slab";
+  font-family: "Rubik";
 }
 /* -------------------------------------------------------------------
  * links - (_document-setup)
@@ -221,7 +222,7 @@ em, i {
 }
 
 strong, b {
-  font-family: "Roboto Slab", serif;
+  font-family: "Rubik", serif;
 }
 
 small {
@@ -604,8 +605,8 @@ select {
   outline: none;
   vertical-align: middle;
   color: #444444;
-  font-family: "Roboto Slab", sans-serif;
-  font-size: 1.4rem;
+  font-family: "Rubik", sans-serif;
+  font-size: 1.8rem;
   line-height: 3rem;
   max-width: 100%;
   background: rgba(0, 0, 0, 0.1);
@@ -1193,7 +1194,7 @@ input::-moz-focus-inner {
   margin-bottom: 1.2rem;
 }
 .section-intro .lead {
-  font-family: "Roboto Slab", sans-serif;
+  font-family: "Rubik", sans-serif;
   font-size: 1.8;
   line-height: 1.833;
 }
@@ -1425,13 +1426,13 @@ header .header-logo a {
 }
 #menu-nav-wrap h3 {
   color: white;
-  font-family: "montserrat-regular", sans-serif;
+  font-family: "Rubik", sans-serif;
   font-size: 2rem;
   line-height: 1.5;
   margin-bottom: 1.5rem;
 }
 #menu-nav-wrap .nav-list {
-  font-family: "montserrat-regular", sans-serif;
+  font-family: "Rubik", sans-serif;
   margin: 3.6rem 0 1.5rem 0;
   padding: 0 0 1.8rem 0;
   list-style: none;
@@ -1870,7 +1871,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.78);
  }
  #news p {
-   font-family: 'Roboto Slab', serif;
+   font-family: 'Rubik', serif;
    color:#fff;
    width: 800px;
    margin: 10px auto;
@@ -1925,9 +1926,9 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   margin: 0 auto 2.4rem;
 }
 #about .lead {
-  font-family: "Roboto Slab", serif;
-  font-size: 5rem;
-  line-height: 1.5;
+  font-family: "Rubik", serif;
+  font-size: 5.5rem;
+  line-height: 1.45;
   color: #2e383f;
   margin-top: 6rem;
 }
@@ -2241,7 +2242,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   line-height: 1.364;
 }
 .bricks-wrapper .item-wrap .item-text .folio-types {
-  font-family: "montserrat-regular", sans-serif;
+  font-family: "Rubik", sans-serif;
   font-size: 1.1rem;
   line-height: 1.5rem;
   text-transform: uppercase;
@@ -3028,7 +3029,7 @@ footer h4.h05::after {
 }
 .footer-main #mc-form label {
   color: #07617D;
-  font-family: "montserrat-regular", sans-serif;
+  font-family: "Rubik", sans-serif;
 }
 
 /* footer bottom
@@ -3036,7 +3037,7 @@ footer h4.h05::after {
 .footer-bottom {
   margin-top: 3rem;
   text-align: center;
-  font-family: "montserrat-regular", sans-serif;
+  font-family: "Rubik", sans-serif;
   font-size: 1.4rem;
 }
 .footer-bottom .copyright span {
@@ -3086,6 +3087,56 @@ footer h4.h05::after {
   color: #fff;
 }
 #go-top a:hover, #go-top a:focus {
+  background: #07617d;
+  color: #FFFFFF;
+}
+#snackbar-notification {
+  position: fixed;
+  bottom: 42px;
+  left: 30px;
+  z-index: 700;
+}
+#snackbar-notification i{
+  font-family: "Rubik", sans-serif;
+  font-weight: 400;
+  padding-left: 2em;
+  text-decoration: none;
+  letter-spacing: normal;
+  border: 0 none;
+  border-radius: 3px;
+  display: inline-flex;
+  height: 63px;
+  width: auto;
+  line-height: 63px;
+  text-align: center;
+  background-color: #fff;
+  color: #212121;
+  text-align: center;
+  text-transform: none;
+  -webkit-box-shadow: 3px 4px 42px -4px rgba(0,0,0,0.75);
+  -moz-box-shadow: 3px 4px 42px -4px rgba(0,0,0,0.75);
+  box-shadow: 3px 4px 42px -4px rgba(0,0,0,0.75);
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+#snackbar-notification button {
+  padding: 0 2rem 0 2rem;
+  height: 63px;
+  color: #212121;
+  background-color: #fff;
+}
+#snackbar-notification a i {
+  font-size: 1.7rem;
+  line-height: inherit;
+}
+#snackbar-notification a:visited {
+  background: #07617d;
+  color: #fff;
+}
+#snackbar-notification a:hover, #snackbar-notification a:focus {
   background: #07617d;
   color: #FFFFFF;
 }
