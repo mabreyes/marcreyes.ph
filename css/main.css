@@ -3132,9 +3132,9 @@ footer h4.h05::after {
   font-family: 'Rubik', sans-serif;
   width: auto;
 }
-#snackbar-notification a.learn-more, #snackbar-notification a.learn-more:hover {
+#snackbar-notification a.learn-more {
   margin-left: 1.7rem;
-  background: #212121;
+  border: 1px solid #fff;
   font-weight: 700;
   text-transform: uppercase;
   border-radius: 3px;
