@@ -639,9 +639,31 @@
 
     <div id="snackbar-notification">
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-        <i>Caching complete. Future visits will work offline.
+        <i class="cache-start">Caching site...
           <button onclick="$('#snackbar-notification').remove();">&#10006;</button>
         </i>
+        <i class="cache-start">Caching complete. <span class="hide-responsive">Future visits will work offline.</span>
+          <a href="#" class="learn-more">Learn more</a>
+          <button onclick="$('#snackbar-notification').remove();">&#10006;</button>
+        </i>
+        <script>
+          (function() {
+            var quotes = $(".cache-start");
+            var quoteIndex = -1;
+            function showNextQuote() {
+                ++quoteIndex;
+                if(quoteIndex==quotes.length-1){
+                  quotes.eq(quoteIndex).show();
+                  return;
+                }
+                quotes.eq(quoteIndex)
+                    .show()
+                    .delay(12000)
+                    .hide(0, showNextQuote);
+            }
+            showNextQuote();
+          })();
+        </script>
       </div>
   </div>
    </footer>

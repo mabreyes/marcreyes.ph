@@ -2758,6 +2758,12 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   background: rgba(255, 255, 255, 0.1);
 }
 
+@media screen and (max-width: 560px) {
+  #contact input[type="file"] {
+    width: 200px;
+  }
+}
+
 #contact input[type="text"]:focus,
 #contact input[type="password"]:focus,
 #contact input[type="email"]:focus,
@@ -3063,6 +3069,7 @@ footer h4.h05::after {
 #go-top a {
   text-decoration: none;
   border: 0 none;
+  border-radius: 3px;
   display: block;
   height: 63px;
   width: 60px;
@@ -3095,8 +3102,6 @@ footer h4.h05::after {
   bottom: 42px;
   left: 30px;
   z-index: 700;
-}
-#snackbar-notification i{
   font-family: "Rubik", sans-serif;
   font-weight: 400;
   padding-left: 2em;
@@ -3105,12 +3110,12 @@ footer h4.h05::after {
   border: 0 none;
   border-radius: 3px;
   display: inline-flex;
-  height: 63px;
+  height: 60px;
   width: auto;
   line-height: 63px;
   text-align: center;
-  background-color: #fff;
-  color: #212121;
+  background-color: #07617d;
+  color: #fff;
   text-align: center;
   text-transform: none;
   -webkit-box-shadow: 3px 4px 42px -4px rgba(0,0,0,0.75);
@@ -3122,15 +3127,37 @@ footer h4.h05::after {
   -ms-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
+#snackbar-notification i {
+  font-size: 1.36rem;
+  font-family: 'Rubik', sans-serif;
+  width: auto;
+}
+#snackbar-notification a.learn-more, #snackbar-notification a.learn-more:hover {
+  margin-left: 1.7rem;
+  background: #212121;
+  font-weight: 700;
+  text-transform: uppercase;
+  border-radius: 3px;
+  padding: 0.9rem;
+}
+@media screen and (max-width: 369px) {
+  #snackbar-notification a.learn-more {
+    display: none;
+  }
+}
+@media screen and (max-width: 600px) {
+  #snackbar-notification span.hide-responsive {
+    display: none;
+  }
+}
+.cache-start {
+  display: none;
+}
 #snackbar-notification button {
   padding: 0 2rem 0 2rem;
-  height: 63px;
-  color: #212121;
-  background-color: #fff;
-}
-#snackbar-notification a i {
-  font-size: 1.7rem;
-  line-height: inherit;
+  height: 60px;
+  color: #fff;
+  background-color: #07617d;
 }
 #snackbar-notification a:visited {
   background: #07617d;
