@@ -10,7 +10,7 @@
 
 .inputfile + label {
     max-width: 100%;
-    font-size: 1.25rem;
+    font-size: 1.8rem;
     /* 20px */
     font-weight: 700;
     text-overflow: ellipsis;
@@ -190,7 +190,7 @@
 
 .inputfile-6 + label {
     color: rgba(255, 255, 255, 0.6);
-    font-family: "Roboto Slab";
+    font-family: "Rubik", sans-serif;
     font-weight: lighter;
 }
 
