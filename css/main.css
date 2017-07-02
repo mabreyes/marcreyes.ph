@@ -37,14 +37,14 @@
 .upload-warning {
   font-size: 1.2rem;
   color: rgba(255, 255, 255, 0.6);
-  font-family: "Rubik";
+  font-family: "Rubik", Helvetica, sans-serif;
   font-weight: normal;
   letter-spacing: normal;
   margin-top: -2px;
  }
 
 .contact-email-info {
-  font-family: 'Rubik';
+  font-family: 'Rubik', Helvetica, sans-serif;
   color: #07617D;
 }
 
@@ -102,7 +102,7 @@ body {
 }
 
 .contact-text {
-  font-family: "Rubik";
+  font-family: "Rubik", Helvetica, sans-serif;
 }
 /* -------------------------------------------------------------------
  * links - (_document-setup)
@@ -1177,7 +1177,7 @@ input::-moz-focus-inner {
   margin-bottom: 1.5rem;
 }
 .section-intro h1 {
-  font-family: "norwester-regular", serif;
+  font-family: "norwester-regular", Helvetica, sans-serif;
   font-size: 7rem;
   line-height: 1.375;
   color: #151515;
@@ -1602,7 +1602,7 @@ header .header-logo a {
   margin: 0 0 .9rem 0;
 }
 .home-content-tablecell h1 {
-  font-family: "norwester-regular", serif;
+  font-family: "norwester-regular", Helvetica, sans-serif;
   font-size: 9.3rem;
   line-height: 1.133;
   color: #FFFFFF;
@@ -1871,7 +1871,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.78);
  }
  #news p {
-   font-family: 'Rubik', serif;
+   font-family: 'Rubik', Helvetica, sans-serif;
    color:#fff;
    width: 800px;
    margin: 10px auto;
@@ -1926,7 +1926,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   margin: 0 auto 2.4rem;
 }
 #about .lead {
-  font-family: "Rubik", serif;
+  font-family: "Rubik", Helvetica, sans-serif;
   font-size: 5.5rem;
   line-height: 1.45;
   color: #2e383f;
