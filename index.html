@@ -15,6 +15,8 @@
   <link rel="stylesheet" type="text/css" href="css/normalize.css" />
   <link rel="stylesheet" type="text/css" href="css/demo.css" />
   <link rel="stylesheet" type="text/css" href="css/component.css" />
+  <link rel="stylesheet" type="text/css" href="css/bt-slider/full-slider.css">
+  <link href="css/bt-slider/bootstrap.css" rel="stylesheet">
   <link rel="canonical" href=" { { site.url } }{ { page.url } }" />
 
   <!--[if IE]>
@@ -44,11 +46,10 @@
 	   	<h3>Marc X</h3>
 			<ul class="nav-list">
 				<li class="current"><a class="smoothscroll" href="#home" title="">Home</a></li>
-        <li><a class="smoothscroll" href="#news" title="">News</a></li>
+        <li><a class="smoothscroll" href="#news" title="">Blog</a></li>
 				<li><a class="smoothscroll" href="#about" title="">About</a></li>
 				<li><a class="smoothscroll" href="#portfolio" title="">Works</a></li>
 				<li><a class="smoothscroll" href="#contact" title="">Contact</a></li>
-        <li><a href="https://blog.marcreyes.ph" title="">Blog</a></li>
         <li><a href="https://status.marcreyes.ph" title="">Status</a></li>
 			</ul>
 
@@ -132,27 +133,70 @@
 
    <section id="news">
 
-   	<div class="overlay"></div>
+   	<header id="myCarousel" class="carousel slide">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
 
-   	<div class="home-content-table">
-		   <div class="home-content-tablecell">
-		   	<div class="row">
-		   		<div class="col-twelve">
+        <!-- Wrapper for Slides -->
+        <div class="carousel-inner">
+            <div class="item active">
+            <div class="overlay"></div>
+                <!-- Set the first background image using inline CSS below. -->
+                <div class="fill" style="background-image:url('./images/blog/blog1.jpg');"></div>
+                <div class="carousel-caption">
+				  	<h1 class="animate-intro carousel-title">Out now: Blog</h1>
+                	<p class="lead more animate-intro">I want to share new stuff for you. Through my blog, I will then be able to showcase more projects and how I came up with those ideas. I also would like to share my programming adventures in Data Science and Machine Learning.</p>
+				  		<div class="more animate-intro">
+				  			<a style="border-color:#fff; color:#fff; text-decoration:none; font-family: 'Rubik', Helvetica, sans-serif; font-weight: 700;" class="button stroke carousel-button" href="https://blog.marcreyes.ph">
+				  			View blog
+				  			</a>
+				  		</div>
+                </div>
 
-			  				<h3 class="animate-intro"><span class="new-feature-marker">New Feature</span>News</h3>
-				  			<h1 class="animate-intro">Out now: Blog</h1>
-                <p class="lead more animate-intro">I want to share new stuff for you. Through my blog, I will then be able to showcase more projects and how I came up with those ideas.
-                  I also would like to share my programming adventures in Data Science and Machine Learning.</p>
-				  			<div class="more animate-intro">
-				  				<a class="button stroke" href="https://blog.marcreyes.ph">
-				  					Visit site
-				  				</a>
-				  			</div>
+            </div>
+            <div class="item">
+            <div class="overlay"></div>
+                <!-- Set the second background image using inline CSS below. -->
+                <div class="fill" style="background-image:url('./images/blog/blog2.jpg');"></div>
+                <div class="carousel-caption">
+                    	<h1 class="animate-intro carousel-title">Introducing Status Page</h1>
+                	<p class="lead more animate-intro">A status page contains specific details of the status of a website system whether they are operational or not. Read the blog on how the status page for my services was made. This is an open-source project.</p>
+				  		<div class="more animate-intro">
+				  			<a style="border-color:#fff; color:#fff; text-decoration:none; font-family: 'Rubik', Helvetica, sans-serif; font-weight: 700;" class="button stroke carousel-button" href="https://blog.marcreyes.ph">
+				  			View blog
+				  			</a>
+				  		</div>
+                </div>
+            </div>
+            <div class="item">
+            <div class="overlay"></div>
+                <!-- Set the second background image using inline CSS below. -->
+                <div class="fill" style="background-image:url('./images/blog/blog3.jpg');"></div>
+                <div class="carousel-caption">
+                    	<h1 class="animate-intro carousel-title">Service Workers</h1>
+                	<p class="lead more animate-intro">This website will now work offline. This feature will be rolled out on all marcreyes.ph sites, soon. Find out how a service worker works and how its is being implemented on this website. Read the blog to find out more.</p>
+				  		<div class="more animate-intro">
+				  			<a style="border-color:#fff; color:#fff; text-decoration:none; font-family: 'Rubik', Helvetica, sans-serif; font-weight: 700;" class="button stroke carousel-button" href="https://blog.marcreyes.ph">
+				  			View blog
+				  			</a>
+				  		</div>
+                </div>
+            </div>
+        </div>
 
-			  		</div>
-		   	</div>
-		   </div>
-		</div>
+        <!-- Controls -->
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="icon-prev"></span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="icon-next"></span>
+        </a>
+
+    </header>
    </section>
 
 <section id="about">
@@ -676,6 +720,17 @@
    <script src="js/jquery-2.1.3.min.js"></script>
    <script src="js/plugins.js"></script>
    <script src="js/main.js"></script>
+   <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Script to Activate the Carousel -->
+    <script>
+    $('.carousel').carousel({
+        interval: 5000 //changes the speed
+    })
+    </script>
 
 </body>
 
