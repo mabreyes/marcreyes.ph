@@ -51,6 +51,7 @@
 
 	/*	Masonry
 	------------------------------------------------------ */
+	
 	var ssMasonryFolio = function() {
 
 		var containerBricks = $('.bricks-wrapper');

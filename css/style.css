@@ -1,0 +1,48 @@
+.tech-slideshow {
+  height: 600px;
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+  -webkit-transform: translate3d(0, 0, 0);
+          transform: translate3d(0, 0, 0);
+}
+
+.tech-slideshow > div {
+  height: 600px;
+  width: 2526px;
+  background: url(../images/services-bg.jpg);
+  position: absolute;
+  top: 0;
+  left: 0;
+  -webkit-transform: translate3d(0, 0, 0);
+          transform: translate3d(0, 0, 0);
+}
+.tech-slideshow .mover-1 {
+  -webkit-animation: moveSlideshow 12s linear infinite;
+          animation: moveSlideshow 12s linear infinite;
+}
+.tech-slideshow .mover-2 {
+  opacity: 0;
+  -webkit-transition: opacity 0.5s ease-out;
+  transition: opacity 0.5s ease-out;
+  background-position: 0 -200px;
+  -webkit-animation: moveSlideshow 15s linear infinite;
+          animation: moveSlideshow 15s linear infinite;
+}
+.tech-slideshow:hover .mover-2 {
+  opacity: 1;
+}
+
+@-webkit-keyframes moveSlideshow {
+  100% { 
+    -webkit-transform: translateX(-66.6666%); 
+            transform: translateX(-66.6666%);  
+  }
+}
+
+@keyframes moveSlideshow {
+  100% { 
+    -webkit-transform: translateX(-66.6666%); 
+            transform: translateX(-66.6666%);  
+  }
+}

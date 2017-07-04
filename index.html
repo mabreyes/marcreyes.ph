@@ -6,12 +6,13 @@
   <meta charset="utf-8">
 	<title>Marc Reyes &mdash; Home</title>
 	<meta name="description" content="Hello, I'm Marc Reyes! I'm a freelance web designer and developer and is based in Cagayan de Oro, Philippines. I'm also interested in machine learning.">
-	<meta name="author" content="marcreyesmedia@gmail.com">
+	<meta name="author" content="Marc Reyes, contact@marcreyes.ph">
+  <meta name="keywords" content="Marc Reyes, Marc, Reyes, Marc X, X, MX, M+X, Web Design, Website, Web Development, Web Dev, Freelancer, Speaking, Google, Google Developers, Code, Programming, Machine Learning">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <link rel="stylesheet" href="css/base.css">
-  <link rel="stylesheet" href="css/vendor.css">
-  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" type="text/css" href="css/base.css">
+  <link rel="stylesheet" type="text/css" href="css/vendor.css">
+  <link rel="stylesheet" type="text/css" href="css/main.css">
   <link rel="stylesheet" type="text/css" href="css/normalize.css">
   <link rel="stylesheet" type="text/css" href="css/demo.css">
   <link rel="stylesheet" type="text/css" href="css/component.css">
@@ -48,6 +49,7 @@
 				<li class="current"><a class="smoothscroll" href="#home" title="">Home</a></li>
         <li><a class="smoothscroll" href="#blog" title="">Blog</a></li>
 				<li><a class="smoothscroll" href="#about" title="">About</a></li>
+				<li><a class="smoothscroll" href="#speaking" title="">Speaking</a></li>
 				<li><a class="smoothscroll" href="#portfolio" title="">Works</a></li>
 				<li><a class="smoothscroll" href="#contact" title="">Contact</a></li>
         <li><a href="https://status.marcreyes.ph" title="">Status</a></li>
@@ -140,16 +142,15 @@
             <li data-target="#myCarousel" data-slide-to="1"></li>
             <li data-target="#myCarousel" data-slide-to="2"></li>
         </ol>
-        <!-- Wrapper for Slides -->
+
         <div class="carousel-inner">
             <div class="item active">
             <div class="overlay"></div>
-                <!-- Set the first background image using inline CSS below. -->
                 <div class="fill" style="background-image:url('./images/blog/blog1.jpg');"></div>
                 <div class="carousel-caption">
-				  	<h1 class="animate-intro carousel-title">Out now: Blog</h1>
-                	<p class="lead more animate-intro">I want to share new stuff for you. Through my blog, I will then be able to showcase more projects and how I came up with those ideas. I also would like to share my programming adventures in Data Science and Machine Learning.</p>
-				  		<div class="more animate-intro">
+				  	<h1 class="carousel-title animate-this">Out now: Blog</h1>
+                	<p class="lead more animate-this">I want to share new stuff for you. Through my blog, I will then be able to showcase more projects and how I came up with those ideas. I also would like to share my programming adventures in Data Science and Machine Learning.</p>
+				  		<div class="more animate-this">
 				  			<a style="border-color:#fff; color:#fff; text-decoration:none; font-family: 'Rubik', Helvetica, sans-serif; font-weight: 700;" class="button stroke carousel-button" href="https://blog.marcreyes.ph">
 				  			View blog
 				  			</a>
@@ -158,12 +159,11 @@
             </div>
             <div class="item">
             <div class="overlay"></div>
-                <!-- Set the second background image using inline CSS below. -->
                 <div class="fill" style="background-image:url('./images/blog/blog2.jpg');"></div>
                 <div class="carousel-caption">
-                    	<h1 class="animate-intro carousel-title">Introducing Status Page</h1>
-                	<p class="lead more animate-intro">A status page contains specific details of the status of a website system whether they are operational or not. Read the blog on how the status page for my services was made. This is an open-source project.</p>
-				  		<div class="more animate-intro">
+                    	<h1 class="carousel-title animate-this">Introducing Status Page</h1>
+                	<p class="lead more">A status page contains specific details of the status of a website system whether they are operational or not. Read the blog on how the status page for my services was made. This is an open-source project.</p>
+				  		<div class="more animate-this">
 				  			<a target="_new" style="border-color:#fff; color:#fff; text-decoration:none; font-family: 'Rubik', Helvetica, sans-serif; font-weight: 700;" class="button stroke carousel-button" href="https://blog.marcreyes.ph/2017/06/27/introducing-status.html">
 				  			View blog
 				  			</a>
@@ -172,12 +172,11 @@
             </div>
             <div class="item">
             <div class="overlay"></div>
-                <!-- Set the second background image using inline CSS below. -->
                 <div class="fill" style="background-image:url('./images/blog/blog3.jpg');"></div>
                 <div class="carousel-caption">
-                    	<h1 class="animate-intro carousel-title">Service Workers</h1>
-                	<p class="lead more animate-intro">This website will now work offline. This feature will be rolled out on all marcreyes.ph sites, soon. Find out how a service worker works and how its is being implemented on this website. Read the blog to find out more.</p>
-				  		<div class="more animate-intro">
+                    	<h1 class="carousel-title animate-this">Service Workers</h1>
+                	<p class="lead more">This website will now work offline. This feature will be rolled out on all marcreyes.ph sites, soon. Find out how a service worker works and how its is being implemented on this website. Read the blog to find out more.</p>
+				  		<div class="more animate-this">
 				  			<a target="_new" style="border-color:#fff; color:#fff; text-decoration:none; font-family: 'Rubik', Helvetica, sans-serif; font-weight: 700;" class="button stroke carousel-button" href="https://blog.marcreyes.ph/2017/07/01/service-workers.html">
 				  			View blog
 				  			</a>
@@ -185,8 +184,6 @@
                 </div>
             </div>
         </div>
-
-        <!-- Controls -->
         <a class="left carousel-control" href="#myCarousel" data-slide="prev">
             <span class="icon-prev"></span>
         </a>
@@ -216,78 +213,88 @@
 
    </section>
 
-   <section id="services">
+   <section id="speaking">
+   	<header id="myCarousel2" class="carousel slide">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel2" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel2" data-slide-to="1"></li>
+            <li data-target="#myCarousel2" data-slide-to="2"></li>
+            <li data-target="#myCarousel2" data-slide-to="3"></li>
+            <li data-target="#myCarousel2" data-slide-to="4"></li>
+            <li data-target="#myCarousel2" data-slide-to="5"></li>
+            <li data-target="#myCarousel2" data-slide-to="6"></li>
+            <li data-target="#myCarousel2" data-slide-to="7"></li>
+            <li data-target="#myCarousel2" data-slide-to="8"></li>
+        </ol>
 
-   	<div class="overlay"></div>
-   	<div class="gradient-overlay"></div>
+        <div class="carousel-inner">
+        		<div class="col-six">
+                <div class="carousel-caption">
+				  	<h1 class="carousel-title animate-this">Speaking</h1>
+                	<p class="lead more animate-this">I'm also a speaker of tech-related events of Google Developer Group Cagayan de Oro and Media Information Technoculture. I talk about tools in graphic and motion graphic design as well as web development and design.<br><span>Photos by <a href="https://www.facebook.com/gdgcdo" target="_new">Google Developer Group Cagayan de Oro</a>, <a href="https://www.facebook.com/mitxuhs" target="_new">Media Information Technoculture</a></span></p>
+                	<div class="small-responsive">
+                	<div class="col-two animate-this">
+                	<div id="counter">
+                	<h1 class="counter-value carousel-title" data-count="2" style="text-align: center; font-size: 3.5em;">0</h1>
+                	<span>events</span>
+                	</div>
+                	</div>
+                	<div class="col-two animate-this">
+                	<div id="counter">
+                	<h1 class="counter-value carousel-title" data-count="320" style="text-align: center; font-size: 3.5em;">0</h1>
+                	<span>participants</span>
+                	</div>
+                	</div>
+                	</div>
+                </div>
+                </div>
+            <div class="item active">
+            <div class="overlay"></div>
+                <div class="fill" style="background-image:url('./images/speaking/sp1.jpg');"></div>
+            </div>
+            <div class="item">
+            <div class="overlay"></div>
+                <div class="fill" style="background-image:url('./images/speaking/sp2.jpg');"></div>
+            </div>
+            <div class="item">
+            <div class="overlay"></div>
+                <div class="fill" style="background-image:url('./images/speaking/sp3.jpg');"></div>
+            </div>
+            <div class="item">
+            <div class="overlay"></div>
+                <div class="fill" style="background-image:url('./images/speaking/sp4.jpg');"></div>
+            </div>
+            <div class="item">
+            <div class="overlay"></div>
+                <div class="fill" style="background-image:url('./images/speaking/sp5.jpg');"></div>
+            </div>
+            <div class="item">
+            <div class="overlay"></div>
+                <div class="fill" style="background-image:url('./images/speaking/sp6.jpg');"></div>
+            </div>
+            <div class="item">
+            <div class="overlay"></div>
+                <div class="fill" style="background-image:url('./images/speaking/sp7.jpg');"></div>
+            </div>
+            <div class="item">
+            <div class="overlay"></div>
+                <div class="fill" style="background-image:url('./images/speaking/sp8.jpg');"></div>
+            </div>
+            <div class="item">
+            <div class="overlay"></div>
+                <div class="fill" style="background-image:url('./images/speaking/sp9.jpg');"></div>
+            </div>
+        </div>
+        <a class="left carousel-control" href="#myCarousel2" data-slide="prev" style="display: none;">
+            <span class="icon-prev"></span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel2" data-slide="next" style="display: none;">
+            <span class="icon-next"></span>
+        </a>
 
-   	<div class="row narrow section-intro with-bottom-sep animate-this">
-   		<div class="col-full">
-
-   				<h3>Services</h3>
-   			   <h1>What I Do</h1>
-
-   			   <p class="lead">I love developing crazy things with dev + design and want to share these with you. Below are services I can offer for your projects and business needs.</p>
-
-   	   </div>
-   	</div>
-
-   	<div class="row services-content">
-
-   		<div class="services-list block-1-2 block-tab-full group">
-
-	      	<div class="bgrid service-item animate-this">
-
-	      		<span class="icon"><i class="icon-eye"></i></span>
-
-	            <div class="service-content">
-	            	<h3 class="h05">Branding</h3>
-
-		            <p>Make your brand stand out with my branding service. Offers affordable design options that will suit your product may it be on web or in print.
-	         		</p>
-	         	</div>
-
-				</div>
-
-				<div class="bgrid service-item animate-this">
-
-					<span class="icon"><i class="icon-objects"></i></span>
-
-	            <div class="service-content">
-	            	<h3 class="h05">Web Design</h3>
-
-		            <p>Want to redesign your website? Well, I can help you out! Offers affordable website design tools for your site. Optimized and created according to the latest web design standards.
-	         		</p>
-	            </div>
-
-			   </div>
-
-			   <div class="bgrid service-item animate-this">
-
-			   	<span class="icon"><i class="icon-lego-block"></i></span>
-
-	            <div class="service-content">
-	            	<h3 class="h05">Web Development</h3>
-
-		            <p>Need some back-end support and improvements for your website? Offers affordable web dev tools to make sure your website runs smoothly and efficiently. Optimized for support on all devices.
-	        			</p>
-	            </div>
-
-			   </div>
-
-				<div class="bgrid service-item animate-this">
-
-					<span class="icon"><i class="icon-pencil-ruler"></i></span>
-	            <div class="service-content">
-	            	<h3 class="h05">Design Package</h3>
-		            <p>Let's showcase your brand with all services stated above. Package comes with discounted web dev + design and branding options for your projects and business needs.
-	         		</p>
-	            </div>
-				</div>
-	      </div>
-   	</div>
+    </header>
    </section>
-
    <section id="portfolio">
 
    	<div class="intro-wrap">
@@ -443,80 +450,6 @@
    		</div>
    	</div>
     <div class="portfolio-content-separator"></div>
-   </section>
-
-   <section id="testimonials">
-
-   	<div class="row">
-   		<div class="col-twelve">
-   			<h2 class="animate-this">What They Say About Me</h2>
-   		</div>
-   	</div>
-
-      <div class="row flex-container">
-
-         <div id="testimonial-slider" class="flex-slider animate-this">
-
-            <ul class="slides">
-
-               <li>
-                  <p>
-                  Your work is going to fill a large part of your life, and the only way to be truly satisfied is
-                  to do what you believe is great work. And the only way to do great work is to love what you do.
-                  If you haven't found it yet, keep looking. Don't settle. As with all matters of the heart, you'll know when you find it.
-                  </p>
-
-                  <div class="testimonial-author">
-                    	<img src="images/avatars/user-02.jpg" alt="Author image">
-                    	<div class="author-info">
-                    		Steve Jobs
-                    		<span class="position">CEO, Apple.</span>
-                    	</div>
-                  </div>
-             	</li>
-
-               <li>
-                  <p>
-                  This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
-                  Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem
-                  nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris.
-                  </p>
-
-               	<div class="testimonial-author">
-                    	<img src="images/avatars/user-03.jpg" alt="Author image">
-                    	<div class="author-info">
-                    		John Doe
-                    		<span>CEO, ABC Corp.</span>
-                    	</div>
-                  </div>
-               </li>
-            </ul>
-         </div>
-      </div>
-   </section>
-
-   <section id="clients">
-
-		<div class="row animate-this">
-			<div class="col-twelve">
-
-				<div class="client-lists owl-carousel">
-  					<div><img src="images/clients/mozilla.png" alt=""></div>
-  					<div><img src="images/clients/bower.png" alt=""></div>
-  					<div><img src="images/clients/codepen.png" alt=""></div>
-  					<div><img src="images/clients/envato.png" alt=""></div>
-  					<div><img src="images/clients/firefox.png" alt=""></div>
-  					<div><img src="images/clients/grunt.png" alt=""></div>
-  					<div><img src="images/clients/evernote.png" alt=""></div>
-  					<div><img src="images/clients/github.png" alt=""></div>
-  					<div><img src="images/clients/joomla.png" alt=""></div>
-  					<div><img src="images/clients/jQuery.png" alt=""></div>
-  					<div><img src="images/clients/wordpress.png" alt=""></div>
-				</div>
-
-			</div>
-		</div>
-
    </section>
 
    <section id="contact">
@@ -716,15 +649,12 @@
 
    <script src="js/custom-file-input.js"></script>
    <script src="js/jquery-2.1.3.min.js"></script>
+   <script src="js/counter.js"></script>
    <script src="js/plugins.js"></script>
    <script src="js/main.js"></script>
    <script src="js/jquery.js"></script>
-
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
-
-    <!-- Script to Activate the Carousel -->
-    <script>
+   <script src="js/bootstrap.min.js"></script>
+   <script>
     $('.carousel').carousel({
         interval: 5000 //changes the speed
     })
