@@ -4,6 +4,7 @@ body {
   background: #eee;
   font-family: 'Rubik', Helvetica, sans-serif ;
   text-align:center;
+  font-variant-ligatures: none;
 }
 h1, h2 {
   font-weight: 400;
