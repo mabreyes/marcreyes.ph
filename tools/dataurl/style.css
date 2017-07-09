@@ -40,9 +40,23 @@ h1 {
   margin: 10px auto 0 auto;
   width: 400px;
 }
-.dataurl {
-  margin: 60px auto 0 auto;
-  width: 400px;
+
+@media only screen and (max-width: 531px) {
+  h1 {
+    width: 60%;
+    font-size: 35px;
+  }
+}
+@media only screen and (max-width: 460px) {
+  h1 {
+    font-size: 30px;
+    line-height: 1.25em;
+  }
+}
+@media only screen and (max-width: 300px) {
+  h1 {
+    font-size: 25px;
+  }
 }
 .logo-panel {
   cursor: pointer;
@@ -67,6 +81,10 @@ h1 {
     -webkit-box-shadow: 0px 1px 5px -1px rgba(0,0,0,0.75);
     -moz-box-shadow: 0px 1px 5px -1px rgba(0,0,0,0.75);
     box-shadow: 0px 1px 5px -1px rgba(0,0,0,0.75);
+  }
+  .dataurl {
+    margin: 10px auto 0 auto;
+    width: 400px;
   }
   .dataurl textarea {
     height: 250px;
@@ -95,6 +113,39 @@ h1 {
   .dataurl button:nth-of-type(1) {
     background-color: #789;
     margin: 0 10px 0 43px;
+  }
+  @media only screen and (max-width: 531px) {
+    .dataurl {
+      width: 60%;
+      height: 425px;
+    }
+    .dataurl textarea{
+      width: 88%;
+    }
+    .dataurl button:nth-of-type(1) {
+      margin: 10px 0 0 0;
+      width: 100%;
+    }
+    .dataurl button:nth-of-type(2) {
+      display: flow-root;
+      width: 100%;
+    }
+  }
+  @media only screen and (max-width: 390px) {
+    .dataurl textarea {
+      width: 83%;
+    }
+  }
+  @media screen and (max-width: 300px) {
+    .dataurl textarea {
+      width: 80%;
+    }
+    .dataurl button:nth-of-type(1) {
+      font-size: 12px;
+    }
+    .dataurl button:nth-of-type(2) {
+      font-size: 12px;
+    }
   }
   strong {
     font-weight: 700;
