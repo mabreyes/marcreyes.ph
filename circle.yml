@@ -1,59 +1,19 @@
+## Customize the test machine
 machine:
-
   timezone:
-    Philippines/Manila # Set the timezone
-
-  # Version of ruby to use
-  ruby:
-    version:
-
-
-  # Override /etc/hosts
-  hosts:
-    circlehost: 127.0.0.1
-    status.marcreyes.ph: 127.0.0.1
-
-  # Add some environment variables
-  environment:
-    CIRCLE_ENV:
-    DATABASE_URL:
+    Philippines/Manila
 
 ## Customize checkout
 checkout:
   post:
+    - git submodule sync
+    - git submodule update --init # use submodules
 
-## Customize dependencies
-dependencies:
-  pre:
-
-  override:
-    - bundle install: # note ':' here
-        timeout: 180 # fail if command has no output for 3 minutes
-        # IMPORTANT NOTE: ^^ the timeout modifier above must be
-        # double indented (four spaces) from the previous line
-
-  # we automatically cache and restore many dependencies between
-  # builds. If you need to, you can add custom paths to cache:
-  cache_directories:
-  #relative to the user's home directory
-
-## Customize database setup
 database:
   override:
-    # replace CircleCI's generated database.yml
+    - mysql -u ubuntu circle_test < my-database-setup.sql
 
-## Customize test commands
 test:
   override:
-  post:
-
-## Customize deployment commands
-deployment:
-  staging:
-    branch: master
-    heroku:
-      appname:
-
-## Custom notifications
-notify:
-  webhooks:
+    - php ./app/run-server.php --daemon
+    - php ./test-suite/run.php --unit-tests
