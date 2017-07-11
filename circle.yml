@@ -1,7 +1,7 @@
 ## Customize the test machine
 machine:
   timezone:
-    Philippines/Manila
+    Asia/Manila
 
 ## Customize checkout
 checkout:
