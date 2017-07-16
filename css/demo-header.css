@@ -10,7 +10,7 @@
 }
 
 .section:nth-of-type(odd):not(:first-child) {
-	z-index: 200;
+	z-index: 620;
 	color: #fff;
 	transition: transform 0.3s ease;
 	background-color: #07617d;
