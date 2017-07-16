@@ -3321,7 +3321,7 @@ footer h4.h05::after {
   letter-spacing: normal;
   border: 0 none;
   border-radius: 3px;
-  display: inline-flex;
+  display: none;
   height: 60px;
   width: auto;
   line-height: 63px;
