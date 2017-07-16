@@ -66,6 +66,74 @@
   display: none;
 }
 }
+
+.optimize-responsive {
+  visibility: hidden;
+}
+
+@media only screen and (max-width: 885px) {
+  .optimize-responsive {
+    visibility: visible;
+  }
+}
+
+#searchbar {
+  display: none;
+  float: left;
+  width: 100%;
+  height: 62px;
+  padding-left: 25px;
+  padding-right: 10px;
+  z-index: 9999;
+  background: #144f61;
+  -webkit-box-shadow: -1px 2px 2px rgba(0,0,0,0.2);
+  -moz-box-shadow: -1px 2px 2px rgba(0,0,0,0.2);
+  box-shadow: -1px 2px 2px rgba(0,0,0,0.2);
+}
+
+#s {
+  background-color: transparent;
+  display: block;
+  width: 88%;
+  border: 0;
+  outline: none;
+  padding: 0;
+  height: 60px;
+  line-height: 60px;
+  font-size: 1.25em;
+  font-weight: 400;
+  color: #676767;
+}
+
+input[type="search"]#s::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: rgba(255, 255, 255, 0.5);
+}
+input[type="search"]#s::-moz-placeholder { /* Firefox 19+ */
+  color: rgba(255, 255, 255, 0.5);
+}
+input[type="search"]#s:-ms-input-placeholder { /* IE 10+ */
+  color: rgba(255, 255, 255, 0.5);
+}
+input[type="search"]#s:-moz-placeholder { /* Firefox 18- */
+  color: rgba(255, 255, 255, 0.5);
+}
+
+input[type="search"]:focus#s{
+  color: #fff;
+}
+
+#searchsubmit {
+  font-size: 2em;
+  display: block;
+  float: right;
+  margin-top: 3px;
+  background: none;
+  color: #fff;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+}
+
 /* ===================================================================
  *  02. base style overrides - (_document-setup)
  *
