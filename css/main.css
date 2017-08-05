@@ -48,6 +48,16 @@
   color: #07617D;
 }
 
+i#copyright-year {
+  font-family: 'Rubik', Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+@media only screen and (max-width: 400px) {
+  i#copyright-year {
+    font-size: 13.125px;
+  }
+}
 .portfolio-content-separator {
   padding: 3.4em;
 }

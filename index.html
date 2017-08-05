@@ -59,7 +59,7 @@
         <li><a class="smoothscroll" href="#blog" title="">Blog</a></li>
 				<li><a class="smoothscroll" href="#about" title="">About</a></li>
 				<li><a class="smoothscroll" href="#speaking" title="">Speaking</a></li>
-				<li><a class="smoothscroll" href="#portfolio" title="">Works</a></li>
+				<li><a class="smoothscroll" href="#portfolio" title="">Portfolio</a></li>
 				<li><a class="smoothscroll" href="#contact" title="">Contact</a></li>
         <li><a href="https://status.marcreyes.ph" title="">Status</a></li>
 			</ul>
@@ -102,7 +102,7 @@
             <li class="menu__item"><a href="#blog" class="menu__link smoothscroll">Blog</a></li>
             <li class="menu__item"><a href="#about" class="menu__link smoothscroll">About</a></li>
             <li class="menu__item"><a href="#speaking" class="menu__link smoothscroll">Speaking</a></li>
-            <li class="menu__item"><a href="#portfolio" class="menu__link smoothscroll">Works</a></li>
+            <li class="menu__item"><a href="#portfolio" class="menu__link smoothscroll">Portfolio</a></li>
             <li class="menu__item"><a href="#contact" class="menu__link smoothscroll">Contact</a></li>
             <li class="menu__item"><a class="search-activate" style="color: #fff;" href="#" id="searchtoggl"><i class="fa fa-search fa-lg" style="font-size: 1.2em; margin: 12px 0 0 10px;"></i></a></li>
           </ul>
@@ -565,11 +565,8 @@
       	<div class="row">
       		<div class="col-twelve">
 	      		<div class="copyright">
-		         	<span>&copy;
-                <span id="copyright-year">
-                  <script>document.getElementById('copyright-year').appendChild(document.createTextNode(new Date().getFullYear()))</script>
-                </span>
-                Marc Reyes
+		         	<span>
+                &copy; <i id="copyright-year"></i> Marc Reyes
               </span>
               <span>Powered by <a href="https://pages.github.com">GitHub pages</a></span>
 		         </div>
@@ -625,6 +622,9 @@
     $('.carousel').carousel({
         interval: 5000
     })
+    </script>
+    <script>
+    document.getElementById('copyright-year').appendChild(document.createTextNode(new Date().getFullYear()))
     </script>
     <script src="js/classie.js"></script>
     <script src="js/clipboard.min.js"></script>
