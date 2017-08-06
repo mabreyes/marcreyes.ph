@@ -1,4 +1,4 @@
-# [Marc Reyes Website](https://marcreyes.ph) [![CircleCI](https://circleci.com/gh/marcreyesph/marcreyesph.github.io/tree/master.svg?style=shield&circle-token=9772a7abc5067d3b6ba916c722597539613f580a)](https://circleci.com/gh/marcreyesph/marcreyesph.github.io/tree/master)
+# [Marc Reyes Website](https://marcreyes.ph)
 
 ### Homepage website by Marc Reyes
 Marc X is a dev + design start-up by [Marc Reyes](https://www.facebook.com/marcxph). Started in 2013, the start-up aims to provide cheaper web development and design alternatives for students and professionals.
