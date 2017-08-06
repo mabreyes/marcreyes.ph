@@ -12,6 +12,5 @@ This website was developed with HTML5, Sass, jQuery, CSS3, and normalize.css
 * [April 2017](https://marcreyesph.github.io/www-marcreyes-me/)
 
 ### Social media
-
 * Follow Marc X: [Facebook](https://facebook.com/marcreyesph), [GitHub](https://github.com/marcreyesph)
 * Follow Marc Reyes: [Facebook](https://facebook.com/marcxph), [Twitter](https://twitter.com/marcreyesph)

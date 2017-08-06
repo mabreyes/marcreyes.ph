@@ -223,7 +223,7 @@
 .inputfile-6 + label strong {
     height: 100%;
     color: #f1e5e6;
-    background-color: #07617D;
+    background-color: #034586;
     display: inline-block;
     font-weight: normal;
 }
@@ -231,7 +231,7 @@
 .inputfile-6:focus + label strong,
 .inputfile-6.has-focus + label strong,
 .inputfile-6 + label:hover strong {
-    background-color: #07617D;
+    background-color: #034586;
 }
 
 @media screen and (max-width: 50em) {
