@@ -1,15 +1,15 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
 
 @font-face {
-    font-family: circular-bold;
+    font-family: Roboto;
     font-weight: lighter;
-    src: url(./lineto-circular-bold.woff);
+    src: url(./lineto-Roboto.woff);
 }
 
 @font-face {
-    font-family: circular-black;
+    font-family: Roboto;
     font-weight: lighter;
-    src: url(./lineto-circular-black.woff);
+    src: url(./lineto-Roboto.woff);
 }
 
 html, body, main {
@@ -40,10 +40,9 @@ a#menu svg {
 	fill: #fff;
 }
 a#menu span {
-	font-family: 'circular-bold', serif;
+	font-family: 'Roboto', sans-serif;
 	font-size: 1.4em;
 	color: #fff;
-	font-weight: lighter;
 	position: relative;
 	margin: 1.4em 0 0 -0.3em;
 	display: inline-block;
@@ -74,8 +73,7 @@ nav h2, p {
 }
 .main-content h1 {
 	width: 500px;
-	font-family: 'circular-black', serif;
-	font-weight: lighter;
+	font-family: 'Roboto', sans-serif;
 	color: #fff;
 	line-height: 1.03em;
 	font-size: 6em;
@@ -94,8 +92,7 @@ nav h2, p {
 	margin: 1.5em 1.5em;
 }
 .nav-content h2 {
-	font-weight: lighter;
-	font-family: 'circular-bold', serif;
+	font-family: 'Roboto', sans-serif;
 	line-height: 1.2em;
 }
 .nav-content p{
@@ -178,7 +175,7 @@ nav h2, p {
 		width: 75%;
 	}
 	a#menu span {
-		font-family: 'circular-bold', serif;
+		font-family: 'Roboto', sans-serif;
 		font-size: 1em;
 		color: #fff;
 		position: relative;
