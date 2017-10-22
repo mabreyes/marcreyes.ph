@@ -1,75 +1,45 @@
-<!DOCTYPE html>
-<html lang="en">
-	<head>
-		<meta charset="utf-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Marc Reyes &mdash; Home</title>
-		<meta name="description" content="Hello, I'm Marc Reyes! I'm a freelance web designer and developer and is based in Cagayan de Oro, Philippines. I'm also interested in machine learning.">
-		<meta name="author" content="Marc Reyes, contact@marcreyes.ph">
-		<meta name="keywords" content="Marc Reyes, Marc, Reyes, Marc X, X, MX, M+X, Web Design, Website, Web Development, Web Dev, Freelancer, Speaking, Google, Google Developers, Code, Programming, Machine Learning">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<meta property="og:title" content="Marc Reyes &mdash; Home">
-		<meta property="og:site_name" content="Marc Reyes &mdash; Home">
-		<meta property="og:type" content="website">
-		<meta property="og:url" content="https://marcreyes.ph">
-		<meta property="og:image" content="https://assets-storage.marcreyes.ph/images/website-opengraph/1200x630-og-image.png">
-		<meta property="og:description" content="Hello, I'm Marc Reyes! I'm a freelance web designer and developer and is based in Cagayan de Oro, Philippines. I'm also interested in machine learning.">
-		<link href="assets/style.css" rel="stylesheet" type="text/css">
-		<link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
-		<link rel="icon" href="./favicon.ico" type="image/x-icon">
-	</head>
-	<body>
-		<div id="close_op"></div>
-		<nav id="drawer" class="dark">
-			<a href="#" id="close">
-        		<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-          			<path d="M2 6h20v3H2zm0 5h20v3H2zm0 5h20v3H2z"/>
-        		</svg>
-      		</a>
-			<div class="nav-content">
-				<h2>About</h2>
-				<p>Hello, I'm Marc Reyes! I'm a freelance web designer and developer and is based in Cagayan de Oro, Philippines. I'm also interested in machine learning.</p>
-				<ul>
-					<li><a href="https://blog.marcreyes.ph">Blog</a></li>
-					<li><a href="https://status.marcreyes.ph">Status</a></li>
-					<li><a href="https://github.com/marcreyesph">@marcreyesph</a></li>
-				</ul>	
-			</div>
-		</nav>
-		<main class="cover-sample">
-		<div class="dark-overlay"></div>
-			<a href="#" id="menu">
-        		<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-          			<path d="M2 6h20v3H2zm0 5h20v3H2zm0 5h20v3H2z"/>
-        		</svg>
-        		<span>Marc Reyes</span>
-      		</a>
-      		<div class="main-content">
-      			<h1>Currently making new stuff</h1>
-      			<a class="button-actions" href="mailto:hello@marcreyes.ph">Contact me</a>
-      			<div class="footer">
-      				<a href="https://blog.marcreyes.ph">Blog</a>
-      				<a href="https://status.marcreyes.ph">Status</a>
-      				<a href="https://github.com/marcreyesph">@marcreyesph</a>
-      			</div>
-      		</div>
-		</main>
-		<script>
-		      var menu = document.querySelector('#menu');
-		      var close = document.querySelector('#close');
-		      var drawer = document.querySelector('#drawer');
-		      var close_op = document.querySelector('#close_op');
+---
+layout: default
+lang: en
+ref: index
+image: true
+exclude: true
+---
 
-		      menu.addEventListener('click', function(e) {
-		      	close_op.classList.toggle('nav_active');
-		        drawer.classList.toggle('open');
-		        e.stopPropagation();
-		      });
-		      close.addEventListener('click', function() {
-		      	close_op.classList.remove('nav_active');
-		        drawer.classList.remove('open');
-		      });
-    	</script>
-	</body>
-</html>
+{% include core/metabar.html %}
+
+<article class="content">
+
+  <header class="hero">
+    <h1 class="hero-title">{{ site.description }}</h1>
+    {% include core/share.html %}
+    {% if page.image %}
+      <div class="hero-image" style="background-image: url('{{ site.baseurl }}{{ site.assets }}{{ site.images }}posts/{{ page.ref }}.jpg'); background-image: -webkit-image-set( url('{{ site.baseurl }}{{ site.assets }}{{ site.images }}posts/{{ page.ref }}.jpg') 1x, url('{{ site.baseurl }}{{ site.assets }}{{ site.images }}posts/{{ page.ref }}-large.jpg') 2x )"></div>
+    {% endif %}
+  </header>
+
+  <section id="about" class="section">
+    <h2 class="section-title">About</h2>
+    <article>
+      <h3 class="section-header">Coding is fun</h3>
+      <p class="section-body">Hello, there! I'm Marc Reyes. I'm currently a Computer Science student in Cagayan de Oro. I'm also a front-end web developer and I currently am into Machine Learning mentorship.</p>
+      <a class="section-link" href="/about">More about Marc</a>
+    </article>
+  </section>
+
+  <section id="posts" class="section">
+    <h2 class="section-title">Posts</h2>
+    <article class="section-writing">
+      {% assign posts = site.posts | sort: 'order' | where:"lang", page.lang | limit: 3 %}
+      {% for page in posts %}
+      <h3 class="section-header"><a href="{{ site.baseurl }}{{ page.url }}" title="{{ page.title }}">{{ page.title }}</a></h3>
+        {% include core/date.html %}
+        <p class="section-body">{{ page.excerpt | strip_html | truncatewords: 32 }}</p>
+      {% endfor %}
+      <a class="section-link" href="/blog">Read more posts</a>
+    </article>
+  </section>
+
+</article>
+
+{% include core/footer.html %}

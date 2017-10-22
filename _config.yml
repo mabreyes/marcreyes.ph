@@ -1,0 +1,69 @@
+# Dependencies
+markdown:             kramdown
+highlighter:          rouge
+
+
+# Gems
+gems:
+  - jekyll-feed
+  - jekyll-gist
+  - jekyll-redirect-from
+  - jekyll-seo-tag
+
+
+# Settings
+exclude:              [CNAME, README.md, NOTES.md, LICENSE.md, .gitignore, package.json, bower.json, _js, _scss, _images, gulpfile.js, gulpconfig.js, node_modules, bower_components, gemfile, Gemfile.lock]
+permalink:            /:title/
+compress_html:
+  clippings: all
+  comments: all
+
+
+# Site meta
+title:                'Marc Reyes'
+tagline:              'Coding is fun'
+description:          '<a href="https://www.marcreyes.ph" target="_blank" rel="noopener noreferrer">Marc Reyes</a> is a front-end web developer and is currently into developing Machine Learning apps.'
+keywords:             'connor, baer, bear, designer, developer, traveller, design, code, jekyll, change, theme, for hire'
+url:                  https://www.marcreyes.ph
+baseurl:              
+assets:               /assets
+images:               /images/
+image:                index-large.jpg
+logo:                 /assets/icons/apple-icon-144x144.png
+dark_theme:           true
+
+author:
+  name:               Marc Reyes
+  bio:                Marc Reyes is a front-end web developer and is currently into developing Machine Learning apps.
+  image:              author
+  url:                https://www.marcreyes.ph
+  email:              hello@marcreyes.ph
+  twitter:            marcreyesph
+
+social:
+  twitter:            https://twitter.com/marcreyesph
+  instagram:          https://instagram.com/marcxplanet
+  github:             https://github.com/marcreyesph
+  medium:             https://medium.com/@marcreyesph
+
+version:              3.1.3
+
+github:
+  repo:               https://github.com/marcreyesph
+
+
+# Integrations
+# typekit:              fcv7rfe
+
+google_fonts:
+  Overpass:           400, 600, 800
+
+google_analytics_key: UA-94021817-2
+# google_site_verification: Z-pc_HPc4XNBz8xg1fgtxO2MSIYLirZc2jWTNq0bJyM
+
+
+# Content
+excerpt_separator: <!-- Read more -->
+
+navigation:
+  GitHub: https://github.com/marcreyesph
