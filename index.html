@@ -1,45 +1,71 @@
----
-layout: default
-lang: en
-ref: index
-image: true
-exclude: true
----
+<!DOCTYPE html>
+<html lang="en-US">
 
-{% include core/metabar.html %}
+<head>
 
-<article class="content">
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	
+	<title>Marc Reyes &mdash; Home</title>
+	<meta name="description" content="Hello, I'm Marc Reyes! I'm a freelance web designer and developer and is based in Cagayan de Oro, Philippines. I'm also interested in machine learning.">
+	<meta name="author" content="Marc Reyes, contact@marcreyes.ph">
+  	<meta name="keywords" content="Marc Reyes, Marc, Reyes, Marc X, X, MX, M+X, Web Design, Website, Web Development, Web Dev, Freelancer, Speaking, Google, Google Developers, Code, Programming, Machine Learning">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+  	<meta property="og:title" content="Marc Reyes &mdash; Home">
+  	<meta property="og:site_name" content="Marc Reyes &mdash; Home">
+  	<meta property="og:type" content="website">
+  	<meta property="og:url" content="https://marcreyes.ph">
+  	<meta property="og:image" content="https://assets-storage.marcreyes.ph/images/website-opengraph/1200x630-og-image.png">
+  	<meta property="og:description" content="Hello, I'm Marc Reyes! I'm a freelance web designer and developer and is based in Cagayan de Oro, Philippines. I'm also interested in machine learning.">
 
-  <header class="hero">
-    <h1 class="hero-title">{{ site.description }}</h1>
-    {% include core/share.html %}
-    {% if page.image %}
-      <div class="hero-image" style="background-image: url('{{ site.baseurl }}{{ site.assets }}{{ site.images }}posts/{{ page.ref }}.jpg'); background-image: -webkit-image-set( url('{{ site.baseurl }}{{ site.assets }}{{ site.images }}posts/{{ page.ref }}.jpg') 1x, url('{{ site.baseurl }}{{ site.assets }}{{ site.images }}posts/{{ page.ref }}-large.jpg') 2x )"></div>
-    {% endif %}
-  </header>
+	<link rel="icon" type="image/ico" href="favicon.ico" sizes="128x128">
 
-  <section id="about" class="section">
-    <h2 class="section-title">About</h2>
-    <article>
-      <h3 class="section-header">Coding is fun</h3>
-      <p class="section-body">Hello, there! I'm Marc Reyes. I'm currently a Computer Science student in Cagayan de Oro. I'm also a front-end web developer and I currently am into Machine Learning mentorship.</p>
-      <a class="section-link" href="/about">More about Marc</a>
-    </article>
-  </section>
+	<link rel='stylesheet' href='assets/css/split.css' type='text/css' media='screen' />
+	<meta name="viewport" content="width=device-width,initial-scale=1" />
 
-  <section id="posts" class="section">
-    <h2 class="section-title">Posts</h2>
-    <article class="section-writing">
-      {% assign posts = site.posts | sort: 'order' | where:"lang", page.lang | limit: 3 %}
-      {% for page in posts %}
-      <h3 class="section-header"><a href="{{ site.baseurl }}{{ page.url }}" title="{{ page.title }}">{{ page.title }}</a></h3>
-        {% include core/date.html %}
-        <p class="section-body">{{ page.excerpt | strip_html | truncatewords: 32 }}</p>
-      {% endfor %}
-      <a class="section-link" href="/blog">Read more posts</a>
-    </article>
-  </section>
+</head>
 
-</article>
-
-{% include core/footer.html %}
+<body id="fullsingle" class="page-template-page-fullsingle-split">
+<div class="fs-split">
+	<div class="split-image">
+	</div>
+	<div class="split-content">
+		<div class="split-content-vertically-center">
+			<div class="split-intro">
+				<h1>Marc Anthony Reyes</h1>
+				<span class="tagline">Developer and aspiring Data Scientist</span>
+			</div>
+			<div class="split-bio">			
+				<p>I design and develop websites at the same time studying the Mathematics behind Artificial Intelligence and Machine Learning. Want to ask me a question or interested in working with me? Feel free to e-mail me at <a href="mailto:hello@marcreyes.ph">hello@marcreyes.ph</a> or ask me on <a href="https://twitter.com/marcreyes.ph">Twitter</a>.</p>
+			</div>
+			<div class="split-lists">			
+				<div class="split-list">
+					<h3>Connect</h3>
+					<ul>
+						<li><a href="#">Blog</a></li>
+						<li><a href="#">Status</a></li>
+					</ul>
+				</div>
+				<div class="split-list">
+					<h3>Social</h3>
+					<ul>
+						<li><a href="#">GitHub</a></li>
+						<li><a href="#">Twitter</a></li>
+					</ul>
+				</div>
+				<div class="split-list">
+					<h3>More from Marc</h3>
+					<ul>
+						<li><a href="#">About</a></li>
+						<li><a href="#">Contact</a></li>
+					</ul>
+				</div>			
+			</div>
+			<div class="split-credit">
+				<p>&copy; 2017 <a href="#">Marc Anthony Reyes</a></p>
+			</div>		
+		</div>
+	</div>
+</div>
+</body>
+</html>
