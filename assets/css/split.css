@@ -222,6 +222,15 @@ body.page-template-page-fullsingle-split {
   .split-intro .tagline {
     color: #CCCCCC; }
 
+@media (max-width: 500px) {
+  .split-intro {
+    font-size: 2.5em;
+    line-height: 1.10em;
+  }
+  .split-intro h1 {
+    font-size: 21px;
+  }
+}
 .split-bio {
   padding: 40px 0 40px 0;
   font-family: 'Larsseit', serif; 
