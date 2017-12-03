@@ -70,7 +70,7 @@
     span {
       @extend %letter-spacing;
 
-      font-family: 'Inconsolata', monospace;
+      font-family: 'Roboto Mono', monospace;
     }
   }
 }
@@ -337,7 +337,7 @@
   display: flex;
   align-items: center;
 
-  font-family: 'Inconsolata', monospace;
+  font-family: 'Roboto Mono', monospace;
 
   @media (min-width: $mq-sm) {
     left: 2em;
@@ -578,7 +578,7 @@
     span {
       @extend %letter-spacing;
 
-      font-family: 'Inconsolata', monospace;
+      font-family: 'Roboto Mono', monospace;
     }
   }
 }
