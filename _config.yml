@@ -1,5 +1,5 @@
 # Site settings
-email: marc@marcreyes.ph
+email: hello@marcreyes.ph
 baseurl: ""
 paginate: 5
 paginate_path: "/blog/page-:num"
