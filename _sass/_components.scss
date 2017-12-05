@@ -443,6 +443,13 @@
     font-size: 1.75em;
   }
 
+  p:last-child {
+    margin-top: 30px;
+    border-top: 2px #e0e0e0 solid;
+    padding-top: 10px;
+    font-family: "Roboto Mono", serif;
+  }
+
   a {
     border-bottom: 1px solid $color-alpha;
   }
