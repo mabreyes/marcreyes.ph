@@ -40,4 +40,4 @@ I want to share more of my Machine Learning adventure but I believe I'm still st
 
 <img src="../../../../assets/images/mlad-normalization.jpg">
 
-<strong>NOTE:</strong> Guys, I need your help. If anyone of you have Machine Learning books and other resources, as well as datasets to play with, feel free to send me a message by filling the form below. Thanks everyone for reading my blog.
+Guys, I need your help. If anyone of you have Machine Learning books and other resources, as well as datasets to play with, feel free to send e-mail me at <strong><a href="mailto:hello@marcreyes.ph">hello@marcreyes.ph</a></strong>. Thanks everyone for reading my blog.

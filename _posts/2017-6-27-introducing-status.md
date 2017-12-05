@@ -20,4 +20,6 @@ My status page is created using an open-source project, <strong><a href='https:/
 </ul>
 <img src="../../../../assets/images/status-incident-thumbnail.jpg">
 
-On the status page, there is an <strong>Incident</strong> section. The incident section shows the specific issue that is being investigated, as well as the time and the functional unit/system that is/are affected. If the issue has been resolved, this section must show an update of the issue being investigated. You can check my status page by visiting <strong><a href="https://status.marcreyes.ph">status.marcreyes.ph</a></strong>. For site and functional issues that you want to address and give us notice, please e-mail me at <strong><a href="mailto:contact@marcreyes.ph">contact@marcreyes.ph</a></strong> and I'll be glad to respond to your request. Thank you very much!
+On the status page, there is an <strong>Incident</strong> section. The incident section shows the specific issue that is being investigated, as well as the time and the functional unit/system that is/are affected. If the issue has been resolved, this section must show an update of the issue being investigated. 
+
+You can check my status page by visiting <strong><a href="https://status.marcreyes.ph">status.marcreyes.ph</a></strong>. For site and functional issues that you want to address and give us notice, please e-mail me at <strong><a href="mailto:contact@marcreyes.ph">contact@marcreyes.ph</a></strong> and I'll be glad to respond to your request. Thank you very much!

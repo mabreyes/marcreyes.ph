@@ -18,4 +18,6 @@ My website <a href="https://marcreyes.ph">homepage</a> now has a service worker.
 
 <img src="../../../../assets/images/sw-working-thumbnail.jpg">
 
-You may also have the option to save it on your phone home screen like a native app. Yes, it works! Service workers will be added to all marcreyes.ph webpages, soon. <strong>Read more about service workers on the <a href="https://developers.google.com/web/fundamentals/getting-started/primers/service-workers">Google Developers</a> page.</strong>
+You may also have the option to save it on your phone home screen like a native app. Yes, it works! Service workers will be added to all marcreyes.ph webpages, soon. 
+
+Read more about service workers on the <a href="https://developers.google.com/web/fundamentals/getting-started/primers/service-workers">Google Developers</a> page.
