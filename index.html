@@ -29,9 +29,17 @@ title: Home
         <a class="card__link" onMouseOver="this.style.box-shadow=none" href="/blog" style="box-shadow: none; margin-top: 30px; background-color: transparent; width: 123px;"><span class="card__more">Read blog</span></a>
     </div>
     <div class="container-override">
+        <span style="border-bottom: 3px solid #2a3396; text-transform: uppercase;">Recent Works</span>
+        <p>&#123;&#123; post.work.title &#125;&#125;<br>&#123;&#123; post.work.description &#125;&#125;<br>img in &#123;&#123; post.work.title.img &#125;&#125; not found</p>
+    </div>
+    <div class="container-override">
+        <span style="border-bottom: 3px solid #2a3396; text-transform: uppercase;">Speaking</span>
+        <p>&#123;&#123; post.speaking.title &#125;&#125;<br>&#123;&#123; post.speaking.description &#125;&#125;<br>img in &#123;&#123; post.speaking.title.img &#125;&#125; not found</p>
+    </div>
+    <div class="container-override">
         <span style="border-bottom: 3px solid #2a3396; text-transform: uppercase;">Recent posts</span>
     </div>
-    <div class="section-padding archives__container" style="margin-top: -6em;">
+    <div class="section-padding archives__container" style="margin-top: -6em; margin-bottom: -7em;">
         {% for post in site.posts limit:3 %}
         <article class="card" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
             <a class="card__link" href="{{ post.url | prepend: site.baseurl }}" itemprop="url">
@@ -52,5 +60,8 @@ title: Home
             </a>
         </article>
         {% endfor %}
+    </div>
+    <div class="container-override" style="margin-bottom: -1em;">
+        {% include footer-link.html %}
     </div>
 </section>
