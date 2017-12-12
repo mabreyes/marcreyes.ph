@@ -10,9 +10,10 @@ title: Home
     .container-override {
         flex-flow: wrap;
         max-width: 60em;
-        margin: 5em auto;
+        margin: 0 auto;
         padding-left: 1em;
         padding-right: 1em;
+        margin-top: 5em;
         margin-bottom: 3em;
     }
 
@@ -27,7 +28,10 @@ title: Home
         <p>{{site.description}}</p>
         <a class="card__link" onMouseOver="this.style.box-shadow=none" href="/blog" style="box-shadow: none; margin-top: 30px; background-color: transparent; width: 123px;"><span class="card__more">Read blog</span></a>
     </div>
-    <div class="section-padding archives__container" style="margin-top: -1em;">
+    <div class="container-override">
+        <span style="border-bottom: 3px solid #2a3396; text-transform: uppercase;">Recent posts</span>
+    </div>
+    <div class="section-padding archives__container" style="margin-top: -6em;">
         {% for post in site.posts limit:3 %}
         <article class="card" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
             <a class="card__link" href="{{ post.url | prepend: site.baseurl }}" itemprop="url">
