@@ -6,7 +6,7 @@ paginate_path: "/blog/page-:num"
 google_analytics: 
 
 # SEO settings
-title: dev_planet()
+title: The Keyword
 description: Marc is currently a Computer Science student, freelance web developer, and Machine Learning engineer in the making based in Cagayan de Oro. Experimenting new developer tools and studying Machine Learning are his new hobbies. He has already talked in many developer events and is enthusiastic in sharing what he learned.
 url: "https://www.marcreyes.ph"
 twitter_username: marcreyesph
