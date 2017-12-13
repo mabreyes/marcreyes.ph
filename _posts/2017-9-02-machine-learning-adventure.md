@@ -3,7 +3,7 @@ layout: post
 title: My Machine Learning Adventure
 description: As a total beginner in Machine Learning, I'm sharing my milestone in developing apps in this field.
 image: /assets/images/mlad-thumbnail.jpg
-categories: Machine-Learning Google TensorFlow
+categories: Machine-Learning
 ---
 
 What is Machine Learning?
