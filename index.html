@@ -1,67 +1,56 @@
---- 
-layout: default 
-title: Home
 ---
-<section class="archives" itemscope itemtype="http://schema.org/Blog">
-    <header class="archives__header">
-        <span>Welcome</span>
-    </header>
-    <style type="text/css">
-    .container-override {
-        flex-flow: wrap;
-        max-width: 60em;
-        margin: 0 auto;
-        padding-left: 1em;
-        padding-right: 1em;
-        margin-top: 5em;
-        margin-bottom: 3em;
-    }
+layout: default
+---
+<section class="previews">
+  <div>
+    {% for post in paginator.posts %}
+      <figure class="absolute-bg preview__img" style="background-image: url('{{ post.image }}');"></figure>
+    {% endfor %}
+    <div class="previews__container">
+      <span>Welcome to</span>
+      <h1>{{ site.title }}</h1>
+    </div>
+  </div>
 
-    @media only screen and (max-width: 530px) {
-        .container-override h2 {
-            font-size: 4em !important;
-        }
-    }
-    </style>
-    <div class="container-override">
-        <h2 style="font-size: 5em; color: #2a3396;">Marc Reyes</h2>
-        <p>{{site.description}}</p>
-        <a class="card__link" onMouseOver="this.style.box-shadow=none" href="/blog" style="box-shadow: none; margin-top: 30px; background-color: transparent; width: 123px;"><span class="card__more">Read blog</span></a>
-    </div>
-    <div class="container-override">
-        <span style="border-bottom: 3px solid #2a3396; text-transform: uppercase;">Recent Works</span>
-        <p style="margin-top: 10px;">More details, soon.</p>
-    </div>
-    <div class="container-override">
-        <span style="border-bottom: 3px solid #2a3396; text-transform: uppercase;">Speaking</span>
-        <p style="margin-top: 10px;">More details, soon.</p>
-    </div>
-    <div class="container-override">
-        <span style="border-bottom: 3px solid #2a3396; text-transform: uppercase;">Recent posts</span>
-    </div>
-    <div class="section-padding archives__container" style="margin-top: -6em; margin-bottom: -7em;">
-        {% for post in site.posts limit:3 %}
-        <article class="card" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
-            <a class="card__link" href="{{ post.url | prepend: site.baseurl }}" itemprop="url">
-                <div class="card__img">
-                    {% if post.image-sm %}
-                    <figure class="absolute-bg wow" style="background-image: url('{{ post.image-sm }}');"></figure>
-                    {% else %}
-                    <figure class="absolute-bg wow" style="background-image: url('{{ post.image }}');"></figure>
-                    {% endif %}
-                </div>
-                <div class="card__container">
-                    <h2 class="card__header" itemprop="name">{{ post.title }}</h2>
-                    <p class="card__count" itemprop="datePublished" datetime="{{ post.date | date_to_xmlschema }}">
-                        {{ post.date | date: "%b %-d, %Y" }}
-                    </p>
-                    <span class="card__more">Read Post</span>
-                </div>
+  <div>
+    <header>
+      <ul class="tabs">
+        <li class="tabs__item">Posts</li>
+        <li class="tabs__item">Categories</li>
+      </ul>
+    </header>
+
+    <div class="tab">
+      <ul itemscope itemtype="http://schema.org/Blog">
+        {% for post in paginator.posts %}
+          <li class="preview" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
+            <a class="preview__link" href="{{ post.url | prepend: site.baseurl }}" itemprop="url">
+              <span class="preview__date" itemprop="datePublished" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %-d, %Y" }}</span>
+              <h2 class="preview__header" itemprop="name">{{ post.title }}</h2>
+              <p class="preview__excerpt" itemprop="description">{{ post.content | strip_html | truncatewords: 30 }}</p>
+              <span class="preview__more">Read More</span>
             </a>
-        </article>
+          </li>
         {% endfor %}
+      </ul>
+
+      {% if paginator.total_pages > 1 %}
+        <div class="pagination">
+          {% if paginator.previous_page %}
+            <a href="{{ paginator.previous_page_path | prepend: site.baseurl }}">Previous</a>
+          {% endif %}
+
+          {% if paginator.next_page %}
+            <a href="{{ paginator.next_page_path | prepend: site.baseurl }}">Next</a>
+          {% endif %}
+        </div>
+      {% endif %}
+
+      {% include archive-link.html %}
     </div>
-    <div class="container-override" style="margin-bottom: -1em;">
-        {% include footer-link.html %}
-    </div>
+
+    {% include categories-tab.html %}
+
+  </div>
+
 </section>
