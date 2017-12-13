@@ -3,7 +3,7 @@ layout: post
 title: Service Worker
 description: Making your site work offline.
 image: /assets/images/sw-thumbnail.jpg
-categories: Experiment Tools
+categories: Experiment Tools Google
 ---
 
 What is a service worker?
