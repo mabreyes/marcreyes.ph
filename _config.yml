@@ -25,7 +25,7 @@ social:
 # Build settings
 exclude: ["_screenshots", "Gemfile", "Gemfile.lock", "LICENSE.txt", "README.md"]
 markdown: kramdown
-permalink: /blog/:year/:month/:day/:title/
+permalink: /post/:year/:month/:day/:title/
 
 # Sass
 sass:
