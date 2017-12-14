@@ -1,7 +1,7 @@
 ---
 layout: post
 title: My Machine Learning Adventure
-description: As a total beginner in Machine Learning, I'm sharing my milestone in developing apps in this field.
+description: Machine Learning may be complicated as it is, but it's never impossible to develop an application of your own. As a total beginner in Machine Learning, I'm sharing my experience in studying it and hopefully build Machine Learning-powered applications. Read the blog to learn more.
 image: /assets/images/mlad-thumbnail.jpg
 categories: Machine-Learning
 ---

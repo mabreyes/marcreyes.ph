@@ -8,7 +8,8 @@ layout: default
       <i class="fa fa-lg fa-arrow-left"></i>
       <span>Back to Posts</span>
     </a>
-        <figure class="absolute-bg mast__img" style="background-image: url('{{ page.image }}');"></figure>
+        <figure class="absolute-bg mast__img" style="background-image: url('{{ page.image }}'); z-index: -1;"></figure>
+        <figure class="absolute-bg" style="background: #2a3396; opacity: 0.6;"></figure>
         <div class="mast__container">
             <span><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time></span>
             <h1 itemprop="name headline">{{ page.title }}</h1> {% if page.categories.size > 0 %}

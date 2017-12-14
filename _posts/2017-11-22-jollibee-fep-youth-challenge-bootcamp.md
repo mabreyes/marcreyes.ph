@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Jollibee FEP Youth Challenge Bootcamp
-description: Our team got selected to be funded a project in the recently launched Jollibee FEP Youth Challenge. Learn more about how we started, planned, and pitched for our project.
+description: Our team got selected to be funded a project in the recently launched Jollibee Farmer Entrepreneurship Program (FEP) Youth Challenge. Read my blog to learn more about how we started, planned, and pitched for our project in the recently held Jollibee FEP Youth Challenge Bootcamp.
 image: /assets/images/jollibee-fep-thumbnail.jpg
 categories: Projects Machine-Learning
 ---
