@@ -1,7 +1,8 @@
+@import url('fonts/fonts.css');
 .link,
 body {
     position: relative;
-    font-family: Hind, sans-serif
+    font-family: "Circular-Pro-Medium", sans-serif;
 }
 
 .btn-theme,
@@ -45,8 +46,18 @@ li,
 li a,
 p,
 span {
-    font-family: Hind, sans-serif
+    font-family: "Circular-Pro-Book", sans-serif;
 }
+
+.bold {
+    font-family: "Circular-Pro-Bold", sans-serif !important;
+}
+
+.medium {
+    font-family: "Circular-Pro-Medium", sans-serif !important;
+    line-height: 1.25em;
+}
+
 
 .header .nav-item-hover:after,
 .link:after,
