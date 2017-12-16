@@ -1,58 +1,391 @@
----
-layout: default
----
-<section class="previews">
-  <div>
-    {% for post in paginator.posts %}
-      <figure class="absolute-bg preview__img" style="background-image: url('{{ post.image }}');"></figure>
-    {% endfor %}
-    <div class="previews__container">
-      <div class="previews__container" style="background: #2a3396; position: absolute; z-index: -1; opacity: 0.6;"></div>
-      <span>Hello, World! I'm</span>
-      <h1 style="line-height: 1em; margin-bottom: 10px; text-align: center;">{{ site.title }}</h1>
-      <a href="mailto:hello@marcreyes.ph?subject=Hi&nbsp;Marc"><span class="preview__more" style="color: #fff; border-color: #fff; margin: 10px 0 0 0;">Contact me</span></a>
-    </div>
-  </div>
+<!DOCTYPE html>
+<html lang="en" class="no-js">
 
-  <div>
-    <header>
-      <ul class="tabs">
-        <li class="tabs__item">Posts</li>
-        <li class="tabs__item">Categories</li>
-      </ul>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Marc Reyes &mdash; Home</title>
+    <meta name="author" content="Marc Anthony Reyes">
+    <meta name="description" content="Marc is currently a Computer Science student, freelance web developer, and Machine Learning engineer in the making based in Cagayan de Oro. Experimenting new developer tools and studying Machine Learning are his new hobbies. He has already talked in many developer events and is enthusiastic in sharing what he learned.">
+    <meta property="og:title" content="Marc Reyes &mdash; Home">
+    <meta property="og:url" content="https://www.marcreyes.ph/">
+    <meta property="og:site_name" content="Marc Reyes">
+    <meta property="og:description" content="Marc is currently a Computer Science student, freelance web developer, and Machine Learning engineer in the making based in Cagayan de Oro. Experimenting new developer tools and studying Machine Learning are his new hobbies. He has already talked in many developer events and is enthusiastic in sharing what he learned.">
+    <meta property="og:image" content="https://www.marcreyes.ph/img/og-image.png">
+    <meta property="og:type" content="blog">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:description" content="Marc is currently a Computer Science student, freelance web developer, and Machine Learning engineer in the making based in Cagayan de Oro. Experimenting new developer tools and studying Machine Learning are his new hobbies. He has already talked in many developer events and is enthusiastic in sharing what he learned.">
+    <meta name="twitter:title" content="Marc Reyes &mdash; Home">
+    <meta name="twitter:url" content="https://www.marcreyes.ph/">
+    <meta name="twitter:site" content="Marc Reyes">
+    <meta name="twitter:creator" content="@marcreyesph">
+    <meta name="twitter:domain" content="https://www.marcreyes.ph">
+    <meta property="twitter:image" content="https://www.marcreyes.ph/img/og-image.png">
+    <link href="http://fonts.googleapis.com/css?family=Hind:300,400,500,600,700" rel="stylesheet" type="text/css">
+    <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet" type="text/css" />
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="css/animate.css" rel="stylesheet">
+    <link href="css/layout.min.css" rel="stylesheet" type="text/css" />
+    <link rel="shortcut icon" href="favicon.ico" />
+</head>
+
+<body id="body" data-spy="scroll" data-target=".header">
+    <header class="header navbar-fixed-top">
+        <nav class="navbar" role="navigation">
+            <div class="container">
+                <div class="menu-container js_nav-item">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".nav-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="toggle-icon"></span>
+                    </button>
+                    <div class="logo">
+                        <a class="logo-wrap" href="#body">
+                                <img class="logo-img logo-img-main" src="img/logo.png" alt="Asentus Logo">
+                                <img class="logo-img logo-img-active" src="img/logo-dark.png" alt="Asentus Logo">
+                            </a>
+                    </div>
+                </div>
+                <div class="collapse navbar-collapse nav-collapse">
+                    <div class="menu-container">
+                        <ul class="nav navbar-nav navbar-nav-right">
+                            <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#body">Home</a></li>
+                            <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#experience">About</a></li>
+                            <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#work">Work</a></li>
+                            <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#contact">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
     </header>
-
-    <div class="tab">
-      <ul itemscope itemtype="http://schema.org/Blog">
-        {% for post in paginator.posts %}
-          <li class="preview" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
-            <a class="preview__link" href="{{ post.url | prepend: site.baseurl }}" itemprop="url">
-              <span class="preview__date" itemprop="datePublished" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %-d, %Y" }}</span>
-              <h2 class="preview__header" itemprop="name">{{ post.title }}</h2>
-              <p class="preview__excerpt" itemprop="description">{{ post.content | strip_html | truncatewords: 30 }}</p>
-              <span class="preview__more">Read More</span>
-            </a>
-          </li>
-        {% endfor %}
-      </ul>
-
-      {% if paginator.total_pages > 1 %}
-        <div class="pagination">
-          {% if paginator.previous_page %}
-            <a href="{{ paginator.previous_page_path | prepend: site.baseurl }}">Previous</a>
-          {% endif %}
-
-          {% if paginator.next_page %}
-            <a href="{{ paginator.next_page_path | prepend: site.baseurl }}">Next</a>
-          {% endif %}
+    <div class="promo-block parallax-window" data-parallax="scroll" data-image-src="img/1920x1080/01.jpg">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="promo-block-divider">
+                        <h1 class="promo-block-title">Marc<br/>Reyes</h1>
+                        <p class="promo-block-text">Front-End Web and Machine Learning Developer</p>
+                    </div>
+                    <ul class="list-inline">
+                        <li><a href="https://www.facebook.com/marcxplanet" class="social-icons"><i class="icon-social-facebook"></i></a></li>
+                        <li><a href="https://twitter.com/marcreyesph" class="social-icons"><i class="icon-social-twitter"></i></a></li>
+                        <li><a href="https://github.com/marcreyesph" class="social-icons"><i class="icon-social-github"></i></a></li>
+                        <li><a href="https://linked.com/in/marcreyesph" class="social-icons"><i class="icon-social-linkedin"></i></a></li>
+                    </ul>
+                </div>
+            </div>
         </div>
-      {% endif %}
-
-      {% include archive-link.html %}
     </div>
+    <div id="experience">
+        <div class="bg-color-sky-light" data-auto-height="true">
+            <div class="container content-lg">
+                <div class="row">
+                    <div class="col-sm-3 sm-margin-b-30">
+                        <div class="text-right sm-text-left">
+                            <h2 class="margin-b-0">About me</h2>
+                            <p>Little info about who I am</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-8 col-sm-offset-1">
+                        <div class="row row-space-2 margin-b-4">
+                            <div class="margin-b-60">
+                                <p>Marc is currently a Computer Science student, freelance Front-End Web developer, and Machine Learning engineer in the making based in Cagayan de Oro. Experimenting new developer tools and studying Machine Learning are his new hobbies. He has already talked in many developer events and is enthusiastic in sharing what he learned.</p>
+                            </div>
+                            <div class="col-md-4 md-margin-b-4">
+                                <div class="service" data-height="height">
+                                    <div class="service-element">
+                                        <i class="service-icon icon-chemistry"></i>
+                                    </div>
+                                    <div class="service-info">
+                                        <h3>Front-End Web Development</h3>
+                                        <p class="margin-b-5">Developing and designing interfaces for websites and Progressive Web Apps</p>
+                                    </div>
+                                    <a href="#" class="content-wrapper-link"></a>
+                                </div>
+                            </div>
+                            <div class="col-md-4 md-margin-b-4">
+                                <div class="service bg-color-base wow zoomIn" data-height="height" data-wow-duration=".3" data-wow-delay=".1s">
+                                    <div class="service-element">
+                                        <i class="service-icon color-white icon-screen-tablet"></i>
+                                    </div>
+                                    <div class="service-info">
+                                        <h3 class="color-white">Machine Learning and Data Science</h3>
+                                        <p class="color-white margin-b-5">Gathering data and predicting meaningful information from it</p>
+                                    </div>
+                                    <a href="#" class="content-wrapper-link"></a>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="service" data-height="height">
+                                    <div class="service-element">
+                                        <i class="service-icon icon-badge"></i>
+                                    </div>
+                                    <div class="service-info">
+                                        <h3>Graphic<br>Design</h3>
+                                        <p class="margin-b-5">Creating impactful visual information and graphics to convey information or idea</p>
+                                    </div>
+                                    <a href="#" class="content-wrapper-link"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="work">
+        <div class="container content-lg">
+            <div class="row">
+                <div class="col-sm-3 sm-margin-b-30">
+                    <div class="text-right sm-text-left">
+                        <h2 class="margin-b-0">Works</h2>
+                        <p>Previous projects I have worked</p>
+                    </div>
+                </div>
+                <div class="col-sm-8 col-sm-offset-1">
+                    <div class="masonry-grid row row-space-2">
+                        <div class="masonry-grid-sizer col-xs-6 col-sm-6 col-md-1"></div>
+                        <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-8 margin-b-4">
+                            <div class="work work-popup-trigger">
+                                <div class="work-overlay">
+                                    <img class="full-width img-responsive" src="img/800x400/01.jpg" alt="Portfolio Image">
+                                </div>
+                                <div class="work-popup-overlay">
+                                    <div class="work-popup-content">
+                                        <a href="javascript:void(0);" class="work-popup-close">Close</a>
+                                        <div class="margin-b-30">
+                                            <h3 class="margin-b-5">ntuit.ai</h3>
+                                            <span>Website Development and Design</span>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-sm-8 work-popup-content-divider sm-margin-b-20">
+                                                <div class="margin-t-10 sm-margin-t-0">
+                                                    <p>ntuit.ai is led by a team of local veterans in the practical applications of AI, and a pioneer in providing professional AI consultancy services in the Philippines</p>
+                                                    <ul class="list-inline work-popup-tag">
+                                                        <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="#">Web Design,</a></li>
+                                                        <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="#">Web Development,</a></li>
+                                                        <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="#">Startup</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-4">
+                                                <div class="margin-t-10 sm-margin-t-0">
+                                                    <p class="margin-b-5"><strong>Project Leader:</strong> Ralph Regalado</p>
+                                                    <p class="margin-b-5"><strong>Front-End:</strong> Marc Reyes</p>
+                                                    <p class="margin-b-5"><strong>Back-End:</strong> Miguel Cabral</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-4 margin-b-4">
+                            <div class="work work-popup-trigger">
+                                <div class="work-overlay">
+                                    <img class="full-width img-responsive" src="img/397x400/01.jpg" alt="Portfolio Image">
+                                </div>
+                                <div class="work-popup-overlay">
+                                    <div class="work-popup-content">
+                                        <a href="javascript:void(0);" class="work-popup-close">Close</a>
+                                        <div class="margin-b-30">
+                                            <h3 class="margin-b-5">Mark Rodriguez</h3>
+                                            <span>Website Development and Design</span>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-sm-8 work-popup-content-divider sm-margin-b-20">
+                                                <div class="margin-t-10 sm-margin-t-0">
+                                                    <p>Mark Rodriguez is freelance photographer and videographer based in Cagayan de Oro.</p>
+                                                    <ul class="list-inline work-popup-tag">
+                                                        <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="#">Web Design,</a></li>
+                                                        <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="#">Web Development,</a></li>
+                                                        <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="#">Photographer</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-4">
+                                                <div class="margin-t-10 sm-margin-t-0">
+                                                    <p class="margin-b-5"><strong>Front-End:</strong> Marc Reyes</p>
+                                                    <p class="margin-b-5"><strong>Back-End:</strong> Marc Reyes</p>
+                                                    <p class="margin-b-5"><strong>Customer:</strong> Mark Rodriguez</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-4 md-margin-b-4">
+                            <div class="work work-popup-trigger">
+                                <div class="work-overlay">
+                                    <img class="full-width img-responsive" src="img/397x300/01.jpg" alt="Portfolio Image">
+                                </div>
+                                <div class="work-popup-overlay">
+                                    <div class="work-popup-content">
+                                        <a href="javascript:void(0);" class="work-popup-close">Close</a>
+                                        <div class="margin-b-30">
+                                            <h3 class="margin-b-5">Image Inpainting/Completion with TensorFlow</h3>
+                                            <span>Image Processing and Machine Learning</span>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-sm-8 work-popup-content-divider sm-margin-b-20">
+                                                <div class="margin-t-10 sm-margin-t-0">
+                                                    <p>The goal of this project is to inpaint/complete the image given into the neural network. This Machine Learning project is built with TensorFlow.</p>
+                                                    <ul class="list-inline work-popup-tag">
+                                                        <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="#">Machine Learning,</a></li>
+                                                        <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="#">Image Processing,</a></li>
+                                                        <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="#">TensorFlow</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-4">
+                                                <div class="margin-t-10 sm-margin-t-0">
+                                                    <p class="margin-b-5"><strong>Developer:</strong> Marc Reyes</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-4 md-margin-b-4">
+                            <div class="work work-popup-trigger">
+                                <div class="work-overlay">
+                                    <img class="full-width img-responsive" src="img/397x300/03.jpg" alt="Portfolio Image">
+                                </div>
+                                <div class="work-popup-overlay">
+                                    <div class="work-popup-content">
+                                        <a href="javascript:void(0);" class="work-popup-close">Close</a>
+                                        <div class="margin-b-30">
+                                            <h3 class="margin-b-5">Jewel Marketing</h3>
+                                            <span>Website Development and Design</span>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-sm-8 work-popup-content-divider sm-margin-b-20">
+                                                <div class="margin-t-10 sm-margin-t-0">
+                                                    <p>Jewel Marketing is the lead of bespoke e-mail SEO campaigns based in United Kingdom. They offer professional SEO services that help websites increase their organic search score drastically in order to compete for the highest rankings&mdash;even when it comes to highly competitive keywords.</p>
+                                                    <ul class="list-inline work-popup-tag">
+                                                        <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="#">Web Design,</a></li>
+                                                        <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="#">Web Development,</a></li>
+                                                        <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="#">SEO</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-4">
+                                                <div class="margin-t-10 sm-margin-t-0">
+                                                    <p class="margin-b-5"><strong>Front-End:</strong> Marc Reyes</p>
+                                                    <p class="margin-b-5"><strong>Back-End:</strong> Marc Reyes</p>
+                                                    <p class="margin-b-5"><strong>Customer:</strong> Joseph Libby</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-4">
+                            <div class="work work-popup-trigger">
+                                <div class="work-overlay">
+                                    <img class="full-width img-responsive" src="img/397x300/02.jpg" alt="Portfolio Image">
+                                </div>
+                                <div class="work-popup-overlay">
+                                    <div class="work-popup-content">
+                                        <a href="javascript:void(0);" class="work-popup-close">Close</a>
+                                        <div class="margin-b-30">
+                                            <h3 class="margin-b-5">Connect the World</h3>
+                                            <span>Web Design and Development</span>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-sm-8 work-popup-content-divider sm-margin-b-20">
+                                                <div class="margin-t-10 sm-margin-t-0">
+                                                    <p>Connect the World is a SEO campaign company based in United Kingdom. They are the pioneer of online advertisments, e-mail and SEO campaigns.</p>
+                                                    <ul class="list-inline work-popup-tag">
+                                                        <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="#">Web Design,</a></li>
+                                                        <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="#">Web Development,</a></li>
+                                                        <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="#">SEO</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-4">
+                                                <div class="margin-t-10 sm-margin-t-0">
+                                                    <p class="margin-b-5"><strong>Front-End:</strong> Marc Reyes</p>
+                                                    <p class="margin-b-5"><strong>Back-End:</strong> Marc Reyes</p>
+                                                    <p class="margin-b-5"><strong>Customer:</strong> Connect the World Co</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="contact">
+        <div class="bg-color-sky-light">
+            <div class="container content-lg">
+                <div class="row">
+                    <div class="col-sm-3 sm-margin-b-30">
+                        <div class="text-right sm-text-left">
+                            <h2 class="margin-b-0">Contact</h2>
+                            <p>How can I help</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-8 col-sm-offset-1">
+                        <div class="row">
+                            <div class="col-md-3 col-xs-6 md-margin-b-30">
+                                <h5>Location</h5>
+                                <a href="#">Cagayan de Oro, Misamis Oriental</a>
+                            </div>
+                            <div class="col-md-3 col-xs-6 md-margin-b-30">
+                                <h5>Phone</h5>
+                                <a href="#">+6391 2915 2323</a>
+                            </div>
+                            <div class="col-md-3 col-xs-6">
+                                <h5>Email</h5>
+                                <a href="mailto:#">hello@marcreyes.ph</a>
+                            </div>
+                            <div class="col-md-3 col-xs-6">
+                                <h5>Web</h5>
+                                <a href="#">www.marcreyes.ph</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="content container">
+            <div class="row">
+                <div class="col-xs-6">
+                    <img class="footer-logo" src="img/logo-dark.png" alt="Aircv Logo">
+                </div>
+                <div class="col-xs-6 text-right sm-text-left">
+                    <p class="margin-b-0">&copy; 2017 Marc Reyes</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <a href="javascript:void(0);" class="js-back-to-top back-to-top">Top</a>
+    <script src="vendor/jquery.min.js" type="text/javascript"></script>
+    <script src="vendor/jquery-migrate.min.js" type="text/javascript"></script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="vendor/jquery.easing.js" type="text/javascript"></script>
+    <script src="vendor/jquery.back-to-top.js" type="text/javascript"></script>
+    <script src="vendor/jquery.smooth-scroll.js" type="text/javascript"></script>
+    <script src="vendor/jquery.wow.min.js" type="text/javascript"></script>
+    <script src="vendor/jquery.parallax.min.js" type="text/javascript"></script>
+    <script src="vendor/jquery.appear.js" type="text/javascript"></script>
+    <script src="vendor/masonry/jquery.masonry.pkgd.min.js" type="text/javascript"></script>
+    <script src="vendor/masonry/imagesloaded.pkgd.min.js" type="text/javascript"></script>
+    <script src="js/layout.min.js" type="text/javascript"></script>
+    <script src="js/components/progress-bar.min.js" type="text/javascript"></script>
+    <script src="js/components/masonry.min.js" type="text/javascript"></script>
+    <script src="js/components/wow.min.js" type="text/javascript"></script>
+</body>
 
-    {% include categories-tab.html %}
-
-  </div>
-
-</section>
+</html>
