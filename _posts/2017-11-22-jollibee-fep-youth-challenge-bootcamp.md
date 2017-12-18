@@ -39,4 +39,6 @@ The Jollibee FEP Youth Challenge Bootcamp was an eye-opening experience for me a
 
 Just recently, our project was granted a Category A funding which means that we will be funded with Php 100,000 amount of seed fund for our project. And now it's time to turn our ideas into reality. We are so excited to start working our project and to find out other projects from other participating schools. Together let's be **[#FEPYouthfortheFarmers](#)**.
 
+---
+
 The project is still on-going and I would love to know what you think about our project. Feel free to send me an e-mail at **[hello@marcreyes.ph](mailto:hello@marcreyes.ph)**. I’d be very happy the read them. You may also visit Tanumbotics' website by visiting **[tanumbotics.github.io](https://tanumbotics.github.io)**.
