@@ -1,0 +1,76 @@
+{
+  "name": "alexcarpenter-me",
+  "author": "Alex Carpenter",
+  "version": "3.0.0",
+  "scripts": {
+    "start": "concurrently 'npm run jekyll:dev' 'npm run styles:dev' 'npm run scripts:dev'",
+    "styles:dev": "postcss src/styles/main.css -o dist/assets/css/main.css -w",
+    "scripts:dev": "rollup -c config/rollup/config.js -w",
+    "jekyll:dev": "jekyll serve -c config/jekyll/config.yml --drafts",
+    "styles:build": "postcss src/styles/main.css -o src/jekyll/_includes/assets/main.css",
+    "scripts:build": "rollup -c config/rollup/config.js",
+    "jekyll:build": "JEKYLL_ENV=production jekyll build -c config/jekyll/config.yml",
+    "fonts:copy": "copy 'src/fonts/*.{woff2,woff}' dist/assets/fonts",
+    "images": "imagemin src/images/* --out-dir=dist/assets/img",
+    "sw": "sw-precache --config=config/service-worker/config.json --verbose",
+    "clean:dist": "rm -rf dist",
+    "test": "standard src/scripts/**/*.js",
+    "build": "npm run clean:dist && npm run fonts:copy && npm run styles:build && npm run scripts:build && npm run jekyll:build",
+    "deploy": "push-dir --dir=dist --branch=gh-pages"
+  },
+  "devDependencies": {
+    "babel-plugin-external-helpers": "^6.22.0",
+    "babel-preset-latest": "^6.24.1",
+    "concurrently": "^3.5.0",
+    "copy": "^0.3.0",
+    "cssnano": "^3.10.0",
+    "fontfaceobserver": "^2.0.13",
+    "frappe-charts": "0.0.5",
+    "imagemin-cli": "^3.0.0",
+    "lazysizes": "^4.0.0-rc3",
+    "postcss": "^6.0.6",
+    "postcss-cli": "^4.1.0",
+    "postcss-cssnext": "^3.0.2",
+    "postcss-import": "^10.0.0",
+    "postcss-reporter": "^5.0.0",
+    "push-dir": "^0.4.1",
+    "rollup": "^0.43.0",
+    "rollup-plugin-babel": "^2.7.1",
+    "rollup-plugin-commonjs": "^8.0.2",
+    "rollup-plugin-node-resolve": "^3.0.0",
+    "rollup-plugin-uglify": "^2.0.1",
+    "rollup-watch": "^3.2.2",
+    "standard": "^10.0.2",
+    "stylelint": "^8.0.0",
+    "sw-precache": "^5.2.0"
+  },
+  "postcss": {
+    "map": false,
+    "plugins": {
+      "postcss-import": {},
+      "postcss-cssnext": {
+        "warnForDuplicates": false,
+        "features": {
+          "customProperties": {
+            "preserve": true
+          },
+          "rem": false
+        }
+      },
+      "cssnano": {}
+    }
+  },
+  "babel": {
+    "presets": [
+      [
+        "es2015",
+        {
+          "modules": false
+        }
+      ]
+    ],
+    "plugins": [
+      "external-helpers"
+    ]
+  }
+}

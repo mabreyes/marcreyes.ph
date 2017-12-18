@@ -1,0 +1,60 @@
+title: Marc Reyes
+description: >
+  Data-driven developer who's into studying AI and Machine Learning
+email: hello@marcreyes.ph
+timezone: 
+location: Cagayan de Oro, Philippines
+baseurl: ""
+url: "https://www.marcreyes.ph"
+
+# Directory tweaks
+source: src/jekyll
+destination: dist
+permalink: pretty
+
+# Plugins
+plugins:
+  - jekyll-paginate-v2
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Files/folders
+include: [_indexes]
+keep_files: [assets]
+
+# SEO
+twitter:
+  username: marcreyesph
+author:
+  twitter: marcreyesph
+social:
+  name: Marc Reyes
+  links:
+    - https://twitter.com/marcreyesph
+    - https://www.linkedin.com/in/marcreyesph
+    - https://github.com/marcreyesph
+
+# Collections
+collections:
+  work:
+    output: true
+
+# Defaults
+defaults:
+  - scope:
+      type: posts
+    values:
+      layout: post
+  - scope:
+      type: work
+    values:
+      permalink: /work/:title
+      layout: work
+
+# Pagination
+# pagination:
+#   enabled: true
+#   title: ':title'
+#   permalink: '/:num'
+#   sort_reverse: true
+#   per_page: 10
