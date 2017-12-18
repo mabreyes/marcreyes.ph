@@ -1,4 +1,4 @@
-# [Marc Reyes Blog](https://www.marcreyes.ph)
+# Marc Reyes Blog
 
 ### A blog website by Marc Reyes
 
