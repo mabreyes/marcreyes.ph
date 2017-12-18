@@ -22,7 +22,7 @@ compress_html:
 # Site meta
 title:                'Marc Reyes'
 tagline:              'Coding is fun'
-description:          '<a href="https://www.marcreyes.ph" target="_blank" rel="noopener noreferrer">Marc Reyes</a> is a data-driven developer who is into studying AI and Machine Learning'
+description:          'Marc Reyes is a data-driven developer who is into studying AI and Machine Learning'
 keywords:             'connor, baer, bear, designer, developer, traveller, design, code, jekyll, change, theme, for hire'
 url:                  https://www.marcreyes.ph
 baseurl:              
