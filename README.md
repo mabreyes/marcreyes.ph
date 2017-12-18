@@ -10,9 +10,9 @@ Site is proudly made with [Jekyll](https://jekyllrb.com/), hosted on [GitHub](ht
 
 If you don't have `npm` and `gulp` installed in your system then you need to install them first before running. 
 
-**Install npm**: Node comes with npm installed so you should have a version of npm. However, npm gets updated more frequently than Node does, so you'll want to make sure it's the latest version. 
+**Install npm**: `node` comes with `npm` installed so you should have a version of `npm`. However, `npm` gets updated more frequently than `node` does, so you'll want to make sure it's the latest version. 
 
-**Install gulp**:  ```npm install --g gulp```
+**Install gulp**:  ```npm install -g gulp```
 
 ### Deployment
 ```bash
