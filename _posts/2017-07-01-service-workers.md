@@ -5,6 +5,7 @@ ref: service-workers
 title: Service Workers
 image: true
 medium: 
+description: Site users are often faced with a problem of websites taking too much time to load in high latency and low bandwidth internet. With a Service Worker, you can now cache your whole website and load it even without internet. Web applications like Progressive Web Apps (PWA) utilize this technology to make a web app's contents work offline. Read my blog on how to build one.
 ---
 
 > What is a service worker?

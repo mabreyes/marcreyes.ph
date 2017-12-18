@@ -12,7 +12,7 @@ ref: about
 
 I'm a curiosity-driven developer exploring new things in web development, Artificial Intelligence, and Machine Learning.
 
-I design and develop websites at the same time studying the mathematics behind Artificial Intelligence and Machine Learning. Playing the role of a developer and a student, I participate in promoting Computer Science by speaking in several developer conferences like GDG CDO DevFest, Tech Summit, and Campus Roadshows.
+I design and develop websites at the same time studying the Artificial Intelligence and Machine Learning. Playing the role of a developer and a student, I participate in promoting Computer Science by speaking in several developer conferences like GDG CDO DevFest, Tech Summit, and Campus Roadshows.
 
 Want to ask me a question or interested in working with me? Feel free to e-mail me at [hello@marcreyes.ph](mailto:hello@marcreyes.ph) or [ask me on Twitter](https://twitter.com/marcreyesph).
 
