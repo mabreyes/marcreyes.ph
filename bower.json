@@ -1,22 +1,32 @@
 {
-  "name": "change",
-  "description": "Change is a minimalist Jekyll theme built by @connor_baer.",
+  "name": "Marc Reyes",
+  "description": "Marc Reyes is a data-driven developer who is into studying AI and Machine Learning",
   "main": "index.html",
   "authors": [
-    "Connor Bär"
+    "Marc Reyes"
   ],
   "license": "MIT",
   "keywords": [
-    "connor",
-    "bär",
-    "designer",
-    "traveller",
-    "code",
-    "jekyll",
-    "developer",
-    "theme"
+    "Marc Reyes",
+    "Marc", 
+    "Reyes", 
+    "Marc X", 
+    "X", 
+    "MX", 
+    "M+X", 
+    "Web Design",
+    "Website", 
+    "Web Development", 
+    "Web Dev", 
+    "Freelancer", 
+    "Speaking", 
+    "Google", 
+    "Google Developers", 
+    "Code", 
+    "Programming", 
+    "Machine Learning"
   ],
-  "homepage": "http://connorbaer.co",
+  "homepage": "https://www.marcreyes.ph",
   "private": true,
   "ignore": [
     "**/.*",
