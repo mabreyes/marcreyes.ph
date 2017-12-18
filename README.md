@@ -1,4 +1,4 @@
-# Marc Reyes Blog
+# Marc Reyes Blog ![Travis CI Build](https://travis-ci.org/marcreyesph/marcreyesph.github.io.svg?branch=master "Travis CI Build")
 
 ### A blog website by Marc Reyes
 
