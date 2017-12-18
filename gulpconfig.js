@@ -150,7 +150,7 @@ module.exports = {
 
   images: {
     resize: {
-      src: [src + '_images/**/*(*.png|*.jpg|*.jpeg|*.gif|*.svg)'],
+      src: [src + 'assets/images/**/*(*.png|*.jpg|*.jpeg|*.gif|*.svg)'],
       responsive: {
         // Convert all images to JPEG format.
         'posts/*': [{

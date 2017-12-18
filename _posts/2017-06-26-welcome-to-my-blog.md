@@ -16,4 +16,4 @@ I believe that all ideas are meant to be shared. We need to let other people to 
 
 ---
 
-*If you have any recommendations that you want me to include on my blog posts, feel free to contact me by filling up the contact form below or e-mail me at <a href="mailto:marc@marcreyes.ph">marc@marcreyes.ph</a> or <a href="mailto:contact@marcreyes.ph">contact@marcreyes.ph</a>. I’d be very happy the read them. Thanks for visiting my blog site and together, let's make the world a better place through computing.*
+If you have any recommendations that you want me to include on my blog posts, feel free to contact me by sending me an e-mail at **[hello@marcreyes.ph](mailto:hello@marcreyes.ph)**. I’d be very happy the read them. Thanks for visiting my blog site and together, let's make the world a better place through computing.
