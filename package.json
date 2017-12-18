@@ -1,31 +1,41 @@
 {
-  "name": "change",
+  "name": "Marc Reyes",
   "version": "3.0.0",
-  "description": "Change is a minimalist Jekyll theme built by @connor_baer.",
+  "description": "Marc Reyes is a data-driven developer who is into studying AI and Machine Learning",
   "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/madebyconnor/change.git"
+    "url": "git+https://github.com/marcreyesph/marcreyesph.github.io.git"
   },
   "keywords": [
-    "connor",
-    "bär",
-    "designer",
-    "traveller",
-    "code",
-    "jekyll",
-    "developer",
-    "theme"
+    "Marc Reyes",
+    "Marc", 
+    "Reyes", 
+    "Marc X", 
+    "X", 
+    "MX", 
+    "M+X", 
+    "Web Design",
+    "Website", 
+    "Web Development", 
+    "Web Dev", 
+    "Freelancer", 
+    "Speaking", 
+    "Google", 
+    "Google Developers", 
+    "Code", 
+    "Programming", 
+    "Machine Learning"
   ],
-  "author": "Connor Bär",
+  "author": "Marc Reyes",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/madebyconnor/change/issues"
+    "url": "https://github.com/marcreyesph/marcreyesph.github.io/issues"
   },
-  "homepage": "https://madebyconnor.github.io/change",
+  "homepage": "https://www.marcreyes.ph",
   "dependencies": {
     "normalize.css": "^6.0.0",
     "open-color": "^1.4.0",
