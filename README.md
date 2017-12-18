@@ -1,4 +1,5 @@
 # Marc Reyes Blog [![Travis CI Build Status](https://travis-ci.org/marcreyesph/marcreyesph.github.io.svg?branch=master "Travis CI Build Status")](https://travis-ci.org/marcreyesph/marcreyesph.github.io)
+
 ### A blog website by Marc Reyes
 
 Marc is currently a Computer Science student, freelance web developer, and Machine Learning engineer in the making based in Cagayan de Oro. Experimenting new developer tools and studying Machine Learning are his new hobbies. He has already talked in many developer events and is enthusiastic in sharing what he learned.
@@ -11,7 +12,7 @@ If you don't have `npm` and `gulp` installed in your system then you need to ins
 
 **Install npm**: `node` comes with `npm` installed so you should have a version of `npm`. However, `npm` gets updated more frequently than `node` does, so you'll want to make sure it's the latest version. 
 
-**Install gulp**:  ```npm install -g gulp```
+**Install gulp**:  ```$ npm install -g gulp```
 
 ### Deployment
 ```bash
