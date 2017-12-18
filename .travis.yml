@@ -45,9 +45,11 @@ before_script:
 # the `install` step will run `bundle install` by default.
 script:
     #!/usr/bin/env bash
-
+    
+    # Install bundle dependencies
+    - bundle install
     # Build the website.
-    - bundle exec jekyll server --watch --force_polling
+    - bundle exec jekyll build
     # Run the website through JSHint.
     - if [[ "$SNIFF" == "1" ]]; then jshint .; fi
     # Run the website through JavaScript Code Style checker.
