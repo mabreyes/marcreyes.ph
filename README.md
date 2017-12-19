@@ -1,4 +1,4 @@
-[![Travis CI Build Status](https://travis-ci.org/marcreyesph/marcreyesph.github.io.svg?branch=master "Travis CI Build Status")](https://travis-ci.org/marcreyesph/marcreyesph.github.io)
+[![Travis CI Build Status](https://travis-ci.org/marcreyesph/marcreyesph.github.io.svg?branch=master "Travis CI Build Status")](https://travis-ci.org/marcreyesph/marcreyesph.github.io) [![CircleCI Build Status](https://circleci.com/gh/marcreyesph/marcreyesph.github.io/tree/master.svg?style=svg&circle-token=9772a7abc5067d3b6ba916c722597539613f580a "CircleCI Build Status")](https://circleci.com/gh/marcreyesph/marcreyesph.github.io/tree/master)
 
 # Marc Reyes Blog
 
