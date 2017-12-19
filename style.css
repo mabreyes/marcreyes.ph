@@ -36,6 +36,9 @@ a#menu span {
 	margin: 1.4em 0 0 -0.3em;
 	display: inline-block;
 }
+a#menu span:after {
+	content: '/';
+}
 a#close svg{
 	margin: 1.5em 1.5em;
 	width: 40px;
@@ -56,6 +59,9 @@ nav h2 {
 	color: #fa5252;
 	font-family: 'Roboto Mono', sans-serif;
 }
+nav h2:after {
+	content: '/';
+}
 nav p {
 	color: #fff;
 	font-family: 'Roboto Mono', sans-serif;
@@ -73,10 +79,20 @@ nav p {
 	margin: 1em 0 0.4em 0;
 	letter-spacing: -2px;
 }
+.main-content h1:before, .main-content h1:after{
+	content: '/';
+}
 .main-content a {
 	text-decoration: none;
 	color: #fff;
 }
+
+.main-content a:after{
+	content: '/';
+	color: #fa5252;
+	font-weight: 700;
+}
+
 .button-actions {
 	padding: 1em;
 	border: 1px solid #fff;
@@ -94,6 +110,11 @@ nav p {
 	color: #fff;
 	line-height: 1.5em;
 }
+.nav-content p:after{
+	content: '/';
+	color: #fa5252;
+	font-weight: 700;
+}
 .nav-content ul, li {
 	display: block;
 	padding: 0;
@@ -105,6 +126,12 @@ nav p {
 .nav-content li a {
 	text-decoration: none;
 	color: #fff;
+}
+
+.nav-content li a:after{
+	content: '/';
+	color: #fa5252;
+	font-weight: 700;
 }
 .cover-sample {
 	position: absolute;
