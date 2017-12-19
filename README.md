@@ -1,4 +1,6 @@
-# Marc Reyes Blog [![Travis CI Build Status](https://travis-ci.org/marcreyesph/marcreyesph.github.io.svg?branch=master "Travis CI Build Status")](https://travis-ci.org/marcreyesph/marcreyesph.github.io)
+[![Travis CI Build Status](https://travis-ci.org/marcreyesph/marcreyesph.github.io.svg?branch=master "Travis CI Build Status")](https://travis-ci.org/marcreyesph/marcreyesph.github.io)
+
+# Marc Reyes Blog
 
 ### A blog website by Marc Reyes
 
