@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About
-image: true
+image: /assets/images/posts/about.jpg
 lang: en
 ref: about
 ---
