@@ -47,8 +47,14 @@ a#menu span {
     z-index: 1;
 }
 
+a#menu span:before {
+    content: 'class ';
+    color: #fff;
+}
+
 a#menu span:after {
     content: '()';
+    color: #fff;
 }
 
 a#close svg {
