@@ -3,7 +3,7 @@ layout: post
 lang: en
 ref: ml-adventure
 title: My Machine Learning Adventure
-image: true
+image: /assets/images/posts/ml-adventure.jpg
 time: 3
 medium:
 description: Machine Learning may be complicated as it is, but it's never impossible to develop an application of your own. As a total beginner in Machine Learning, I'm sharing my experience in studying it and hopefully build Machine Learning-powered applications. Read the blog to learn more.

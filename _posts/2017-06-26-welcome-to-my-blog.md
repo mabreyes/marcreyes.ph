@@ -3,7 +3,7 @@ layout: post
 lang: en
 ref: welcome
 title: Welcome to my blog
-image: true
+image: /assets/images/posts/welcome.jpg
 time: 2
 medium: 
 description: Welcome to my blog! I always have believed that ideas are to be passed on for others to learn and encourage healthy exchange of ideas. I have created this blog to share my adventures and discoveries in Web Development, Machine Learning, and a lot more. I'm very excited to share what I've learned&mdash;read my blog to find out.

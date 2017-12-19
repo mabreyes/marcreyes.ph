@@ -3,7 +3,7 @@ layout: post
 lang: en
 ref: jollibee-fep
 title: Jollibee FEP Youth Challenge Bootcamp
-image: true
+image: /assets/images/posts/jollibee-fep.jpg
 time: 2
 medium: 
 description: Our team got selected to be funded a project in the recently launched Jollibee Farmer Entrepreneurship Program (FEP) Youth Challenge. Read my blog to learn more about how we started, planned, and pitched for our project in the recently held Jollibee FEP Youth Challenge Bootcamp.

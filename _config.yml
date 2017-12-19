@@ -28,10 +28,9 @@ url:                  https://www.marcreyes.ph
 baseurl:              
 assets:               /assets
 images:               /images/
-image:                index-large.jpg
+image:                /assets/images/1200x630-og-image.png
 logo:                 /assets/icons/apple-icon-144x144.png
 dark_theme:           true
-opengraph:            https://www.marcreyes.ph/assets/images/1200x630-og-image.png
 
 author:
   name:               Marc Reyes
