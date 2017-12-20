@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="26px" height="67px" viewBox="0 0 26 67" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47 (45396) - http://www.bohemiancoding.com/sketch -->
+    <title>mouse-icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="26" height="41" rx="13"></rect>
+    </defs>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(-750.000000, -766.000000)">
+            <g id="mouse-icon" transform="translate(750.000000, 766.000000)">
+                <g id="Combined-Shape">
+                    <use fill-opacity="0" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    <rect stroke="#565656" stroke-width="2" x="1" y="1" width="24" height="39" rx="12"></rect>
+                </g>
+                <rect id="Rectangle-2" fill="#565656" x="12" y="8" width="2" height="8" rx="1"></rect>
+                <rect id="Rectangle-3" fill="#565656" x="12" y="50" width="2" height="16" rx="1"></rect>
+                <path d="M17.3663681,65.3638667 C17.5462827,65.1835164 17.6568542,64.9346563 17.6568542,64.6598241 L17.6568542,58.6538844 C17.6568542,58.1098906 17.209139,57.6568542 16.6568542,57.6568542 C16.1007191,57.6568542 15.6568542,58.1032398 15.6568542,58.6538844 L15.6568542,63.6568542 L10.6538844,63.6568542 C10.1098906,63.6568542 9.65685425,64.1045695 9.65685425,64.6568542 C9.65685425,65.2129894 10.1032398,65.6568542 10.6538844,65.6568542 L16.6598241,65.6568542 C16.9313339,65.6568542 17.1801856,65.545326 17.3613623,65.3649327 Z" id="Combined-Shape" fill="#565656" transform="translate(13.656854, 61.656854) rotate(-315.000000) translate(-13.656854, -61.656854) "></path>
+            </g>
+        </g>
+    </g>
+</svg>
