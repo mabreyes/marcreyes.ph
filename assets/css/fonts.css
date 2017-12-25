@@ -1,0 +1,39 @@
+@font-face {
+    font-family: "Display-Ultralight";
+    src: url("../fonts/SF-UI-Display-Ultralight.woff");
+}
+
+@font-face {
+    font-family: "Display-Thin";
+    src: url("../fonts/SF-UI-Display-Thin.woff");
+}
+
+@font-face {
+    font-family: "Display-Light";
+    src: url("../fonts/SF-UI-Display-Light.woff");
+}
+
+@font-face {
+    font-family: "Display-Regular";
+    src: url("../fonts/SF-UI-Display-Regular.woff");
+}
+
+@font-face {
+    font-family: "Display-Medium";
+    src: url("../fonts/SF-UI-Display-Medium.woff");
+}
+
+@font-face {
+    font-family: "Display-Semibold";
+    src: url("../fonts/SF-UI-Display-Semibold.woff");
+}
+
+@font-face {
+    font-family: "Display-Bold";
+    src: url("../fonts/SF-UI-Display-Bold.woff");
+}
+
+@font-face {
+    font-family: "Display-Black";
+    src: url("../fonts/SF-UI-Display-Black.woff");
+}
