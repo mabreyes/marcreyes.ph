@@ -285,7 +285,7 @@ nav span {
     width: 175px !important;
     border-radius: 0.3rem;
     text-align: center !important;
-    cursor: pointer; 
+    cursor: pointer;
 }
 
 #speaking {
@@ -527,7 +527,7 @@ footer span {
         margin-right: 0;
         font-size: 1em;
     }
-    #works .carousel-cell .btn, 
+    #works .carousel-cell .btn,
     #contact input[type="submit"] {
         font-size: 1em !important;
         width: 150px !important;
