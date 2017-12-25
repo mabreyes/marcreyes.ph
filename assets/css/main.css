@@ -181,9 +181,7 @@ nav span {
     background-color: #1A2930;
 }
 
-@media only screen and (max-width: ) {
-	
-}
+@media only screen and (max-width:) {}
 
 #about {
     background-color: #1A2930;
@@ -352,11 +350,11 @@ nav span {
 }
 
 #contact {
-	background-color: #1A2930;
+    background-color: #f7ce3e;
 }
 
 #contact .section-marker {
-    color: #fff;
+    color: #1A2930;
     width: 105px;
     font-size: 1.5em;
     text-transform: uppercase;
@@ -368,14 +366,62 @@ nav span {
     width: 80%;
     font-family: "Display-Black", sans-serif;
     font-size: 3.5em;
-    color: #fff;
+    color: #1A2930;
     margin-bottom: 0.25em;
 }
 
 #contact p {
     width: 80%;
     font-family: "Display-Semibold", sans-serif;
-    color: #fff;
+    color: #1A2930;
     margin-bottom: 1.5em;
     font-size: 1.2em;
+}
+
+#contact input,
+textarea {
+    color: #1A2930;
+    width: 48.8%;
+    padding: 1em;
+    font-family: "Display-Black", sans-serif;
+    font-size: 1.2em;
+    border: 0;
+    border-radius: 0.3rem;
+    margin: 0 0 20px 0;
+}
+
+#contact input::-webkit-input-placeholder,
+#contact textarea::-webkit-input-placeholder {
+    color: #1A2930;
+}
+
+#contact input::-moz-placeholder,
+#contact textarea::-moz-placeholder {
+    color: #1A2930;
+}
+
+#contact input:-ms-input-placeholder,
+#contact textarea:-ms-input-placeholder {
+    color: #1A2930;
+}
+
+#contact input:-moz-placeholder,
+#contact textarea:-moz-placeholder {
+    color: #1A2930;
+}
+
+#contact textarea {
+    width: 100%;
+    height: 120px;
+}
+
+#contact input[type="submit"] {
+    font-size: 1.2em;
+    font-family: "Display-Bold", sans-serif;
+    text-decoration: none;
+    color: #fff !important;
+    background-color: #1A2930;
+    border: 0;
+    width: 15% !important;
+    text-align: center !important;
 }
