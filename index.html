@@ -20,37 +20,18 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-md navbar-dark fixed-top">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#"><span>Marc Reyes</span></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-                <ul class="navbar-nav mr-auto">
-                </ul>
-                <ul class="nav navbar-nav navbar-right">
-                    <li class="nav-item"><a data-scroll href="#about" class="nav-link">About</a></li>
-                    <li class="nav-item"><a data-scroll href="#works" class="nav-link">Works</a></li>
-                    <li class="nav-item"><a data-scroll href="#speaking" class="nav-link">Speaking</a></li>
-                    <li class="nav-item"><a href="https://blog.marcreyes.ph/" class="nav-link" target="_new">Blog</a></li>
-                    <li class="nav-item"><a data-scroll href="#contact" class="nav-link">Contact</a></li>
-                </ul>
-            </div>
-        </div>
-    </nav>
     <div id="fullpage">
         <div class="section" id="home">
             <div class="content container">
                 <h1>Marc is a data-driven developer who's into studying AI and Machine Learning</h1>
-                <a href="" class="btn-black">Learn more</a>
+                <a data-menuanchor="_about" href="#_about" class="btn-black">Learn more</a>
             </div>
         </div>
         <div class="section" id="about">
             <div class="content container">
                 <p class="section-marker">About</p>
                 <h1>As a Computer Science student, I always have believed that exploring new things is essential in the field of computing.</h1>
-                <p>I’m a curiosity-driven developer exploring new things in web development, Artificial Intelligence, and Machine Learning.</p>
+                <p style="font-size: 1.3em; line-height: 1.5em;">I’m a curiosity-driven developer exploring new things in web development, Artificial Intelligence, and Machine Learning.</p>
             </div>
         </div>
         <div class="section" id="works">
@@ -63,18 +44,22 @@
                     <div class="carousel-cell">
                         <h1>Ntuit.AI Website</h1>
                         <p>ntuit.ai is a pioneer in providing professional AI consultancy services in the Philippines led by a team of local veterans in the practical applications of AI.</p>
+                        <button class="btn" onclick="location.href='https://ntuit.ai';">Visit Website</button>
                     </div>
                     <div class="carousel-cell">
                         <h1>Jewel Marketing Website</h1>
-                        <p>ntuit.ai is a pioneer in providing professional AI consultancy services in the Philippines led by a team of local veterans in the practical applications of AI.</p>
+                        <p>Jewel Marketing offers professional SEO services that help websites increase their organic search score drastically in order to compete for the highest rankings — even when it comes to highly competitive keywords.</p>
+                        <button class="btn" onclick="location.href='http://jewelmarketing.co.uk';">Visit Website</button>
                     </div>
                     <div class="carousel-cell">
                         <h1>Image Completion with TensorFlow</h1>
                         <p>This project is powered by Machine Learning by creating a simple neural network which completes and mimics an image that was fed into the network. Made with TensorFlow, an open-source library for Machine Learning.</p>
+                        <button class="btn" onclick="location.href='https://github.com/marcreyesph/image_processing_tensorflow';">Visit Website</button>
                     </div>
                     <div class="carousel-cell">
                         <h1>Mark Rodriguez Portfolio</h1>
                         <p>Mark Rodriguez is a freelance photographer and videographer based in Cagayan de Oro. He offers a selection to packages to suit your photo and video needs.</p>
+                        <button class="btn" onclick="location.href='https://marcreyesph.github.io/mark-photography/';">Visit Website</button>
                     </div>
                 </div>
             </div>
@@ -105,22 +90,25 @@
             <div class="content container">
                 <p class="section-marker">Contact</p>
                 <h1>How may I help you?</h1>
-                <p>If there's anything I can do to help, kindly fill up the form below or e-mail me at hello@marcreyes.ph</p>
-                <input type="text" name="" placeholder="Name" style="margin-right: 20px;">
-                <input type="text" name="" placeholder="E-mail Address">
-                <textarea placeholder="Message"></textarea>
-                <br>
-                <input type="submit" name="" value="Send">
+                <p style="font-size: 1.3em; line-height: 1.5em;">If there's anything I can do to help, kindly fill up the form below.</p>
+                <form action="" method="post">
+                    <input type="text" name="name" placeholder="Name" style="margin-right: 20px;" required>
+                    <input type="text" name="email" placeholder="E-mail Address" required>
+                    <textarea placeholder="Message" required></textarea>
+                    <br>
+                    <input type="submit" name="" value="Send Message">
+                </form>
+                <footer>
+                    <span>&copy; 2018 Marc Anthony Reyes</span>
+                </footer>
             </div>
         </div>
     </div>
-    <script src="assets/js/jquery-3.2.1.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
     <script type="text/javascript" src="assets/js/flickity.pkgd.js"></script>
     <script type="text/javascript" src="assets/js/javascript.fullPage.js"></script>
     <script type="text/javascript">
     fullpage.initialize('#fullpage', {
+        anchors: ['_home', '_about', '_works', '_speaking', '_contact'],
         menu: '#menu',
         scrollBar: true,
         css3: true
