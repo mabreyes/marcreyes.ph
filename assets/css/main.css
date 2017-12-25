@@ -516,6 +516,7 @@ footer span {
     }
     #works .carousel-cell,
     #speaking .carousel-cell {
+        border-radius: 0;
         width: 100%;
     }
     #contact p {
