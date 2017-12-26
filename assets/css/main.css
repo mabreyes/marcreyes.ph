@@ -430,6 +430,30 @@ textarea {
     cursor: pointer;
 }
 
+#contact .form-status {
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 10000;
+}
+
+#contact .form-status span {
+    font-family: "Display-Semibold", sans-serif;
+}
+
+#contact .form-status span#email-invalid {
+    display: none;
+    background: #b61924;
+    padding: 1.5em;
+}
+
+#contact .form-status span#email-valid {
+    display: none;
+    background: #b61924;
+    padding: 1.5em;
+}
+
 footer {
     height: 50px !important;
     padding-top: 40px;

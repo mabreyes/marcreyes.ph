@@ -87,14 +87,18 @@
             </div>
         </div>
         <div class="section" id="contact">
+            <div class="form-status" id="form-status">
+                <span id="email-invalid">E-mail invalid</span>
+                <span id="email-valid">Thanks</span>
+            </div>
             <div class="content container">
                 <p class="section-marker">Contact</p>
                 <h1>How may I help you?</h1>
                 <p style="font-size: 1.3em; line-height: 1.5em;">If there's anything I can do to help, kindly fill up the form below.</p>
-                <form name="contact" netlify-honeypot="bot-field" action="thank-you" netlify>
-                    <input type="text" name="name" placeholder="Name" style="margin-right: 20px;" required>
-                    <input type="text" name="email" placeholder="E-mail Address" required>
-                    <textarea name="message" placeholder="Message" required></textarea>
+                <form name="contact" id="gform" netlify-honeypot="bot-field" action="thank-you" netlify>
+                    <input type="text" name="name" placeholder="Name" style="margin-right: 20px;">
+                    <input type="text" name="email" placeholder="E-mail Address">
+                    <textarea name="message" placeholder="Message"></textarea>
                     <br>
                     <input type="submit" name="" value="Send Message">
                 </form>
@@ -117,6 +121,7 @@
         });
     });
     </script>
+    <script type="text/javascript" src="assets/js/contact-form.js"></script>
 </body>
 
 </html>
