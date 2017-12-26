@@ -1,5 +1,4 @@
 @import url("fonts.css");
-@import url("javascript.fullPage.css");
 @import url("flickity.css");
 
 body,
@@ -285,7 +284,7 @@ nav span {
     width: 175px !important;
     border-radius: 0.3rem;
     text-align: center !important;
-    cursor: pointer; 
+    cursor: pointer;
 }
 
 #speaking {
@@ -431,6 +430,36 @@ textarea {
     cursor: pointer;
 }
 
+#contact .form-status {
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 10000;
+}
+
+#contact .form-status a {
+    text-transform: uppercase;
+    float: right;
+    cursor: pointer;
+}
+
+#contact .form-status span {
+    font-family: "Display-Semibold", sans-serif;
+}
+
+#contact .form-status span#email-invalid {
+    display: none;
+    background: #b61924;
+    padding: 1.5em;
+}
+
+#contact .form-status span#email-valid {
+    display: none;
+    background: #339966;
+    padding: 1.5em;
+}
+
 footer {
     height: 50px !important;
     padding-top: 40px;
@@ -488,6 +517,12 @@ footer span {
     #contact p {
         font-size: 1em !important;
     }
+    #contact .form-status span#email-invalid {
+        font-size: 0.8em;
+    }
+    #contact .form-status span#email-valid {
+        font-size: 0.8em;
+    }
     #works .carousel-cell h1,
     #speaking .carousel-cell h1 {
         font-size: 1.5em;
@@ -516,6 +551,7 @@ footer span {
     }
     #works .carousel-cell,
     #speaking .carousel-cell {
+        border-radius: 0;
         width: 100%;
     }
     #contact p {
@@ -527,11 +563,17 @@ footer span {
         margin-right: 0;
         font-size: 1em;
     }
-    #works .carousel-cell .btn, 
+    #works .carousel-cell .btn,
     #contact input[type="submit"] {
         font-size: 1em !important;
         width: 150px !important;
         padding: 0.8em;
+    }
+    #contact .form-status span#email-invalid {
+        font-size: 0.7em;
+    }
+    #contact .form-status span#email-valid {
+        font-size: 0.7em;
     }
     footer {
         padding-top: 5px;

@@ -31,7 +31,7 @@
             <div class="content container">
                 <p class="section-marker">About</p>
                 <h1>As a Computer Science student, I always have believed that exploring new things is essential in the field of computing.</h1>
-                <p style="font-size: 1.3em; line-height: 1.5em;">I’m a curiosity-driven developer exploring new things in web development, Artificial Intelligence, and Machine Learning.</p>
+                <p style="font-size: 1.3em; line-height: 1.5em;">I’m a curiosity-driven developer exploring new things in Web Development, Artificial Intelligence, and Machine Learning.</p>
             </div>
         </div>
         <div class="section" id="works">
@@ -87,14 +87,18 @@
             </div>
         </div>
         <div class="section" id="contact">
+            <div class="form-status" id="form-status">
+                <span id="email-invalid">Oops! The e-mail you've entered is invalid. <a id="status-close-invalid">Close</a></span>
+                <span id="email-valid">Message succesfully sent. Thank you! <a id="status-close-valid">Close</a></span>
+            </div>
             <div class="content container">
                 <p class="section-marker">Contact</p>
-                <h1>How may I help you?</h1>
-                <p style="font-size: 1.3em; line-height: 1.5em;">If there's anything I can do to help, kindly fill up the form below.</p>
-                <form name="contact" netlify-honeypot="bot-field" action="thank-you" netlify>
-                    <input type="text" name="name" placeholder="Name" style="margin-right: 20px;" required>
-                    <input type="text" name="email" placeholder="E-mail Address" required>
-                    <textarea placeholder="Message" required></textarea>
+                <h1>Get in touch with me</h1>
+                <p style="font-size: 1.3em; line-height: 1.5em;">If there's anything I can do to help, kindly fill up the form below. I'll get back to you, soon.</p>
+                <form name="contact" id="gform" netlify-honeypot="bot-field" action="thank-you" netlify>
+                    <input type="text" name="name" placeholder="Name" style="margin-right: 20px;">
+                    <input type="text" name="email" placeholder="E-mail Address">
+                    <textarea name="message" placeholder="Message"></textarea>
                     <br>
                     <input type="submit" name="" value="Send Message">
                 </form>
@@ -105,13 +109,23 @@
         </div>
     </div>
     <script type="text/javascript" src="assets/js/flickity.pkgd.js"></script>
-    <script type="text/javascript" src="assets/js/javascript.fullPage.js"></script>
+    <script type="text/javascript" src="assets/js/contact-form.js"></script>
+    <script type="text/javascript" src="assets/js/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="assets/js/jquery.fullPage.js"></script>
     <script type="text/javascript">
-    fullpage.initialize('#fullpage', {
-        anchors: ['_home', '_about', '_works', '_speaking', '_contact'],
-        menu: '#menu',
-        scrollBar: true,
-        css3: true
+    $(document).ready(function() {
+        $('#fullpage').fullpage({
+            anchors: ['_home', '_about', '_works', '_speaking', '_contact'],
+            css3: true,
+            scrollBar: true,
+            scrollingSpeed: 1000
+        });
+        $("#status-close-invalid").click(function() {
+            $("#email-invalid").hide();
+        });
+        $("#status-close-valid").click(function() {
+            $("#email-valid").hide();
+        });
     });
     </script>
 </body>
