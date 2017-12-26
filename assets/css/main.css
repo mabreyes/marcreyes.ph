@@ -438,6 +438,12 @@ textarea {
     z-index: 10000;
 }
 
+#contact .form-status a {
+    text-transform: uppercase;
+    float: right;
+    cursor: pointer;
+}
+
 #contact .form-status span {
     font-family: "Display-Semibold", sans-serif;
 }
@@ -511,6 +517,12 @@ footer span {
     #contact p {
         font-size: 1em !important;
     }
+    #contact .form-status span#email-invalid {
+        font-size: 0.8em;
+    }
+    #contact .form-status span#email-valid {
+        font-size: 0.8em;
+    }
     #works .carousel-cell h1,
     #speaking .carousel-cell h1 {
         font-size: 1.5em;
@@ -556,6 +568,12 @@ footer span {
         font-size: 1em !important;
         width: 150px !important;
         padding: 0.8em;
+    }
+    #contact .form-status span#email-invalid {
+        font-size: 0.7em;
+    }
+    #contact .form-status span#email-valid {
+        font-size: 0.7em;
     }
     footer {
         padding-top: 5px;
