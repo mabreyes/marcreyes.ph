@@ -94,7 +94,7 @@
                 <form name="contact" netlify-honeypot="bot-field" action="thank-you" netlify>
                     <input type="text" name="name" placeholder="Name" style="margin-right: 20px;" required>
                     <input type="text" name="email" placeholder="E-mail Address" required>
-                    <textarea placeholder="Message" required></textarea>
+                    <textarea name="message" placeholder="Message" required></textarea>
                     <br>
                     <input type="submit" name="" value="Send Message">
                 </form>
@@ -105,13 +105,16 @@
         </div>
     </div>
     <script type="text/javascript" src="assets/js/flickity.pkgd.js"></script>
-    <script type="text/javascript" src="assets/js/javascript.fullPage.js"></script>
+    <script type="text/javascript" src="assets/js/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="assets/js/jquery.fullPage.js"></script>
     <script type="text/javascript">
-    fullpage.initialize('#fullpage', {
-        anchors: ['_home', '_about', '_works', '_speaking', '_contact'],
-        menu: '#menu',
-        scrollBar: true,
-        css3: true
+    $(document).ready(function() {
+        $('#fullpage').fullpage({
+            anchors: ['_home', '_about', '_works', '_speaking', '_contact'],
+            css3: true,
+            scrollBar: true,
+            scrollingSpeed: 1000
+        });
     });
     </script>
 </body>
