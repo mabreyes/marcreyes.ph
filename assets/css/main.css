@@ -448,6 +448,12 @@ textarea {
     font-family: "Display-Semibold", sans-serif;
 }
 
+#contact .form-status span#null-form {
+    display: none;
+    background: #b61924;
+    padding: 1.5em;
+}
+
 #contact .form-status span#email-invalid {
     display: none;
     background: #b61924;
@@ -517,9 +523,8 @@ footer span {
     #contact p {
         font-size: 1em !important;
     }
-    #contact .form-status span#email-invalid {
-        font-size: 0.8em;
-    }
+    #contact .form-status span#null-form,
+    #contact .form-status span#email-invalid,
     #contact .form-status span#email-valid {
         font-size: 0.8em;
     }
@@ -569,9 +574,8 @@ footer span {
         width: 150px !important;
         padding: 0.8em;
     }
-    #contact .form-status span#email-invalid {
-        font-size: 0.7em;
-    }
+    #contact .form-status span#null-form,
+    #contact .form-status span#email-invalid,
     #contact .form-status span#email-valid {
         font-size: 0.7em;
     }

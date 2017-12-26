@@ -69,10 +69,16 @@ function handleFormSubmit(event) { // handles form submit withtout any jquery
     */
 
     // reset messages
+    document.getElementById('null-form').style.display = 'none';
     document.getElementById('email-invalid').style.display = 'none';
     document.getElementById('email-valid').style.display = 'none';
 
-    if (!validEmail(data.email)) { // if email is not valid show error
+    if (data.name == null || data.name == "", data.email == null || data.email == "", data.message == null || data.message == "") {
+        document.getElementById('email-invalid').style.display = 'none';
+        document.getElementById('null-form').style.display = 'block';
+        return false;
+    } else if (!validEmail(data.email)) { // if email is not valid show error
+        document.getElementById('null-form').style.display = 'none';
         document.getElementById('email-invalid').style.display = 'block';
         return false;
     } else {
@@ -86,6 +92,8 @@ function handleFormSubmit(event) { // handles form submit withtout any jquery
             console.log(xhr.responseText);
             // document.getElementById('gform').style.display = 'block'; // hide form
             $('#gform').find("input[type=text], input[type=email], textarea").val(""); // clear form
+            document.getElementById('null-form').style.display = 'none';
+            document.getElementById('email-invalid').style.display = 'none';
             document.getElementById('email-valid').style.display = 'block';
             return;
         };
