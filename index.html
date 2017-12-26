@@ -88,8 +88,8 @@
         </div>
         <div class="section" id="contact">
             <div class="form-status" id="form-status">
-                <span id="email-invalid">Oops! The e-mail you've entered is invalid. <a id="status-close">Close</a></span>
-                <span id="email-valid">Message succesfully sent and I'll get back to you, soon. Thank you! <a id="status-close">Close</a></span>
+                <span id="email-invalid">Oops! The e-mail you've entered is invalid. <a id="status-close-invalid">Close</a></span>
+                <span id="email-valid">Message succesfully sent and I'll get back to you, soon. Thank you! <a id="status-close-valid">Close</a></span>
             </div>
             <div class="content container">
                 <p class="section-marker">Contact</p>
@@ -123,8 +123,10 @@
     });
     </script>
     <script type="text/javascript">
-    $("#status-close").click(function() {
+    $("#status-close-invalid").click(function() {
         $("#email-invalid").hide();
+    });
+    $("#status-close-valid").click(function() {
         $("#email-valid").hide();
     });
     </script>
