@@ -523,6 +523,14 @@ footer span {
     #contact p {
         font-size: 1em !important;
     }
+
+    #about p.description,
+    #works p.description,
+    #speaking p.description,
+    #contact p.description {
+        font-size: 1em !important;
+    }
+
     #contact .form-status span#null-form,
     #contact .form-status span#email-invalid,
     #contact .form-status span#email-valid {
@@ -585,5 +593,17 @@ footer span {
     }
     footer span {
         font-size: 0.8em;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    #about p.description,
+    #works p.description,
+    #speaking p.description,
+    #contact p.description {
+        display: none;
+    }
+    #contact h1 {
+    	margin-bottom: 0.7em;
     }
 }
