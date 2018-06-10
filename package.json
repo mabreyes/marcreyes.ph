@@ -1,0 +1,24 @@
+{
+  "name": "marcreyesph",
+  "version": "1.0.0",
+  "description": "Minimalist website by Marc Reyes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "NODE_ENV=production parcel index.html --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcreyesph/marcreyesph.git"
+  },
+  "keywords": [],
+  "author": "Marc Anthony Reyes <marcreyesmedia@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/marcreyesph/marcreyesph/issues"
+  },
+  "homepage": "https://www.marcreyes.ph",
+  "devDependencies": {
+    "parcel-bundler": "^1.8.1"
+  }
+}
