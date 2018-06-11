@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8fc6d029-db73-4068-bae1-cf0c1b27b41e" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/404.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/flickity.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/fonts.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/SF-UI-Display-Black.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/SF-UI-Display-Bold.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/SF-UI-Display-Light.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/SF-UI-Display-Medium.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/SF-UI-Display-Regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/SF-UI-Display-Semibold.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/SF-UI-Display-Thin.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/SF-UI-Display-Ultralight.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/og-image.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/speaker-devfest-2017.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/speaker-it-days.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/speaker-tech-summit.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/contact-form.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/contact-form.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/flickity.pkgd.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/jquery-3.2.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/jquery.fullpage.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/fonts/fontello/_notes/dwsync.xml" beforeDir="false" afterPath="$PROJECT_DIR$/css/fonts/fontello/_notes/dwsync.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/fonts/fontello/css/_notes/dwsync.xml" beforeDir="false" afterPath="$PROJECT_DIR$/css/fonts/fontello/css/_notes/dwsync.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/fonts/fontello/css/fontello-embedded.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/fonts/fontello/css/fontello-embedded.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/fonts/fontello/font/_notes/dwsync.xml" beforeDir="false" afterPath="$PROJECT_DIR$/css/fonts/fontello/font/_notes/dwsync.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/fonts/hk-grotesk/_notes/dwsync.xml" beforeDir="false" afterPath="$PROJECT_DIR$/css/fonts/hk-grotesk/_notes/dwsync.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/fonts/hk-grotesk/font/_notes/dwsync.xml" beforeDir="false" afterPath="$PROJECT_DIR$/css/fonts/hk-grotesk/font/_notes/dwsync.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/about-boy.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/about-her.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/about-it.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/about-small.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/about-small.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/ico/_notes/dwsync.xml" beforeDir="false" afterPath="$PROJECT_DIR$/images/ico/_notes/dwsync.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/ico/apple-touch-icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/ico/apple-touch-icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/ico/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/images/ico/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="88">
+              <caret line="38" column="83" selection-start-line="38" selection-start-column="83" selection-end-line="38" selection-end-column="83" />
+              <folding>
+                <element signature="e#296#303#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/index.html" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER">
+    <package-json value="$PROJECT_DIR$/package.json" />
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/node_modules" />
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/package.json" />
+    </packageJsonPaths>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="148" />
+    <option name="y" value="84" />
+    <option name="width" value="1155" />
+    <option name="height" value="650" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="marcreyesph" type="b2602c69:ProjectViewProjectNode" />
+              <item name="marcreyesph" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="/usr/bin" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.externalTools" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="marcreyesph" type="js.build_tools.npm" factoryName="npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <package-manager value="/usr/share/npm" />
+      <envs />
+      <method>
+        <option name="LaunchBrowser.Before.Run" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8fc6d029-db73-4068-bae1-cf0c1b27b41e" name="Default" comment="" />
+      <created>1528648777063</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1528648777063</updated>
+      <workItem from="1528648793346" duration="218000" />
+      <workItem from="1528649220328" duration="234000" />
+      <workItem from="1528649718938" duration="35000" />
+      <workItem from="1528651170559" duration="160000" />
+      <workItem from="1528652542219" duration="41000" />
+      <workItem from="1528652991546" duration="509000" />
+      <workItem from="1528653524195" duration="188000" />
+      <workItem from="1528684443897" duration="35000" />
+      <workItem from="1528719615922" duration="316000" />
+      <workItem from="1528728053748" duration="19000" />
+      <workItem from="1528728097565" duration="8000" />
+      <workItem from="1528728738884" duration="1483000" />
+      <workItem from="1528732513824" duration="464000" />
+      <workItem from="1528733752256" duration="2226000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="5936000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="52" y="27" width="1314" height="741" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21765602" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32840723" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info id="npm" order="2" side_tool="true" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="21" column="29" lean-forward="true" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
+          <folding>
+            <element signature="e#296#303#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="770">
+          <caret line="35" column="37" lean-forward="true" selection-start-line="35" selection-start-column="37" selection-end-line="35" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="21" column="29" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="21" column="29" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="86" selection-start-line="12" selection-start-column="86" selection-end-line="12" selection-end-column="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2112">
+          <caret line="96" column="82" selection-start-line="96" selection-start-column="82" selection-end-line="96" selection-end-column="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2112">
+          <caret line="96" column="82" selection-start-line="96" selection-start-column="82" selection-end-line="96" selection-end-column="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="846">
+          <caret line="47" selection-start-line="47" selection-end-line="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1044">
+          <caret line="58" column="53" selection-start-line="58" selection-start-column="53" selection-end-line="58" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="870">
+          <caret line="58" column="53" lean-forward="true" selection-start-line="58" selection-start-column="53" selection-end-line="58" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1767">
+          <caret line="93" column="84" selection-start-line="93" selection-start-column="84" selection-end-line="93" selection-end-column="84" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1767">
+          <caret line="93" column="84" lean-forward="true" selection-start-line="93" selection-start-column="84" selection-end-line="93" selection-end-column="84" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1395">
+          <caret line="93" column="57" selection-start-line="93" selection-start-column="57" selection-end-line="93" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="38" column="83" selection-start-line="38" selection-start-column="83" selection-end-line="38" selection-end-column="83" />
+          <folding>
+            <element signature="e#296#303#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

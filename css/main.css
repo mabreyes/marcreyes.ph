@@ -1,32 +1,3 @@
-/* --------------------------------------------
-	
-	main.css : this is the main style file of the theme.
-	
-	Project 	: LazyGuy
-	Author 		: pixelwars 
-	Url			: pixelwars.org
-	
-	---
-	
-	CONTEXT:
-	
-	1. BASE (@base)
-	2. TYPOGRAPHY (@typo)
-	3. HELPERS (@helpers)
-	4. LAYOUT (@layout)
-	5. ELEMENTS (@elements)
-	5. MEDIA QUERIES (@media)
-	
- -------------------------------------------- */
- 
- 
- 
-
-/*  --------------------------------------------
-
-	1. BASE (@base) - base html elements
-	
-    -------------------------------------------- */ 
 html,
 body {
 	width: 100%; height: 100%; padding: 0; margin: 0; box-sizing: border-box;
@@ -170,6 +141,42 @@ p:last-child {
 .content {
 	padding: 3em 0;
 	}
+
+/* MEDIA */
+.media {
+	position: fixed; width: 100%; height: 100%; background-position: center center; background-size: cover; background-repeat: no-repeat; 
+	}
+	
+/* MASKED */
+.is-masked-light .media:after,
+.is-masked-dark .media:after {
+	content: ""; position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: rgba(255, 255, 255, 0.79); z-index:1;
+	}
+/* MASKED DARK */
+.is-masked-dark .media:after {
+	background: rgba(35, 35, 35, 0.4);
+	}
+/* MASKED GRADIENT BLUE */
+.is-masked-gradient-blue .media:after {
+	background-image: linear-gradient(60deg, #3d3393 0%, #2b76b9 37%, #2cacd1 65%, #35eb93 100%); opacity: .9;
+	}
+/* MASKED GRADIENT PINK */
+.is-masked-gradient-pink .media:after {
+	background-image: linear-gradient(to right, #b8cbb8 0%, #b8cbb8 0%, #b465da 0%, #cf6cc9 33%, #ee609c 66%, #ee609c 100%); opacity: .9;
+	}
+/* MASKED GRADIENT PURPLE */
+.is-masked-gradient-purple .media:after {
+	background-image: linear-gradient(to top, #9795f0 0%, #fbc8d4 100%); opacity: .9;
+	}
+/* MASKED GRADIENT RED */
+.is-masked-gradient-red .media:after {
+	background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100%); opacity: .9;
+	}
+/* MASKED GRADIENT GREEN */
+.is-masked-gradient-green .media:after {
+	background-image: linear-gradient(180deg, #2af598 0%, #009efd 100%); opacity: .9;
+	}
+
 	
 /* PROFILE IMAGE */
 .profile-image {
@@ -184,13 +191,9 @@ p:last-child {
 	margin-bottom: 24px;
 	}
 	
-/* FRAMED */
-.is-framed:after { 
-	content: ""; position: fixed; z-index: 200; pointer-events: none; top: 0; left: 0; right: 0; bottom: 0; border: 15px solid #111; 
-	}
-		
-		
-		
+	
+	
+	
 /*  --------------------------------------------
 
 	5. ELEMENTS (@elements) - common used elements
@@ -1009,7 +1012,13 @@ html a.social-link:hover:before {
 	h1 { 
 		font-size: 4vw; line-height: 1;
 		}
+		
 	
+	/* MEDIA */
+	.media {
+		position: fixed; top: 0; left: 0; width: 100%; height: 100%; bottom: 0;
+		}
+		
 }
 
 /* DESKTOPS */
@@ -1017,6 +1026,9 @@ html a.social-link:hover:before {
 	
 	.content-wrap {
 		width: 50%;
+		}
+	.content {
+		padding: 4em 0;
 		}
 	
 	/* BUTTONS */
@@ -1032,7 +1044,6 @@ html a.social-link:hover:before {
 	.content-wrap {
 		width: 50%;
 		}
-		
 	.content {
 		padding: 6em 0;
 		}
