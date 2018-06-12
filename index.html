@@ -1,46 +1,213 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="utf-8">
-    <meta name="description" content="LazyGuy Landing Page"/>
-    <meta name="author" content="Marc Anthony Reyes, hello@marcreyes.ph">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <title>Marc Anthony Reyes &mdash; Home</title>
-    <link rel="shortcut icon" href="images/ico/favicon.ico">
-    <link rel="apple-touch-icon" href="images/ico/apple-touch-icon.png"/>
-    <link rel="stylesheet" type="text/css" href="css/fonts/hk-grotesk/style.css">
-    <link rel="stylesheet" type="text/css" href="css/fonts/fontello/css/fontello.css">
-    <link rel="stylesheet" type="text/css" href="css/main.css">
-
+    <title>Ballard - HTML Template</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all"/>
+    <link href="css/socicon.css" rel="stylesheet" type="text/css" media="all"/>
+    <link href="css/theme-agency.css" rel="stylesheet" type="text/css" media="all"/>
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700%7CKarla:400,400italic,700" rel="stylesheet"
+          type="text/css">
+    <link href="css/font-agency.css" rel="stylesheet" type="text/css" media="all">
 </head>
-
-<<<<<<< HEAD
-<body class="is-text-align-center is-masked-dark is-text-light">
-<div class="media" style="background-image:url(images/duotone.jpg)"></div>
-<div class="content-wrap">
-    <div class="content">
-        <h1>
-            Hi, I am Marc
-            <br>
-            <span id="typed"></span>
-            <div id="typed-strings">
-                <p>front-end developer</p>
-                <p>data-driven developer</p>
-                <p>open source enthusiast</p>
-                <p>problem solver</p>
-                <p>maker of things</p>
+<body data-smooth-scroll-offset="0">
+<section class="page-container bg--primary">
+    <div class="loader"></div>
+    <header class="bg--primary">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <a href="index.html" class="logo logo--lg">
+                        <img alt="logo" src="img/logo-agency.png"/>
+                    </a>
+                </div>
+                <div class="col-sm-6 text-right text-left-xs">
+                    <a href="#">
+                        <span class="type--fade underline">hello@ballard.co</span>
+                    </a>
+                    <a href="#" data-notification-link="contact">
+                        <span class="underline active">Contact Us</span>
+                    </a>
+                </div>
             </div>
-            <br>from the Philippines
-        </h1>
-        <p>Building interfaces and AI/ML applications powered with data is what I enjoy about being a Computer Science
-            student. I am also interested in building Open Source projects and exploring new tools, languages, and
-            frameworks for Web Development and Data Science.
-        </p>
-        <p><a class="button light" href="https://vimeo.com/kimpimmel">More About Me</a></p>
+            <!--end of row-->
+        </div>
+        <!--end of container-->
+    </header>
+    <div class="contact-notification notification pos-right pos-top bg--dark" data-animation="from-right"
+         data-notification-link="contact">
+        <div class="notification__content pos-vertical-center">
+            <ul class="social-networks">
+                <li>
+                    <a href="#">
+                        <i class="socicon-dribbble"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="socicon-github"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="socicon-instagram"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="socicon-spotify"></i>
+                    </a>
+                </li>
+            </ul>
+            <a href="#" class="h2">
+                        <span class="underline active">
+                            hello@ballard.co
+                        </span>
+            </a>
+            <span class="h2">
+                        +614 3928 38266
+                    </span>
+            <form class="form-email" data-error="Please complete all fields correctly"
+                  data-success="Message recieved! Expect a response shortly.">
+                <label>Name:</label>
+                <input type="text" class="validate-required"/>
+                <label>Email Address:</label>
+                <input type="email" class="validate-required validate-email"/>
+                <label>Message:</label>
+                <textarea class="validate-required" rows="3"></textarea>
+                <button type="submit" class="underline active">Send Message</button>
+            </form>
+        </div>
     </div>
-</div>
-<script src="js/main.js"></script>
+    <!--end of notification-->
+    <div class="main-container transition--fade">
+        <section class="section-inner-nav bg--primary">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <nav>
+                            <ul class="navigation navigation--horizontal">
+                                <li>
+                                    <a href="about.html">
+                                                <span class="underline active type--fade">
+                                                    Studio
+                                                </span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="skills.html">
+                                                <span class="underline active type--fade">
+                                                    Expertise
+                                                </span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="portfolio.html">
+                                                <span class="underline active type--fade">
+                                                    Selected Work
+                                                </span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://blog.marcreyes.ph/">
+                                                <span class="underline active type--fade">
+                                                    Blog
+                                                </span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+                <!--end of row-->
+            </div>
+            <!--end of container-->
+        </section>
+        <section class="section-home-agency bg--primary">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-10">
+                        <h1>We are an independent creative collective based in Melbourne, Australia. We collaborate with
+                            companies, brands and startups across all digital platforms, focussing on identity and user
+                            experience.</h1>
+                    </div>
+                </div>
+                <!--end of row-->
+                <div class="row">
+                    <div class="col-md-4 col-sm-6">
+                        <div class="project-2 hover-image">
+                            <img alt="pic" src="img/work-1.jpg"/>
+                            <div class="project__title">
+                                <a href="portfolio-single.html">
+                                    <h4 class="underline">Yoke Interiors Rebranding</h4>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="project-2 hover-image">
+                            <img alt="pic" src="img/work-2.jpg"/>
+                            <div class="project__title">
+                                <a href="portfolio-single.html">
+                                    <h4 class="underline">Unvest Capital</h4>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="project-2 hover-image">
+                            <img alt="pic" src="img/work-3.jpg"/>
+                            <div class="project__title">
+                                <a href="portfolio-single.html">
+                                    <h4 class="underline">Mercer + Pine Apartments</h4>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="project-2 hover-image">
+                            <img alt="pic" src="img/work-4.jpg"/>
+                            <div class="project__title">
+                                <a href="portfolio-single.html">
+                                    <h4 class="underline">Exit Festival 2016</h4>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--end of container-->
+        </section>
+        <footer class="bg--primary">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <ul class="social-networks">
+                            <li>
+                                <a href="#">
+                                    <i class="socicon-dribbble"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="socicon-github"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="socicon-instagram"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="socicon-spotify"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!--end of row-->
+            </div>
+            <!--end of container-->
+        </footer>
+    </div>
+</section>
+<script src="js/jquery.min.js"></script>
+<script src="js/scripts.js"></script>
 </body>
-
 </html>

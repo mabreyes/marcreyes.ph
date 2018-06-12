@@ -1,9 +1,68 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8fc6d029-db73-4068-bae1-cf0c1b27b41e" name="Default" comment="">
+    <list default="true" id="8fc6d029-db73-4068-bae1-cf0c1b27b41e" name="Default" comment="Add initial theme files">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/_notes/dwsync.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/fonts/fontello/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/fonts/fontello/README.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/fonts/fontello/_notes/dwsync.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/fonts/fontello/config.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/fonts/fontello/css/_notes/dwsync.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/fonts/fontello/css/animation.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/fonts/fontello/css/fontello-codes.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/fonts/fontello/css/fontello-embedded.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/fonts/fontello/css/fontello-ie7-codes.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/fonts/fontello/css/fontello-ie7.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/fonts/fontello/css/fontello.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/fonts/fontello/demo.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/fonts/fontello/font/_notes/dwsync.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/fonts/fontello/font/fontello.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/fonts/fontello/font/fontello.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/fonts/fontello/font/fontello.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/fonts/fontello/font/fontello.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/fonts/fontello/font/fontello.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/fonts/hk-grotesk/_notes/dwsync.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/fonts/hk-grotesk/font/_notes/dwsync.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/fonts/hk-grotesk/font/hkgrotesk-bold-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/fonts/hk-grotesk/font/hkgrotesk-bold-webfont.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/fonts/hk-grotesk/font/hkgrotesk-bolditalic-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/fonts/hk-grotesk/font/hkgrotesk-bolditalic-webfont.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/fonts/hk-grotesk/font/hkgrotesk-italic-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/fonts/hk-grotesk/font/hkgrotesk-italic-webfont.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/fonts/hk-grotesk/font/hkgrotesk-light-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/fonts/hk-grotesk/font/hkgrotesk-light-webfont.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/fonts/hk-grotesk/font/hkgrotesk-lightitalic-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/fonts/hk-grotesk/font/hkgrotesk-lightitalic-webfont.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/fonts/hk-grotesk/font/hkgrotesk-medium-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/fonts/hk-grotesk/font/hkgrotesk-medium-webfont.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/fonts/hk-grotesk/font/hkgrotesk-mediumitalic-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/fonts/hk-grotesk/font/hkgrotesk-mediumitalic-webfont.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/fonts/hk-grotesk/font/hkgrotesk-regular-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/fonts/hk-grotesk/font/hkgrotesk-regular-webfont.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/fonts/hk-grotesk/font/hkgrotesk-semibold-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/fonts/hk-grotesk/font/hkgrotesk-semibold-webfont.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/fonts/hk-grotesk/font/hkgrotesk-semibolditalic-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/fonts/hk-grotesk/font/hkgrotesk-semibolditalic-webfont.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/fonts/hk-grotesk/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/_notes/dwsync.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/about-small.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/blogger.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/coder.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/duotone.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/ico/_notes/dwsync.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/ico/apple-touch-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/ico/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/lady.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/owner.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/preloader.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/woman.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/_notes/dwsync.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -16,15 +75,17 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/index.html">
+    <leaf>
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="skills.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/skills.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="36" column="66" lean-forward="true" selection-start-line="36" selection-start-column="66" selection-end-line="36" selection-end-column="66" />
-              <folding>
-                <element signature="e#296#303#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="191">
+              <caret line="264" column="15" selection-start-line="264" selection-start-column="15" selection-end-line="264" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -33,11 +94,18 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="SIGN_OFF_COMMIT" value="true" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/css/bootstrap.css" />
+        <option value="$PROJECT_DIR$/css/socicon.css" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/about.html" />
+        <option value="$PROJECT_DIR$/portfolio.html" />
+        <option value="$PROJECT_DIR$/portfolio-single.html" />
+        <option value="$PROJECT_DIR$/skills.html" />
       </list>
     </option>
   </component>
@@ -69,6 +137,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -76,18 +145,27 @@
               <item name="marcreyesph" type="b2602c69:ProjectViewProjectNode" />
               <item name="marcreyesph" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="marcreyesph" type="b2602c69:ProjectViewProjectNode" />
+              <item name="marcreyesph" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="marcreyesph" type="b2602c69:ProjectViewProjectNode" />
+              <item name="marcreyesph" type="462c0819:PsiDirectoryNode" />
+              <item name="fonts" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="/usr/bin" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.externalTools" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -101,7 +179,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.index.html">
+  <component name="RunManager" selected="npm.marcreyesph">
     <configuration name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/marcreyesph/index.html" />
     <configuration name="marcreyesph" type="js.build_tools.npm" factoryName="npm">
       <package-json value="$PROJECT_DIR$/package.json" />
@@ -149,35 +227,38 @@
       <workItem from="1528728097565" duration="8000" />
       <workItem from="1528728738884" duration="1483000" />
       <workItem from="1528732513824" duration="464000" />
-      <workItem from="1528733752256" duration="2840000" />
+      <workItem from="1528733752256" duration="4015000" />
+      <workItem from="1528813189393" duration="51000" />
+      <workItem from="1528816276876" duration="1519000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6550000" />
+    <option name="totallyTimeSpent" value="9295000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="52" y="27" width="1314" height="741" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21765602" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21765602" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" visible="true" weight="0.32852563" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32840723" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info id="npm" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32692307" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -186,108 +267,73 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add initial theme files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add initial theme files" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/index.html" />
+    <entry file="file://$PROJECT_DIR$/index.html" />
+    <entry file="file://$PROJECT_DIR$/index.html" />
+    <entry file="file://$PROJECT_DIR$/index.html" />
+    <entry file="file://$PROJECT_DIR$/index.html" />
+    <entry file="file://$PROJECT_DIR$/index.html" />
+    <entry file="file://$PROJECT_DIR$/index.html" />
+    <entry file="file://$PROJECT_DIR$/index.html" />
+    <entry file="file://$PROJECT_DIR$/index.html" />
+    <entry file="file://$PROJECT_DIR$/index.html" />
+    <entry file="file://$PROJECT_DIR$/index.html" />
+    <entry file="file://$PROJECT_DIR$/index.html" />
+    <entry file="file://$PROJECT_DIR$/index.html" />
+    <entry file="file://$PROJECT_DIR$/about.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="21" column="29" lean-forward="true" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
-          <folding>
-            <element signature="e#296#303#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="191">
+          <caret line="188" column="13" selection-start-line="188" selection-start-column="13" selection-end-line="188" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="770">
-          <caret line="35" column="37" lean-forward="true" selection-start-line="35" selection-start-column="37" selection-end-line="35" selection-end-column="37" />
+        <state relative-caret-position="144">
+          <caret line="205" column="35" lean-forward="true" selection-start-line="205" selection-start-column="35" selection-end-line="205" selection-end-column="35" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/css/bootstrap.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="21" column="29" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
+        <state relative-caret-position="162">
+          <caret line="312" selection-start-line="312" selection-end-line="312" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/css/socicon.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="21" column="29" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
+        <state relative-caret-position="-54">
+          <caret line="12" column="38" lean-forward="true" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/portfolio.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="86" selection-start-line="12" selection-start-column="86" selection-end-line="12" selection-end-column="86" />
+        <state relative-caret-position="191">
+          <caret line="217" column="15" selection-start-line="217" selection-start-column="15" selection-end-line="217" selection-end-column="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/portfolio-single.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2112">
-          <caret line="96" column="82" selection-start-line="96" selection-start-column="82" selection-end-line="96" selection-end-column="82" />
+        <state relative-caret-position="101">
+          <caret line="245" column="4" selection-start-line="245" selection-start-column="4" selection-end-line="245" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2112">
-          <caret line="96" column="82" selection-start-line="96" selection-start-column="82" selection-end-line="96" selection-end-column="82" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/skills.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="846">
-          <caret line="47" selection-start-line="47" selection-end-line="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1044">
-          <caret line="58" column="53" selection-start-line="58" selection-start-column="53" selection-end-line="58" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="870">
-          <caret line="58" column="53" lean-forward="true" selection-start-line="58" selection-start-column="53" selection-end-line="58" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1767">
-          <caret line="93" column="84" selection-start-line="93" selection-start-column="84" selection-end-line="93" selection-end-column="84" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1767">
-          <caret line="93" column="84" lean-forward="true" selection-start-line="93" selection-start-column="84" selection-end-line="93" selection-end-column="84" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1395">
-          <caret line="93" column="57" selection-start-line="93" selection-start-column="57" selection-end-line="93" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="36" column="66" lean-forward="true" selection-start-line="36" selection-start-column="66" selection-end-line="36" selection-end-column="66" />
-          <folding>
-            <element signature="e#296#303#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="191">
+          <caret line="264" column="15" selection-start-line="264" selection-start-column="15" selection-end-line="264" selection-end-column="15" />
         </state>
       </provider>
     </entry>
