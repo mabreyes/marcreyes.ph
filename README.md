@@ -1,13 +1,15 @@
-# Marc Reyes homepage
+# Marc Reyes CV
 
-### A website by Marc Reyes
+## Minimalist CV by Marc Reyes
 
-Marc is currently a Computer Science student, freelance web developer, and Machine Learning engineer in the making based in Cagayan de Oro. Experimenting new developer tools and studying Machine Learning are his new hobbies. He has already talked in many developer events and is enthusiastic in sharing what he learned.
+Hi! My name is Marc and I'm a developer from Cagayan de Oro, Philippines, and building interfaces and developing Machine Learning and AI applications for various causes are some of my skills as an up-and-coming developer. I'm also occasionally invited to speak at tech conferences to share my knowledge and experiences as a budding front-end-web-developer-turned-data-scientist.
 
-Site is hosted on [GitHub](https://github.com/marcreyesph/marcreyesph.github.io/) and deployed with [Netlify](https://www.netlify.com/).
+## Usage
 
-### Social media
+Make sure you have npm [installed properly](https://www.npmjs.com/get-npm). To run the server on localhost:
 
-* Follow Marc X: [Facebook](https://facebook.com/marcreyesph), [GitHub](https://github.com/marcreyesph)
-* Follow Marc Reyes: [Facebook](https://facebook.com/marcxph), [Twitter](https://twitter.com/marcreyesph)
-
+```sh
+$ git clone git@github.com:marcreyesph/marcreyesph.git
+$ cd marcreyesph
+$ npm install && npm run build
+```
