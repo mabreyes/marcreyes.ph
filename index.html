@@ -82,14 +82,14 @@
                             hello@marcreyes.ph
                         </span>
             </a>
-            <form class="form-email" data-error="Please complete all fields correctly"
+            <form name="submit-to-google-sheet" class="form-email" data-error="Please complete all fields correctly"
                   data-success="Message recieved! Expect a response shortly.">
                 <label>Name:</label>
-                <input type="text" class="validate-required"/>
+                <input name="name" type="text" class="validate-required"/>
                 <label>Email Address:</label>
-                <input type="email" class="validate-required validate-email"/>
+                <input name="email_address" type="email" class="validate-required validate-email"/>
                 <label>Message:</label>
-                <textarea class="validate-required" rows="3"></textarea>
+                <textarea name="message" class="validate-required" rows="3"></textarea>
                 <button type="submit" class="underline active">Send Message</button>
             </form>
         </div>
@@ -232,5 +232,19 @@
 </section>
 <script src="https://code.jquery.com/jquery.min.js"></script>
 <script src="js/scripts.js"></script>
+<script src="https://wzrd.in/standalone/formdata-polyfill"></script>
+<script src="https://wzrd.in/standalone/promise-polyfill@latest"></script>
+<script src="https://wzrd.in/standalone/whatwg-fetch@latest"></script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzVaqsgNIzwlpUnSEpQZPCetD-e-Qslf07c2_ugQyLCpUEVJlE/exec';
+    const form = document.forms['submit-to-google-sheet'];
+
+    form.addEventListener('submit', e => {
+        e.preventDefault();
+        fetch(scriptURL, {method: 'POST', body: new FormData(form)})
+            .then(response => console.log('Success!', response))
+            .catch(error => console.error('Error!', error.message))
+    })
+</script>
 </body>
 </html>
