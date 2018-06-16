@@ -1,0 +1,16 @@
+/* Font Overrides for Law Layout */
+
+h1,h2,h3,h4,h5,blockquote,.h1,p.lead{
+  font-family: 'Inconsolata','Helvetica Neue','Helvetica', 'Arial', sans-serif;
+  font-weight: 300;
+}
+
+p,span,a,ul,figcaption,input[type],label,body,.h2,.h3,.h4{
+  font-family: 'Karla','Courier New', monospace;
+}
+
+h4{
+	font-size: 1.4375em;
+	line-height: 1.41304347826087em;
+	margin-bottom: 1.1304347826087em;
+}

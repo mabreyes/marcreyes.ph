@@ -3,15 +3,15 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
-    <title>Marc Reyes &mdash; Home</title>
+    <title>Marc Reyes &mdash; About</title>
     <meta name="description"
           content="Marc Reyes is a data-driven developer who is into studying AI and Machine Learning">
     <meta name="author" content="Marc Anthony Reyes, hello@marcreyes.ph">
     <meta name="keywords"
           content="Marc Anthony Reyes, Marc Anthony, Marc Reyes, Marc, Anthony, Reyes, Marc X, X, MX, M+X, Web Design, Website, Web Development, Web Dev, Freelancer, Speaking, Google, Google Developers, Code, Programming, Machine Learning">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta property="og:title" content="Marc Reyes &mdash; Home">
-    <meta property="og:site_name" content="Marc Reyes &mdash; Home">
+    <meta property="og:title" content="Marc Reyes &mdash; About">
+    <meta property="og:site_name" content="Marc Reyes &mdash; About">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://www.marcreyes.ph">
     <meta property="og:image" content="https://www.marcreyes.ph/assets/img/og-image.png">
@@ -69,7 +69,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href="https://github.com/marcreyesph/">
+                    <a href="https://github.com/marcreyesph">
                         <i class="socicon-github"></i>
                     </a>
                 </li>
@@ -82,14 +82,14 @@
                             hello@marcreyes.ph
                         </span>
             </a>
-            <form name="submit-to-google-sheet" class="form-email" data-error="Please complete all fields correctly"
+            <form class="form-email" data-error="Please complete all fields correctly"
                   data-success="Message recieved! Expect a response shortly.">
                 <label>Name:</label>
-                <input name="name" type="text" class="validate-required"/>
+                <input type="text" class="validate-required"/>
                 <label>Email Address:</label>
-                <input name="email_address" type="email" class="validate-required validate-email"/>
+                <input type="email" class="validate-required validate-email"/>
                 <label>Message:</label>
-                <textarea name="message" class="validate-required" rows="3"></textarea>
+                <textarea class="validate-required" rows="3"></textarea>
                 <button type="submit" class="underline active">Send Message</button>
             </form>
         </div>
@@ -145,54 +145,32 @@
             </div>
             <!--end of container-->
         </section>
-        <section class="section-home-agency bg--primary">
+        <section class="bg--primary">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-10">
-                        <h1>Hi! My name is Marc and I'm a developer from Cagayan de Oro, Philippines, and building
-                            interfaces and developing Machine Learning and AI applications for various causes are some
-                            of my skills as an up-and-coming developer. I'm also occasionally invited to speak at tech
-                            conferences to share my knowledge and experiences as a budding
-                            front-end-web-developer-turned-data-scientist.</h1>
+                    <div class="col-sm-6">
+                        <p class="lead">
+                            My name is Marc and I am one with data. I'm still a Computer Science student as of present
+                            and will be completing my Bachelor's degree in March 2019. Before I was introduced to the
+                            world of Machine Learning and AI, I was designing websites and user interfaces for school
+                            activities and freelance work.
+                        </p>
+                        <p class="lead">
+                            Pursuing a career in Data Science was not something I put a lot of thought into in the past,
+                            but things turned around when I joined my first TensorFlow Dev Summit Extended in Cagayan de
+                            Oro, and well, the rest was history. Since then, I have been speaking at tech conferences
+                            and involved myself in community development projects with Machine Learning.
+                        </p>
+                        <p class="lead">
+                            Think we'll make a good match?
+                            <a class="underline active" href="#" data-notification-link="contact">Get in touch</a>.
+                        </p>
+                    </div>
+                    <div class="col-sm-5 col-sm-offset-1">
+                        <img alt="pic" src="img/agency-about-1.jpg"/>
                     </div>
                 </div>
                 <!--end of row-->
-                <div class="row">
-                    <div class="col-md-4 col-sm-6">
-                        <div class="project-2 hover-image">
-                            <img alt="pic" src="img/work-1.jpg"/>
-                            <div class="project__title">
-                                <a href="portfolio-single.html">
-                                    <h4 class="underline">AI Pilipinas</h4>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="project-2 hover-image">
-                            <img alt="pic" src="img/work-2.jpg"/>
-                            <div class="project__title">
-                                <a href="portfolio-single.html">
-                                    <h4 class="underline">GDG DevFest CDO 2017</h4>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="project-2 hover-image">
-                            <img alt="pic" src="img/work-3.jpg"/>
-                            <div class="project__title">
-                                <a href="portfolio-single.html">
-                                    <h4 class="underline">PyCon Philippines 2018</h4>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="project-2 hover-image">
-                            <img alt="pic" src="img/work-4.jpg"/>
-                            <div class="project__title">
-                                <a href="portfolio-single.html">
-                                    <h4 class="underline">UmaBOT by Tanumbotics</h4>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
             </div>
             <!--end of container-->
         </section>
@@ -217,7 +195,7 @@
                                 </a>
                             </li>
                             <li>
-                                <a href="https://github.com/marcreyesph">
+                                <a href="https://github.com/marcreyesph/">
                                     <i class="socicon-github"></i>
                                 </a>
                             </li>
@@ -232,16 +210,5 @@
 </section>
 <script src="https://code.jquery.com/jquery.min.js"></script>
 <script src="js/scripts.js"></script>
-<script>
-    const scriptURL = 'https://script.google.com/macros/s/AKfycbzVaqsgNIzwlpUnSEpQZPCetD-e-Qslf07c2_ugQyLCpUEVJlE/exec';
-    const form = document.forms['submit-to-google-sheet'];
-
-    form.addEventListener('submit', e => {
-        e.preventDefault();
-        fetch(scriptURL, {method: 'POST', body: new FormData(form)})
-            .then(response => console.log('Success!', response))
-            .catch(error => console.error('Error!', error.message))
-    })
-</script>
 </body>
 </html>
