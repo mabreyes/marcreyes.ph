@@ -1,0 +1,24 @@
+@font-face {
+    font-family: "Circular-Pro-Black";
+    src: url("lineto-circular-black.eot");
+    src: url("lineto-circular-black.eot?#iefix") format("embedded-opentype"), url("lineto-circular-black.woff") format("woff"), url("lineto-circular-black.ttf") format("truetype"), url("lineto-circular-black.svg#lineto-circular-pro-black") format("svg");
+    font-weight: normal;
+    font-style: normal;
+    text-rendering: geometricPrecision !important;
+    -moz-font-smoothing: antialiased !important;
+    -moz-osx-font-smoothing: grayscale !important;
+    -webkit-font-smoothing: antialiased !important;
+    font-smoothing: antialiased !important;
+}
+@font-face {
+    font-family: "Replica-Mono";
+    src: url("Replica-Mono.eot");
+    src: url("Replica-Mono.eot") format("embedded-opentype"), url("Replica-Mono.woff") format("woff"), url("Replica-Mono.ttf") format("truetype"), url("Replica-Mono.svg") format("svg");
+    font-weight: normal;
+    font-style: normal;
+    text-rendering: geometricPrecision !important;
+    -moz-font-smoothing: antialiased !important;
+    -moz-osx-font-smoothing: grayscale !important;
+    -webkit-font-smoothing: antialiased !important;
+    font-smoothing: antialiased !important;
+}
