@@ -1043,6 +1043,7 @@ html a.social-link:hover:before {
 /* Style the header: fixed position (always stay at the top) */
   /* The progress container (grey background) */
   .progress-container {
+	z-index: 10000;
 	position: fixed;
 	top: 0;
 	width: 100%;
