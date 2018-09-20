@@ -73,9 +73,6 @@ Thanks for stopping by!
 </head>
 
 <body>
-    <div class="progress-container">
-        <div class="progress-bar" id="progress-bar"></div>
-    </div>
     <div class="content-wrap">
         <div class="content">
             <img class="profile-image rounded" src="assets/img/about-small.jpg" alt="Marc Anthony Reyes" />
@@ -111,16 +108,6 @@ Thanks for stopping by!
         </div>
     </div>
     <script src="js/main.js"></script>
-    <script>
-        window.onscroll = function () { myFunction() };
-
-        function myFunction() {
-            var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
-            var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
-            var scrolled = (winScroll / height) * 100;
-            document.getElementById("progress-bar").style.width = scrolled + "%";
-        }
-    </script>
 </body>
 
 </html>
