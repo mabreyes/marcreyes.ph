@@ -27,7 +27,7 @@
 	1. BASE (@base) - base html elements
 	
 	-------------------------------------------- */ 
-@import url('fonts/circular-pro/fonts.css');
+@import url('./fonts/circular-pro/fonts.css');
 html,
 body {
 	width: 100%; height: 100%; padding: 0; margin: 0; box-sizing: border-box;

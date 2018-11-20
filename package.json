@@ -1,0 +1,24 @@
+{
+  "name": "marcreyesph",
+  "version": "1.0.0",
+  "description": "### A website by Marc Reyes",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel *.html",
+    "build": "parcel build *.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcreyesph/marcreyesph.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marcreyesph/marcreyesph/issues"
+  },
+  "homepage": "https://github.com/marcreyesph/marcreyesph#readme",
+  "dependencies": {
+    "fonts": "0.0.2"
+  }
+}
