@@ -1,0 +1,25 @@
+{
+  "name": "marcreyesph",
+  "version": "1.0.0",
+  "description": "A website by Marc Reyes",
+  "main": "index.js",
+  "scripts": {
+    "dev": "NODE_ENV=development parcel *.html --no-hmr --open",
+    "build": "NODE_ENV=production parcel build *.html --no-minify --public-url ./"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcreyesph/marcreyesph.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marcreyesph/marcreyesph/issues"
+  },
+  "homepage": "https://github.com/marcreyesph/marcreyesph#readme",
+  "dependencies": {
+    "fonts": "0.0.2",
+    "parcel-bundler": "~1.10.3"
+  }
+}
