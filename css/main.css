@@ -50,8 +50,7 @@ body {
 /*New styles for test*/
 nav {
 	position: fixed;
-  white-space: nowrap;
-  background: #37474F;
+	white-space: nowrap;
 }
 nav ul {
   list-style: none;
@@ -68,11 +67,13 @@ nav ul {
 nav ul li a {
   display: block;
   padding: 0.5rem 1rem;
-  color: white;
+  color: black;
   text-decoration: none;
 }
 nav ul li a.current {
-  background: black;
+	transition: all 0.3s ease-in-out;
+	background:black;
+	color: #fff;
 }
 
 
@@ -1030,7 +1031,6 @@ html a.social-link:hover:before {
 
 /* TABLETS */
 @media screen and (min-width: 768px) {
-	
 	body {
 		font-size: 19px;
 		}
@@ -1057,6 +1057,10 @@ html a.social-link:hover:before {
 	.content-wrap {
 		width: 50%;
 		}
+
+	nav {
+		width: 15%;
+	}
 	
 	/* BUTTONS */
 	.button.huge {
@@ -1070,6 +1074,10 @@ html a.social-link:hover:before {
 	
 	.content-wrap {
 		width: 50%;
+		}
+	
+		nav {
+			width: 15%;
 		}
 		
 	.content {
