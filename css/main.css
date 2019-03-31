@@ -40,6 +40,10 @@ body {
 body {
 	font-family: 'Replica-Mono', sans-serif; color: #222; background-color: #fff; font-size: 14px; line-height: 1.7; display: flex; align-items: center;
 	}
+.disabled {
+	opacity: 0.2;
+	pointer-events: none;
+}
 img {
 	max-width: 100%; height: auto;
 	}
