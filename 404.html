@@ -41,7 +41,8 @@
             <p>I'm sorry but
                 <strong>
                     <span id="current-url"></span>
-                </strong> can't be found. If you think this is a mistake, send me an error report or
+                </strong> can't be found. If you think this is a mistake, send me an
+                error report or
                 <a class="link-1" href="https://www.marcreyes.ph">return home</a>.</p>
             <a class="button bold" href="mailto:admin@marcreyes.ph">Send error report</a>
 
@@ -57,7 +58,15 @@
     </div>
     <script src="https://www.marcreyes.ph/js/main.js"></script>
     <script type="text/javascript">
-        document.getElementById("current-url").innerHTML = window.location.pathname;
+        var urlPathname = window.location.pathname;
+        var urlSearch = window.location.search;
+
+        document.getElementById("current-url").innerHTML = urlPathname;
+
+        if (!urlPathname) {
+        } else {
+            document.getElementById("current-url").innerHTML = urlSearch;
+        }
     </script>
 </body>
 
