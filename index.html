@@ -71,10 +71,14 @@
         <a class="social-link linkedin" target="_new" href="https://www.linkedin.com/in/marcreyesph/"></a>
         <a class="social-link email" target="_new" href="mailto:hello@marcreyes.ph"></a>
       </p>
-      <h4>&copy; 2019 Marc Reyes</h4>
+      <h4>&copy; <span id="current-year"></span> Marc Reyes</h4>
     </div>
   </div>
   <script src="js/main.js"></script>
+  <script>
+    var currentYear = new Date().getFullYear();
+    document.getElementById('current-year').innerHTML = currentYear;
+  </script>
 </body>
 
 </html>

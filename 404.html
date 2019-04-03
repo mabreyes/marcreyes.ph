@@ -53,7 +53,7 @@
                 <a class="social-link github" href="https://github.com/marcreyesph"></a>
                 <a class="social-link email" href="mailto:hello@marcreyes.ph"></a>
             </p>
-            <h4>&copy; 2019 Marc Reyes</h4>
+            <h4>&copy; <span id="current-year"></span> Marc Reyes</h4>
         </div>
     </div>
     <script src="https://www.marcreyes.ph/js/main.js"></script>
@@ -68,6 +68,9 @@
             document.getElementById("shortened-link-text").style.display = "inline";
             document.getElementById("current-url").innerHTML = urlSearch.get("link");
         }
+
+        var currentYear = new Date().getFullYear();
+        document.getElementById('current-year').innerHTML = currentYear;
     </script>
 </body>
 
