@@ -61,10 +61,9 @@
         var urlPathname = window.location.pathname;
         var urlSearch = new URLSearchParams(window.location.search);
 
-        document.getElementById("shortened-link-text").style.display = 'none';
-        document.getElementById("current-url").innerHTML = urlPathname;
-
         if (!urlPathname) {
+            document.getElementById("shortened-link-text").style.display = 'none';
+            document.getElementById("current-url").innerHTML = urlPathname;
         } else {
             document.getElementById("shortened-link-text").style.display = 'inline';
             document.getElementById("current-url").innerHTML = urlSearch.get('link');
