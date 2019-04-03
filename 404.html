@@ -61,7 +61,7 @@
         var urlPathname = window.location.pathname;
         var urlSearch = new URLSearchParams(window.location.search);
 
-        if (urlSearch == null) {
+        if (urlSearch.get('link') == null) {
             document.getElementById("shortened-link-text").style.display = 'none';
             document.getElementById("current-url").innerHTML = urlPathname;
         } else {
