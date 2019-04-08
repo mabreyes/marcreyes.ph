@@ -1109,6 +1109,11 @@
 	@media screen and (max-width: 1200px) {
 		nav {
 			display: none;
-	
+		}
+		#return_home{
+			display: none;
+		}
+		#show_nav {
+			display: block !important;
 		}
 	}
