@@ -23,11 +23,83 @@
     <link rel="apple-touch-icon" href="../assets/ico/apple-touch-icon.png" />
     <link rel="stylesheet" type="text/css" href="../css/fonts/fontello/css/fontello.css">
     <link rel="stylesheet" type="text/css" href="../css/main.css">
+
+    <style>
+        body {
+            transition: background-color .5s;
+        }
+
+        .sidenav {
+            height: 100%;
+            width: 0;
+            position: fixed;
+            z-index: 1000000;
+            top: 0;
+            left: 0;
+            background-color: #111;
+            overflow-x: hidden;
+            transition: 0.5s;
+            padding-top: 60px;
+        }
+
+        .sidenav a {
+            padding: 8px 8px 8px 32px;
+            text-decoration: none;
+            font-size: 25px;
+            color: #818181;
+            display: block;
+            transition: 0.3s;
+        }
+
+        .sidenav a:hover {
+            color: #f1f1f1;
+        }
+
+        .sidenav .closebtn {
+            position: absolute;
+            top: 0;
+            right: 25px;
+            font-size: 36px;
+            margin-left: 50px;
+        }
+
+        #main {
+            transition: margin-left .5s;
+        }
+
+        #navi_open {
+            display: none;
+        }
+
+        @media screen and (max-height: 450px) {
+            .sidenav {
+                padding-top: 15px;
+            }
+
+            .sidenav a {
+                font-size: 18px;
+            }
+        }
+
+        @media screen and (max-width: 1200px) {
+            #navi_open {
+                display: inline;
+
+            }
+        }
+    </style>
 </head>
 
-<body id="about">
+<body id="main">
     <div class="progress-container">
         <div class="progress-bar" id="progress-bar"></div>
+    </div>
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="#about" onclick="closeNav()">About</a>
+        <a href="#talks" onclick="closeNav()">Talks</a>
+        <a href="#projects" onclick="closeNav()">Projects</a>
+        <a href="https://www.marcreyes.ph/">Home</a>
     </div>
     <nav>
         <ul>
@@ -38,9 +110,12 @@
     </nav>
     <div class="content-wrap">
         <div class="content">
+            <a id="show_nav" class="button bold small" onclick="openNav()"
+                style="margin-bottom: 1em; display: none; position: sticky; top: 8px; background: #fff; z-index: 100000;  box-shadow: 0px 3px 15px rgba(0,0,0,0.2);"><i
+                    class="icon-menu"></i><span id="nav_section">About</span></a>
             <!--About page hero-->
             <section id="about">
-                <a class="link-1" href="https://www.marcreyes.ph/"><i class="icon-home"></i> Return
+                <a id="return_home" class="link-1" href="https://www.marcreyes.ph/"><i class="icon-home"></i> Return
                     home</a>
                 <h3>About</h3>
                 <h1 style="margin-bottom: 0.1em;">
@@ -84,18 +159,23 @@
                 <h1 style="margin-bottom: 0.1em;">
                     <span class="highlight black">de Oro. The rest is history.</span>
                 </h1>
-                <p style="margin-bottom: 0.1em;">I'm Marc and I love data. I'm still a Computer Science student as of
-                    present and will be completing my bachelor's degree in March 2019. Before I was introduced to the
+                <p style="margin-bottom: 0.1em;">I'm Marc and I love data. I'm still a Computer Science student as
+                    of
+                    present and will be completing my bachelor's degree in March 2019. Before I was introduced to
+                    the
                     world
                     of Machine Learning and Data Science, I was designing websites and user interfaces for school
                     activities and
-                    freelance work. Pursuing a career in Machine Learning and Data Science was not something I put a lot
+                    freelance work. Pursuing a career in Machine Learning and Data Science was not something I put a
+                    lot
                     of
                     thought into in
                     the
-                    past, but things turned around when I joined my first TensorFlow Dev Summit Extended in Cagayan de
+                    past, but things turned around when I joined my first TensorFlow Dev Summit Extended in Cagayan
+                    de
                     Oro,
-                    and well, the rest was history. Since then, I have been speaking at tech conferences and involved
+                    and well, the rest was history. Since then, I have been speaking at tech conferences and
+                    involved
                     myself
                     in community development projects with Machine Learning.
                 </p>
@@ -292,6 +372,7 @@
                     section.offsetTop + section.offsetHeight > fromTop
                 ) {
                     link.classList.add("current");
+                    document.getElementById('nav_section').innerHTML = link.text;
                 } else {
                     link.classList.remove("current");
                 }
@@ -300,6 +381,18 @@
 
         var currentYear = new Date().getFullYear();
         document.getElementById('current-year').innerHTML = currentYear;
+
+        function openNav() {
+            document.getElementById("mySidenav").style.width = "250px";
+            document.getElementById("main").style.marginLeft = "250px";
+            document.body.style.floodOpacity = "0.4";
+        }
+
+        function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+            document.getElementById("main").style.marginLeft = "0";
+            document.body.style.backgroundColor = "white";
+        }
     </script>
 </body>
 
