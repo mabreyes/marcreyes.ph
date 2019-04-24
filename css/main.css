@@ -54,7 +54,7 @@ html.loaded {
 	overflow: auto;
 	}
 html:after {
-	content: ""; position: fixed; z-index: 1000; top: 0; left: 0; right: 0; bottom: 0; background: white; background-image: url(../images/preloader.gif); background-position: center center; background-repeat: no-repeat; background-size: 48px 48px;
+	content: ""; position: fixed; z-index: 1000; top: 0; left: 0; right: 0; bottom: 0; background: white; background-image: url(../images/preloader.gif); background-position: center center; background-repeat: no-repeat; background-size: auto;
 	}
 html.loaded:after {
 	display: none;
@@ -1046,6 +1046,17 @@ html a.social-link:hover:before {
 	6. MEDIA QUERIES (@media) - base html elements
 	
     -------------------------------------------- */ 
+
+
+/* MOBILE PHONES */
+@media screen and (max-width: 450px) {
+	h1{
+		letter-spacing: -1px; line-height: 1.2em;
+	}
+	h3 {
+		letter-spacing: -1px;
+	}
+}
 
 /* TABLETS */
 @media screen and (min-width: 768px) {
