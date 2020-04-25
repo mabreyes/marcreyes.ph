@@ -25,7 +25,7 @@
     <link rel="stylesheet" type="text/css" href="css/fonts/fontello/css/fontello.css">
     <link rel="stylesheet" type="text/css" href="css/fonts/gordita/style.css">
     <link rel="stylesheet" type="text/css" href="css/fonts/circular/dist/index.css">
-
+    <link rel="stylesheet" type="text/css" href="css/fullpage.css">
     <!-- STYLES -->
     <link rel="stylesheet" type="text/css" href="css/main.css">
     <link rel="stylesheet" type="text/css" href="css/custom.css">
@@ -49,38 +49,34 @@
 <body id="about">
     <div class="content-wrap">
         <div class="content">
+            <div id="fullpage" style="margin-top: -80px;">
+                <div class="section" id="section0">
+                    <h1 style="font-size: 5em; margin-bottom: 10px;">I'm a<br>
+                        <span class="green text" id="typed"></span>
+                        <div id="typed-strings">
+                            <p>Developer</p>
+                            <p>Designer</p>
+                            <p>Data lover</p>
+                            <p>Scientist</p>
+                            <p>Engineer</p>
+                        </div>
+                    </h1>
+                    <a class="button huge bold green soft-rounded" target="_new" href="https://marcreyes.ph/files/public/12a0819-reyes-cv.pdf"><i
+                            class="icon-download-alt"></i>
+                        Scroll down</a>
+                </div>
+            </div>
+
+
             <!--About page hero-->
             <section id="about">
-                <h3 class="green text">About</h3>
-                <h1 style="margin-bottom: 0.1em;">
-                    <span id="typed"></span>
-                    <div id="typed-strings">
-                        <p>I'm a data-driven</p>
-                        <p>developer and designer</p>
-                        <p>I design web interfaces</p>
-                        <p>I explore new things</p>
-                        <p>like Machine Learning</p>
-                        <p>and DevOps</p>
-                        <p>I speak at conferences,</p>
-                        <p>DevFests, Roadshows,</p>
-                        <p>and Tech Summits</p>
-                        <p>I think I'm weird</p>
-                        <p>I love watching movies</p>
-                        <p>like The Purge</p>
-                        <p>I'm a nice person, btw.</p>
-                    </div>
-                </h1>
-                <a class="button huge bold green soft-rounded" target="_new" href="https://marcreyes.ph/files/public/12a0819-reyes-cv.pdf" style="margin-bottom: 3em;"><i
-                        class="icon-download-alt"></i>
-                    Download
-                    CV</a>
                 <!--End About page hero-->
 
                 <!--Where it all started-->
-                <h3 class="green text">Where it all started</h3>
-                <h1>
+                <h1 class="green text" style="padding-top: 3em;">Where it all started</h1>
+                <h2>
                     I am data-driven. It all began when I joined TensorFlow Dev Summit in Cagayan de Oro years ago. The rest is history.
-                </h1>
+                </h2>
                 <p style="margin-bottom: 0.1em;">I'm Marc and I love data. I'm currently working as a Machine Learning engineer in a fintech company in Taguig, Philippines. Before I was introduced to the world of Machine Learning and Data Science, I was designing websites and user interfaces
                     for school activities and freelance work. Pursuing a career in Machine Learning and Data Science was not something I put a lot of thought into in the past, but things turned around when I joined my first TensorFlow Dev Summit Extended
                     in Cagayan de Oro, and well, the rest was history. Since then, I have been speaking at tech conferences and involved myself in community development projects with Machine Learning.
@@ -94,7 +90,7 @@
 
             <!--Speaking Engagements and Workshops-->
             <section id="talks">
-                <h3 style="padding-top: 3em;" class="green text" id="talk-guide">Speaking Engagements and Workshops</h3>
+                <h1 style="padding-top: 3em;" class="green text" id="talk-guide">Speaking Engagements and Workshops</h1>
                 <div class="full-width">
                     <div class="galleria">
                         <div class="galleria__inner">
@@ -103,51 +99,45 @@
                                     <!--Talk-->
                                     <h4><span class="highlight navy">Lightning Talk</span></h4>
                                     <h4>February 24, 2019</h4>
-                                    <h2 style="margin-bottom: 1em;"><span class="grey text">PyCon APAC 2019</span> / SmartRice: A Mobile Application Using DCNN for Detecting Rice Plant Diseases and Pests</h2>
+                                    <h2>PyCon APAC 2019 / SmartRice: A Mobile Application Using DCNN for Detecting Rice Plant Diseases and Pests</h2>
                                     <!--End Talk-->
                                 </div>
                             </div>
                             <div class="galleria__item">
                                 <div class="galleria__item-inner">
                                     <!--Talk-->
-                                    <h4><span class="highlight grey">Workshop</span></h4>
+                                    <h4><span class="highlight navy">Workshop</span></h4>
                                     <h4>February 23-24, 2019</h4>
-                                    <h2 style="margin-bottom: 1em;"><span class="grey text">Django Girls Workshop at PyCon APAC
-                                            2019</span> / Intro to Python and Django</h2>
+                                    <h2>Django Girls Workshop at PyCon APAC 2019 / Intro to Python and Django</h2>
                                     <!--End Talk-->
                                 </div>
                             </div>
                             <div class="galleria__item">
                                 <div class="galleria__item-inner">
                                     <!--Talk-->
-                                    <h4><span class="highlight grey">Workshop</span></h4>
+                                    <h4><span class="highlight navy">Workshop</span></h4>
                                     <h4>January 19, 2019</h4>
-                                    <h2 style="margin-bottom: 1em;"><span class="grey text">Third Django Girls Workshop</span> / Intro to Python and Django</h2>
+                                    <h2>Third Django Girls Workshop / Intro to Python and Django</h2>
                                     <!--End Talk-->
                                 </div>
                             </div>
                             <div class="galleria__item">
                                 <div class="galleria__item-inner">
                                     <!--Talk-->
-                                    <h4><span class="highlight grey">Workshop</span> <span class="highlight navy">Talk</span>
+                                    <h4><span class="highlight navy">Workshop</span> <span class="highlight navy">Talk</span>
                                     </h4>
                                     <h4>December 15, 2018</h4>
-                                    <h2 style="margin-bottom: 1em;"><span class="grey text">Xavier Computer Enthusiasts' League
-                                            Tutorials</span> / Dynamic Programming with Python</h2>
+                                    <h2>Xavier Computer Enthusiasts' League Tutorials</span> / Dynamic Programming with Python</h2>
                                     <!--End Talk-->
                                 </div>
                             </div>
                             <div class="galleria__item">
                                 <div class="galleria__item-inner">
                                     <!--Talk-->
-                                    <h4><span class="highlight grey">Workshop</span> <span class="highlight navy">Talk</span>
+                                    <h4><span class="highlight navy">Workshop</span> <span class="highlight navy">Talk</span>
                                     </h4>
                                     <h4>September 15, 2018</h4>
-                                    <h2 style="margin-bottom: 10px;"><span class="grey text">Google Cloud Platform '18 Next
-                                            Extended
-                                            Cagayan
-                                            de
-                                            Oro</span> / Machine Learning and Artificial Intelligence with Google Cloud Platform</h2>
+                                    <h2>Google Cloud Platform '18 Next Extended Cagayan de Oro / Machine Learning and Artificial Intelligence with Google Cloud Platform</h2>
                                     <a class="button bold small" target="_new" href="https://speakerdeck.com/marcreyesph/introduction-to-google-cloud-platform-cloudml-with-qwiklabs" style="margin-bottom: 1em;"><i class="icon-paper-plane"></i>View slides</a>
                                     <!--End Talk-->
                                 </div>
@@ -157,8 +147,7 @@
                                     <!--Talk-->
                                     <h4><span class="highlight navy">Talk</span></h4>
                                     <h4>May 5, 2018</h4>
-                                    <h2 style="margin-bottom: 10px;"><span class="grey text">Campus DevCon at MSU-IIT Iligan
-                                            2018</span> / Developing Machine Learning Applications with TensorFlow</h2>
+                                    <h2>Campus DevCon at MSU-IIT Iligan 2018 / Developing Machine Learning Applications with TensorFlow</h2>
                                     <a class="button bold small" target="_new" href="https://speakerdeck.com/marcreyesph/developing-machine-learning-applications-with-tensorflow" style="margin-bottom: 1em;"><i class="icon-paper-plane"></i>View slides</a>
                                     <!--End Talk-->
                                 </div>
@@ -168,7 +157,7 @@
                                     <!--Talk-->
                                     <h4><span class="highlight navy">Lightning Talk</span></h4>
                                     <h4>February 25, 2018</h4>
-                                    <h2 style="margin-bottom: 10px;"><span class="grey text">PyCon Philippines 2018</span> / Image Inpainting Through a Simple Neural Network</h2>
+                                    <h2>PyCon Philippines 2018 / Image Inpainting Through a Simple Neural Network</h2>
                                     <a class="button bold small" target="_new" href="https://speakerdeck.com/marcreyesph/image-inpainting-through-a-simple-neural-network" style="margin-bottom: 1em;"><i class="icon-paper-plane"></i>View slides</a>
                                     <!--End Talk-->
                                 </div>
@@ -178,7 +167,7 @@
                                     <!--Talk-->
                                     <h4><span class="highlight navy">Talk</span></h4>
                                     <h4>November 26, 2017</h4>
-                                    <h2 style="margin-bottom: 10px;"><span class="grey text">GDGCDO DevFest 2017</span> / Machine Learning Image Processing with TensorFlow</h2>
+                                    <h2>GDGCDO DevFest 2017 / Machine Learning Image Processing with TensorFlow</h2>
                                     <a class="button bold small" target="_new" href="https://speakerdeck.com/marcreyesph/image-processing-with-tensorflow" style="margin-bottom: 1em;"><i class="icon-paper-plane"></i>View slides</a>
                                     <!--End Talk-->
                                 </div>
@@ -188,10 +177,7 @@
                                     <!--Talk-->
                                     <h4><span class="highlight navy">Talk</span></h4>
                                     <h4>February 22, 2017</h4>
-                                    <h2 style="margin-bottom: 10px;"><span class="grey text">GDGCDO Campus Roadshow Christ the
-                                            King
-                                            College</span> / Design and Technology
-                                    </h2>
+                                    <h2>GDGCDO Campus Roadshow Christ the King College / Design and Technology</h2>
                                     <a class="button bold small" target="_new" href="https://speakerdeck.com/marcreyesph/design-and-technology-in-everyday-life" style="margin-bottom: 1em;"><i class="icon-paper-plane"></i>View slides</a>
                                     <!--End Talk-->
                                 </div>
@@ -201,7 +187,7 @@
                                     <!--Talk-->
                                     <h4><span class="highlight navy">Talk</span></h4>
                                     <h4>December 3, 2016</h4>
-                                    <h2 style="margin-bottom: 10px;"><span class="grey text">TLE Weeks 2016 Tech Summit</span> / Creating an Effective Graphic and Motion Graphic Design for Your Idea
+                                    <h2>TLE Weeks 2016 Tech Summit / Creating an Effective Graphic and Motion Graphic Design for Your Idea
                                     </h2>
                                     <a class="button bold small" target="_new" href="https://speakerdeck.com/marcreyesph/creating-an-effective-graphic-and-motion-graphic-design-for-your-idea" style="margin-bottom: 1em;"><i class="icon-paper-plane"></i>View slides</a>
                                     <!--End Talk-->
@@ -210,7 +196,7 @@
                         </div>
                     </div>
                 </div>
-                <a class="button bold" href="mailto:info@marcreyes.ph"><i class="icon-mail"></i>
+                <a class="button huge bold green soft-rounded" href="mailto:info@marcreyes.ph"><i class="icon-mail"></i>
                     Send invite</a>
             </section>
 
@@ -385,12 +371,22 @@
         };
     </script>
     <script src="https://code.jquery.com/jquery-3.5.0.min.js" integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous"></script>
+    <script src="js/fullpage.js"></script>
+    <script type="text/javascript">
+        var myFullpage = new fullpage('#fullpage', {
+            anchors: ['firstPage'],
+            autoScrolling: false,
+            sectionsColor: ['#FFFFFF'],
+            css3: true,
+            fitToSection: false
+        });
+    </script>
     <script>
         var position = $('#talk-guide').offset();
         var offset = $('.galleria__inner:first-child').offset();
         $('.galleria__inner:first-child').offset({
             top: offset['top'],
-            left: position['left'] - 11
+            left: position['left'] - 15
         });
 
         function getOffset() {
@@ -398,9 +394,8 @@
             var offset = $('.galleria__inner:first-child').offset();
             $('.galleria__inner:first-child').offset({
                 top: offset['top'],
-                left: position['left'] - 11
+                left: position['left'] - 15
             });
-            console.log(position);
         }
 
         window.addEventListener("resize", getOffset);
