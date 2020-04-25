@@ -94,7 +94,7 @@
 
             <!--Speaking Engagements and Workshops-->
             <section id="talks">
-                <h3 style="padding-top: 3em;" class="green text">Speaking Engagements and Workshops</h3>
+                <h3 style="padding-top: 3em;" class="green text" id="talk-guide">Speaking Engagements and Workshops</h3>
                 <div class="full-width">
                     <div class="galleria">
                         <div class="galleria__inner">
@@ -383,6 +383,27 @@
                 }
             }
         };
+    </script>
+    <script src="https://code.jquery.com/jquery-3.5.0.min.js" integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous"></script>
+    <script>
+        var position = $('#talk-guide').offset();
+        var offset = $('.galleria__inner:first-child').offset();
+        $('.galleria__inner:first-child').offset({
+            top: offset['top'],
+            left: position['left'] - 11
+        });
+
+        function getOffset() {
+            var position = $('#talk-guide').offset();
+            var offset = $('.galleria__inner:first-child').offset();
+            $('.galleria__inner:first-child').offset({
+                top: offset['top'],
+                left: position['left'] - 11
+            });
+            console.log(position);
+        }
+
+        window.addEventListener("resize", getOffset);
     </script>
 </body>
 
