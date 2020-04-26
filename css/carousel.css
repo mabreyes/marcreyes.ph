@@ -1,0 +1,23 @@
+.carousel-full {
+    width: 99vw;
+    position: relative;
+    margin-left: -50vw;
+    left: 50%;
+    z-index: -1;
+}
+
+.owl-carousel .item {
+    border: 2px solid #222;
+    padding: 1em;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+@media all and (max-width: 480px) {
+    .carousel-full {
+        width: inherit;
+        position: relative;
+        margin-left: 0;
+        left: 0%;
+    }
+}
