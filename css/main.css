@@ -42,7 +42,7 @@ body {
 body {
     font-family: 'AktivGrotesk', sans-serif;
     color: #222;
-    background-color: #fff;
+    background-color: #efefef;
     font-size: 14px;
     line-height: 1.7;
     display: flex;
@@ -167,11 +167,11 @@ p:last-child {
 /* LIGHT TEXT */
 
 .is-text-light {
-    color: #fff;
+    color: #efefef;
 }
 
 .is-text-light a {
-    color: #fff;
+    color: #efefef;
 }
 
 
@@ -202,7 +202,8 @@ p:last-child {
 }
 
 .bold {
-    font-weight: bold;
+    font-family: 'AktivGrotesk', sans-serif;
+    font-weight: 900;
 }
 
 
@@ -363,7 +364,7 @@ p:last-child {
 /* LAYOUT : BOXED */
 
 .is-boxed .content {
-    background: #fff;
+    background: #efefef;
 }
 
 .is-boxed-dark .content {
@@ -426,7 +427,7 @@ p:last-child {
 }
 
 html a.social-link:hover:before {
-    color: #fff;
+    color: #efefef;
     background: #444;
     border-color: transparent;
 }
@@ -909,7 +910,7 @@ html a.social-link:hover:before {
 }
 
 .link-1:hover {
-    color: #fff;
+    color: #efefef;
 }
 
 .link-1:hover:after {
@@ -920,7 +921,7 @@ html a.social-link:hover:before {
 /* light links */
 
 .link-1.light:after {
-    background: #fff;
+    background: #efefef;
 }
 
 .link-1.light:hover {
@@ -1082,7 +1083,7 @@ html a.social-link:hover:before {
 
 .link-2.light:before,
 .link-2.light:after {
-    background: #fff;
+    background: #efefef;
     color: #111;
 }
 
@@ -1262,7 +1263,7 @@ html a.social-link:hover:before {
 
 .button:hover,
 .button:active {
-    color: #fff !important;
+    color: #efefef !important;
 }
 
 .button:active {
@@ -1280,11 +1281,11 @@ html a.social-link:hover:before {
 /* light buttons */
 
 .button.light {
-    border-color: #fff;
+    border-color: #efefef;
 }
 
 .button.light:after {
-    background: #fff;
+    background: #efefef;
 }
 
 .button.light:hover,
@@ -1495,7 +1496,7 @@ html a.social-link:hover:before {
 .highlight {
     display: inline-block;
     padding: 0 10px;
-    color: #fff;
+    color: #efefef;
     background: #111;
 }
 
@@ -1503,7 +1504,7 @@ html a.social-link:hover:before {
 /* light highlights */
 
 .highlight.light {
-    background: #fff;
+    background: #efefef;
     color: #111;
 }
 
