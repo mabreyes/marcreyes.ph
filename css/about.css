@@ -88,7 +88,7 @@ nav ul li a {
     text-align: right;
     display: block;
     padding: 0.5rem 1rem;
-    color: black;
+    color: #000;
     text-decoration: none;
 }
 
@@ -135,7 +135,7 @@ html:after {
     right: 0;
     bottom: 0;
     background: white;
-    background-image: url(../assets/img/preloader.gif);
+    background-image: url(../images/preloader.svg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: 48px 48px;
@@ -1729,6 +1729,10 @@ html a.social-link:hover:before {
     h1 {
         font-size: 4vw;
         line-height: 1.2;
+    }
+    .hero {
+        font-size: 5.5vw !important;
+        letter-spacing: -2px;
     }
 }
 

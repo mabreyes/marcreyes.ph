@@ -1781,6 +1781,10 @@ html a.social-link:hover:before {
 /* TABLETS */
 
 @media screen and (min-width: 768px) {
+    .hero {
+        font-size: 5.5vw !important;
+        letter-spacing: -2px;
+    }
     body {
         font-size: 19px;
     }
