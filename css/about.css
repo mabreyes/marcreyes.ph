@@ -26,7 +26,6 @@
 	
 	-------------------------------------------- */
 
-@import url('gordita/style.css');
 html,
 body {
     width: 100%;
@@ -44,7 +43,7 @@ body {
 }
 
 body {
-    font-family: 'Gordita', sans-serif;
+    font-family: 'AktivGrotesk', sans-serif;
     color: #222;
     background-color: #fff;
     font-size: 14px;
@@ -84,6 +83,7 @@ nav ul {
 }
 
 nav ul li a {
+    font-family: 'AktivGrotesk-XBold', sans-serif;
     font-weight: bold;
     text-align: right;
     display: block;
@@ -167,7 +167,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Gordita', sans-serif;
+    font-family: 'AktivGrotesk-XBold', sans-serif;
     letter-spacing: -1px;
     font-weight: bold;
     font-style: normal;
