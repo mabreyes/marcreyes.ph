@@ -1770,7 +1770,7 @@ html a.social-link:hover:before {
 
 @media screen and (max-width: 450px) {
     h1 {
-        letter-spacing: -1px;
+        letter-spacing: -0.5px;
         line-height: 1.2em;
     }
     h3 {
