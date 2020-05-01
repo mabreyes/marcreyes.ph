@@ -40,7 +40,7 @@ body {
 }
 
 body {
-    font-family: 'AktivGrotesk', sans-serif;
+    font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
     color: #222;
     background-color: #efefef;
     font-size: 14px;
@@ -118,7 +118,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'AktivGrotesk-XBold', sans-serif;
+    font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
     font-weight: bold;
     font-style: normal;
     margin: 1em 0 .66em 0;
@@ -1784,7 +1784,6 @@ html a.social-link:hover:before {
 @media screen and (min-width: 768px) {
     .hero {
         font-size: 5.5vw !important;
-        letter-spacing: -2px;
     }
     body {
         font-size: 19px;
