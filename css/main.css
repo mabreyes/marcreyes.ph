@@ -1768,6 +1768,26 @@ html a.social-link:hover:before {
     text-decoration: none;
 }
 
+.underline a:hover {
+    color: #0100ff;
+}
+
+.underline a:visited {
+    color: #0100ff;
+}
+
+.underline a:focus {
+    color: #0100ff;
+}
+
+.underline a:active {
+    color: #0100ff;
+}
+
+.underline a:link {
+    color: #0100ff;
+}
+
 
 /*  --------------------------------------------
 
