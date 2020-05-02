@@ -1786,6 +1786,9 @@ html a.social-link:hover:before {
     h3 {
         letter-spacing: -1px;
     }
+    .underline {
+        border-bottom: 2px solid #0100ff;
+    }
 }
 
 
