@@ -1758,6 +1758,16 @@ html a.social-link:hover:before {
     }
 }
 
+.underline {
+    border-bottom: 4px solid #0100ff;
+    display: inline;
+    text-decoration: none;
+}
+
+.underline a {
+    text-decoration: none;
+}
+
 
 /*  --------------------------------------------
 
