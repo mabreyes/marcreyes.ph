@@ -1,38 +1,15 @@
-<!DOCTYPE html>
-<html lang="en">
+---
+layout: default
+---
 
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <meta name="description" content="Marc Reyes is a data-driven developer who is into studying Machine Learning and Data Science.">
-    <meta name="author" content="Marc Reyes, info@marcreyes.ph">
-    <meta name="keywords" content="Marc Anthony Reyes, Marc Anthony, Marc Reyes, Projects, Marc Reyes Projects, Marc, Anthony, Reyes, Marc X, X, MX, M+X, Web Design, Website, Web Development, Web Dev, Freelancer, Speaking, Google, Google Developers, Code, Programming, Machine Learning">
-    <meta name="theme-color" content="#0100ff">
-    <meta property="og:title" content="Marc Reyes &mdash; Home">
-    <meta property="og:site_name" content="Marc Reyes &mdash; Home">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://marcreyes.ph/">
-    <meta property="og:image" content="https://marcreyes.ph/images/og-image.png/">
-    <meta property="og:description" content="Marc Reyes is a data-driven developer who is into studying Machine Learning and Data Science.">
-    <title>Marc Reyes &mdash; Home</title>
-    <link rel="shortcut icon" href="images/ico/favicon.ico">
-    <link rel="apple-touch-icon" href="images/ico/apple-touch-icon.png" />
-    <link rel="stylesheet" type="text/css" href="css/fonts/fontello/css/fontello.css">
-    <link rel="stylesheet" type="text/css" href="css/fonts/nhg/stylesheet.css">
-    <link rel="stylesheet" type="text/css" href="css/main.css">
-</head>
-
-<body class="is-split-layout is-media-right">
-    <div class="media" style="background-image:url(images/hero.jpg)"></div>
-    <div class="content-wrap">
-        <div class="content">
-            <h1>I'm Marc Reyes, a <span class="underline">Software Engineer</span> focused on <span class="underline">Web Development</span>, <span class="underline">DevOps</span>, and <span class="underline">Machine Learning</span>.
-            </h1>
-            <h1>Get in touch at <span class="blue text underline"><a href="mailto:hello@marcreyes.ph?subject=Hi, Marc">hello@marcreyes.ph</a></span></h1>
-            <a class="button huge bold uppercase" href="https://marcrey.es/cv" target="_new">More About Me</a>
-        </div>
-    </div>
-    <script src="js/main.js"></script>
-</body>
-
-</html>
+<div id="site">
+  {% include switch.html %}
+  {% include intro.html %}
+  {% include background.html %}
+  {% include skills.html %}
+  {% include experience.html %}
+  {% include featured-projects.html %}
+  {% include other-projects.html %}
+  {% include footer.html %}
+  {% include top-button.html %}
+</div>
