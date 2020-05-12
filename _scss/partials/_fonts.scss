@@ -12,64 +12,673 @@
 */
 
 @font-face {
-    font-family: 'AktivGrotesk-XBold';
-    src: url('../fonts/aktivg/AktivGrotesk-XBold.eot');
-    src: local('☞Aktiv Grotesk XBold'), local('AktivGrotesk-XBold'), url('../fonts/aktivg/AktivGrotesk-XBold.eot?#iefix') format('embedded-opentype'), url('../fonts/aktivg/AktivGrotesk-XBold.woff2') format('woff2'), url('../fonts/aktivg/AktivGrotesk-XBold.woff') format('woff'), url('../fonts/aktivg/AktivGrotesk-XBold.ttf') format('truetype'), url('../fonts/aktivg/AktivGrotesk-XBold.svg#AktivGrotesk-XBold') format('svg');
-    font-weight: bold;
+    font-family: 'GT America Mono';
+    src: url('../fonts/gta/GTAmericaMono-MediumItalic.eot');
+    src: local('GT America Mono Medium Italic'), local('GTAmericaMono-MediumItalic'), url('../fonts/gta/GTAmericaMono-MediumItalic.eot?#iefix') format('embedded-opentype'), url('../fonts/gta/GTAmericaMono-MediumItalic.woff2') format('woff2'), url('../fonts/gta/GTAmericaMono-MediumItalic.woff') format('woff'), url('../fonts/gta/GTAmericaMono-MediumItalic.ttf') format('truetype'), url('../fonts/gta/GTAmericaMono-MediumItalic.svg#GTAmericaMono-MediumItalic') format('svg');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'GT America Mono';
+    src: url('../fonts/gta/GTAmericaMono-RegularItalic.eot');
+    src: local('GT America Mono Regular Italic'), local('GTAmericaMono-RegularItalic'), url('../fonts/gta/GTAmericaMono-RegularItalic.eot?#iefix') format('embedded-opentype'), url('../fonts/gta/GTAmericaMono-RegularItalic.woff2') format('woff2'), url('../fonts/gta/GTAmericaMono-RegularItalic.woff') format('woff'), url('../fonts/gta/GTAmericaMono-RegularItalic.ttf') format('truetype'), url('../fonts/gta/GTAmericaMono-RegularItalic.svg#GTAmericaMono-RegularItalic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'GT America Expanded';
+    src: url('../fonts/gta/GTAmerica-ExpandedBlack.eot');
+    src: local('GT America Expanded Black'), local('GTAmerica-ExpandedBlack'), url('../fonts/gta/GTAmerica-ExpandedBlack.eot?#iefix') format('embedded-opentype'), url('../fonts/gta/GTAmerica-ExpandedBlack.woff2') format('woff2'), url('../fonts/gta/GTAmerica-ExpandedBlack.woff') format('woff'), url('../fonts/gta/GTAmerica-ExpandedBlack.ttf') format('truetype'), url('../fonts/gta/GTAmerica-ExpandedBlack.svg#GTAmerica-ExpandedBlack') format('svg');
+    font-weight: 900;
     font-style: normal;
 }
 
 @font-face {
-    font-family: 'AktivGrotesk';
-    src: url('../fonts/aktivg/AktivGrotesk-Light.eot');
-    src: local('☞Aktiv Grotesk Light'), local('AktivGrotesk-Light'), url('../fonts/aktivg/AktivGrotesk-Light.eot?#iefix') format('embedded-opentype'), url('../fonts/aktivg/AktivGrotesk-Light.woff2') format('woff2'), url('../fonts/aktivg/AktivGrotesk-Light.woff') format('woff'), url('../fonts/aktivg/AktivGrotesk-Light.ttf') format('truetype'), url('../fonts/aktivg/AktivGrotesk-Light.svg#AktivGrotesk-Light') format('svg');
+    font-family: 'GT America Extended';
+    src: url('../fonts/gta/GTAmerica-ExtendedLight.eot');
+    src: local('GT America Extended Light'), local('GTAmerica-ExtendedLight'), url('../fonts/gta/GTAmerica-ExtendedLight.eot?#iefix') format('embedded-opentype'), url('../fonts/gta/GTAmerica-ExtendedLight.woff2') format('woff2'), url('../fonts/gta/GTAmerica-ExtendedLight.woff') format('woff'), url('../fonts/gta/GTAmerica-ExtendedLight.ttf') format('truetype'), url('../fonts/gta/GTAmerica-ExtendedLight.svg#GTAmerica-ExtendedLight') format('svg');
     font-weight: 300;
     font-style: normal;
 }
 
 @font-face {
-    font-family: 'AktivGrotesk';
-    src: url('../fonts/aktivg/AktivGrotesk-Regular.eot');
-    src: local('☞Aktiv Grotesk'), local('AktivGrotesk-Regular'), url('../fonts/aktivg/AktivGrotesk-Regular.eot?#iefix') format('embedded-opentype'), url('../fonts/aktivg/AktivGrotesk-Regular.woff2') format('woff2'), url('../fonts/aktivg/AktivGrotesk-Regular.woff') format('woff'), url('../fonts/aktivg/AktivGrotesk-Regular.ttf') format('truetype'), url('../fonts/aktivg/AktivGrotesk-Regular.svg#AktivGrotesk-Regular') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'AktivGrotesk-Hairline';
-    src: url('../fonts/aktivg/AktivGrotesk-Hairline.eot');
-    src: local('☞Aktiv Grotesk Hairline'), local('AktivGrotesk-Hairline'), url('../fonts/aktivg/AktivGrotesk-Hairline.eot?#iefix') format('embedded-opentype'), url('../fonts/aktivg/AktivGrotesk-Hairline.woff2') format('woff2'), url('../fonts/aktivg/AktivGrotesk-Hairline.woff') format('woff'), url('../fonts/aktivg/AktivGrotesk-Hairline.ttf') format('truetype'), url('../fonts/aktivg/AktivGrotesk-Hairline.svg#AktivGrotesk-Hairline') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'AktivGrotesk';
-    src: url('../fonts/aktivg/AktivGrotesk-Thin.eot');
-    src: local('☞Aktiv Grotesk Thin'), local('AktivGrotesk-Thin'), url('../fonts/aktivg/AktivGrotesk-Thin.eot?#iefix') format('embedded-opentype'), url('../fonts/aktivg/AktivGrotesk-Thin.woff2') format('woff2'), url('../fonts/aktivg/AktivGrotesk-Thin.woff') format('woff'), url('../fonts/aktivg/AktivGrotesk-Thin.ttf') format('truetype'), url('../fonts/aktivg/AktivGrotesk-Thin.svg#AktivGrotesk-Thin') format('svg');
+    font-family: 'GT America Extended';
+    src: url('../fonts/gta/GTAmerica-ExtendedThin.eot');
+    src: local('GT America Extended Thin'), local('GTAmerica-ExtendedThin'), url('../fonts/gta/GTAmerica-ExtendedThin.eot?#iefix') format('embedded-opentype'), url('../fonts/gta/GTAmerica-ExtendedThin.woff2') format('woff2'), url('../fonts/gta/GTAmerica-ExtendedThin.woff') format('woff'), url('../fonts/gta/GTAmerica-ExtendedThin.ttf') format('truetype'), url('../fonts/gta/GTAmerica-ExtendedThin.svg#GTAmerica-ExtendedThin') format('svg');
     font-weight: 100;
-}
-
-@font-face {
-    font-family: 'AktivGrotesk';
-    src: url('../fonts/aktivg/AktivGrotesk-Bold.eot');
-    src: local('☞Aktiv Grotesk Bold'), local('AktivGrotesk-Bold'), url('../fonts/aktivg/AktivGrotesk-Bold.eot?#iefix') format('embedded-opentype'), url('../fonts/aktivg/AktivGrotesk-Bold.woff2') format('woff2'), url('../fonts/aktivg/AktivGrotesk-Bold.woff') format('woff'), url('../fonts/aktivg/AktivGrotesk-Bold.ttf') format('truetype'), url('../fonts/aktivg/AktivGrotesk-Bold.svg#AktivGrotesk-Bold') format('svg');
-    font-weight: bold;
     font-style: normal;
 }
 
 @font-face {
-    font-family: 'AktivGrotesk';
-    src: url('../fonts/aktivg/AktivGrotesk-Medium.eot');
-    src: local('☞Aktiv Grotesk Medium'), local('AktivGrotesk-Medium'), url('../fonts/aktivg/AktivGrotesk-Medium.eot?#iefix') format('embedded-opentype'), url('../fonts/aktivg/AktivGrotesk-Medium.woff2') format('woff2'), url('../fonts/aktivg/AktivGrotesk-Medium.woff') format('woff'), url('../fonts/aktivg/AktivGrotesk-Medium.ttf') format('truetype'), url('../fonts/aktivg/AktivGrotesk-Medium.svg#AktivGrotesk-Medium') format('svg');
+    font-family: 'GT America Compressed';
+    src: url('../fonts/gta/GTAmerica-CompressedLightItalic.eot');
+    src: local('GT America Compressed Light Italic'), local('GTAmerica-CompressedLightItalic'), url('../fonts/gta/GTAmerica-CompressedLightItalic.eot?#iefix') format('embedded-opentype'), url('../fonts/gta/GTAmerica-CompressedLightItalic.woff2') format('woff2'), url('../fonts/gta/GTAmerica-CompressedLightItalic.woff') format('woff'), url('../fonts/gta/GTAmerica-CompressedLightItalic.ttf') format('truetype'), url('../fonts/gta/GTAmerica-CompressedLightItalic.svg#GTAmerica-CompressedLightItalic') format('svg');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'GT America Extended';
+    src: url('../fonts/gta/GTAmerica-ExtendedLightItalic.eot');
+    src: local('GT America Extended Light Italic'), local('GTAmerica-ExtendedLightItalic'), url('../fonts/gta/GTAmerica-ExtendedLightItalic.eot?#iefix') format('embedded-opentype'), url('../fonts/gta/GTAmerica-ExtendedLightItalic.woff2') format('woff2'), url('../fonts/gta/GTAmerica-ExtendedLightItalic.woff') format('woff'), url('../fonts/gta/GTAmerica-ExtendedLightItalic.ttf') format('truetype'), url('../fonts/gta/GTAmerica-ExtendedLightItalic.svg#GTAmerica-ExtendedLightItalic') format('svg');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'GT America Condensed';
+    src: url('../fonts/gta/GTAmerica-CondensedMedium.eot');
+    src: local('GT America Condensed Medium'), local('GTAmerica-CondensedMedium'), url('../fonts/gta/GTAmerica-CondensedMedium.eot?#iefix') format('embedded-opentype'), url('../fonts/gta/GTAmerica-CondensedMedium.woff2') format('woff2'), url('../fonts/gta/GTAmerica-CondensedMedium.woff') format('woff'), url('../fonts/gta/GTAmerica-CondensedMedium.ttf') format('truetype'), url('../fonts/gta/GTAmerica-CondensedMedium.svg#GTAmerica-CondensedMedium') format('svg');
     font-weight: 500;
     font-style: normal;
 }
 
 @font-face {
-    font-family: 'AktivGrotesk';
-    src: url('../fonts/aktivg/AktivGrotesk-Black.eot');
-    src: local('☞Aktiv Grotesk Black'), local('AktivGrotesk-Black'), url('../fonts/aktivg/AktivGrotesk-Black.eot?#iefix') format('embedded-opentype'), url('../fonts/aktivg/AktivGrotesk-Black.woff2') format('woff2'), url('../fonts/aktivg/AktivGrotesk-Black.woff') format('woff'), url('../fonts/aktivg/AktivGrotesk-Black.ttf') format('truetype'), url('../fonts/aktivg/AktivGrotesk-Black.svg#AktivGrotesk-Black') format('svg');
+    font-family: 'GT America Compressed';
+    src: url('../fonts/gta/GTAmerica-CompressedLight.eot');
+    src: local('GT America Compressed Light'), local('GTAmerica-CompressedLight'), url('../fonts/gta/GTAmerica-CompressedLight.eot?#iefix') format('embedded-opentype'), url('../fonts/gta/GTAmerica-CompressedLight.woff2') format('woff2'), url('../fonts/gta/GTAmerica-CompressedLight.woff') format('woff'), url('../fonts/gta/GTAmerica-CompressedLight.ttf') format('truetype'), url('../fonts/gta/GTAmerica-CompressedLight.svg#GTAmerica-CompressedLight') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GT America Compressed';
+    src: url('../fonts/gta/GTAmerica-CompressedMedium.eot');
+    src: local('GT America Compressed Medium'), local('GTAmerica-CompressedMedium'), url('../fonts/gta/GTAmerica-CompressedMedium.eot?#iefix') format('embedded-opentype'), url('../fonts/gta/GTAmerica-CompressedMedium.woff2') format('woff2'), url('../fonts/gta/GTAmerica-CompressedMedium.woff') format('woff'), url('../fonts/gta/GTAmerica-CompressedMedium.ttf') format('truetype'), url('../fonts/gta/GTAmerica-CompressedMedium.svg#GTAmerica-CompressedMedium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GT America Compressed Ultra';
+    src: url('../fonts/gta/GTAmerica-CompressedUltraLight.eot');
+    src: local('GT America Compressed Ultra Light'), local('GTAmerica-CompressedUltraLight'), url('../fonts/gta/GTAmerica-CompressedUltraLight.eot?#iefix') format('embedded-opentype'), url('../fonts/gta/GTAmerica-CompressedUltraLight.woff2') format('woff2'), url('../fonts/gta/GTAmerica-CompressedUltraLight.woff') format('woff'), url('../fonts/gta/GTAmerica-CompressedUltraLight.ttf') format('truetype'), url('../fonts/gta/GTAmerica-CompressedUltraLight.svg#GTAmerica-CompressedUltraLight') format('svg');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GT America Mono Ultra';
+    src: url('../fonts/gta/GTAmericaMono-UltraLight.eot');
+    src: local('GT America Mono Ultra Light'), local('GTAmericaMono-UltraLight'), url('../fonts/gta/GTAmericaMono-UltraLight.eot?#iefix') format('embedded-opentype'), url('../fonts/gta/GTAmericaMono-UltraLight.woff2') format('woff2'), url('../fonts/gta/GTAmericaMono-UltraLight.woff') format('woff'), url('../fonts/gta/GTAmericaMono-UltraLight.ttf') format('truetype'), url('../fonts/gta/GTAmericaMono-UltraLight.svg#GTAmericaMono-UltraLight') format('svg');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GT America Mono';
+    src: url('../fonts/gta/GTAmericaMono-Bold.eot');
+    src: local('GT America Mono Bold'), local('GTAmericaMono-Bold'), url('../fonts/gta/GTAmericaMono-Bold.eot?#iefix') format('embedded-opentype'), url('../fonts/gta/GTAmericaMono-Bold.woff2') format('woff2'), url('../fonts/gta/GTAmericaMono-Bold.woff') format('woff'), url('../fonts/gta/GTAmericaMono-Bold.ttf') format('truetype'), url('../fonts/gta/GTAmericaMono-Bold.svg#GTAmericaMono-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GT America Condensed';
+    src: url('../fonts/gta/GTAmerica-CondensedBlack.eot');
+    src: local('GT America Condensed Black'), local('GTAmerica-CondensedBlack'), url('../fonts/gta/GTAmerica-CondensedBlack.eot?#iefix') format('embedded-opentype'), url('../fonts/gta/GTAmerica-CondensedBlack.woff2') format('woff2'), url('../fonts/gta/GTAmerica-CondensedBlack.woff') format('woff'), url('../fonts/gta/GTAmerica-CondensedBlack.ttf') format('truetype'), url('../fonts/gta/GTAmerica-CondensedBlack.svg#GTAmerica-CondensedBlack') format('svg');
     font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GT America Mono';
+    src: url('../fonts/gta/GTAmericaMono-BlackItalic.eot');
+    src: local('GT America Mono Black Italic'), local('GTAmericaMono-BlackItalic'), url('../fonts/gta/GTAmericaMono-BlackItalic.eot?#iefix') format('embedded-opentype'), url('../fonts/gta/GTAmericaMono-BlackItalic.woff2') format('woff2'), url('../fonts/gta/GTAmericaMono-BlackItalic.woff') format('woff'), url('../fonts/gta/GTAmericaMono-BlackItalic.ttf') format('truetype'), url('../fonts/gta/GTAmericaMono-BlackItalic.svg#GTAmericaMono-BlackItalic') format('svg');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'GT America Condensed';
+    src: url('../fonts/gta/GTAmerica-CondensedBoldItalic.eot');
+    src: local('GT America Condensed Bold Italic'), local('GTAmerica-CondensedBoldItalic'), url('../fonts/gta/GTAmerica-CondensedBoldItalic.eot?#iefix') format('embedded-opentype'), url('../fonts/gta/GTAmerica-CondensedBoldItalic.woff2') format('woff2'), url('../fonts/gta/GTAmerica-CondensedBoldItalic.woff') format('woff'), url('../fonts/gta/GTAmerica-CondensedBoldItalic.ttf') format('truetype'), url('../fonts/gta/GTAmerica-CondensedBoldItalic.svg#GTAmerica-CondensedBoldItalic') format('svg');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'GT America Expanded';
+    src: url('../fonts/gta/GTAmerica-ExpandedMediumItalic.eot');
+    src: local('GT America Expanded Medium Italic'), local('GTAmerica-ExpandedMediumItalic'), url('../fonts/gta/GTAmerica-ExpandedMediumItalic.eot?#iefix') format('embedded-opentype'), url('../fonts/gta/GTAmerica-ExpandedMediumItalic.woff2') format('woff2'), url('../fonts/gta/GTAmerica-ExpandedMediumItalic.woff') format('woff'), url('../fonts/gta/GTAmerica-ExpandedMediumItalic.ttf') format('truetype'), url('../fonts/gta/GTAmerica-ExpandedMediumItalic.svg#GTAmerica-ExpandedMediumItalic') format('svg');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'GT America';
+    src: url('../fonts/gta/GTAmerica-Light.eot');
+    src: local('GT America Light'), local('GTAmerica-Light'), url('../fonts/gta/GTAmerica-Light.eot?#iefix') format('embedded-opentype'), url('../fonts/gta/GTAmerica-Light.woff2') format('woff2'), url('../fonts/gta/GTAmerica-Light.woff') format('woff'), url('../fonts/gta/GTAmerica-Light.ttf') format('truetype'), url('../fonts/gta/GTAmerica-Light.svg#GTAmerica-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GT America Condensed';
+    src: url('../fonts/gta/GTAmerica-CondensedThinItalic.eot');
+    src: local('GT America Condensed Thin Italic'), local('GTAmerica-CondensedThinItalic'), url('../fonts/gta/GTAmerica-CondensedThinItalic.eot?#iefix') format('embedded-opentype'), url('../fonts/gta/GTAmerica-CondensedThinItalic.woff2') format('woff2'), url('../fonts/gta/GTAmerica-CondensedThinItalic.woff') format('woff'), url('../fonts/gta/GTAmerica-CondensedThinItalic.ttf') format('truetype'), url('../fonts/gta/GTAmerica-CondensedThinItalic.svg#GTAmerica-CondensedThinItalic') format('svg');
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'GT America Compressed Ultra';
+    src: url('../fonts/gta/GTAmerica-CompressedUltraLightItalic.eot');
+    src: local('GT America Compressed Ultra Light Italic'), local('GTAmerica-CompressedUltraLightItalic'), url('../fonts/gta/GTAmerica-CompressedUltraLightItalic.eot?#iefix') format('embedded-opentype'), url('../fonts/gta/GTAmerica-CompressedUltraLightItalic.woff2') format('woff2'), url('../fonts/gta/GTAmerica-CompressedUltraLightItalic.woff') format('woff'), url('../fonts/gta/GTAmerica-CompressedUltraLightItalic.ttf') format('truetype'), url('../fonts/gta/GTAmerica-CompressedUltraLightItalic.svg#GTAmerica-CompressedUltraLightItalic') format('svg');
+    font-weight: 200;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'GT America Expanded';
+    src: url('../fonts/gta/GTAmerica-ExpandedMedium.eot');
+    src: local('GT America Expanded Medium'), local('GTAmerica-ExpandedMedium'), url('../fonts/gta/GTAmerica-ExpandedMedium.eot?#iefix') format('embedded-opentype'), url('../fonts/gta/GTAmerica-ExpandedMedium.woff2') format('woff2'), url('../fonts/gta/GTAmerica-ExpandedMedium.woff') format('woff'), url('../fonts/gta/GTAmerica-ExpandedMedium.ttf') format('truetype'), url('../fonts/gta/GTAmerica-ExpandedMedium.svg#GTAmerica-ExpandedMedium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GT America Compressed';
+    src: url('../fonts/gta/GTAmerica-CompressedBlack.eot');
+    src: local('GT America Compressed Black'), local('GTAmerica-CompressedBlack'), url('../fonts/gta/GTAmerica-CompressedBlack.eot?#iefix') format('embedded-opentype'), url('../fonts/gta/GTAmerica-CompressedBlack.woff2') format('woff2'), url('../fonts/gta/GTAmerica-CompressedBlack.woff') format('woff'), url('../fonts/gta/GTAmerica-CompressedBlack.ttf') format('truetype'), url('../fonts/gta/GTAmerica-CompressedBlack.svg#GTAmerica-CompressedBlack') format('svg');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GT America';
+    src: url('../fonts/gta/GTAmerica-MediumItalic.eot');
+    src: local('GT America Medium Italic'), local('GTAmerica-MediumItalic'), url('../fonts/gta/GTAmerica-MediumItalic.eot?#iefix') format('embedded-opentype'), url('../fonts/gta/GTAmerica-MediumItalic.woff2') format('woff2'), url('../fonts/gta/GTAmerica-MediumItalic.woff') format('woff'), url('../fonts/gta/GTAmerica-MediumItalic.ttf') format('truetype'), url('../fonts/gta/GTAmerica-MediumItalic.svg#GTAmerica-MediumItalic') format('svg');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'GT America Condensed';
+    src: url('../fonts/gta/GTAmerica-CondensedRegularItalic.eot');
+    src: local('GT America Condensed Regular Italic'), local('GTAmerica-CondensedRegularItalic'), url('../fonts/gta/GTAmerica-CondensedRegularItalic.eot?#iefix') format('embedded-opentype'), url('../fonts/gta/GTAmerica-CondensedRegularItalic.woff2') format('woff2'), url('../fonts/gta/GTAmerica-CondensedRegularItalic.woff') format('woff'), url('../fonts/gta/GTAmerica-CondensedRegularItalic.ttf') format('truetype'), url('../fonts/gta/GTAmerica-CondensedRegularItalic.svg#GTAmerica-CondensedRegularItalic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'GT America';
+    src: url('../fonts/gta/GTAmerica-Black.eot');
+    src: local('GT America Black'), local('GTAmerica-Black'), url('../fonts/gta/GTAmerica-Black.eot?#iefix') format('embedded-opentype'), url('../fonts/gta/GTAmerica-Black.woff2') format('woff2'), url('../fonts/gta/GTAmerica-Black.woff') format('woff'), url('../fonts/gta/GTAmerica-Black.ttf') format('truetype'), url('../fonts/gta/GTAmerica-Black.svg#GTAmerica-Black') format('svg');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GT America Compressed';
+    src: url('../fonts/gta/GTAmerica-CompressedBoldItalic.eot');
+    src: local('GT America Compressed Bold Italic'), local('GTAmerica-CompressedBoldItalic'), url('../fonts/gta/GTAmerica-CompressedBoldItalic.eot?#iefix') format('embedded-opentype'), url('../fonts/gta/GTAmerica-CompressedBoldItalic.woff2') format('woff2'), url('../fonts/gta/GTAmerica-CompressedBoldItalic.woff') format('woff'), url('../fonts/gta/GTAmerica-CompressedBoldItalic.ttf') format('truetype'), url('../fonts/gta/GTAmerica-CompressedBoldItalic.svg#GTAmerica-CompressedBoldItalic') format('svg');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'GT America Ultra';
+    src: url('../fonts/gta/GTAmerica-UltraLightItalic.eot');
+    src: local('GT America Ultra Light Italic'), local('GTAmerica-UltraLightItalic'), url('../fonts/gta/GTAmerica-UltraLightItalic.eot?#iefix') format('embedded-opentype'), url('../fonts/gta/GTAmerica-UltraLightItalic.woff2') format('woff2'), url('../fonts/gta/GTAmerica-UltraLightItalic.woff') format('woff'), url('../fonts/gta/GTAmerica-UltraLightItalic.ttf') format('truetype'), url('../fonts/gta/GTAmerica-UltraLightItalic.svg#GTAmerica-UltraLightItalic') format('svg');
+    font-weight: 200;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'GT America Compressed';
+    src: url('../fonts/gta/GTAmerica-CompressedThin.eot');
+    src: local('GT America Compressed Thin'), local('GTAmerica-CompressedThin'), url('../fonts/gta/GTAmerica-CompressedThin.eot?#iefix') format('embedded-opentype'), url('../fonts/gta/GTAmerica-CompressedThin.woff2') format('woff2'), url('../fonts/gta/GTAmerica-CompressedThin.woff') format('woff'), url('../fonts/gta/GTAmerica-CompressedThin.ttf') format('truetype'), url('../fonts/gta/GTAmerica-CompressedThin.svg#GTAmerica-CompressedThin') format('svg');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GT America Extended';
+    src: url('../fonts/gta/GTAmerica-ExtendedBold.eot');
+    src: local('GT America Extended Bold'), local('GTAmerica-ExtendedBold'), url('../fonts/gta/GTAmerica-ExtendedBold.eot?#iefix') format('embedded-opentype'), url('../fonts/gta/GTAmerica-ExtendedBold.woff2') format('woff2'), url('../fonts/gta/GTAmerica-ExtendedBold.woff') format('woff'), url('../fonts/gta/GTAmerica-ExtendedBold.ttf') format('truetype'), url('../fonts/gta/GTAmerica-ExtendedBold.svg#GTAmerica-ExtendedBold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GT America Extended Ultra';
+    src: url('../fonts/gta/GTAmerica-ExtendedUltraLight.eot');
+    src: local('GT America Extended Ultra Light'), local('GTAmerica-ExtendedUltraLight'), url('../fonts/gta/GTAmerica-ExtendedUltraLight.eot?#iefix') format('embedded-opentype'), url('../fonts/gta/GTAmerica-ExtendedUltraLight.woff2') format('woff2'), url('../fonts/gta/GTAmerica-ExtendedUltraLight.woff') format('woff'), url('../fonts/gta/GTAmerica-ExtendedUltraLight.ttf') format('truetype'), url('../fonts/gta/GTAmerica-ExtendedUltraLight.svg#GTAmerica-ExtendedUltraLight') format('svg');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GT America Mono';
+    src: url('../fonts/gta/GTAmericaMono-Thin.eot');
+    src: local('GT America Mono Thin'), local('GTAmericaMono-Thin'), url('../fonts/gta/GTAmericaMono-Thin.eot?#iefix') format('embedded-opentype'), url('../fonts/gta/GTAmericaMono-Thin.woff2') format('woff2'), url('../fonts/gta/GTAmericaMono-Thin.woff') format('woff'), url('../fonts/gta/GTAmericaMono-Thin.ttf') format('truetype'), url('../fonts/gta/GTAmericaMono-Thin.svg#GTAmericaMono-Thin') format('svg');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GT America';
+    src: url('../fonts/gta/GTAmerica-Regular.eot');
+    src: local('GT America Regular'), local('GTAmerica-Regular'), url('../fonts/gta/GTAmerica-Regular.eot?#iefix') format('embedded-opentype'), url('../fonts/gta/GTAmerica-Regular.woff2') format('woff2'), url('../fonts/gta/GTAmerica-Regular.woff') format('woff'), url('../fonts/gta/GTAmerica-Regular.ttf') format('truetype'), url('../fonts/gta/GTAmerica-Regular.svg#GTAmerica-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GT America Extended';
+    src: url('../fonts/gta/GTAmerica-ExtendedThinItalic.eot');
+    src: local('GT America Extended Thin Italic'), local('GTAmerica-ExtendedThinItalic'), url('../fonts/gta/GTAmerica-ExtendedThinItalic.eot?#iefix') format('embedded-opentype'), url('../fonts/gta/GTAmerica-ExtendedThinItalic.woff2') format('woff2'), url('../fonts/gta/GTAmerica-ExtendedThinItalic.woff') format('woff'), url('../fonts/gta/GTAmerica-ExtendedThinItalic.ttf') format('truetype'), url('../fonts/gta/GTAmerica-ExtendedThinItalic.svg#GTAmerica-ExtendedThinItalic') format('svg');
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'GT America Expanded';
+    src: url('../fonts/gta/GTAmerica-ExpandedThin.eot');
+    src: local('GT America Expanded Thin'), local('GTAmerica-ExpandedThin'), url('../fonts/gta/GTAmerica-ExpandedThin.eot?#iefix') format('embedded-opentype'), url('../fonts/gta/GTAmerica-ExpandedThin.woff2') format('woff2'), url('../fonts/gta/GTAmerica-ExpandedThin.woff') format('woff'), url('../fonts/gta/GTAmerica-ExpandedThin.ttf') format('truetype'), url('../fonts/gta/GTAmerica-ExpandedThin.svg#GTAmerica-ExpandedThin') format('svg');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GT America Mono';
+    src: url('../fonts/gta/GTAmericaMono-BoldItalic.eot');
+    src: local('GT America Mono Bold Italic'), local('GTAmericaMono-BoldItalic'), url('../fonts/gta/GTAmericaMono-BoldItalic.eot?#iefix') format('embedded-opentype'), url('../fonts/gta/GTAmericaMono-BoldItalic.woff2') format('woff2'), url('../fonts/gta/GTAmericaMono-BoldItalic.woff') format('woff'), url('../fonts/gta/GTAmericaMono-BoldItalic.ttf') format('truetype'), url('../fonts/gta/GTAmericaMono-BoldItalic.svg#GTAmericaMono-BoldItalic') format('svg');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'GT America Mono';
+    src: url('../fonts/gta/GTAmericaMono-LightItalic.eot');
+    src: local('GT America Mono Light Italic'), local('GTAmericaMono-LightItalic'), url('../fonts/gta/GTAmericaMono-LightItalic.eot?#iefix') format('embedded-opentype'), url('../fonts/gta/GTAmericaMono-LightItalic.woff2') format('woff2'), url('../fonts/gta/GTAmericaMono-LightItalic.woff') format('woff'), url('../fonts/gta/GTAmericaMono-LightItalic.ttf') format('truetype'), url('../fonts/gta/GTAmericaMono-LightItalic.svg#GTAmericaMono-LightItalic') format('svg');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'GT America';
+    src: url('../fonts/gta/GTAmerica-ThinItalic.eot');
+    src: local('GT America Thin Italic'), local('GTAmerica-ThinItalic'), url('../fonts/gta/GTAmerica-ThinItalic.eot?#iefix') format('embedded-opentype'), url('../fonts/gta/GTAmerica-ThinItalic.woff2') format('woff2'), url('../fonts/gta/GTAmerica-ThinItalic.woff') format('woff'), url('../fonts/gta/GTAmerica-ThinItalic.ttf') format('truetype'), url('../fonts/gta/GTAmerica-ThinItalic.svg#GTAmerica-ThinItalic') format('svg');
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'GT America Extended';
+    src: url('../fonts/gta/GTAmerica-ExtendedRegular.eot');
+    src: local('GT America Extended Regular'), local('GTAmerica-ExtendedRegular'), url('../fonts/gta/GTAmerica-ExtendedRegular.eot?#iefix') format('embedded-opentype'), url('../fonts/gta/GTAmerica-ExtendedRegular.woff2') format('woff2'), url('../fonts/gta/GTAmerica-ExtendedRegular.woff') format('woff'), url('../fonts/gta/GTAmerica-ExtendedRegular.ttf') format('truetype'), url('../fonts/gta/GTAmerica-ExtendedRegular.svg#GTAmerica-ExtendedRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GT America Compressed';
+    src: url('../fonts/gta/GTAmerica-CompressedBlackItalic.eot');
+    src: local('GT America Compressed Black Italic'), local('GTAmerica-CompressedBlackItalic'), url('../fonts/gta/GTAmerica-CompressedBlackItalic.eot?#iefix') format('embedded-opentype'), url('../fonts/gta/GTAmerica-CompressedBlackItalic.woff2') format('woff2'), url('../fonts/gta/GTAmerica-CompressedBlackItalic.woff') format('woff'), url('../fonts/gta/GTAmerica-CompressedBlackItalic.ttf') format('truetype'), url('../fonts/gta/GTAmerica-CompressedBlackItalic.svg#GTAmerica-CompressedBlackItalic') format('svg');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'GT America Mono';
+    src: url('../fonts/gta/GTAmericaMono-Regular.eot');
+    src: local('GT America Mono Regular'), local('GTAmericaMono-Regular'), url('../fonts/gta/GTAmericaMono-Regular.eot?#iefix') format('embedded-opentype'), url('../fonts/gta/GTAmericaMono-Regular.woff2') format('woff2'), url('../fonts/gta/GTAmericaMono-Regular.woff') format('woff'), url('../fonts/gta/GTAmericaMono-Regular.ttf') format('truetype'), url('../fonts/gta/GTAmericaMono-Regular.svg#GTAmericaMono-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GT America';
+    src: url('../fonts/gta/GTAmerica-LightItalic.eot');
+    src: local('GT America Light Italic'), local('GTAmerica-LightItalic'), url('../fonts/gta/GTAmerica-LightItalic.eot?#iefix') format('embedded-opentype'), url('../fonts/gta/GTAmerica-LightItalic.woff2') format('woff2'), url('../fonts/gta/GTAmerica-LightItalic.woff') format('woff'), url('../fonts/gta/GTAmerica-LightItalic.ttf') format('truetype'), url('../fonts/gta/GTAmerica-LightItalic.svg#GTAmerica-LightItalic') format('svg');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'GT America Expanded';
+    src: url('../fonts/gta/GTAmerica-ExpandedBoldItalic.eot');
+    src: local('GT America Expanded Bold Italic'), local('GTAmerica-ExpandedBoldItalic'), url('../fonts/gta/GTAmerica-ExpandedBoldItalic.eot?#iefix') format('embedded-opentype'), url('../fonts/gta/GTAmerica-ExpandedBoldItalic.woff2') format('woff2'), url('../fonts/gta/GTAmerica-ExpandedBoldItalic.woff') format('woff'), url('../fonts/gta/GTAmerica-ExpandedBoldItalic.ttf') format('truetype'), url('../fonts/gta/GTAmerica-ExpandedBoldItalic.svg#GTAmerica-ExpandedBoldItalic') format('svg');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'GT America Extended Ultra';
+    src: url('../fonts/gta/GTAmerica-ExtendedUltraLightItalic.eot');
+    src: local('GT America Extended Ultra Light Italic'), local('GTAmerica-ExtendedUltraLightItalic'), url('../fonts/gta/GTAmerica-ExtendedUltraLightItalic.eot?#iefix') format('embedded-opentype'), url('../fonts/gta/GTAmerica-ExtendedUltraLightItalic.woff2') format('woff2'), url('../fonts/gta/GTAmerica-ExtendedUltraLightItalic.woff') format('woff'), url('../fonts/gta/GTAmerica-ExtendedUltraLightItalic.ttf') format('truetype'), url('../fonts/gta/GTAmerica-ExtendedUltraLightItalic.svg#GTAmerica-ExtendedUltraLightItalic') format('svg');
+    font-weight: 200;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'GT America Condensed';
+    src: url('../fonts/gta/GTAmerica-CondensedLightItalic.eot');
+    src: local('GT America Condensed Light Italic'), local('GTAmerica-CondensedLightItalic'), url('../fonts/gta/GTAmerica-CondensedLightItalic.eot?#iefix') format('embedded-opentype'), url('../fonts/gta/GTAmerica-CondensedLightItalic.woff2') format('woff2'), url('../fonts/gta/GTAmerica-CondensedLightItalic.woff') format('woff'), url('../fonts/gta/GTAmerica-CondensedLightItalic.ttf') format('truetype'), url('../fonts/gta/GTAmerica-CondensedLightItalic.svg#GTAmerica-CondensedLightItalic') format('svg');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'GT America Condensed';
+    src: url('../fonts/gta/GTAmerica-CondensedMediumItalic.eot');
+    src: local('GT America Condensed Medium Italic'), local('GTAmerica-CondensedMediumItalic'), url('../fonts/gta/GTAmerica-CondensedMediumItalic.eot?#iefix') format('embedded-opentype'), url('../fonts/gta/GTAmerica-CondensedMediumItalic.woff2') format('woff2'), url('../fonts/gta/GTAmerica-CondensedMediumItalic.woff') format('woff'), url('../fonts/gta/GTAmerica-CondensedMediumItalic.ttf') format('truetype'), url('../fonts/gta/GTAmerica-CondensedMediumItalic.svg#GTAmerica-CondensedMediumItalic') format('svg');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'GT America Expanded';
+    src: url('../fonts/gta/GTAmerica-ExpandedLight.eot');
+    src: local('GT America Expanded Light'), local('GTAmerica-ExpandedLight'), url('../fonts/gta/GTAmerica-ExpandedLight.eot?#iefix') format('embedded-opentype'), url('../fonts/gta/GTAmerica-ExpandedLight.woff2') format('woff2'), url('../fonts/gta/GTAmerica-ExpandedLight.woff') format('woff'), url('../fonts/gta/GTAmerica-ExpandedLight.ttf') format('truetype'), url('../fonts/gta/GTAmerica-ExpandedLight.svg#GTAmerica-ExpandedLight') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GT America';
+    src: url('../fonts/gta/GTAmerica-BlackItalic.eot');
+    src: local('GT America Black Italic'), local('GTAmerica-BlackItalic'), url('../fonts/gta/GTAmerica-BlackItalic.eot?#iefix') format('embedded-opentype'), url('../fonts/gta/GTAmerica-BlackItalic.woff2') format('woff2'), url('../fonts/gta/GTAmerica-BlackItalic.woff') format('woff'), url('../fonts/gta/GTAmerica-BlackItalic.ttf') format('truetype'), url('../fonts/gta/GTAmerica-BlackItalic.svg#GTAmerica-BlackItalic') format('svg');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'GT America';
+    src: url('../fonts/gta/GTAmerica-BoldItalic.eot');
+    src: local('GT America Bold Italic'), local('GTAmerica-BoldItalic'), url('../fonts/gta/GTAmerica-BoldItalic.eot?#iefix') format('embedded-opentype'), url('../fonts/gta/GTAmerica-BoldItalic.woff2') format('woff2'), url('../fonts/gta/GTAmerica-BoldItalic.woff') format('woff'), url('../fonts/gta/GTAmerica-BoldItalic.ttf') format('truetype'), url('../fonts/gta/GTAmerica-BoldItalic.svg#GTAmerica-BoldItalic') format('svg');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'GT America Mono Ultra';
+    src: url('../fonts/gta/GTAmericaMono-UltraLightItalic.eot');
+    src: local('GT America Mono Ultra Light Italic'), local('GTAmericaMono-UltraLightItalic'), url('../fonts/gta/GTAmericaMono-UltraLightItalic.eot?#iefix') format('embedded-opentype'), url('../fonts/gta/GTAmericaMono-UltraLightItalic.woff2') format('woff2'), url('../fonts/gta/GTAmericaMono-UltraLightItalic.woff') format('woff'), url('../fonts/gta/GTAmericaMono-UltraLightItalic.ttf') format('truetype'), url('../fonts/gta/GTAmericaMono-UltraLightItalic.svg#GTAmericaMono-UltraLightItalic') format('svg');
+    font-weight: 200;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'GT America';
+    src: url('../fonts/gta/GTAmerica-Bold.eot');
+    src: local('GT America Bold'), local('GTAmerica-Bold'), url('../fonts/gta/GTAmerica-Bold.eot?#iefix') format('embedded-opentype'), url('../fonts/gta/GTAmerica-Bold.woff2') format('woff2'), url('../fonts/gta/GTAmerica-Bold.woff') format('woff'), url('../fonts/gta/GTAmerica-Bold.ttf') format('truetype'), url('../fonts/gta/GTAmerica-Bold.svg#GTAmerica-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GT America Mono';
+    src: url('../fonts/gta/GTAmericaMono-ThinItalic.eot');
+    src: local('GT America Mono Thin Italic'), local('GTAmericaMono-ThinItalic'), url('../fonts/gta/GTAmericaMono-ThinItalic.eot?#iefix') format('embedded-opentype'), url('../fonts/gta/GTAmericaMono-ThinItalic.woff2') format('woff2'), url('../fonts/gta/GTAmericaMono-ThinItalic.woff') format('woff'), url('../fonts/gta/GTAmericaMono-ThinItalic.ttf') format('truetype'), url('../fonts/gta/GTAmericaMono-ThinItalic.svg#GTAmericaMono-ThinItalic') format('svg');
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'GT America Expanded';
+    src: url('../fonts/gta/GTAmerica-ExpandedBold.eot');
+    src: local('GT America Expanded Bold'), local('GTAmerica-ExpandedBold'), url('../fonts/gta/GTAmerica-ExpandedBold.eot?#iefix') format('embedded-opentype'), url('../fonts/gta/GTAmerica-ExpandedBold.woff2') format('woff2'), url('../fonts/gta/GTAmerica-ExpandedBold.woff') format('woff'), url('../fonts/gta/GTAmerica-ExpandedBold.ttf') format('truetype'), url('../fonts/gta/GTAmerica-ExpandedBold.svg#GTAmerica-ExpandedBold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GT America Compressed';
+    src: url('../fonts/gta/GTAmerica-CompressedRegular.eot');
+    src: local('GT America Compressed Regular'), local('GTAmerica-CompressedRegular'), url('../fonts/gta/GTAmerica-CompressedRegular.eot?#iefix') format('embedded-opentype'), url('../fonts/gta/GTAmerica-CompressedRegular.woff2') format('woff2'), url('../fonts/gta/GTAmerica-CompressedRegular.woff') format('woff'), url('../fonts/gta/GTAmerica-CompressedRegular.ttf') format('truetype'), url('../fonts/gta/GTAmerica-CompressedRegular.svg#GTAmerica-CompressedRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GT America Expanded';
+    src: url('../fonts/gta/GTAmerica-ExpandedRegularItalic.eot');
+    src: local('GT America Expanded Regular Italic'), local('GTAmerica-ExpandedRegularItalic'), url('../fonts/gta/GTAmerica-ExpandedRegularItalic.eot?#iefix') format('embedded-opentype'), url('../fonts/gta/GTAmerica-ExpandedRegularItalic.woff2') format('woff2'), url('../fonts/gta/GTAmerica-ExpandedRegularItalic.woff') format('woff'), url('../fonts/gta/GTAmerica-ExpandedRegularItalic.ttf') format('truetype'), url('../fonts/gta/GTAmerica-ExpandedRegularItalic.svg#GTAmerica-ExpandedRegularItalic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'GT America Condensed';
+    src: url('../fonts/gta/GTAmerica-CondensedBlackItalic.eot');
+    src: local('GT America Condensed Black Italic'), local('GTAmerica-CondensedBlackItalic'), url('../fonts/gta/GTAmerica-CondensedBlackItalic.eot?#iefix') format('embedded-opentype'), url('../fonts/gta/GTAmerica-CondensedBlackItalic.woff2') format('woff2'), url('../fonts/gta/GTAmerica-CondensedBlackItalic.woff') format('woff'), url('../fonts/gta/GTAmerica-CondensedBlackItalic.ttf') format('truetype'), url('../fonts/gta/GTAmerica-CondensedBlackItalic.svg#GTAmerica-CondensedBlackItalic') format('svg');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'GT America Expanded Ultra';
+    src: url('../fonts/gta/GTAmerica-ExpandedUltraLight.eot');
+    src: local('GT America Expanded Ultra Light'), local('GTAmerica-ExpandedUltraLight'), url('../fonts/gta/GTAmerica-ExpandedUltraLight.eot?#iefix') format('embedded-opentype'), url('../fonts/gta/GTAmerica-ExpandedUltraLight.woff2') format('woff2'), url('../fonts/gta/GTAmerica-ExpandedUltraLight.woff') format('woff'), url('../fonts/gta/GTAmerica-ExpandedUltraLight.ttf') format('truetype'), url('../fonts/gta/GTAmerica-ExpandedUltraLight.svg#GTAmerica-ExpandedUltraLight') format('svg');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GT America Compressed';
+    src: url('../fonts/gta/GTAmerica-CompressedRegularItalic.eot');
+    src: local('GT America Compressed Regular Italic'), local('GTAmerica-CompressedRegularItalic'), url('../fonts/gta/GTAmerica-CompressedRegularItalic.eot?#iefix') format('embedded-opentype'), url('../fonts/gta/GTAmerica-CompressedRegularItalic.woff2') format('woff2'), url('../fonts/gta/GTAmerica-CompressedRegularItalic.woff') format('woff'), url('../fonts/gta/GTAmerica-CompressedRegularItalic.ttf') format('truetype'), url('../fonts/gta/GTAmerica-CompressedRegularItalic.svg#GTAmerica-CompressedRegularItalic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'GT America Mono';
+    src: url('../fonts/gta/GTAmericaMono-Light.eot');
+    src: local('GT America Mono Light'), local('GTAmericaMono-Light'), url('../fonts/gta/GTAmericaMono-Light.eot?#iefix') format('embedded-opentype'), url('../fonts/gta/GTAmericaMono-Light.woff2') format('woff2'), url('../fonts/gta/GTAmericaMono-Light.woff') format('woff'), url('../fonts/gta/GTAmericaMono-Light.ttf') format('truetype'), url('../fonts/gta/GTAmericaMono-Light.svg#GTAmericaMono-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GT America Extended';
+    src: url('../fonts/gta/GTAmerica-ExtendedBoldItalic.eot');
+    src: local('GT America Extended Bold Italic'), local('GTAmerica-ExtendedBoldItalic'), url('../fonts/gta/GTAmerica-ExtendedBoldItalic.eot?#iefix') format('embedded-opentype'), url('../fonts/gta/GTAmerica-ExtendedBoldItalic.woff2') format('woff2'), url('../fonts/gta/GTAmerica-ExtendedBoldItalic.woff') format('woff'), url('../fonts/gta/GTAmerica-ExtendedBoldItalic.ttf') format('truetype'), url('../fonts/gta/GTAmerica-ExtendedBoldItalic.svg#GTAmerica-ExtendedBoldItalic') format('svg');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'GT America';
+    src: url('../fonts/gta/GTAmerica-Medium.eot');
+    src: local('GT America Medium'), local('GTAmerica-Medium'), url('../fonts/gta/GTAmerica-Medium.eot?#iefix') format('embedded-opentype'), url('../fonts/gta/GTAmerica-Medium.woff2') format('woff2'), url('../fonts/gta/GTAmerica-Medium.woff') format('woff'), url('../fonts/gta/GTAmerica-Medium.ttf') format('truetype'), url('../fonts/gta/GTAmerica-Medium.svg#GTAmerica-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GT America Expanded Ultra';
+    src: url('../fonts/gta/GTAmerica-ExpandedUltraLightItalic.eot');
+    src: local('GT America Expanded Ultra Light Italic'), local('GTAmerica-ExpandedUltraLightItalic'), url('../fonts/gta/GTAmerica-ExpandedUltraLightItalic.eot?#iefix') format('embedded-opentype'), url('../fonts/gta/GTAmerica-ExpandedUltraLightItalic.woff2') format('woff2'), url('../fonts/gta/GTAmerica-ExpandedUltraLightItalic.woff') format('woff'), url('../fonts/gta/GTAmerica-ExpandedUltraLightItalic.ttf') format('truetype'), url('../fonts/gta/GTAmerica-ExpandedUltraLightItalic.svg#GTAmerica-ExpandedUltraLightItalic') format('svg');
+    font-weight: 200;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'GT America Expanded';
+    src: url('../fonts/gta/GTAmerica-ExpandedLightItalic.eot');
+    src: local('GT America Expanded Light Italic'), local('GTAmerica-ExpandedLightItalic'), url('../fonts/gta/GTAmerica-ExpandedLightItalic.eot?#iefix') format('embedded-opentype'), url('../fonts/gta/GTAmerica-ExpandedLightItalic.woff2') format('woff2'), url('../fonts/gta/GTAmerica-ExpandedLightItalic.woff') format('woff'), url('../fonts/gta/GTAmerica-ExpandedLightItalic.ttf') format('truetype'), url('../fonts/gta/GTAmerica-ExpandedLightItalic.svg#GTAmerica-ExpandedLightItalic') format('svg');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'GT America Extended';
+    src: url('../fonts/gta/GTAmerica-ExtendedBlackItalic.eot');
+    src: local('GT America Extended Black Italic'), local('GTAmerica-ExtendedBlackItalic'), url('../fonts/gta/GTAmerica-ExtendedBlackItalic.eot?#iefix') format('embedded-opentype'), url('../fonts/gta/GTAmerica-ExtendedBlackItalic.woff2') format('woff2'), url('../fonts/gta/GTAmerica-ExtendedBlackItalic.woff') format('woff'), url('../fonts/gta/GTAmerica-ExtendedBlackItalic.ttf') format('truetype'), url('../fonts/gta/GTAmerica-ExtendedBlackItalic.svg#GTAmerica-ExtendedBlackItalic') format('svg');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'GT America Condensed';
+    src: url('../fonts/gta/GTAmerica-CondensedThin.eot');
+    src: local('GT America Condensed Thin'), local('GTAmerica-CondensedThin'), url('../fonts/gta/GTAmerica-CondensedThin.eot?#iefix') format('embedded-opentype'), url('../fonts/gta/GTAmerica-CondensedThin.woff2') format('woff2'), url('../fonts/gta/GTAmerica-CondensedThin.woff') format('woff'), url('../fonts/gta/GTAmerica-CondensedThin.ttf') format('truetype'), url('../fonts/gta/GTAmerica-CondensedThin.svg#GTAmerica-CondensedThin') format('svg');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GT America Cond Ultra';
+    src: url('../fonts/gta/GTAmerica-CondensedUltraLight.eot');
+    src: local('GT America Condensed Ultra Light'), local('GTAmerica-CondensedUltraLight'), url('../fonts/gta/GTAmerica-CondensedUltraLight.eot?#iefix') format('embedded-opentype'), url('../fonts/gta/GTAmerica-CondensedUltraLight.woff2') format('woff2'), url('../fonts/gta/GTAmerica-CondensedUltraLight.woff') format('woff'), url('../fonts/gta/GTAmerica-CondensedUltraLight.ttf') format('truetype'), url('../fonts/gta/GTAmerica-CondensedUltraLight.svg#GTAmerica-CondensedUltraLight') format('svg');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GT America Extended';
+    src: url('../fonts/gta/GTAmerica-ExtendedRegularItalic.eot');
+    src: local('GT America Extended Regular Italic'), local('GTAmerica-ExtendedRegularItalic'), url('../fonts/gta/GTAmerica-ExtendedRegularItalic.eot?#iefix') format('embedded-opentype'), url('../fonts/gta/GTAmerica-ExtendedRegularItalic.woff2') format('woff2'), url('../fonts/gta/GTAmerica-ExtendedRegularItalic.woff') format('woff'), url('../fonts/gta/GTAmerica-ExtendedRegularItalic.ttf') format('truetype'), url('../fonts/gta/GTAmerica-ExtendedRegularItalic.svg#GTAmerica-ExtendedRegularItalic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'GT America Compressed';
+    src: url('../fonts/gta/GTAmerica-CompressedBold.eot');
+    src: local('GT America Compressed Bold'), local('GTAmerica-CompressedBold'), url('../fonts/gta/GTAmerica-CompressedBold.eot?#iefix') format('embedded-opentype'), url('../fonts/gta/GTAmerica-CompressedBold.woff2') format('woff2'), url('../fonts/gta/GTAmerica-CompressedBold.woff') format('woff'), url('../fonts/gta/GTAmerica-CompressedBold.ttf') format('truetype'), url('../fonts/gta/GTAmerica-CompressedBold.svg#GTAmerica-CompressedBold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GT America Expanded';
+    src: url('../fonts/gta/GTAmerica-ExpandedThinItalic.eot');
+    src: local('GT America Expanded Thin Italic'), local('GTAmerica-ExpandedThinItalic'), url('../fonts/gta/GTAmerica-ExpandedThinItalic.eot?#iefix') format('embedded-opentype'), url('../fonts/gta/GTAmerica-ExpandedThinItalic.woff2') format('woff2'), url('../fonts/gta/GTAmerica-ExpandedThinItalic.woff') format('woff'), url('../fonts/gta/GTAmerica-ExpandedThinItalic.ttf') format('truetype'), url('../fonts/gta/GTAmerica-ExpandedThinItalic.svg#GTAmerica-ExpandedThinItalic') format('svg');
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'GT America Extended';
+    src: url('../fonts/gta/GTAmerica-ExtendedMedium.eot');
+    src: local('GT America Extended Medium'), local('GTAmerica-ExtendedMedium'), url('../fonts/gta/GTAmerica-ExtendedMedium.eot?#iefix') format('embedded-opentype'), url('../fonts/gta/GTAmerica-ExtendedMedium.woff2') format('woff2'), url('../fonts/gta/GTAmerica-ExtendedMedium.woff') format('woff'), url('../fonts/gta/GTAmerica-ExtendedMedium.ttf') format('truetype'), url('../fonts/gta/GTAmerica-ExtendedMedium.svg#GTAmerica-ExtendedMedium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GT America Ultra';
+    src: url('../fonts/gta/GTAmerica-UltraLight.eot');
+    src: local('GT America Ultra Light'), local('GTAmerica-UltraLight'), url('../fonts/gta/GTAmerica-UltraLight.eot?#iefix') format('embedded-opentype'), url('../fonts/gta/GTAmerica-UltraLight.woff2') format('woff2'), url('../fonts/gta/GTAmerica-UltraLight.woff') format('woff'), url('../fonts/gta/GTAmerica-UltraLight.ttf') format('truetype'), url('../fonts/gta/GTAmerica-UltraLight.svg#GTAmerica-UltraLight') format('svg');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GT America';
+    src: url('../fonts/gta/GTAmerica-RegularItalic.eot');
+    src: local('GT America Regular Italic'), local('GTAmerica-RegularItalic'), url('../fonts/gta/GTAmerica-RegularItalic.eot?#iefix') format('embedded-opentype'), url('../fonts/gta/GTAmerica-RegularItalic.woff2') format('woff2'), url('../fonts/gta/GTAmerica-RegularItalic.woff') format('woff'), url('../fonts/gta/GTAmerica-RegularItalic.ttf') format('truetype'), url('../fonts/gta/GTAmerica-RegularItalic.svg#GTAmerica-RegularItalic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'GT America Mono';
+    src: url('../fonts/gta/GTAmericaMono-Black.eot');
+    src: local('GT America Mono Black'), local('GTAmericaMono-Black'), url('../fonts/gta/GTAmericaMono-Black.eot?#iefix') format('embedded-opentype'), url('../fonts/gta/GTAmericaMono-Black.woff2') format('woff2'), url('../fonts/gta/GTAmericaMono-Black.woff') format('woff'), url('../fonts/gta/GTAmericaMono-Black.ttf') format('truetype'), url('../fonts/gta/GTAmericaMono-Black.svg#GTAmericaMono-Black') format('svg');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GT America Compressed';
+    src: url('../fonts/gta/GTAmerica-CompressedMediumItalic.eot');
+    src: local('GT America Compressed Medium Italic'), local('GTAmerica-CompressedMediumItalic'), url('../fonts/gta/GTAmerica-CompressedMediumItalic.eot?#iefix') format('embedded-opentype'), url('../fonts/gta/GTAmerica-CompressedMediumItalic.woff2') format('woff2'), url('../fonts/gta/GTAmerica-CompressedMediumItalic.woff') format('woff'), url('../fonts/gta/GTAmerica-CompressedMediumItalic.ttf') format('truetype'), url('../fonts/gta/GTAmerica-CompressedMediumItalic.svg#GTAmerica-CompressedMediumItalic') format('svg');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'GT America Extended';
+    src: url('../fonts/gta/GTAmerica-ExtendedMediumItalic.eot');
+    src: local('GT America Extended Medium Italic'), local('GTAmerica-ExtendedMediumItalic'), url('../fonts/gta/GTAmerica-ExtendedMediumItalic.eot?#iefix') format('embedded-opentype'), url('../fonts/gta/GTAmerica-ExtendedMediumItalic.woff2') format('woff2'), url('../fonts/gta/GTAmerica-ExtendedMediumItalic.woff') format('woff'), url('../fonts/gta/GTAmerica-ExtendedMediumItalic.ttf') format('truetype'), url('../fonts/gta/GTAmerica-ExtendedMediumItalic.svg#GTAmerica-ExtendedMediumItalic') format('svg');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'GT America';
+    src: url('../fonts/gta/GTAmerica-Thin.eot');
+    src: local('GT America Thin'), local('GTAmerica-Thin'), url('../fonts/gta/GTAmerica-Thin.eot?#iefix') format('embedded-opentype'), url('../fonts/gta/GTAmerica-Thin.woff2') format('woff2'), url('../fonts/gta/GTAmerica-Thin.woff') format('woff'), url('../fonts/gta/GTAmerica-Thin.ttf') format('truetype'), url('../fonts/gta/GTAmerica-Thin.svg#GTAmerica-Thin') format('svg');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GT America Condensed';
+    src: url('../fonts/gta/GTAmerica-CondensedBold.eot');
+    src: local('GT America Condensed Bold'), local('GTAmerica-CondensedBold'), url('../fonts/gta/GTAmerica-CondensedBold.eot?#iefix') format('embedded-opentype'), url('../fonts/gta/GTAmerica-CondensedBold.woff2') format('woff2'), url('../fonts/gta/GTAmerica-CondensedBold.woff') format('woff'), url('../fonts/gta/GTAmerica-CondensedBold.ttf') format('truetype'), url('../fonts/gta/GTAmerica-CondensedBold.svg#GTAmerica-CondensedBold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GT America Expanded';
+    src: url('../fonts/gta/GTAmerica-ExpandedBlackItalic.eot');
+    src: local('GT America Expanded Black Italic'), local('GTAmerica-ExpandedBlackItalic'), url('../fonts/gta/GTAmerica-ExpandedBlackItalic.eot?#iefix') format('embedded-opentype'), url('../fonts/gta/GTAmerica-ExpandedBlackItalic.woff2') format('woff2'), url('../fonts/gta/GTAmerica-ExpandedBlackItalic.woff') format('woff'), url('../fonts/gta/GTAmerica-ExpandedBlackItalic.ttf') format('truetype'), url('../fonts/gta/GTAmerica-ExpandedBlackItalic.svg#GTAmerica-ExpandedBlackItalic') format('svg');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'GT America Expanded';
+    src: url('../fonts/gta/GTAmerica-ExpandedRegular.eot');
+    src: local('GT America Expanded Regular'), local('GTAmerica-ExpandedRegular'), url('../fonts/gta/GTAmerica-ExpandedRegular.eot?#iefix') format('embedded-opentype'), url('../fonts/gta/GTAmerica-ExpandedRegular.woff2') format('woff2'), url('../fonts/gta/GTAmerica-ExpandedRegular.woff') format('woff'), url('../fonts/gta/GTAmerica-ExpandedRegular.ttf') format('truetype'), url('../fonts/gta/GTAmerica-ExpandedRegular.svg#GTAmerica-ExpandedRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GT America Extended';
+    src: url('../fonts/gta/GTAmerica-ExtendedBlack.eot');
+    src: local('GT America Extended Black'), local('GTAmerica-ExtendedBlack'), url('../fonts/gta/GTAmerica-ExtendedBlack.eot?#iefix') format('embedded-opentype'), url('../fonts/gta/GTAmerica-ExtendedBlack.woff2') format('woff2'), url('../fonts/gta/GTAmerica-ExtendedBlack.woff') format('woff'), url('../fonts/gta/GTAmerica-ExtendedBlack.ttf') format('truetype'), url('../fonts/gta/GTAmerica-ExtendedBlack.svg#GTAmerica-ExtendedBlack') format('svg');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GT America Compressed';
+    src: url('../fonts/gta/GTAmerica-CompressedThinItalic.eot');
+    src: local('GT America Compressed Thin Italic'), local('GTAmerica-CompressedThinItalic'), url('../fonts/gta/GTAmerica-CompressedThinItalic.eot?#iefix') format('embedded-opentype'), url('../fonts/gta/GTAmerica-CompressedThinItalic.woff2') format('woff2'), url('../fonts/gta/GTAmerica-CompressedThinItalic.woff') format('woff'), url('../fonts/gta/GTAmerica-CompressedThinItalic.ttf') format('truetype'), url('../fonts/gta/GTAmerica-CompressedThinItalic.svg#GTAmerica-CompressedThinItalic') format('svg');
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'GT America Cond Ultra';
+    src: url('../fonts/gta/GTAmerica-CondensedUltraLightItalic.eot');
+    src: local('GT America Condensed Ultra Light Italic'), local('GTAmerica-CondensedUltraLightItalic'), url('../fonts/gta/GTAmerica-CondensedUltraLightItalic.eot?#iefix') format('embedded-opentype'), url('../fonts/gta/GTAmerica-CondensedUltraLightItalic.woff2') format('woff2'), url('../fonts/gta/GTAmerica-CondensedUltraLightItalic.woff') format('woff'), url('../fonts/gta/GTAmerica-CondensedUltraLightItalic.ttf') format('truetype'), url('../fonts/gta/GTAmerica-CondensedUltraLightItalic.svg#GTAmerica-CondensedUltraLightItalic') format('svg');
+    font-weight: 200;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'GT America Condensed';
+    src: url('../fonts/gta/GTAmerica-CondensedRegular.eot');
+    src: local('GT America Condensed Regular'), local('GTAmerica-CondensedRegular'), url('../fonts/gta/GTAmerica-CondensedRegular.eot?#iefix') format('embedded-opentype'), url('../fonts/gta/GTAmerica-CondensedRegular.woff2') format('woff2'), url('../fonts/gta/GTAmerica-CondensedRegular.woff') format('woff'), url('../fonts/gta/GTAmerica-CondensedRegular.ttf') format('truetype'), url('../fonts/gta/GTAmerica-CondensedRegular.svg#GTAmerica-CondensedRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GT America Mono';
+    src: url('../fonts/gta/GTAmericaMono-Medium.eot');
+    src: local('GT America Mono Medium'), local('GTAmericaMono-Medium'), url('../fonts/gta/GTAmericaMono-Medium.eot?#iefix') format('embedded-opentype'), url('../fonts/gta/GTAmericaMono-Medium.woff2') format('woff2'), url('../fonts/gta/GTAmericaMono-Medium.woff') format('woff'), url('../fonts/gta/GTAmericaMono-Medium.ttf') format('truetype'), url('../fonts/gta/GTAmericaMono-Medium.svg#GTAmericaMono-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GT America Condensed';
+    src: url('../fonts/gta/GTAmerica-CondensedLight.eot');
+    src: local('GT America Condensed Light'), local('GTAmerica-CondensedLight'), url('../fonts/gta/GTAmerica-CondensedLight.eot?#iefix') format('embedded-opentype'), url('../fonts/gta/GTAmerica-CondensedLight.woff2') format('woff2'), url('../fonts/gta/GTAmerica-CondensedLight.woff') format('woff'), url('../fonts/gta/GTAmerica-CondensedLight.ttf') format('truetype'), url('../fonts/gta/GTAmerica-CondensedLight.svg#GTAmerica-CondensedLight') format('svg');
+    font-weight: 300;
     font-style: normal;
 }
