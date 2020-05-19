@@ -1,38 +1,45 @@
-<!DOCTYPE html>
-<html lang="en">
+---
+layout: default
+lang: en
+ref: index
+image: true
+exclude: true
+---
 
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <meta name="description" content="Marc Reyes is a data-driven developer who is into studying Machine Learning and Data Science.">
-    <meta name="author" content="Marc Reyes, info@marcreyes.ph">
-    <meta name="keywords" content="Marc Anthony Reyes, Marc Anthony, Marc Reyes, Projects, Marc Reyes Projects, Marc, Anthony, Reyes, Marc X, X, MX, M+X, Web Design, Website, Web Development, Web Dev, Freelancer, Speaking, Google, Google Developers, Code, Programming, Machine Learning">
-    <meta name="theme-color" content="#0100ff">
-    <meta property="og:title" content="Marc Reyes &mdash; Home">
-    <meta property="og:site_name" content="Marc Reyes &mdash; Home">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://marcreyes.ph/">
-    <meta property="og:image" content="https://marcreyes.ph/images/og-image.png/">
-    <meta property="og:description" content="Marc Reyes is a data-driven developer who is into studying Machine Learning and Data Science.">
-    <title>Marc Reyes &mdash; Home</title>
-    <link rel="shortcut icon" href="images/ico/favicon.ico">
-    <link rel="apple-touch-icon" href="images/ico/apple-touch-icon.png" />
-    <link rel="stylesheet" type="text/css" href="css/fonts/fontello/css/fontello.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap">
-    <link rel="stylesheet" type="text/css" href="css/main.css">
-</head>
+{% include core/metabar.html %}
 
-<body class="is-split-layout is-media-right">
-    <div class="media" style="background-image:url(images/hero.jpg)"></div>
-    <div class="content-wrap">
-        <div class="content">
-            <h1>I'm Marc Reyes, a <span class="underline">Software Engineer</span> focused on <span class="underline">Web Development</span>, <span class="underline">DevOps</span>, and <span class="underline">Machine Learning</span>.
-            </h1>
-            <h1>Get in touch at <span class="blue text underline"><a href="mailto:hello@marcreyes.ph?subject=Hi, Marc">hello@marcreyes.ph</a></span></h1>
-            <a class="button huge bold uppercase" href="https://marcrey.es/cv" target="_new">More About Me</a>
-        </div>
-    </div>
-    <script src="js/main.js"></script>
-</body>
+<article class="content">
 
-</html>
+  <header class="hero">
+    <h1 class="hero-title">{{ site.description }}</h1>
+    {% include core/share.html %}
+    {% if page.image %}
+      <div class="hero-image" style="background-image: url('{{ site.baseurl }}{{ site.assets }}{{ site.images }}/posts/{{ page.ref }}.jpg'); background-image: -webkit-image-set( url('{{ site.baseurl }}{{ site.assets }}{{ site.images }}/posts/{{ page.ref }}.jpg') 1x, url('{{ site.baseurl }}{{ site.assets }}{{ site.images }}/posts/{{ page.ref }}-large.jpg') 2x )"></div>
+    {% endif %}
+  </header>
+
+  <section id="about" class="section">
+    <h2 class="section-title">About</h2>
+    <article>
+      <h3 class="section-header">Made by Connor.</h3>
+      <p class="section-body">Autumn is a minimalistic, duo-chromatic <a href="http://jekyllrb.com">Jekyll theme</a> that pairs a prominent headline with two column content. You are free to use it under the <a href="https://github.com/connor-baer/autumn/blob/master/LICENSE.md">MIT license</a>.</p>
+      <a class="section-link" href="{{ site.github.repo }}">Fork on GitHub</a>
+    </article>
+  </section>
+
+  <section id="posts" class="section">
+    <h2 class="section-title">Posts</h2>
+    <article class="section-writing">
+      {% assign posts = site.posts | sort: 'order' | where:"lang", page.lang | limit: 3 %}
+      {% for page in posts %}
+      <h3 class="section-header"><a href="{{ site.baseurl }}{{ page.url }}" title="{{ page.title }}">{{ page.title }}</a></h3>
+        {% include core/date.html %}
+        <p class="section-body">{{ page.excerpt | strip_html | truncatewords: 32 }}</p>
+      {% endfor %}
+      <a class="section-link" href="{{ site.social.medium }}">Read more on Medium</a>
+    </article>
+  </section>
+
+</article>
+
+{% include core/footer.html %}
