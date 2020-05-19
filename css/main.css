@@ -24,7 +24,7 @@
 
 	1. BASE (@base) - base html elements
 	
-	-------------------------------------------- */
+    -------------------------------------------- */
 
 html,
 body {
@@ -40,7 +40,7 @@ body {
 }
 
 body {
-    font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
+    font-family: 'IBM Plex Sans', sans-serif;
     color: #222;
     background-color: #efefef;
     font-size: 14px;
@@ -118,7 +118,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
+    font-family: 'IBM Plex Sans', sans-serif;
     font-weight: bold;
     font-style: normal;
     margin: 1em 0 .66em 0;
