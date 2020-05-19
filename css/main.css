@@ -24,8 +24,9 @@
 
 	1. BASE (@base) - base html elements
 	
-	-------------------------------------------- */
+    -------------------------------------------- */
 
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
 html,
 body {
     width: 100%;
@@ -40,7 +41,7 @@ body {
 }
 
 body {
-    font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
+    font-family: 'IBM Plex Sans', sans-serif;
     color: #222;
     background-color: #efefef;
     font-size: 14px;
@@ -118,7 +119,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
+    font-family: 'IBM Plex Sans', sans-serif;
     font-weight: bold;
     font-style: normal;
     margin: 1em 0 .66em 0;
