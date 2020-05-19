@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-ruby '2.5.1'
+ruby '2.5.4'
 
 gem 'github-pages'
 gem 'jekyll-feed'
