@@ -45,7 +45,7 @@ assets: /assets
 images: /images
 image: index-large.jpg
 logo: /assets/icons/apple-icon-144x144.png
-dark_theme: true
+dark_theme: false
 
 author:
   name: Marc Reyes
