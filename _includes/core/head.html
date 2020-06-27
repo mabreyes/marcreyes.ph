@@ -27,14 +27,15 @@
   </title>
 
   <!-- CSS -->
-  {% if site.google_fonts %}
+  <!-- {% if site.google_fonts %}
     <link href="https://fonts.googleapis.com/css?family={% for font in site.google_fonts %}{{ font[0] | replace: ' ', '+' }}{% if font[1] %}:{% endif %}{{ font[1] | remove: ' ' }}{% if forloop.last != true %}|{% endif %}{% endfor %}" rel="stylesheet">
-  {% endif %}
+  {% endif %} -->
+  <link rel="stylesheet" href="{{ site.baseurl }}{{ site.assets }}/fonts/stylesheet.css">
   <link rel="stylesheet" href="{{ site.baseurl }}{{ site.assets }}/styles{% if site.dark_theme %}-dark{% endif %}.css">
 
-  {% if site.typekit %}
+  <!-- {% if site.typekit %} -->
   <!-- Typekit -->
-  <script src="https://use.typekit.net/{{ site.typekit }}.js"></script>
+  <!-- <script src="https://use.typekit.net/{{ site.typekit }}.js"></script>
   <script>
     try {
       Typekit.load({
@@ -42,7 +43,7 @@
       });
     } catch (e) {}
   </script>
-  {% endif %}
+  {% endif %} -->
 
   <!-- Icons -->
   {% include core/icons.html %}
