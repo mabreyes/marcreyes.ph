@@ -37,7 +37,7 @@ compress_html:
 # Site meta
 title: 'Marc Reyes'
 tagline: 'Software Engineer'
-description: I'm <a href='/about'>Marc Reyes</a>, a Filipino Software Engineer focused on Web Design and Development, DevOps, and Data Science.
+description: I'm <a href='/about'>Marc Reyes</a>, a Software Engineer focused on Web Development, DevOps, and Data Science.
 keywords: 'Marc Anthony Reyes, Marc Anthony, Marc Reyes, Projects, Marc Reyes Projects, Marc, Anthony, Reyes, Marc X, X, MX, M+X, Web Design, Website, Web Development, Web Dev, Freelancer, Speaking, Google, Google Developers, Code, Programming, Machine Learning'
 url: https://marcreyes.ph
 baseurl: 
