@@ -1,8 +1,8 @@
 @font-face {
     font-family: 'Sharp Grotesk';
-    src: url('shgr/SharpGroteskSmBold22-Regular.eot');
-    src: url('shgr/SharpGroteskSmBold22-Regular.eot?#iefix') format('embedded-opentype'), url('shgr/SharpGroteskSmBold22-Regular.woff2') format('woff2'), url('shgr/SharpGroteskSmBold22-Regular.woff') format('woff'), url('shgr/SharpGroteskSmBold22-Regular.ttf') format('truetype'), url('shgr/SharpGroteskSmBold22-Regular.svg#SharpGroteskSmBold22-Regular') format('svg');
-    font-weight: bold;
+    src: url('shgr/SharpGroteskMedium22-Regular.eot');
+    src: url('shgr/SharpGroteskMedium22-Regular.eot?#iefix') format('embedded-opentype'), url('shgr/SharpGroteskMedium22-Regular.woff2') format('woff2'), url('shgr/SharpGroteskMedium22-Regular.woff') format('woff'), url('shgr/SharpGroteskMedium22-Regular.ttf') format('truetype'), url('shgr/SharpGroteskMedium22-Regular.svg#SharpGroteskMedium22-Regular') format('svg');
+    font-weight: 400;
     font-style: normal;
     font-display: swap;
 }
@@ -11,7 +11,16 @@
     font-family: 'Sharp Grotesk';
     src: url('shgr/SharpGroteskMedium22-Regular.eot');
     src: url('shgr/SharpGroteskMedium22-Regular.eot?#iefix') format('embedded-opentype'), url('shgr/SharpGroteskMedium22-Regular.woff2') format('woff2'), url('shgr/SharpGroteskMedium22-Regular.woff') format('woff'), url('shgr/SharpGroteskMedium22-Regular.ttf') format('truetype'), url('shgr/SharpGroteskMedium22-Regular.svg#SharpGroteskMedium22-Regular') format('svg');
-    font-weight: 500;
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sharp Grotesk';
+    src: url('shgr/SharpGroteskSmBold22-Regular.eot');
+    src: url('shgr/SharpGroteskSmBold22-Regular.eot?#iefix') format('embedded-opentype'), url('shgr/SharpGroteskSmBold22-Regular.woff2') format('woff2'), url('shgr/SharpGroteskSmBold22-Regular.woff') format('woff'), url('shgr/SharpGroteskSmBold22-Regular.ttf') format('truetype'), url('shgr/SharpGroteskSmBold22-Regular.svg#SharpGroteskSmBold22-Regular') format('svg');
+    font-weight: 800;
     font-style: normal;
     font-display: swap;
 }
