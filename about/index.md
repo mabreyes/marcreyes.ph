@@ -6,7 +6,7 @@ lang: en
 ref: about
 ---
 
-> I am data-driven. It all began when I joined TensorFlow Dev Summit in Cagayan de Oro years ago. The rest is history.
+> <span style="font-weight: 800;">I am data-driven. It all began when I joined TensorFlow Dev Summit in Cagayan de Oro years ago. The rest is history.</span>
 
 ## More About Me
 

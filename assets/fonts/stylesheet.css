@@ -1,26 +1,17 @@
 @font-face {
-    font-family: 'CircularText';
-    src: url('cst/CircularSpotifyTxT-Book.eot');
-    src: url('cst/CircularSpotifyTxT-Book.eot?#iefix') format('embedded-opentype'), url('cst/CircularSpotifyTxT-Book.woff2') format('woff2'), url('cst/CircularSpotifyTxT-Book.woff') format('woff'), url('cst/CircularSpotifyTxT-Book.ttf') format('truetype'), url('cst/CircularSpotifyTxT-Book.svg#CircularSpotifyTxT-Book') format('svg');
-    font-weight: 400;
+    font-family: 'Sharp Grotesk';
+    src: url('shgr/SharpGroteskSmBold22-Regular.eot');
+    src: url('shgr/SharpGroteskSmBold22-Regular.eot?#iefix') format('embedded-opentype'), url('shgr/SharpGroteskSmBold22-Regular.woff2') format('woff2'), url('shgr/SharpGroteskSmBold22-Regular.woff') format('woff'), url('shgr/SharpGroteskSmBold22-Regular.ttf') format('truetype'), url('shgr/SharpGroteskSmBold22-Regular.svg#SharpGroteskSmBold22-Regular') format('svg');
+    font-weight: bold;
     font-style: normal;
     font-display: swap;
 }
 
 @font-face {
-    font-family: 'CircularText';
-    src: url('cst/CircularSpotifyTxT-Med.eot');
-    src: url('cst/CircularSpotifyTxT-Med.eot?#iefix') format('embedded-opentype'), url('cst/CircularSpotifyTxT-Med.woff2') format('woff2'), url('cst/CircularSpotifyTxT-Med.woff') format('woff'), url('cst/CircularSpotifyTxT-Med.ttf') format('truetype'), url('cst/CircularSpotifyTxT-Med.svg#CircularSpotifyTxT-Med') format('svg');
-    font-weight: 600;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'CircularText';
-    src: url('cst/CircularSpotifyTxT-Bold.eot');
-    src: url('cst/CircularSpotifyTxT-Bold.eot?#iefix') format('embedded-opentype'), url('cst/CircularSpotifyTxT-Bold.woff2') format('woff2'), url('cst/CircularSpotifyTxT-Bold.woff') format('woff'), url('cst/CircularSpotifyTxT-Bold.ttf') format('truetype'), url('cst/CircularSpotifyTxT-Bold.svg#CircularSpotifyTxT-Bold') format('svg');
-    font-weight: 800;
+    font-family: 'Sharp Grotesk';
+    src: url('shgr/SharpGroteskMedium22-Regular.eot');
+    src: url('shgr/SharpGroteskMedium22-Regular.eot?#iefix') format('embedded-opentype'), url('shgr/SharpGroteskMedium22-Regular.woff2') format('woff2'), url('shgr/SharpGroteskMedium22-Regular.woff') format('woff'), url('shgr/SharpGroteskMedium22-Regular.ttf') format('truetype'), url('shgr/SharpGroteskMedium22-Regular.svg#SharpGroteskMedium22-Regular') format('svg');
+    font-weight: 500;
     font-style: normal;
     font-display: swap;
 }
