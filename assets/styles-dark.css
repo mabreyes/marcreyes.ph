@@ -73,7 +73,7 @@ dfn {
 
 mark {
     background-color: #ff0;
-    color: #000
+    color: #343a40
 }
 
 small {
@@ -377,7 +377,7 @@ html {
 body {
     min-width: 100vw;
     min-height: 100vh;
-    background-color: #15191d;
+    background-color: #343a40;
     color: #f8f9fa;
     font-family: Sharp Grotesk, Arial, sans-serif;
     font-weight: 400;
@@ -495,10 +495,10 @@ time a {
 
 time a:focus,
 time a:hover {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#15191d), to(#15191d)), -webkit-gradient(linear, left top, left bottom, from(#15191d), to(#15191d)), -webkit-gradient(linear, left top, left bottom, from(#10a7d3), to(#10a7d3));
-    background-image: -webkit-linear-gradient(#15191d, #15191d), -webkit-linear-gradient(#15191d, #15191d), -webkit-linear-gradient(#10a7d3, #10a7d3);
-    background-image: linear-gradient(#15191d, #15191d), linear-gradient(#15191d, #15191d), linear-gradient(#10a7d3, #10a7d3);
-    text-shadow: .03em 0 #15191d, -.03em 0 #15191d, 0 .03em #15191d, 0 -.03em #15191d, .06em 0 #15191d, -.06em 0 #15191d, .09em 0 #15191d, -.09em 0 #15191d, .12em 0 #15191d, -.12em 0 #15191d, .15em 0 #15191d, -.15em 0 #15191d
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#343a40), to(#343a40)), -webkit-gradient(linear, left top, left bottom, from(#343a40), to(#343a40)), -webkit-gradient(linear, left top, left bottom, from(#10a7d3), to(#10a7d3));
+    background-image: -webkit-linear-gradient(#343a40, #343a40), -webkit-linear-gradient(#343a40, #343a40), -webkit-linear-gradient(#10a7d3, #10a7d3);
+    background-image: linear-gradient(#343a40, #343a40), linear-gradient(#343a40, #343a40), linear-gradient(#10a7d3, #10a7d3);
+    text-shadow: .03em 0 #343a40, -.03em 0 #343a40, 0 .03em #343a40, 0 -.03em #343a40, .06em 0 #343a40, -.06em 0 #343a40, .09em 0 #343a40, -.09em 0 #343a40, .12em 0 #343a40, -.12em 0 #343a40, .15em 0 #343a40, -.15em 0 #343a40
 }
 
 time a:focus::selection,
@@ -536,7 +536,7 @@ time a:hover :before {
     border-radius: .5rem;
     outline: none;
     background-color: #10a7d3;
-    color: #15191d;
+    color: #343a40;
     font-size: 1em;
     letter-spacing: 1px;
     text-decoration: none;
@@ -552,10 +552,10 @@ time a:hover :before {
 
 .button a:focus,
 .button a:hover {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#15191d), to(#15191d)), -webkit-gradient(linear, left top, left bottom, from(#15191d), to(#15191d)), -webkit-gradient(linear, left top, left bottom, from(#10a7d3), to(#10a7d3));
-    background-image: -webkit-linear-gradient(#15191d, #15191d), -webkit-linear-gradient(#15191d, #15191d), -webkit-linear-gradient(#10a7d3, #10a7d3);
-    background-image: linear-gradient(#15191d, #15191d), linear-gradient(#15191d, #15191d), linear-gradient(#10a7d3, #10a7d3);
-    text-shadow: .03em 0 #15191d, -.03em 0 #15191d, 0 .03em #15191d, 0 -.03em #15191d, .06em 0 #15191d, -.06em 0 #15191d, .09em 0 #15191d, -.09em 0 #15191d, .12em 0 #15191d, -.12em 0 #15191d, .15em 0 #15191d, -.15em 0 #15191d
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#343a40), to(#343a40)), -webkit-gradient(linear, left top, left bottom, from(#343a40), to(#343a40)), -webkit-gradient(linear, left top, left bottom, from(#10a7d3), to(#10a7d3));
+    background-image: -webkit-linear-gradient(#343a40, #343a40), -webkit-linear-gradient(#343a40, #343a40), -webkit-linear-gradient(#10a7d3, #10a7d3);
+    background-image: linear-gradient(#343a40, #343a40), linear-gradient(#343a40, #343a40), linear-gradient(#10a7d3, #10a7d3);
+    text-shadow: .03em 0 #343a40, -.03em 0 #343a40, 0 .03em #343a40, 0 -.03em #343a40, .06em 0 #343a40, -.06em 0 #343a40, .09em 0 #343a40, -.09em 0 #343a40, .12em 0 #343a40, -.12em 0 #343a40, .15em 0 #343a40, -.15em 0 #343a40
 }
 
 .button a:focus::selection,
@@ -591,7 +591,7 @@ time a:hover :before {
     border: 2px solid #dee2e6;
     border-radius: .5rem;
     outline: none;
-    background-color: #15191d;
+    background-color: #343a40;
     font-family: Sharp Grotesk, Arial, sans-serif;
     resize: none
 }
@@ -605,10 +605,10 @@ time a:hover :before {
 
 .form-input a:focus,
 .form-input a:hover {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#15191d), to(#15191d)), -webkit-gradient(linear, left top, left bottom, from(#15191d), to(#15191d)), -webkit-gradient(linear, left top, left bottom, from(#10a7d3), to(#10a7d3));
-    background-image: -webkit-linear-gradient(#15191d, #15191d), -webkit-linear-gradient(#15191d, #15191d), -webkit-linear-gradient(#10a7d3, #10a7d3);
-    background-image: linear-gradient(#15191d, #15191d), linear-gradient(#15191d, #15191d), linear-gradient(#10a7d3, #10a7d3);
-    text-shadow: .03em 0 #15191d, -.03em 0 #15191d, 0 .03em #15191d, 0 -.03em #15191d, .06em 0 #15191d, -.06em 0 #15191d, .09em 0 #15191d, -.09em 0 #15191d, .12em 0 #15191d, -.12em 0 #15191d, .15em 0 #15191d, -.15em 0 #15191d
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#343a40), to(#343a40)), -webkit-gradient(linear, left top, left bottom, from(#343a40), to(#343a40)), -webkit-gradient(linear, left top, left bottom, from(#10a7d3), to(#10a7d3));
+    background-image: -webkit-linear-gradient(#343a40, #343a40), -webkit-linear-gradient(#343a40, #343a40), -webkit-linear-gradient(#10a7d3, #10a7d3);
+    background-image: linear-gradient(#343a40, #343a40), linear-gradient(#343a40, #343a40), linear-gradient(#10a7d3, #10a7d3);
+    text-shadow: .03em 0 #343a40, -.03em 0 #343a40, 0 .03em #343a40, 0 -.03em #343a40, .06em 0 #343a40, -.06em 0 #343a40, .09em 0 #343a40, -.09em 0 #343a40, .12em 0 #343a40, -.12em 0 #343a40, .15em 0 #343a40, -.15em 0 #343a40
 }
 
 .form-input a:focus::selection,
@@ -678,10 +678,10 @@ textarea {
 
 .form-select a:focus,
 .form-select a:hover {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#15191d), to(#15191d)), -webkit-gradient(linear, left top, left bottom, from(#15191d), to(#15191d)), -webkit-gradient(linear, left top, left bottom, from(#10a7d3), to(#10a7d3));
-    background-image: -webkit-linear-gradient(#15191d, #15191d), -webkit-linear-gradient(#15191d, #15191d), -webkit-linear-gradient(#10a7d3, #10a7d3);
-    background-image: linear-gradient(#15191d, #15191d), linear-gradient(#15191d, #15191d), linear-gradient(#10a7d3, #10a7d3);
-    text-shadow: .03em 0 #15191d, -.03em 0 #15191d, 0 .03em #15191d, 0 -.03em #15191d, .06em 0 #15191d, -.06em 0 #15191d, .09em 0 #15191d, -.09em 0 #15191d, .12em 0 #15191d, -.12em 0 #15191d, .15em 0 #15191d, -.15em 0 #15191d
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#343a40), to(#343a40)), -webkit-gradient(linear, left top, left bottom, from(#343a40), to(#343a40)), -webkit-gradient(linear, left top, left bottom, from(#10a7d3), to(#10a7d3));
+    background-image: -webkit-linear-gradient(#343a40, #343a40), -webkit-linear-gradient(#343a40, #343a40), -webkit-linear-gradient(#10a7d3, #10a7d3);
+    background-image: linear-gradient(#343a40, #343a40), linear-gradient(#343a40, #343a40), linear-gradient(#10a7d3, #10a7d3);
+    text-shadow: .03em 0 #343a40, -.03em 0 #343a40, 0 .03em #343a40, 0 -.03em #343a40, .06em 0 #343a40, -.06em 0 #343a40, .09em 0 #343a40, -.09em 0 #343a40, .12em 0 #343a40, -.12em 0 #343a40, .15em 0 #343a40, -.15em 0 #343a40
 }
 
 .form-select a:focus::selection,
@@ -759,10 +759,10 @@ textarea {
 
 .form-error a:focus,
 .form-error a:hover {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#15191d), to(#15191d)), -webkit-gradient(linear, left top, left bottom, from(#15191d), to(#15191d)), -webkit-gradient(linear, left top, left bottom, from(#10a7d3), to(#10a7d3));
-    background-image: -webkit-linear-gradient(#15191d, #15191d), -webkit-linear-gradient(#15191d, #15191d), -webkit-linear-gradient(#10a7d3, #10a7d3);
-    background-image: linear-gradient(#15191d, #15191d), linear-gradient(#15191d, #15191d), linear-gradient(#10a7d3, #10a7d3);
-    text-shadow: .03em 0 #15191d, -.03em 0 #15191d, 0 .03em #15191d, 0 -.03em #15191d, .06em 0 #15191d, -.06em 0 #15191d, .09em 0 #15191d, -.09em 0 #15191d, .12em 0 #15191d, -.12em 0 #15191d, .15em 0 #15191d, -.15em 0 #15191d
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#343a40), to(#343a40)), -webkit-gradient(linear, left top, left bottom, from(#343a40), to(#343a40)), -webkit-gradient(linear, left top, left bottom, from(#10a7d3), to(#10a7d3));
+    background-image: -webkit-linear-gradient(#343a40, #343a40), -webkit-linear-gradient(#343a40, #343a40), -webkit-linear-gradient(#10a7d3, #10a7d3);
+    background-image: linear-gradient(#343a40, #343a40), linear-gradient(#343a40, #343a40), linear-gradient(#10a7d3, #10a7d3);
+    text-shadow: .03em 0 #343a40, -.03em 0 #343a40, 0 .03em #343a40, 0 -.03em #343a40, .06em 0 #343a40, -.06em 0 #343a40, .09em 0 #343a40, -.09em 0 #343a40, .12em 0 #343a40, -.12em 0 #343a40, .15em 0 #343a40, -.15em 0 #343a40
 }
 
 .form-error a:focus::selection,
@@ -813,10 +813,10 @@ textarea {
 
 .form-label a:focus,
 .form-label a:hover {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#15191d), to(#15191d)), -webkit-gradient(linear, left top, left bottom, from(#15191d), to(#15191d)), -webkit-gradient(linear, left top, left bottom, from(#10a7d3), to(#10a7d3));
-    background-image: -webkit-linear-gradient(#15191d, #15191d), -webkit-linear-gradient(#15191d, #15191d), -webkit-linear-gradient(#10a7d3, #10a7d3);
-    background-image: linear-gradient(#15191d, #15191d), linear-gradient(#15191d, #15191d), linear-gradient(#10a7d3, #10a7d3);
-    text-shadow: .03em 0 #15191d, -.03em 0 #15191d, 0 .03em #15191d, 0 -.03em #15191d, .06em 0 #15191d, -.06em 0 #15191d, .09em 0 #15191d, -.09em 0 #15191d, .12em 0 #15191d, -.12em 0 #15191d, .15em 0 #15191d, -.15em 0 #15191d
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#343a40), to(#343a40)), -webkit-gradient(linear, left top, left bottom, from(#343a40), to(#343a40)), -webkit-gradient(linear, left top, left bottom, from(#10a7d3), to(#10a7d3));
+    background-image: -webkit-linear-gradient(#343a40, #343a40), -webkit-linear-gradient(#343a40, #343a40), -webkit-linear-gradient(#10a7d3, #10a7d3);
+    background-image: linear-gradient(#343a40, #343a40), linear-gradient(#343a40, #343a40), linear-gradient(#10a7d3, #10a7d3);
+    text-shadow: .03em 0 #343a40, -.03em 0 #343a40, 0 .03em #343a40, 0 -.03em #343a40, .06em 0 #343a40, -.06em 0 #343a40, .09em 0 #343a40, -.09em 0 #343a40, .12em 0 #343a40, -.12em 0 #343a40, .15em 0 #343a40, -.15em 0 #343a40
 }
 
 .form-label a:focus::selection,
@@ -871,10 +871,10 @@ textarea {
 .form-input:focus~.form-label a:hover,
 .form-input:valid~.form-label a:focus,
 .form-input:valid~.form-label a:hover {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#15191d), to(#15191d)), -webkit-gradient(linear, left top, left bottom, from(#15191d), to(#15191d)), -webkit-gradient(linear, left top, left bottom, from(#10a7d3), to(#10a7d3));
-    background-image: -webkit-linear-gradient(#15191d, #15191d), -webkit-linear-gradient(#15191d, #15191d), -webkit-linear-gradient(#10a7d3, #10a7d3);
-    background-image: linear-gradient(#15191d, #15191d), linear-gradient(#15191d, #15191d), linear-gradient(#10a7d3, #10a7d3);
-    text-shadow: .03em 0 #15191d, -.03em 0 #15191d, 0 .03em #15191d, 0 -.03em #15191d, .06em 0 #15191d, -.06em 0 #15191d, .09em 0 #15191d, -.09em 0 #15191d, .12em 0 #15191d, -.12em 0 #15191d, .15em 0 #15191d, -.15em 0 #15191d
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#343a40), to(#343a40)), -webkit-gradient(linear, left top, left bottom, from(#343a40), to(#343a40)), -webkit-gradient(linear, left top, left bottom, from(#10a7d3), to(#10a7d3));
+    background-image: -webkit-linear-gradient(#343a40, #343a40), -webkit-linear-gradient(#343a40, #343a40), -webkit-linear-gradient(#10a7d3, #10a7d3);
+    background-image: linear-gradient(#343a40, #343a40), linear-gradient(#343a40, #343a40), linear-gradient(#10a7d3, #10a7d3);
+    text-shadow: .03em 0 #343a40, -.03em 0 #343a40, 0 .03em #343a40, 0 -.03em #343a40, .06em 0 #343a40, -.06em 0 #343a40, .09em 0 #343a40, -.09em 0 #343a40, .12em 0 #343a40, -.12em 0 #343a40, .15em 0 #343a40, -.15em 0 #343a40
 }
 
 .form-input:focus~.form-label a:focus::selection,
@@ -941,10 +941,10 @@ textarea {
 
 .form-input:not(:placeholder-shown)~.form-label a:focus,
 .form-input:not(:placeholder-shown)~.form-label a:hover {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#15191d), to(#15191d)), -webkit-gradient(linear, left top, left bottom, from(#15191d), to(#15191d)), -webkit-gradient(linear, left top, left bottom, from(#10a7d3), to(#10a7d3));
-    background-image: -webkit-linear-gradient(#15191d, #15191d), -webkit-linear-gradient(#15191d, #15191d), -webkit-linear-gradient(#10a7d3, #10a7d3);
-    background-image: linear-gradient(#15191d, #15191d), linear-gradient(#15191d, #15191d), linear-gradient(#10a7d3, #10a7d3);
-    text-shadow: .03em 0 #15191d, -.03em 0 #15191d, 0 .03em #15191d, 0 -.03em #15191d, .06em 0 #15191d, -.06em 0 #15191d, .09em 0 #15191d, -.09em 0 #15191d, .12em 0 #15191d, -.12em 0 #15191d, .15em 0 #15191d, -.15em 0 #15191d
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#343a40), to(#343a40)), -webkit-gradient(linear, left top, left bottom, from(#343a40), to(#343a40)), -webkit-gradient(linear, left top, left bottom, from(#10a7d3), to(#10a7d3));
+    background-image: -webkit-linear-gradient(#343a40, #343a40), -webkit-linear-gradient(#343a40, #343a40), -webkit-linear-gradient(#10a7d3, #10a7d3);
+    background-image: linear-gradient(#343a40, #343a40), linear-gradient(#343a40, #343a40), linear-gradient(#10a7d3, #10a7d3);
+    text-shadow: .03em 0 #343a40, -.03em 0 #343a40, 0 .03em #343a40, 0 -.03em #343a40, .06em 0 #343a40, -.06em 0 #343a40, .09em 0 #343a40, -.09em 0 #343a40, .12em 0 #343a40, -.12em 0 #343a40, .15em 0 #343a40, -.15em 0 #343a40
 }
 
 .form-input:not(:placeholder-shown)~.form-label a:focus::selection,
@@ -1147,7 +1147,7 @@ textarea {
 }
 
 .ow {
-    color: #000
+    color: #343a40
 }
 
 .w {
@@ -1229,11 +1229,11 @@ textarea {
 }
 
 .metabar.-white .metabar-logo svg {
-    fill: #15191d
+    fill: #343a40
 }
 
 .metabar.-white .metabar-title {
-    color: #15191d;
+    color: #343a40;
     text-shadow: 0 0 3px rgba(248, 249, 250, .33)
 }
 
@@ -1244,7 +1244,7 @@ textarea {
 
 @media (min-width:36em) {
     .metabar.-white .nav-link a {
-        color: #15191d;
+        color: #343a40;
         text-shadow: 0 0 3px rgba(248, 249, 250, .33)
     }
     .metabar.-white .nav-link a:focus,
@@ -1254,7 +1254,7 @@ textarea {
 }
 
 .metabar.-white .nav-open {
-    color: #15191d;
+    color: #343a40;
     text-shadow: 0 0 3px rgba(248, 249, 250, .33)
 }
 
@@ -1409,10 +1409,10 @@ textarea {
     .nav-close a:hover,
     .nav-open a:focus,
     .nav-open a:hover {
-        background-image: -webkit-gradient(linear, left top, left bottom, from(#15191d), to(#15191d)), -webkit-gradient(linear, left top, left bottom, from(#15191d), to(#15191d)), -webkit-gradient(linear, left top, left bottom, from(#10a7d3), to(#10a7d3));
-        background-image: -webkit-linear-gradient(#15191d, #15191d), -webkit-linear-gradient(#15191d, #15191d), -webkit-linear-gradient(#10a7d3, #10a7d3);
-        background-image: linear-gradient(#15191d, #15191d), linear-gradient(#15191d, #15191d), linear-gradient(#10a7d3, #10a7d3);
-        text-shadow: .03em 0 #15191d, -.03em 0 #15191d, 0 .03em #15191d, 0 -.03em #15191d, .06em 0 #15191d, -.06em 0 #15191d, .09em 0 #15191d, -.09em 0 #15191d, .12em 0 #15191d, -.12em 0 #15191d, .15em 0 #15191d, -.15em 0 #15191d
+        background-image: -webkit-gradient(linear, left top, left bottom, from(#343a40), to(#343a40)), -webkit-gradient(linear, left top, left bottom, from(#343a40), to(#343a40)), -webkit-gradient(linear, left top, left bottom, from(#10a7d3), to(#10a7d3));
+        background-image: -webkit-linear-gradient(#343a40, #343a40), -webkit-linear-gradient(#343a40, #343a40), -webkit-linear-gradient(#10a7d3, #10a7d3);
+        background-image: linear-gradient(#343a40, #343a40), linear-gradient(#343a40, #343a40), linear-gradient(#10a7d3, #10a7d3);
+        text-shadow: .03em 0 #343a40, -.03em 0 #343a40, 0 .03em #343a40, 0 -.03em #343a40, .06em 0 #343a40, -.06em 0 #343a40, .09em 0 #343a40, -.09em 0 #343a40, .12em 0 #343a40, -.12em 0 #343a40, .15em 0 #343a40, -.15em 0 #343a40
     }
     .nav-close a:focus::selection,
     .nav-close a:hover::selection,
@@ -1502,10 +1502,10 @@ textarea {
     }
     .metabar-nav .nav-link a:focus,
     .metabar-nav .nav-link a:hover {
-        background-image: -webkit-gradient(linear, left top, left bottom, from(#15191d), to(#15191d)), -webkit-gradient(linear, left top, left bottom, from(#15191d), to(#15191d)), -webkit-gradient(linear, left top, left bottom, from(#10a7d3), to(#10a7d3));
-        background-image: -webkit-linear-gradient(#15191d, #15191d), -webkit-linear-gradient(#15191d, #15191d), -webkit-linear-gradient(#10a7d3, #10a7d3);
-        background-image: linear-gradient(#15191d, #15191d), linear-gradient(#15191d, #15191d), linear-gradient(#10a7d3, #10a7d3);
-        text-shadow: .03em 0 #15191d, -.03em 0 #15191d, 0 .03em #15191d, 0 -.03em #15191d, .06em 0 #15191d, -.06em 0 #15191d, .09em 0 #15191d, -.09em 0 #15191d, .12em 0 #15191d, -.12em 0 #15191d, .15em 0 #15191d, -.15em 0 #15191d
+        background-image: -webkit-gradient(linear, left top, left bottom, from(#343a40), to(#343a40)), -webkit-gradient(linear, left top, left bottom, from(#343a40), to(#343a40)), -webkit-gradient(linear, left top, left bottom, from(#10a7d3), to(#10a7d3));
+        background-image: -webkit-linear-gradient(#343a40, #343a40), -webkit-linear-gradient(#343a40, #343a40), -webkit-linear-gradient(#10a7d3, #10a7d3);
+        background-image: linear-gradient(#343a40, #343a40), linear-gradient(#343a40, #343a40), linear-gradient(#10a7d3, #10a7d3);
+        text-shadow: .03em 0 #343a40, -.03em 0 #343a40, 0 .03em #343a40, 0 -.03em #343a40, .06em 0 #343a40, -.06em 0 #343a40, .09em 0 #343a40, -.09em 0 #343a40, .12em 0 #343a40, -.12em 0 #343a40, .15em 0 #343a40, -.15em 0 #343a40
     }
     .metabar-nav .nav-link a:focus::selection,
     .metabar-nav .nav-link a:hover::selection {
@@ -1573,10 +1573,10 @@ textarea {
 
 .hero-title a:focus,
 .hero-title a:hover {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#15191d), to(#15191d)), -webkit-gradient(linear, left top, left bottom, from(#15191d), to(#15191d)), -webkit-gradient(linear, left top, left bottom, from(#10a7d3), to(#10a7d3));
-    background-image: -webkit-linear-gradient(#15191d, #15191d), -webkit-linear-gradient(#15191d, #15191d), -webkit-linear-gradient(#10a7d3, #10a7d3);
-    background-image: linear-gradient(#15191d, #15191d), linear-gradient(#15191d, #15191d), linear-gradient(#10a7d3, #10a7d3);
-    text-shadow: .03em 0 #15191d, -.03em 0 #15191d, 0 .03em #15191d, 0 -.03em #15191d, .06em 0 #15191d, -.06em 0 #15191d, .09em 0 #15191d, -.09em 0 #15191d, .12em 0 #15191d, -.12em 0 #15191d, .15em 0 #15191d, -.15em 0 #15191d
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#343a40), to(#343a40)), -webkit-gradient(linear, left top, left bottom, from(#343a40), to(#343a40)), -webkit-gradient(linear, left top, left bottom, from(#10a7d3), to(#10a7d3));
+    background-image: -webkit-linear-gradient(#343a40, #343a40), -webkit-linear-gradient(#343a40, #343a40), -webkit-linear-gradient(#10a7d3, #10a7d3);
+    background-image: linear-gradient(#343a40, #343a40), linear-gradient(#343a40, #343a40), linear-gradient(#10a7d3, #10a7d3);
+    text-shadow: .03em 0 #343a40, -.03em 0 #343a40, 0 .03em #343a40, 0 -.03em #343a40, .06em 0 #343a40, -.06em 0 #343a40, .09em 0 #343a40, -.09em 0 #343a40, .12em 0 #343a40, -.12em 0 #343a40, .15em 0 #343a40, -.15em 0 #343a40
 }
 
 .hero-title a:focus::selection,
@@ -1732,10 +1732,10 @@ textarea {
 
 .section-title a:focus,
 .section-title a:hover {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#15191d), to(#15191d)), -webkit-gradient(linear, left top, left bottom, from(#15191d), to(#15191d)), -webkit-gradient(linear, left top, left bottom, from(#10a7d3), to(#10a7d3));
-    background-image: -webkit-linear-gradient(#15191d, #15191d), -webkit-linear-gradient(#15191d, #15191d), -webkit-linear-gradient(#10a7d3, #10a7d3);
-    background-image: linear-gradient(#15191d, #15191d), linear-gradient(#15191d, #15191d), linear-gradient(#10a7d3, #10a7d3);
-    text-shadow: .03em 0 #15191d, -.03em 0 #15191d, 0 .03em #15191d, 0 -.03em #15191d, .06em 0 #15191d, -.06em 0 #15191d, .09em 0 #15191d, -.09em 0 #15191d, .12em 0 #15191d, -.12em 0 #15191d, .15em 0 #15191d, -.15em 0 #15191d
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#343a40), to(#343a40)), -webkit-gradient(linear, left top, left bottom, from(#343a40), to(#343a40)), -webkit-gradient(linear, left top, left bottom, from(#10a7d3), to(#10a7d3));
+    background-image: -webkit-linear-gradient(#343a40, #343a40), -webkit-linear-gradient(#343a40, #343a40), -webkit-linear-gradient(#10a7d3, #10a7d3);
+    background-image: linear-gradient(#343a40, #343a40), linear-gradient(#343a40, #343a40), linear-gradient(#10a7d3, #10a7d3);
+    text-shadow: .03em 0 #343a40, -.03em 0 #343a40, 0 .03em #343a40, 0 -.03em #343a40, .06em 0 #343a40, -.06em 0 #343a40, .09em 0 #343a40, -.09em 0 #343a40, .12em 0 #343a40, -.12em 0 #343a40, .15em 0 #343a40, -.15em 0 #343a40
 }
 
 .section-title a:focus::selection,
@@ -1791,10 +1791,10 @@ textarea {
 
 .section-header a:focus,
 .section-header a:hover {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#15191d), to(#15191d)), -webkit-gradient(linear, left top, left bottom, from(#15191d), to(#15191d)), -webkit-gradient(linear, left top, left bottom, from(#10a7d3), to(#10a7d3));
-    background-image: -webkit-linear-gradient(#15191d, #15191d), -webkit-linear-gradient(#15191d, #15191d), -webkit-linear-gradient(#10a7d3, #10a7d3);
-    background-image: linear-gradient(#15191d, #15191d), linear-gradient(#15191d, #15191d), linear-gradient(#10a7d3, #10a7d3);
-    text-shadow: .03em 0 #15191d, -.03em 0 #15191d, 0 .03em #15191d, 0 -.03em #15191d, .06em 0 #15191d, -.06em 0 #15191d, .09em 0 #15191d, -.09em 0 #15191d, .12em 0 #15191d, -.12em 0 #15191d, .15em 0 #15191d, -.15em 0 #15191d
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#343a40), to(#343a40)), -webkit-gradient(linear, left top, left bottom, from(#343a40), to(#343a40)), -webkit-gradient(linear, left top, left bottom, from(#10a7d3), to(#10a7d3));
+    background-image: -webkit-linear-gradient(#343a40, #343a40), -webkit-linear-gradient(#343a40, #343a40), -webkit-linear-gradient(#10a7d3, #10a7d3);
+    background-image: linear-gradient(#343a40, #343a40), linear-gradient(#343a40, #343a40), linear-gradient(#10a7d3, #10a7d3);
+    text-shadow: .03em 0 #343a40, -.03em 0 #343a40, 0 .03em #343a40, 0 -.03em #343a40, .06em 0 #343a40, -.06em 0 #343a40, .09em 0 #343a40, -.09em 0 #343a40, .12em 0 #343a40, -.12em 0 #343a40, .15em 0 #343a40, -.15em 0 #343a40
 }
 
 .section-header a:focus::selection,
@@ -1840,10 +1840,10 @@ textarea {
 
 .section-body a:focus,
 .section-body a:hover {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#15191d), to(#15191d)), -webkit-gradient(linear, left top, left bottom, from(#15191d), to(#15191d)), -webkit-gradient(linear, left top, left bottom, from(#10a7d3), to(#10a7d3));
-    background-image: -webkit-linear-gradient(#15191d, #15191d), -webkit-linear-gradient(#15191d, #15191d), -webkit-linear-gradient(#10a7d3, #10a7d3);
-    background-image: linear-gradient(#15191d, #15191d), linear-gradient(#15191d, #15191d), linear-gradient(#10a7d3, #10a7d3);
-    text-shadow: .03em 0 #15191d, -.03em 0 #15191d, 0 .03em #15191d, 0 -.03em #15191d, .06em 0 #15191d, -.06em 0 #15191d, .09em 0 #15191d, -.09em 0 #15191d, .12em 0 #15191d, -.12em 0 #15191d, .15em 0 #15191d, -.15em 0 #15191d
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#343a40), to(#343a40)), -webkit-gradient(linear, left top, left bottom, from(#343a40), to(#343a40)), -webkit-gradient(linear, left top, left bottom, from(#10a7d3), to(#10a7d3));
+    background-image: -webkit-linear-gradient(#343a40, #343a40), -webkit-linear-gradient(#343a40, #343a40), -webkit-linear-gradient(#10a7d3, #10a7d3);
+    background-image: linear-gradient(#343a40, #343a40), linear-gradient(#343a40, #343a40), linear-gradient(#10a7d3, #10a7d3);
+    text-shadow: .03em 0 #343a40, -.03em 0 #343a40, 0 .03em #343a40, 0 -.03em #343a40, .06em 0 #343a40, -.06em 0 #343a40, .09em 0 #343a40, -.09em 0 #343a40, .12em 0 #343a40, -.12em 0 #343a40, .15em 0 #343a40, -.15em 0 #343a40
 }
 
 .section-body a:focus::selection,
@@ -1889,10 +1889,10 @@ a .section-body:hover {
 
 .section-link:focus,
 .section-link:hover {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#15191d), to(#15191d)), -webkit-gradient(linear, left top, left bottom, from(#15191d), to(#15191d)), -webkit-gradient(linear, left top, left bottom, from(#10a7d3), to(#10a7d3));
-    background-image: -webkit-linear-gradient(#15191d, #15191d), -webkit-linear-gradient(#15191d, #15191d), -webkit-linear-gradient(#10a7d3, #10a7d3);
-    background-image: linear-gradient(#15191d, #15191d), linear-gradient(#15191d, #15191d), linear-gradient(#10a7d3, #10a7d3);
-    text-shadow: .03em 0 #15191d, -.03em 0 #15191d, 0 .03em #15191d, 0 -.03em #15191d, .06em 0 #15191d, -.06em 0 #15191d, .09em 0 #15191d, -.09em 0 #15191d, .12em 0 #15191d, -.12em 0 #15191d, .15em 0 #15191d, -.15em 0 #15191d
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#343a40), to(#343a40)), -webkit-gradient(linear, left top, left bottom, from(#343a40), to(#343a40)), -webkit-gradient(linear, left top, left bottom, from(#10a7d3), to(#10a7d3));
+    background-image: -webkit-linear-gradient(#343a40, #343a40), -webkit-linear-gradient(#343a40, #343a40), -webkit-linear-gradient(#10a7d3, #10a7d3);
+    background-image: linear-gradient(#343a40, #343a40), linear-gradient(#343a40, #343a40), linear-gradient(#10a7d3, #10a7d3);
+    text-shadow: .03em 0 #343a40, -.03em 0 #343a40, 0 .03em #343a40, 0 -.03em #343a40, .06em 0 #343a40, -.06em 0 #343a40, .09em 0 #343a40, -.09em 0 #343a40, .12em 0 #343a40, -.12em 0 #343a40, .15em 0 #343a40, -.15em 0 #343a40
 }
 
 .section-link:focus::selection,
@@ -2001,10 +2001,10 @@ a .section-body:hover {
 
 .author-text h4 a:focus,
 .author-text h4 a:hover {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#15191d), to(#15191d)), -webkit-gradient(linear, left top, left bottom, from(#15191d), to(#15191d)), -webkit-gradient(linear, left top, left bottom, from(#10a7d3), to(#10a7d3));
-    background-image: -webkit-linear-gradient(#15191d, #15191d), -webkit-linear-gradient(#15191d, #15191d), -webkit-linear-gradient(#10a7d3, #10a7d3);
-    background-image: linear-gradient(#15191d, #15191d), linear-gradient(#15191d, #15191d), linear-gradient(#10a7d3, #10a7d3);
-    text-shadow: .03em 0 #15191d, -.03em 0 #15191d, 0 .03em #15191d, 0 -.03em #15191d, .06em 0 #15191d, -.06em 0 #15191d, .09em 0 #15191d, -.09em 0 #15191d, .12em 0 #15191d, -.12em 0 #15191d, .15em 0 #15191d, -.15em 0 #15191d
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#343a40), to(#343a40)), -webkit-gradient(linear, left top, left bottom, from(#343a40), to(#343a40)), -webkit-gradient(linear, left top, left bottom, from(#10a7d3), to(#10a7d3));
+    background-image: -webkit-linear-gradient(#343a40, #343a40), -webkit-linear-gradient(#343a40, #343a40), -webkit-linear-gradient(#10a7d3, #10a7d3);
+    background-image: linear-gradient(#343a40, #343a40), linear-gradient(#343a40, #343a40), linear-gradient(#10a7d3, #10a7d3);
+    text-shadow: .03em 0 #343a40, -.03em 0 #343a40, 0 .03em #343a40, 0 -.03em #343a40, .06em 0 #343a40, -.06em 0 #343a40, .09em 0 #343a40, -.09em 0 #343a40, .12em 0 #343a40, -.12em 0 #343a40, .15em 0 #343a40, -.15em 0 #343a40
 }
 
 .author-text h4 a:focus::selection,
@@ -2048,10 +2048,10 @@ a .section-body:hover {
 
 .author-text p a:focus,
 .author-text p a:hover {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#15191d), to(#15191d)), -webkit-gradient(linear, left top, left bottom, from(#15191d), to(#15191d)), -webkit-gradient(linear, left top, left bottom, from(#10a7d3), to(#10a7d3));
-    background-image: -webkit-linear-gradient(#15191d, #15191d), -webkit-linear-gradient(#15191d, #15191d), -webkit-linear-gradient(#10a7d3, #10a7d3);
-    background-image: linear-gradient(#15191d, #15191d), linear-gradient(#15191d, #15191d), linear-gradient(#10a7d3, #10a7d3);
-    text-shadow: .03em 0 #15191d, -.03em 0 #15191d, 0 .03em #15191d, 0 -.03em #15191d, .06em 0 #15191d, -.06em 0 #15191d, .09em 0 #15191d, -.09em 0 #15191d, .12em 0 #15191d, -.12em 0 #15191d, .15em 0 #15191d, -.15em 0 #15191d
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#343a40), to(#343a40)), -webkit-gradient(linear, left top, left bottom, from(#343a40), to(#343a40)), -webkit-gradient(linear, left top, left bottom, from(#10a7d3), to(#10a7d3));
+    background-image: -webkit-linear-gradient(#343a40, #343a40), -webkit-linear-gradient(#343a40, #343a40), -webkit-linear-gradient(#10a7d3, #10a7d3);
+    background-image: linear-gradient(#343a40, #343a40), linear-gradient(#343a40, #343a40), linear-gradient(#10a7d3, #10a7d3);
+    text-shadow: .03em 0 #343a40, -.03em 0 #343a40, 0 .03em #343a40, 0 -.03em #343a40, .06em 0 #343a40, -.06em 0 #343a40, .09em 0 #343a40, -.09em 0 #343a40, .12em 0 #343a40, -.12em 0 #343a40, .15em 0 #343a40, -.15em 0 #343a40
 }
 
 .author-text p a:focus::selection,
@@ -2153,10 +2153,10 @@ a .section-body:hover {
 
 .content-style h1 a:focus,
 .content-style h1 a:hover {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#15191d), to(#15191d)), -webkit-gradient(linear, left top, left bottom, from(#15191d), to(#15191d)), -webkit-gradient(linear, left top, left bottom, from(#10a7d3), to(#10a7d3));
-    background-image: -webkit-linear-gradient(#15191d, #15191d), -webkit-linear-gradient(#15191d, #15191d), -webkit-linear-gradient(#10a7d3, #10a7d3);
-    background-image: linear-gradient(#15191d, #15191d), linear-gradient(#15191d, #15191d), linear-gradient(#10a7d3, #10a7d3);
-    text-shadow: .03em 0 #15191d, -.03em 0 #15191d, 0 .03em #15191d, 0 -.03em #15191d, .06em 0 #15191d, -.06em 0 #15191d, .09em 0 #15191d, -.09em 0 #15191d, .12em 0 #15191d, -.12em 0 #15191d, .15em 0 #15191d, -.15em 0 #15191d
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#343a40), to(#343a40)), -webkit-gradient(linear, left top, left bottom, from(#343a40), to(#343a40)), -webkit-gradient(linear, left top, left bottom, from(#10a7d3), to(#10a7d3));
+    background-image: -webkit-linear-gradient(#343a40, #343a40), -webkit-linear-gradient(#343a40, #343a40), -webkit-linear-gradient(#10a7d3, #10a7d3);
+    background-image: linear-gradient(#343a40, #343a40), linear-gradient(#343a40, #343a40), linear-gradient(#10a7d3, #10a7d3);
+    text-shadow: .03em 0 #343a40, -.03em 0 #343a40, 0 .03em #343a40, 0 -.03em #343a40, .06em 0 #343a40, -.06em 0 #343a40, .09em 0 #343a40, -.09em 0 #343a40, .12em 0 #343a40, -.12em 0 #343a40, .15em 0 #343a40, -.15em 0 #343a40
 }
 
 .content-style h1 a:focus::selection,
@@ -2210,10 +2210,10 @@ a .section-body:hover {
 
 .content-style h2 a:focus,
 .content-style h2 a:hover {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#15191d), to(#15191d)), -webkit-gradient(linear, left top, left bottom, from(#15191d), to(#15191d)), -webkit-gradient(linear, left top, left bottom, from(#10a7d3), to(#10a7d3));
-    background-image: -webkit-linear-gradient(#15191d, #15191d), -webkit-linear-gradient(#15191d, #15191d), -webkit-linear-gradient(#10a7d3, #10a7d3);
-    background-image: linear-gradient(#15191d, #15191d), linear-gradient(#15191d, #15191d), linear-gradient(#10a7d3, #10a7d3);
-    text-shadow: .03em 0 #15191d, -.03em 0 #15191d, 0 .03em #15191d, 0 -.03em #15191d, .06em 0 #15191d, -.06em 0 #15191d, .09em 0 #15191d, -.09em 0 #15191d, .12em 0 #15191d, -.12em 0 #15191d, .15em 0 #15191d, -.15em 0 #15191d
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#343a40), to(#343a40)), -webkit-gradient(linear, left top, left bottom, from(#343a40), to(#343a40)), -webkit-gradient(linear, left top, left bottom, from(#10a7d3), to(#10a7d3));
+    background-image: -webkit-linear-gradient(#343a40, #343a40), -webkit-linear-gradient(#343a40, #343a40), -webkit-linear-gradient(#10a7d3, #10a7d3);
+    background-image: linear-gradient(#343a40, #343a40), linear-gradient(#343a40, #343a40), linear-gradient(#10a7d3, #10a7d3);
+    text-shadow: .03em 0 #343a40, -.03em 0 #343a40, 0 .03em #343a40, 0 -.03em #343a40, .06em 0 #343a40, -.06em 0 #343a40, .09em 0 #343a40, -.09em 0 #343a40, .12em 0 #343a40, -.12em 0 #343a40, .15em 0 #343a40, -.15em 0 #343a40
 }
 
 .content-style h2 a:focus::selection,
@@ -2262,10 +2262,10 @@ a .section-body:hover {
 
 .content-style h3 a:focus,
 .content-style h3 a:hover {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#15191d), to(#15191d)), -webkit-gradient(linear, left top, left bottom, from(#15191d), to(#15191d)), -webkit-gradient(linear, left top, left bottom, from(#10a7d3), to(#10a7d3));
-    background-image: -webkit-linear-gradient(#15191d, #15191d), -webkit-linear-gradient(#15191d, #15191d), -webkit-linear-gradient(#10a7d3, #10a7d3);
-    background-image: linear-gradient(#15191d, #15191d), linear-gradient(#15191d, #15191d), linear-gradient(#10a7d3, #10a7d3);
-    text-shadow: .03em 0 #15191d, -.03em 0 #15191d, 0 .03em #15191d, 0 -.03em #15191d, .06em 0 #15191d, -.06em 0 #15191d, .09em 0 #15191d, -.09em 0 #15191d, .12em 0 #15191d, -.12em 0 #15191d, .15em 0 #15191d, -.15em 0 #15191d
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#343a40), to(#343a40)), -webkit-gradient(linear, left top, left bottom, from(#343a40), to(#343a40)), -webkit-gradient(linear, left top, left bottom, from(#10a7d3), to(#10a7d3));
+    background-image: -webkit-linear-gradient(#343a40, #343a40), -webkit-linear-gradient(#343a40, #343a40), -webkit-linear-gradient(#10a7d3, #10a7d3);
+    background-image: linear-gradient(#343a40, #343a40), linear-gradient(#343a40, #343a40), linear-gradient(#10a7d3, #10a7d3);
+    text-shadow: .03em 0 #343a40, -.03em 0 #343a40, 0 .03em #343a40, 0 -.03em #343a40, .06em 0 #343a40, -.06em 0 #343a40, .09em 0 #343a40, -.09em 0 #343a40, .12em 0 #343a40, -.12em 0 #343a40, .15em 0 #343a40, -.15em 0 #343a40
 }
 
 .content-style h3 a:focus::selection,
@@ -2311,10 +2311,10 @@ a .section-body:hover {
 
 .content-style h4 a:focus,
 .content-style h4 a:hover {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#15191d), to(#15191d)), -webkit-gradient(linear, left top, left bottom, from(#15191d), to(#15191d)), -webkit-gradient(linear, left top, left bottom, from(#10a7d3), to(#10a7d3));
-    background-image: -webkit-linear-gradient(#15191d, #15191d), -webkit-linear-gradient(#15191d, #15191d), -webkit-linear-gradient(#10a7d3, #10a7d3);
-    background-image: linear-gradient(#15191d, #15191d), linear-gradient(#15191d, #15191d), linear-gradient(#10a7d3, #10a7d3);
-    text-shadow: .03em 0 #15191d, -.03em 0 #15191d, 0 .03em #15191d, 0 -.03em #15191d, .06em 0 #15191d, -.06em 0 #15191d, .09em 0 #15191d, -.09em 0 #15191d, .12em 0 #15191d, -.12em 0 #15191d, .15em 0 #15191d, -.15em 0 #15191d
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#343a40), to(#343a40)), -webkit-gradient(linear, left top, left bottom, from(#343a40), to(#343a40)), -webkit-gradient(linear, left top, left bottom, from(#10a7d3), to(#10a7d3));
+    background-image: -webkit-linear-gradient(#343a40, #343a40), -webkit-linear-gradient(#343a40, #343a40), -webkit-linear-gradient(#10a7d3, #10a7d3);
+    background-image: linear-gradient(#343a40, #343a40), linear-gradient(#343a40, #343a40), linear-gradient(#10a7d3, #10a7d3);
+    text-shadow: .03em 0 #343a40, -.03em 0 #343a40, 0 .03em #343a40, 0 -.03em #343a40, .06em 0 #343a40, -.06em 0 #343a40, .09em 0 #343a40, -.09em 0 #343a40, .12em 0 #343a40, -.12em 0 #343a40, .15em 0 #343a40, -.15em 0 #343a40
 }
 
 .content-style h4 a:focus::selection,
@@ -2349,10 +2349,10 @@ a .section-body:hover {
 
 .content-style p:not(.message) a:focus,
 .content-style p:not(.message) a:hover {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#15191d), to(#15191d)), -webkit-gradient(linear, left top, left bottom, from(#15191d), to(#15191d)), -webkit-gradient(linear, left top, left bottom, from(#10a7d3), to(#10a7d3));
-    background-image: -webkit-linear-gradient(#15191d, #15191d), -webkit-linear-gradient(#15191d, #15191d), -webkit-linear-gradient(#10a7d3, #10a7d3);
-    background-image: linear-gradient(#15191d, #15191d), linear-gradient(#15191d, #15191d), linear-gradient(#10a7d3, #10a7d3);
-    text-shadow: .03em 0 #15191d, -.03em 0 #15191d, 0 .03em #15191d, 0 -.03em #15191d, .06em 0 #15191d, -.06em 0 #15191d, .09em 0 #15191d, -.09em 0 #15191d, .12em 0 #15191d, -.12em 0 #15191d, .15em 0 #15191d, -.15em 0 #15191d
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#343a40), to(#343a40)), -webkit-gradient(linear, left top, left bottom, from(#343a40), to(#343a40)), -webkit-gradient(linear, left top, left bottom, from(#10a7d3), to(#10a7d3));
+    background-image: -webkit-linear-gradient(#343a40, #343a40), -webkit-linear-gradient(#343a40, #343a40), -webkit-linear-gradient(#10a7d3, #10a7d3);
+    background-image: linear-gradient(#343a40, #343a40), linear-gradient(#343a40, #343a40), linear-gradient(#10a7d3, #10a7d3);
+    text-shadow: .03em 0 #343a40, -.03em 0 #343a40, 0 .03em #343a40, 0 -.03em #343a40, .06em 0 #343a40, -.06em 0 #343a40, .09em 0 #343a40, -.09em 0 #343a40, .12em 0 #343a40, -.12em 0 #343a40, .15em 0 #343a40, -.15em 0 #343a40
 }
 
 .content-style p:not(.message) a:focus::selection,
@@ -2408,10 +2408,10 @@ a .section-body:hover {
 
 .content-style p.message a:focus,
 .content-style p.message a:hover {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#15191d), to(#15191d)), -webkit-gradient(linear, left top, left bottom, from(#15191d), to(#15191d)), -webkit-gradient(linear, left top, left bottom, from(#10a7d3), to(#10a7d3));
-    background-image: -webkit-linear-gradient(#15191d, #15191d), -webkit-linear-gradient(#15191d, #15191d), -webkit-linear-gradient(#10a7d3, #10a7d3);
-    background-image: linear-gradient(#15191d, #15191d), linear-gradient(#15191d, #15191d), linear-gradient(#10a7d3, #10a7d3);
-    text-shadow: .03em 0 #15191d, -.03em 0 #15191d, 0 .03em #15191d, 0 -.03em #15191d, .06em 0 #15191d, -.06em 0 #15191d, .09em 0 #15191d, -.09em 0 #15191d, .12em 0 #15191d, -.12em 0 #15191d, .15em 0 #15191d, -.15em 0 #15191d
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#343a40), to(#343a40)), -webkit-gradient(linear, left top, left bottom, from(#343a40), to(#343a40)), -webkit-gradient(linear, left top, left bottom, from(#10a7d3), to(#10a7d3));
+    background-image: -webkit-linear-gradient(#343a40, #343a40), -webkit-linear-gradient(#343a40, #343a40), -webkit-linear-gradient(#10a7d3, #10a7d3);
+    background-image: linear-gradient(#343a40, #343a40), linear-gradient(#343a40, #343a40), linear-gradient(#10a7d3, #10a7d3);
+    text-shadow: .03em 0 #343a40, -.03em 0 #343a40, 0 .03em #343a40, 0 -.03em #343a40, .06em 0 #343a40, -.06em 0 #343a40, .09em 0 #343a40, -.09em 0 #343a40, .12em 0 #343a40, -.12em 0 #343a40, .15em 0 #343a40, -.15em 0 #343a40
 }
 
 .content-style p.message a:focus::selection,
@@ -2450,10 +2450,10 @@ a .section-body:hover {
 .content-style ol a:hover,
 .content-style ul a:focus,
 .content-style ul a:hover {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#15191d), to(#15191d)), -webkit-gradient(linear, left top, left bottom, from(#15191d), to(#15191d)), -webkit-gradient(linear, left top, left bottom, from(#10a7d3), to(#10a7d3));
-    background-image: -webkit-linear-gradient(#15191d, #15191d), -webkit-linear-gradient(#15191d, #15191d), -webkit-linear-gradient(#10a7d3, #10a7d3);
-    background-image: linear-gradient(#15191d, #15191d), linear-gradient(#15191d, #15191d), linear-gradient(#10a7d3, #10a7d3);
-    text-shadow: .03em 0 #15191d, -.03em 0 #15191d, 0 .03em #15191d, 0 -.03em #15191d, .06em 0 #15191d, -.06em 0 #15191d, .09em 0 #15191d, -.09em 0 #15191d, .12em 0 #15191d, -.12em 0 #15191d, .15em 0 #15191d, -.15em 0 #15191d
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#343a40), to(#343a40)), -webkit-gradient(linear, left top, left bottom, from(#343a40), to(#343a40)), -webkit-gradient(linear, left top, left bottom, from(#10a7d3), to(#10a7d3));
+    background-image: -webkit-linear-gradient(#343a40, #343a40), -webkit-linear-gradient(#343a40, #343a40), -webkit-linear-gradient(#10a7d3, #10a7d3);
+    background-image: linear-gradient(#343a40, #343a40), linear-gradient(#343a40, #343a40), linear-gradient(#10a7d3, #10a7d3);
+    text-shadow: .03em 0 #343a40, -.03em 0 #343a40, 0 .03em #343a40, 0 -.03em #343a40, .06em 0 #343a40, -.06em 0 #343a40, .09em 0 #343a40, -.09em 0 #343a40, .12em 0 #343a40, -.12em 0 #343a40, .15em 0 #343a40, -.15em 0 #343a40
 }
 
 .content-style ol a:focus::selection,
@@ -2546,10 +2546,10 @@ a .section-body:hover {
 
 .content-style blockquote:not(.sidebar) a:focus,
 .content-style blockquote:not(.sidebar) a:hover {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#15191d), to(#15191d)), -webkit-gradient(linear, left top, left bottom, from(#15191d), to(#15191d)), -webkit-gradient(linear, left top, left bottom, from(#10a7d3), to(#10a7d3));
-    background-image: -webkit-linear-gradient(#15191d, #15191d), -webkit-linear-gradient(#15191d, #15191d), -webkit-linear-gradient(#10a7d3, #10a7d3);
-    background-image: linear-gradient(#15191d, #15191d), linear-gradient(#15191d, #15191d), linear-gradient(#10a7d3, #10a7d3);
-    text-shadow: .03em 0 #15191d, -.03em 0 #15191d, 0 .03em #15191d, 0 -.03em #15191d, .06em 0 #15191d, -.06em 0 #15191d, .09em 0 #15191d, -.09em 0 #15191d, .12em 0 #15191d, -.12em 0 #15191d, .15em 0 #15191d, -.15em 0 #15191d
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#343a40), to(#343a40)), -webkit-gradient(linear, left top, left bottom, from(#343a40), to(#343a40)), -webkit-gradient(linear, left top, left bottom, from(#10a7d3), to(#10a7d3));
+    background-image: -webkit-linear-gradient(#343a40, #343a40), -webkit-linear-gradient(#343a40, #343a40), -webkit-linear-gradient(#10a7d3, #10a7d3);
+    background-image: linear-gradient(#343a40, #343a40), linear-gradient(#343a40, #343a40), linear-gradient(#10a7d3, #10a7d3);
+    text-shadow: .03em 0 #343a40, -.03em 0 #343a40, 0 .03em #343a40, 0 -.03em #343a40, .06em 0 #343a40, -.06em 0 #343a40, .09em 0 #343a40, -.09em 0 #343a40, .12em 0 #343a40, -.12em 0 #343a40, .15em 0 #343a40, -.15em 0 #343a40
 }
 
 .content-style blockquote:not(.sidebar) a:focus::selection,
@@ -2614,10 +2614,10 @@ a .section-body:hover {
 
 .content-style blockquote.sidebar a:focus,
 .content-style blockquote.sidebar a:hover {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#15191d), to(#15191d)), -webkit-gradient(linear, left top, left bottom, from(#15191d), to(#15191d)), -webkit-gradient(linear, left top, left bottom, from(#10a7d3), to(#10a7d3));
-    background-image: -webkit-linear-gradient(#15191d, #15191d), -webkit-linear-gradient(#15191d, #15191d), -webkit-linear-gradient(#10a7d3, #10a7d3);
-    background-image: linear-gradient(#15191d, #15191d), linear-gradient(#15191d, #15191d), linear-gradient(#10a7d3, #10a7d3);
-    text-shadow: .03em 0 #15191d, -.03em 0 #15191d, 0 .03em #15191d, 0 -.03em #15191d, .06em 0 #15191d, -.06em 0 #15191d, .09em 0 #15191d, -.09em 0 #15191d, .12em 0 #15191d, -.12em 0 #15191d, .15em 0 #15191d, -.15em 0 #15191d
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#343a40), to(#343a40)), -webkit-gradient(linear, left top, left bottom, from(#343a40), to(#343a40)), -webkit-gradient(linear, left top, left bottom, from(#10a7d3), to(#10a7d3));
+    background-image: -webkit-linear-gradient(#343a40, #343a40), -webkit-linear-gradient(#343a40, #343a40), -webkit-linear-gradient(#10a7d3, #10a7d3);
+    background-image: linear-gradient(#343a40, #343a40), linear-gradient(#343a40, #343a40), linear-gradient(#10a7d3, #10a7d3);
+    text-shadow: .03em 0 #343a40, -.03em 0 #343a40, 0 .03em #343a40, 0 -.03em #343a40, .06em 0 #343a40, -.06em 0 #343a40, .09em 0 #343a40, -.09em 0 #343a40, .12em 0 #343a40, -.12em 0 #343a40, .15em 0 #343a40, -.15em 0 #343a40
 }
 
 .content-style blockquote.sidebar a:focus::selection,
@@ -2672,10 +2672,10 @@ a .section-body:hover {
 
 .content-style blockquote.sidebar:before a:focus,
 .content-style blockquote.sidebar:before a:hover {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#15191d), to(#15191d)), -webkit-gradient(linear, left top, left bottom, from(#15191d), to(#15191d)), -webkit-gradient(linear, left top, left bottom, from(#10a7d3), to(#10a7d3));
-    background-image: -webkit-linear-gradient(#15191d, #15191d), -webkit-linear-gradient(#15191d, #15191d), -webkit-linear-gradient(#10a7d3, #10a7d3);
-    background-image: linear-gradient(#15191d, #15191d), linear-gradient(#15191d, #15191d), linear-gradient(#10a7d3, #10a7d3);
-    text-shadow: .03em 0 #15191d, -.03em 0 #15191d, 0 .03em #15191d, 0 -.03em #15191d, .06em 0 #15191d, -.06em 0 #15191d, .09em 0 #15191d, -.09em 0 #15191d, .12em 0 #15191d, -.12em 0 #15191d, .15em 0 #15191d, -.15em 0 #15191d
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#343a40), to(#343a40)), -webkit-gradient(linear, left top, left bottom, from(#343a40), to(#343a40)), -webkit-gradient(linear, left top, left bottom, from(#10a7d3), to(#10a7d3));
+    background-image: -webkit-linear-gradient(#343a40, #343a40), -webkit-linear-gradient(#343a40, #343a40), -webkit-linear-gradient(#10a7d3, #10a7d3);
+    background-image: linear-gradient(#343a40, #343a40), linear-gradient(#343a40, #343a40), linear-gradient(#10a7d3, #10a7d3);
+    text-shadow: .03em 0 #343a40, -.03em 0 #343a40, 0 .03em #343a40, 0 -.03em #343a40, .06em 0 #343a40, -.06em 0 #343a40, .09em 0 #343a40, -.09em 0 #343a40, .12em 0 #343a40, -.12em 0 #343a40, .15em 0 #343a40, -.15em 0 #343a40
 }
 
 .content-style blockquote.sidebar:before a:focus::selection,
@@ -2726,10 +2726,10 @@ a .section-body:hover {
 
 .content-style cite a:focus,
 .content-style cite a:hover {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#15191d), to(#15191d)), -webkit-gradient(linear, left top, left bottom, from(#15191d), to(#15191d)), -webkit-gradient(linear, left top, left bottom, from(#10a7d3), to(#10a7d3));
-    background-image: -webkit-linear-gradient(#15191d, #15191d), -webkit-linear-gradient(#15191d, #15191d), -webkit-linear-gradient(#10a7d3, #10a7d3);
-    background-image: linear-gradient(#15191d, #15191d), linear-gradient(#15191d, #15191d), linear-gradient(#10a7d3, #10a7d3);
-    text-shadow: .03em 0 #15191d, -.03em 0 #15191d, 0 .03em #15191d, 0 -.03em #15191d, .06em 0 #15191d, -.06em 0 #15191d, .09em 0 #15191d, -.09em 0 #15191d, .12em 0 #15191d, -.12em 0 #15191d, .15em 0 #15191d, -.15em 0 #15191d
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#343a40), to(#343a40)), -webkit-gradient(linear, left top, left bottom, from(#343a40), to(#343a40)), -webkit-gradient(linear, left top, left bottom, from(#10a7d3), to(#10a7d3));
+    background-image: -webkit-linear-gradient(#343a40, #343a40), -webkit-linear-gradient(#343a40, #343a40), -webkit-linear-gradient(#10a7d3, #10a7d3);
+    background-image: linear-gradient(#343a40, #343a40), linear-gradient(#343a40, #343a40), linear-gradient(#10a7d3, #10a7d3);
+    text-shadow: .03em 0 #343a40, -.03em 0 #343a40, 0 .03em #343a40, 0 -.03em #343a40, .06em 0 #343a40, -.06em 0 #343a40, .09em 0 #343a40, -.09em 0 #343a40, .12em 0 #343a40, -.12em 0 #343a40, .15em 0 #343a40, -.15em 0 #343a40
 }
 
 .content-style cite a:focus::selection,
@@ -2816,10 +2816,10 @@ a .section-body:hover {
 
 .content-style figcaption a:focus,
 .content-style figcaption a:hover {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#15191d), to(#15191d)), -webkit-gradient(linear, left top, left bottom, from(#15191d), to(#15191d)), -webkit-gradient(linear, left top, left bottom, from(#10a7d3), to(#10a7d3));
-    background-image: -webkit-linear-gradient(#15191d, #15191d), -webkit-linear-gradient(#15191d, #15191d), -webkit-linear-gradient(#10a7d3, #10a7d3);
-    background-image: linear-gradient(#15191d, #15191d), linear-gradient(#15191d, #15191d), linear-gradient(#10a7d3, #10a7d3);
-    text-shadow: .03em 0 #15191d, -.03em 0 #15191d, 0 .03em #15191d, 0 -.03em #15191d, .06em 0 #15191d, -.06em 0 #15191d, .09em 0 #15191d, -.09em 0 #15191d, .12em 0 #15191d, -.12em 0 #15191d, .15em 0 #15191d, -.15em 0 #15191d
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#343a40), to(#343a40)), -webkit-gradient(linear, left top, left bottom, from(#343a40), to(#343a40)), -webkit-gradient(linear, left top, left bottom, from(#10a7d3), to(#10a7d3));
+    background-image: -webkit-linear-gradient(#343a40, #343a40), -webkit-linear-gradient(#343a40, #343a40), -webkit-linear-gradient(#10a7d3, #10a7d3);
+    background-image: linear-gradient(#343a40, #343a40), linear-gradient(#343a40, #343a40), linear-gradient(#10a7d3, #10a7d3);
+    text-shadow: .03em 0 #343a40, -.03em 0 #343a40, 0 .03em #343a40, 0 -.03em #343a40, .06em 0 #343a40, -.06em 0 #343a40, .09em 0 #343a40, -.09em 0 #343a40, .12em 0 #343a40, -.12em 0 #343a40, .15em 0 #343a40, -.15em 0 #343a40
 }
 
 .content-style figcaption a:focus::selection,
@@ -2968,10 +2968,10 @@ a .section-body:hover {
 
 .content-style .next-post .next-header a:focus,
 .content-style .next-post .next-header a:hover {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#15191d), to(#15191d)), -webkit-gradient(linear, left top, left bottom, from(#15191d), to(#15191d)), -webkit-gradient(linear, left top, left bottom, from(#10a7d3), to(#10a7d3));
-    background-image: -webkit-linear-gradient(#15191d, #15191d), -webkit-linear-gradient(#15191d, #15191d), -webkit-linear-gradient(#10a7d3, #10a7d3);
-    background-image: linear-gradient(#15191d, #15191d), linear-gradient(#15191d, #15191d), linear-gradient(#10a7d3, #10a7d3);
-    text-shadow: .03em 0 #15191d, -.03em 0 #15191d, 0 .03em #15191d, 0 -.03em #15191d, .06em 0 #15191d, -.06em 0 #15191d, .09em 0 #15191d, -.09em 0 #15191d, .12em 0 #15191d, -.12em 0 #15191d, .15em 0 #15191d, -.15em 0 #15191d
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#343a40), to(#343a40)), -webkit-gradient(linear, left top, left bottom, from(#343a40), to(#343a40)), -webkit-gradient(linear, left top, left bottom, from(#10a7d3), to(#10a7d3));
+    background-image: -webkit-linear-gradient(#343a40, #343a40), -webkit-linear-gradient(#343a40, #343a40), -webkit-linear-gradient(#10a7d3, #10a7d3);
+    background-image: linear-gradient(#343a40, #343a40), linear-gradient(#343a40, #343a40), linear-gradient(#10a7d3, #10a7d3);
+    text-shadow: .03em 0 #343a40, -.03em 0 #343a40, 0 .03em #343a40, 0 -.03em #343a40, .06em 0 #343a40, -.06em 0 #343a40, .09em 0 #343a40, -.09em 0 #343a40, .12em 0 #343a40, -.12em 0 #343a40, .15em 0 #343a40, -.15em 0 #343a40
 }
 
 .content-style .next-post .next-header a:focus::selection,
@@ -3024,10 +3024,10 @@ a .section-body:hover {
 
 .content-style .next-title a a:focus,
 .content-style .next-title a a:hover {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#15191d), to(#15191d)), -webkit-gradient(linear, left top, left bottom, from(#15191d), to(#15191d)), -webkit-gradient(linear, left top, left bottom, from(#10a7d3), to(#10a7d3));
-    background-image: -webkit-linear-gradient(#15191d, #15191d), -webkit-linear-gradient(#15191d, #15191d), -webkit-linear-gradient(#10a7d3, #10a7d3);
-    background-image: linear-gradient(#15191d, #15191d), linear-gradient(#15191d, #15191d), linear-gradient(#10a7d3, #10a7d3);
-    text-shadow: .03em 0 #15191d, -.03em 0 #15191d, 0 .03em #15191d, 0 -.03em #15191d, .06em 0 #15191d, -.06em 0 #15191d, .09em 0 #15191d, -.09em 0 #15191d, .12em 0 #15191d, -.12em 0 #15191d, .15em 0 #15191d, -.15em 0 #15191d
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#343a40), to(#343a40)), -webkit-gradient(linear, left top, left bottom, from(#343a40), to(#343a40)), -webkit-gradient(linear, left top, left bottom, from(#10a7d3), to(#10a7d3));
+    background-image: -webkit-linear-gradient(#343a40, #343a40), -webkit-linear-gradient(#343a40, #343a40), -webkit-linear-gradient(#10a7d3, #10a7d3);
+    background-image: linear-gradient(#343a40, #343a40), linear-gradient(#343a40, #343a40), linear-gradient(#10a7d3, #10a7d3);
+    text-shadow: .03em 0 #343a40, -.03em 0 #343a40, 0 .03em #343a40, 0 -.03em #343a40, .06em 0 #343a40, -.06em 0 #343a40, .09em 0 #343a40, -.09em 0 #343a40, .12em 0 #343a40, -.12em 0 #343a40, .15em 0 #343a40, -.15em 0 #343a40
 }
 
 .content-style .next-title a a:focus::selection,
@@ -3055,10 +3055,10 @@ a .section-body:hover {
 
 .content-style .next-title a:focus,
 .content-style .next-title a:hover {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#15191d), to(#15191d)), -webkit-gradient(linear, left top, left bottom, from(#15191d), to(#15191d)), -webkit-gradient(linear, left top, left bottom, from(#10a7d3), to(#10a7d3));
-    background-image: -webkit-linear-gradient(#15191d, #15191d), -webkit-linear-gradient(#15191d, #15191d), -webkit-linear-gradient(#10a7d3, #10a7d3);
-    background-image: linear-gradient(#15191d, #15191d), linear-gradient(#15191d, #15191d), linear-gradient(#10a7d3, #10a7d3);
-    text-shadow: .03em 0 #15191d, -.03em 0 #15191d, 0 .03em #15191d, 0 -.03em #15191d, .06em 0 #15191d, -.06em 0 #15191d, .09em 0 #15191d, -.09em 0 #15191d, .12em 0 #15191d, -.12em 0 #15191d, .15em 0 #15191d, -.15em 0 #15191d
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#343a40), to(#343a40)), -webkit-gradient(linear, left top, left bottom, from(#343a40), to(#343a40)), -webkit-gradient(linear, left top, left bottom, from(#10a7d3), to(#10a7d3));
+    background-image: -webkit-linear-gradient(#343a40, #343a40), -webkit-linear-gradient(#343a40, #343a40), -webkit-linear-gradient(#10a7d3, #10a7d3);
+    background-image: linear-gradient(#343a40, #343a40), linear-gradient(#343a40, #343a40), linear-gradient(#10a7d3, #10a7d3);
+    text-shadow: .03em 0 #343a40, -.03em 0 #343a40, 0 .03em #343a40, 0 -.03em #343a40, .06em 0 #343a40, -.06em 0 #343a40, .09em 0 #343a40, -.09em 0 #343a40, .12em 0 #343a40, -.12em 0 #343a40, .15em 0 #343a40, -.15em 0 #343a40
 }
 
 .content-style .next-title a:focus::selection,
@@ -3123,10 +3123,10 @@ a .section-body:hover {
 
 .related-container h3 a:focus,
 .related-container h3 a:hover {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#15191d), to(#15191d)), -webkit-gradient(linear, left top, left bottom, from(#15191d), to(#15191d)), -webkit-gradient(linear, left top, left bottom, from(#10a7d3), to(#10a7d3));
-    background-image: -webkit-linear-gradient(#15191d, #15191d), -webkit-linear-gradient(#15191d, #15191d), -webkit-linear-gradient(#10a7d3, #10a7d3);
-    background-image: linear-gradient(#15191d, #15191d), linear-gradient(#15191d, #15191d), linear-gradient(#10a7d3, #10a7d3);
-    text-shadow: .03em 0 #15191d, -.03em 0 #15191d, 0 .03em #15191d, 0 -.03em #15191d, .06em 0 #15191d, -.06em 0 #15191d, .09em 0 #15191d, -.09em 0 #15191d, .12em 0 #15191d, -.12em 0 #15191d, .15em 0 #15191d, -.15em 0 #15191d
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#343a40), to(#343a40)), -webkit-gradient(linear, left top, left bottom, from(#343a40), to(#343a40)), -webkit-gradient(linear, left top, left bottom, from(#10a7d3), to(#10a7d3));
+    background-image: -webkit-linear-gradient(#343a40, #343a40), -webkit-linear-gradient(#343a40, #343a40), -webkit-linear-gradient(#10a7d3, #10a7d3);
+    background-image: linear-gradient(#343a40, #343a40), linear-gradient(#343a40, #343a40), linear-gradient(#10a7d3, #10a7d3);
+    text-shadow: .03em 0 #343a40, -.03em 0 #343a40, 0 .03em #343a40, 0 -.03em #343a40, .06em 0 #343a40, -.06em 0 #343a40, .09em 0 #343a40, -.09em 0 #343a40, .12em 0 #343a40, -.12em 0 #343a40, .15em 0 #343a40, -.15em 0 #343a40
 }
 
 .related-container h3 a:focus::selection,
@@ -3194,10 +3194,10 @@ a .section-body:hover {
 
 .related-post h4 a:focus,
 .related-post h4 a:hover {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#15191d), to(#15191d)), -webkit-gradient(linear, left top, left bottom, from(#15191d), to(#15191d)), -webkit-gradient(linear, left top, left bottom, from(#10a7d3), to(#10a7d3));
-    background-image: -webkit-linear-gradient(#15191d, #15191d), -webkit-linear-gradient(#15191d, #15191d), -webkit-linear-gradient(#10a7d3, #10a7d3);
-    background-image: linear-gradient(#15191d, #15191d), linear-gradient(#15191d, #15191d), linear-gradient(#10a7d3, #10a7d3);
-    text-shadow: .03em 0 #15191d, -.03em 0 #15191d, 0 .03em #15191d, 0 -.03em #15191d, .06em 0 #15191d, -.06em 0 #15191d, .09em 0 #15191d, -.09em 0 #15191d, .12em 0 #15191d, -.12em 0 #15191d, .15em 0 #15191d, -.15em 0 #15191d
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#343a40), to(#343a40)), -webkit-gradient(linear, left top, left bottom, from(#343a40), to(#343a40)), -webkit-gradient(linear, left top, left bottom, from(#10a7d3), to(#10a7d3));
+    background-image: -webkit-linear-gradient(#343a40, #343a40), -webkit-linear-gradient(#343a40, #343a40), -webkit-linear-gradient(#10a7d3, #10a7d3);
+    background-image: linear-gradient(#343a40, #343a40), linear-gradient(#343a40, #343a40), linear-gradient(#10a7d3, #10a7d3);
+    text-shadow: .03em 0 #343a40, -.03em 0 #343a40, 0 .03em #343a40, 0 -.03em #343a40, .06em 0 #343a40, -.06em 0 #343a40, .09em 0 #343a40, -.09em 0 #343a40, .12em 0 #343a40, -.12em 0 #343a40, .15em 0 #343a40, -.15em 0 #343a40
 }
 
 .serif .related-post h4 {
@@ -3261,10 +3261,10 @@ a .section-body:hover {
 
 .meta-text a:focus,
 .meta-text a:hover {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#15191d), to(#15191d)), -webkit-gradient(linear, left top, left bottom, from(#15191d), to(#15191d)), -webkit-gradient(linear, left top, left bottom, from(#10a7d3), to(#10a7d3));
-    background-image: -webkit-linear-gradient(#15191d, #15191d), -webkit-linear-gradient(#15191d, #15191d), -webkit-linear-gradient(#10a7d3, #10a7d3);
-    background-image: linear-gradient(#15191d, #15191d), linear-gradient(#15191d, #15191d), linear-gradient(#10a7d3, #10a7d3);
-    text-shadow: .03em 0 #15191d, -.03em 0 #15191d, 0 .03em #15191d, 0 -.03em #15191d, .06em 0 #15191d, -.06em 0 #15191d, .09em 0 #15191d, -.09em 0 #15191d, .12em 0 #15191d, -.12em 0 #15191d, .15em 0 #15191d, -.15em 0 #15191d
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#343a40), to(#343a40)), -webkit-gradient(linear, left top, left bottom, from(#343a40), to(#343a40)), -webkit-gradient(linear, left top, left bottom, from(#10a7d3), to(#10a7d3));
+    background-image: -webkit-linear-gradient(#343a40, #343a40), -webkit-linear-gradient(#343a40, #343a40), -webkit-linear-gradient(#10a7d3, #10a7d3);
+    background-image: linear-gradient(#343a40, #343a40), linear-gradient(#343a40, #343a40), linear-gradient(#10a7d3, #10a7d3);
+    text-shadow: .03em 0 #343a40, -.03em 0 #343a40, 0 .03em #343a40, 0 -.03em #343a40, .06em 0 #343a40, -.06em 0 #343a40, .09em 0 #343a40, -.09em 0 #343a40, .12em 0 #343a40, -.12em 0 #343a40, .15em 0 #343a40, -.15em 0 #343a40
 }
 
 .meta-text a:focus::selection,
@@ -3433,10 +3433,10 @@ a .section-body:hover {
 
 .footer-title a:focus,
 .footer-title a:hover {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#15191d), to(#15191d)), -webkit-gradient(linear, left top, left bottom, from(#15191d), to(#15191d)), -webkit-gradient(linear, left top, left bottom, from(#10a7d3), to(#10a7d3));
-    background-image: -webkit-linear-gradient(#15191d, #15191d), -webkit-linear-gradient(#15191d, #15191d), -webkit-linear-gradient(#10a7d3, #10a7d3);
-    background-image: linear-gradient(#15191d, #15191d), linear-gradient(#15191d, #15191d), linear-gradient(#10a7d3, #10a7d3);
-    text-shadow: .03em 0 #15191d, -.03em 0 #15191d, 0 .03em #15191d, 0 -.03em #15191d, .06em 0 #15191d, -.06em 0 #15191d, .09em 0 #15191d, -.09em 0 #15191d, .12em 0 #15191d, -.12em 0 #15191d, .15em 0 #15191d, -.15em 0 #15191d
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#343a40), to(#343a40)), -webkit-gradient(linear, left top, left bottom, from(#343a40), to(#343a40)), -webkit-gradient(linear, left top, left bottom, from(#10a7d3), to(#10a7d3));
+    background-image: -webkit-linear-gradient(#343a40, #343a40), -webkit-linear-gradient(#343a40, #343a40), -webkit-linear-gradient(#10a7d3, #10a7d3);
+    background-image: linear-gradient(#343a40, #343a40), linear-gradient(#343a40, #343a40), linear-gradient(#10a7d3, #10a7d3);
+    text-shadow: .03em 0 #343a40, -.03em 0 #343a40, 0 .03em #343a40, 0 -.03em #343a40, .06em 0 #343a40, -.06em 0 #343a40, .09em 0 #343a40, -.09em 0 #343a40, .12em 0 #343a40, -.12em 0 #343a40, .15em 0 #343a40, -.15em 0 #343a40
 }
 
 .footer-title a:focus::selection,
@@ -3506,10 +3506,10 @@ a .section-body:hover {
 
 .footer-text a:focus,
 .footer-text a:hover {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#15191d), to(#15191d)), -webkit-gradient(linear, left top, left bottom, from(#15191d), to(#15191d)), -webkit-gradient(linear, left top, left bottom, from(#10a7d3), to(#10a7d3));
-    background-image: -webkit-linear-gradient(#15191d, #15191d), -webkit-linear-gradient(#15191d, #15191d), -webkit-linear-gradient(#10a7d3, #10a7d3);
-    background-image: linear-gradient(#15191d, #15191d), linear-gradient(#15191d, #15191d), linear-gradient(#10a7d3, #10a7d3);
-    text-shadow: .03em 0 #15191d, -.03em 0 #15191d, 0 .03em #15191d, 0 -.03em #15191d, .06em 0 #15191d, -.06em 0 #15191d, .09em 0 #15191d, -.09em 0 #15191d, .12em 0 #15191d, -.12em 0 #15191d, .15em 0 #15191d, -.15em 0 #15191d
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#343a40), to(#343a40)), -webkit-gradient(linear, left top, left bottom, from(#343a40), to(#343a40)), -webkit-gradient(linear, left top, left bottom, from(#10a7d3), to(#10a7d3));
+    background-image: -webkit-linear-gradient(#343a40, #343a40), -webkit-linear-gradient(#343a40, #343a40), -webkit-linear-gradient(#10a7d3, #10a7d3);
+    background-image: linear-gradient(#343a40, #343a40), linear-gradient(#343a40, #343a40), linear-gradient(#10a7d3, #10a7d3);
+    text-shadow: .03em 0 #343a40, -.03em 0 #343a40, 0 .03em #343a40, 0 -.03em #343a40, .06em 0 #343a40, -.06em 0 #343a40, .09em 0 #343a40, -.09em 0 #343a40, .12em 0 #343a40, -.12em 0 #343a40, .15em 0 #343a40, -.15em 0 #343a40
 }
 
 .footer-text a:focus::selection,
