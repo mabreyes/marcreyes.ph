@@ -7,10 +7,10 @@
 //  General
 //  ───────────────────────────────────
 $oc-white: #ffffff;
-$oc-black: #000000;
+$oc-black: #343a40000;
 //  Gray
 //  ───────────────────────────────────
-$oc-gray-list: ( "0": #f8f9fa, "1": #f1f3f5, "2": #e9ecef, "3": #dee2e6, "4": #ced4da, "5": #adb5bd, "6": #868e96, "7": #495057, "8": #343a40, "9": #15191d);
+$oc-gray-list: ( "0": #f8f9fa, "1": #f1f3f5, "2": #e9ecef, "3": #dee2e6, "4": #ced4da, "5": #adb5bd, "6": #868e96, "7": #495057, "8": #343a40, "9": #343a40);
 $oc-gray-0: map-get($oc-gray-list, "0");
 $oc-gray-1: map-get($oc-gray-list, "1");
 $oc-gray-2: map-get($oc-gray-list, "2");

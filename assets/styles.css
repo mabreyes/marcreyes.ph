@@ -73,7 +73,7 @@ dfn {
 
 mark {
     background-color: #ff0;
-    color: #000
+    color: #343a40
 }
 
 small {
@@ -345,7 +345,7 @@ table {
 html {
     font-size: 75%;
     line-height: 2;
-    background-color: #15191d;
+    background-color: #343a40;
     word-wrap: break-word;
     box-sizing: border-box
 }
@@ -378,7 +378,7 @@ body {
     min-width: 100vw;
     min-height: 100vh;
     background-color: #fff;
-    color: #15191d;
+    color: #343a40;
     font-family: Sharp Grotesk, Arial, sans-serif;
     font-weight: 400;
     -webkit-font-feature-settings: "lnum", "salt";
@@ -718,7 +718,7 @@ textarea {
 }
 
 .form-select:valid {
-    color: #15191d
+    color: #343a40
 }
 
 .form-group {
@@ -1147,7 +1147,7 @@ textarea {
 }
 
 .ow {
-    color: #000
+    color: #343a40
 }
 
 .w {
@@ -1304,7 +1304,7 @@ textarea {
     transition: fill .15s cubic-bezier(0, 0, .2, 1), transform .15s cubic-bezier(0, 0, .2, 1);
     transition: fill .15s cubic-bezier(0, 0, .2, 1), transform .15s cubic-bezier(0, 0, .2, 1), -webkit-transform .15s cubic-bezier(0, 0, .2, 1);
     vertical-align: middle;
-    fill: #15191d
+    fill: #343a40
 }
 
 .metabar-logo svg:focus,
@@ -1328,7 +1328,7 @@ textarea {
 .metabar-title {
     -webkit-transition: color .15s cubic-bezier(0, 0, .2, 1);
     transition: color .15s cubic-bezier(0, 0, .2, 1);
-    color: #15191d;
+    color: #343a40;
     font-family: Sharp Grotesk, Arial, sans-serif;
     font-size: 25px;
     font-weight: 800;
@@ -3371,7 +3371,7 @@ a .section-body:hover {
     transition: fill .15s cubic-bezier(0, 0, .2, 1), -webkit-transform .15s cubic-bezier(0, 0, .2, 1);
     transition: fill .15s cubic-bezier(0, 0, .2, 1), transform .15s cubic-bezier(0, 0, .2, 1);
     transition: fill .15s cubic-bezier(0, 0, .2, 1), transform .15s cubic-bezier(0, 0, .2, 1), -webkit-transform .15s cubic-bezier(0, 0, .2, 1);
-    fill: #15191d
+    fill: #343a40
 }
 
 .footer-logo svg:focus,
