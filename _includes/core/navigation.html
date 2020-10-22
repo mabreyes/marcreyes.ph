@@ -6,9 +6,9 @@
       <li class="nav-link">
         <a class="{% if page.url == entry.url %} nav-active{% endif %}" href="https://blog.marcreyes.ph" aria-label="{{ entry.title }}">{{ entry.title }}</a>
       </li>
-    {% if entry.title == "GitHub %}
+    {% else %}
     <li class="nav-link">
-      <a class="{% if page.url == entry.url %} nav-active{% endif %}" href="https://marcreyes.xyz" aria-label="Projects">🚀 Projects</a>
+      <a class="{% if page.url == entry.url %} nav-active{% endif %}" href="https://marcreyes.xyz" aria-label="🚀 Projects">Projects</a>
     </li>
     {% endif %}
 	{% endunless %}
