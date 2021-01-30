@@ -1,46 +1,40 @@
----
-layout: default
-lang: en
-ref: index
-image: true
-exclude: true
----
+<!DOCTYPE html>
+<html lang="en">
 
-{% include core/metabar.html %}
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="LazyGuy Landing Page" />
+    <meta name="author" content="Pixelwars">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta property="og:image" content="/assets/images/hero.jpg">
+    <title>Marc Reyes &mdash; Software Engineer</title>
+    <link rel="shortcut icon" href="images/ico/favicon.ico">
+    <link rel="apple-touch-icon" href="images/ico/apple-touch-icon.png" />
+    <link rel="stylesheet" type="text/css" href="css/fonts/hk-grotesk/style.css">
+    <link rel="stylesheet" type="text/css" href="css/fonts/fontello/css/fontello.css">
+    <link rel="stylesheet" type="text/css" href="css/fonts/shgr/stylesheet.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
 
-<article class="content">
+<body class="is-split-layout is-media-right">
+    <div class="media" style="background-image:url(images/hero.jpg)"></div>
+    <div class="content-wrap">
+        <div class="content">
+            <h1>I'm Marc, a Software Engineer from the Philippines.</h1>
+            <p>
+                Building software, automating processes, and making data-driven decisions is what I enjoy most about my work. Currently working at <a class="link-1" href="https://gcash.com" target="_blank">GCash</a> as a Machine Learning Engineer.
+            </p>
+            <p>
+                I’m <a class="link-1" href="https://twitter.com/marcreyesph" target="_blank">tweeting</a>, taking
+                <a class="link-1" href="https://www.instagram.com/marcxplanet" target="_blank">photos</a>, and pushing my
+                <a class="link-1" href="https://github.com/marcreyesph" target="_blank">codes</a> for the world to see.
+            </p>
+            <p>For collaboration and job opportunities <a class="link-2" href="mailto:hello@marcreyes.ph">hello@marcreyes.ph</a></p>
 
-  <header class="hero">
-    <h1 class="hero-title">{{ site.description }}</h1>
-    {% include core/share.html %}
-    {% if page.image %}
-      <div class="hero-image" style="background-image: url('{{ site.baseurl }}{{ site.assets }}{{ site.images }}/posts/{{ page.ref }}.jpg'); background-image: -webkit-image-set( url('{{ site.baseurl }}{{ site.assets }}{{ site.images }}/posts/{{ page.ref }}.jpg') 1x, url('{{ site.baseurl }}{{ site.assets }}{{ site.images }}/posts/{{ page.ref }}-large.jpg') 2x )"></div>
-    {% endif %}
-  </header>
+            <p><a class="button huge bold" href="https://marcreyes.xyz">View Projects</a></p>
+        </div>
+    </div>
+    <script src="js/main.js"></script>
+</body>
 
-  <section id="about" class="section">
-    <h2 class="section-title">About</h2>
-    <article>
-      <h3 class="section-header">👋 Hello there, I'm Marc.</h3>
-      <p class="section-body">I'm currently working at <a href="https://mynt.xyz" target="_new">Mynt</a>, a fintech company in the Philippines as a Machine Learning Engineer. I'm also into Web Development and DevOps. Get in touch at <a href="mailto:hello@marcreyes.ph?subject=Hi, Marc">hello@marcreyes.ph</a>.</p>
-      <!-- <a class="section-link" href="{{ site.github.repo }}">Fork on GitHub</a> -->
-      <a class="section-link" target="_new" href="https://marcrey.es/resume">Download Resume</a>
-    </article>
-  </section>
-
-  <!-- <section id="posts" class="section">
-    <h2 class="section-title">Projects</h2>
-    <article class="section-writing">
-      {% assign posts = site.posts | sort: 'order' | where:"lang", page.lang | limit: 3 %}
-      {% for page in posts %}
-      <h3 class="section-header"><a href="{{ site.baseurl }}{{ page.url }}" title="{{ page.title }}">{{ page.title }}</a></h3>
-        {% include core/date.html %}
-        <p class="section-body">{{ page.excerpt | strip_html | truncatewords: 32 }}</p>
-      {% endfor %}
-      <a class="section-link" href="{{ site.social.medium }}">Read more on Medium</a>
-    </article>
-  </section> -->
-
-</article>
-
-{% include core/footer.html %}
+</html>
