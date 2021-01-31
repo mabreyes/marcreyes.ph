@@ -1,0 +1,22 @@
+{
+    "name": "marcreyesph",
+    "version": "1.0.0",
+    "description": "A minimalist CV website about me, what I love, and the things I am currently working into",
+    "main": "main.js",
+    "scripts": {
+        "test": "node test"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/marcreyesph/marcreyesph.git"
+    },
+    "author": "marcreyesmedia@gmail.com",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/marcreyesph/marcreyesph/issues"
+    },
+    "homepage": "https://github.com/marcreyesph/marcreyesph#readme",
+    "dependencies": {
+        "netlify-plugin-minify-html": "^0.3.0"
+    }
+}
