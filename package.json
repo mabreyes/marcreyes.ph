@@ -1,22 +1,16 @@
 {
-    "name": "marcreyesph",
+    "name": "test-site",
     "version": "1.0.0",
-    "description": "A minimalist CV website about me, what I love, and the things I am currently working into",
-    "main": "main.js",
+    "description": "",
     "scripts": {
-        "test": "node test"
+        "start": "eleventy --serve",
+        "build": "eleventy"
     },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/marcreyesph/marcreyesph.git"
-    },
-    "author": "marcreyesmedia@gmail.com",
-    "license": "MIT",
-    "bugs": {
-        "url": "https://github.com/marcreyesph/marcreyesph/issues"
-    },
-    "homepage": "https://github.com/marcreyesph/marcreyesph#readme",
+    "keywords": [],
+    "author": "Phil Hawksworth",
+    "license": "ISC",
     "dependencies": {
-        "netlify-plugin-minify-html": "^0.3.0"
+        "@11ty/eleventy": "^0.11.0",
+        "netlify-plugin-minify-html": "^0.2.3"
     }
 }
