@@ -1,9 +1,10 @@
 ---
-title: Welcome
+title: Marc Reyes &mdash; Software Engineer
 layout: default
+hero_image: /images/hero.jpg
 ---
 
-# I'm Marc, a Software Engineer from the Philippines.
+# {{ site.hero_text }}
 
 Building software, automating processes, and making data-driven decisions is what I enjoy most about my work. Currently working at <a class="link-1" href="https://gcash.com" target="_blank">GCash</a> as a Machine Learning Engineer.
 
