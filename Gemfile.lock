@@ -61,11 +61,10 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  bundler (>= 2.1.4)
   jekyll
 
 RUBY VERSION
    ruby 2.5.1p57
 
 BUNDLED WITH
-   2.0.1
+   2.1.4
