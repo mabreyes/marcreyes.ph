@@ -11,4 +11,4 @@ I’m <a class="link-1" href="https://twitter.com/marcreyesph" target="_blank">t
 
 For collaboration and job opportunities <a class="link-2 " href="mailto:hello@marcreyes.ph ">hello@marcreyes.ph</a>
 
-<a class="button bold" href="https://marcreyes.xyz">View Projects</a> <a class="button bold" href="https://marcrey.es/in">View Resume</a>
+<a class="button bold huge" href="https://marcreyes.xyz">View Projects</a>
