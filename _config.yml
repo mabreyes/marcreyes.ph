@@ -1,2 +1,4 @@
 title: Marc Reyes &mdash; Software Engineer
 hero_text: I'm Marc, a Software Engineer from the Philippines.
+plugins:
+  - jekyll-minifier

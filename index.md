@@ -1,7 +1,6 @@
 ---
 title: Marc Reyes &mdash; Software Engineer
 layout: default
-hero_image: /images/hero.jpg
 ---
 
 # {{ site.hero_text }}
