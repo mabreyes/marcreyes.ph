@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="I'm Marc, a Software Engineer from the Philippines." />
+    <meta name="author" content="XYZ by Marc Reyes" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta property="og:image" content="{{ 'images/hero.jpg' | relative_url }}">
+    <title>{{ page.title }}</title>
+    <link rel="shortcut icon" href="{{ 'images/ico/favicon.ico' | relative_url }}">
+    <link rel="apple-touch-icon" href="{{ 'images/ico/apple-touch-icon.png' | relative_url }}" />
+    <link rel="stylesheet" type="text/css " href="{{ 'css/fonts/hk-grotesk/style.css' | relative_url }}">
+    <link rel="stylesheet" type="text/css " href="{{ 'css/fonts/fontello/css/fontello.css' | relative_url }}">
+    <link rel="stylesheet" type="text/css " href="{{ 'css/fonts/shgr/stylesheet.css' | relative_url }}">
+    <link rel="stylesheet" type="text/css " href="{{ 'css/main.css' | relative_url }}">
+</head>
+
+<body class="is-split-layout is-media-right" oncontextmenu="return false" onselectstart="return false">
+    <div class="media " style="background-image:url({{ 'images/hero.jpg' | relative_url}})"></div>
+    <div class="content-wrap ">
+        <div class="content ">
+            {{ content }}
+        </div>
+    </div>
+    <script src="{{ 'js/main.js' | relative_url }}"></script>
+</body>
+
+</html>
