@@ -1,3 +1,11 @@
 title: Marc Reyes &mdash; Software Engineer
 hero_text: I'm Marc, a Software Engineer from the Philippines.
 hero_image: /images/hero.jpg
+compress_html:
+  clippings: all
+  comments: [""]
+  endings: [html, head, body, li, dt, dd, rt, rp, optgroup, option, colgroup, caption, thead, tbody, tfoot, tr, td, th]
+  profile: false
+  blanklines: false
+  ignore:
+    envs: []
