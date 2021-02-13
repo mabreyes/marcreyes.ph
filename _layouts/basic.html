@@ -2,18 +2,7 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <meta name="description" content="I'm Marc, a Software Engineer from the Philippines." />
-    <meta name="author" content="XYZ by Marc Reyes">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <meta property="og:image" content="{{ 'images/hero.jpg' | absolute_url }}">
-    <title>Page Not Found &mdash; Marc Reyes</title>
-    <link rel="shortcut icon" href="{{ 'images/ico/favicon.ico' | absolute_url }} ">
-    <link rel="apple-touch-icon " href="{{ 'images/ico/apple-touch-icon.png' | absolute_url }}" />
-    <link rel="stylesheet" type="text/css" href="{{ 'css/fonts/hk-grotesk/style.css' | absolute_url }}">
-    <link rel="stylesheet" type="text/css" href="{{ 'css/fonts/fontello/css/fontello.css' | absolute_url }}">
-    <link rel="stylesheet" type="text/css" href="{{ 'css/fonts/shgr/stylesheet.css' | absolute_url }}">
-    <link rel="stylesheet" type="text/css" href="{{ 'css/main.css' | absolute_url }}">
+    {% include head.html %}
 </head>
 
 <body>
@@ -22,7 +11,7 @@
             {{ content }}
         </div>
     </div>
-    <script src="{{ 'js/main.js' | absolute_url }}"></script>
+    {% include footer.html %}
 </body>
 
 </html>
