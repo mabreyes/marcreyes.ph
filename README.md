@@ -3,7 +3,7 @@
 I'm Marc Reyes, a Software Engineer focused on Web Development, DevOps, and Data Science from the Philippines.
 
 ## Setup
-1. Install and use the required version of Ruby on your machine with [RVM](https://rvm.io/)
+1. Install and use the required version of Ruby on your machine with [RVM](https://rvm.io/).
 ```sh
 rvm install
 ```
