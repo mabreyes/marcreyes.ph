@@ -18,7 +18,7 @@ body {
 }
 
 body {
-    font-family: 'Sharp Grotesk Book 22', sans-serif;
+    font-family: 'Sohne Breit', sans-serif;
     color: #222;
     background-color: #fff;
     font-size: 14px;
@@ -96,8 +96,8 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Sharp Grotesk SmBold 22', sans-serif;
-    font-weight: 700;
+    font-family: 'Sohne Breit', sans-serif;
+    font-weight: 900;
     font-style: normal;
     margin: 1em 0 .66em 0;
 }

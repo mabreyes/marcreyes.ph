@@ -1,0 +1,35 @@
+@font-face {
+    font-family: 'Sohne Breit';
+    src: url('SohneBreit-Fett.eot');
+    src: url('SohneBreit-Fett.eot?#iefix') format('embedded-opentype'), url('SohneBreit-Fett.woff2') format('woff2'), url('SohneBreit-Fett.woff') format('woff'), url('SohneBreit-Fett.ttf') format('truetype'), url('SohneBreit-Fett.svg#SohneBreit-Fett') format('svg');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sohne Breit';
+    src: url('SohneBreit-Dreiviertelfett.eot');
+    src: url('SohneBreit-Dreiviertelfett.eot?#iefix') format('embedded-opentype'), url('SohneBreit-Dreiviertelfett.woff2') format('woff2'), url('SohneBreit-Dreiviertelfett.woff') format('woff'), url('SohneBreit-Dreiviertelfett.ttf') format('truetype'), url('SohneBreit-Dreiviertelfett.svg#SohneBreit-Dreiviertelfett') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sohne';
+    src: url('Sohne-Dreiviertelfett.eot');
+    src: url('Sohne-Dreiviertelfett.eot?#iefix') format('embedded-opentype'), url('Sohne-Dreiviertelfett.woff2') format('woff2'), url('Sohne-Dreiviertelfett.woff') format('woff'), url('Sohne-Dreiviertelfett.ttf') format('truetype'), url('Sohne-Dreiviertelfett.svg#Sohne-Dreiviertelfett') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sohne';
+    src: url('Sohne-Buch.eot');
+    src: url('Sohne-Buch.eot?#iefix') format('embedded-opentype'), url('Sohne-Buch.woff2') format('woff2'), url('Sohne-Buch.woff') format('woff'), url('Sohne-Buch.ttf') format('truetype'), url('Sohne-Buch.svg#Sohne-Buch') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
