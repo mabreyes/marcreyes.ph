@@ -3,12 +3,23 @@ title: Marc Reyes &mdash; Software Engineer
 layout: default
 ---
 
-# {{ site.hero_text }}
+<img class="profile-image big rounded" src="{{ 'images/marc-memoji.png' | absolute_url }}" alt="Marc's Fist Bump Memoji">
 
-Building software, automating processes, and making data-driven decisions is what I enjoy most about my work. Currently working at <a class="link-1" href="https://gcash.com" target="_blank">GCash</a> as a Machine Learning Engineer.
+### 👋 Hello, World!
 
-I’m <a class="link-1" href="https://twitter.com/marcreyesph" target="_blank">tweeting</a>, taking <a class="link-1" href="https://www.instagram.com/marcxplanet" target="_blank">photos</a>, and pushing my <a class="link-1" href="https://github.com/mabreyes" target="_blank">codes</a> for the world to see.
+<h1>
+    I'm Marc, a<br>
+    <span id="typed"></span>
+    <div id="typed-strings">
+        <span>Developer</span>
+        <span>Thinker</span>
+        <span>Cat lover</span>
+        <span>Engineer</span>
+        <span>Creative</span>
+    </div><br> from the 🇵🇭.
 
-For collaboration and job opportunities <a class="link-2 " href="mailto:hello@marcreyes.ph ">hello@marcreyes.ph</a>
+</h1>
 
-<a class="button bold huge" href="https://marcrey.es/xyz">View Projects</a>
+I build software, automate processes, and make data-driven decisions. Currently working at <a class="link-1" href="https://gcash.com" target="_blank">GCash</a> as a Machine Learning Engineer.
+
+<a class="button bold huge" href="https://marcrey.es/xyz">👉 View Projects</a>

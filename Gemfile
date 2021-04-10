@@ -1,8 +1,9 @@
-source 'https://rubygems.org'
-ruby '2.5.4'
+# frozen_string_literal: true
 
-gem 'github-pages'
-gem 'jekyll-feed'
-gem 'jekyll-gist'
-gem 'jekyll-redirect-from'
-gem 'jekyll-seo-tag'
+source "https://rubygems.org"
+
+git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
+
+gem "jekyll", "~> 4.0"
+
+gem "webrick", "~> 1.7"
