@@ -11,11 +11,11 @@ layout: default
     I'm Marc, a<br>
     <span id="typed"></span>
     <div id="typed-strings">
-        <p>Developer</p>
-        <p>Thinker</p>
-        <p>Cat lover</p>
-        <p>Engineer</p>
-        <p>Creative</p>
+        <span>Developer</span>
+        <span>Thinker</span>
+        <span>Cat lover</span>
+        <span>Engineer</span>
+        <span>Creative</span>
     </div><br> from the 🇵🇭.
 
 </h1>
