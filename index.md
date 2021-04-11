@@ -22,4 +22,5 @@ layout: default
 
 I build software, automate processes, and make data-driven decisions. Currently working at <a class="link-1" href="https://gcash.com" target="_blank">GCash</a> as a Machine Learning Engineer.
 
-<a class="button bold huge" href="https://marcrey.es/xyz">👉 View Projects</a>
+<a class="button blue bold huge" href="https://marcrey.es/xyz" target="_new" ref="noopener noreferrer">👉 Projects</a>
+<a class="button bold huge" href="https://marcrey.es/resume" target="_new" ref="noopener noreferrer">🗒️ Resume</a>

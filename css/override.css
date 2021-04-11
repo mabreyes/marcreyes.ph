@@ -9,3 +9,12 @@ body {
 h1 {
     margin-bottom: 0;
 }
+
+.button.blue {
+    border-color: #0d6efd;
+    color: #0d6efd;
+}
+
+.button.blue:after {
+    background: #0d6efd;
+}
