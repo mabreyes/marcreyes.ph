@@ -18,3 +18,10 @@ h1 {
 .button.blue:after {
     background: #0d6efd;
 }
+
+@media (max-width: 480px) {
+    .button {
+        width: 100%;
+        text-align: center;
+    }
+}
