@@ -8,7 +8,7 @@ layout: default
 ### 👋 Hello, World!
 
 <h1>
-    I'm Marc, a<br>
+    I'm Marc Reyes,<br>
     <span id="typed"></span>
     <div id="typed-strings">
         <span>Developer</span>
@@ -16,7 +16,7 @@ layout: default
         <span>Cat lover</span>
         <span>Engineer</span>
         <span>Creative</span>
-    </div><br> from the 🇵🇭.
+    </div><br> from the 🇵🇭 PH.
 
 </h1>
 

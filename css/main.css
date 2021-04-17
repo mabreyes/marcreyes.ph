@@ -18,7 +18,7 @@ body {
 }
 
 body {
-    font-family: 'Sharp Grotesk Book 22', sans-serif;
+    font-family: 'Circular', sans-serif;
     color: #222;
     background-color: #fff;
     font-size: 14px;
@@ -96,8 +96,8 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Sharp Grotesk SmBold 22', sans-serif;
-    font-weight: 700;
+    font-family: 'Circular', sans-serif;
+    font-weight: 800;
     font-style: normal;
     margin: 1em 0 .66em 0;
 }
@@ -115,6 +115,7 @@ h1 {
     font-size: 6vw;
     line-height: 1.1;
     margin-top: 0;
+    letter-spacing: -1px;
 }
 
 h2 {
@@ -180,7 +181,9 @@ p:last-child {
 }
 
 .bold {
-    font-family: 'Sharp Grotesk SmBold 22' !important;
+    font-family: 'Circular';
+    font-weight: 800;
+    letter-spacing: -0.5px;
 }
 
 
@@ -1834,6 +1837,9 @@ html a.social-link:hover:before {
 /* DESKTOPS */
 
 @media screen and (min-width: 1200px) {
+    h1 {
+        letter-spacing: -3px;
+    }
     .content-wrap {
         width: 50%;
     }
