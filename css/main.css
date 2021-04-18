@@ -97,7 +97,6 @@ h4,
 h5,
 h6 {
     font-family: 'Circular', sans-serif;
-    font-weight: 800;
     font-style: normal;
     margin: 1em 0 .66em 0;
 }
@@ -1762,7 +1761,7 @@ html a.social-link:hover:before {
         max-height: 192px;
     }
     h1 {
-        font-size: 4vw;
+        font-size: 6vw;
         line-height: 1;
     }
     /* LAYOUT : BOXED LAYOUT */
@@ -1837,9 +1836,6 @@ html a.social-link:hover:before {
 /* DESKTOPS */
 
 @media screen and (min-width: 1200px) {
-    h1 {
-        letter-spacing: -3px;
-    }
     .content-wrap {
         width: 50%;
     }
