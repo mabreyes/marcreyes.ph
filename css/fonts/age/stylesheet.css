@@ -1,0 +1,44 @@
+@font-face {
+    font-family: 'Aktiv Grotesk Ex';
+    src: url('AktivGroteskEx-XBold.eot');
+    src: url('AktivGroteskEx-XBold.eot?#iefix') format('embedded-opentype'), url('AktivGroteskEx-XBold.woff2') format('woff2'), url('AktivGroteskEx-XBold.woff') format('woff'), url('AktivGroteskEx-XBold.ttf') format('truetype'), url('AktivGroteskEx-XBold.svg#AktivGroteskEx-XBold') format('svg');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Aktiv Grotesk Ex';
+    src: url('AktivGroteskEx-Medium.eot');
+    src: url('AktivGroteskEx-Medium.eot?#iefix') format('embedded-opentype'), url('AktivGroteskEx-Medium.woff2') format('woff2'), url('AktivGroteskEx-Medium.woff') format('woff'), url('AktivGroteskEx-Medium.ttf') format('truetype'), url('AktivGroteskEx-Medium.svg#AktivGroteskEx-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Aktiv Grotesk Ex';
+    src: url('AktivGroteskEx-Bold.eot');
+    src: url('AktivGroteskEx-Bold.eot?#iefix') format('embedded-opentype'), url('AktivGroteskEx-Bold.woff2') format('woff2'), url('AktivGroteskEx-Bold.woff') format('woff'), url('AktivGroteskEx-Bold.ttf') format('truetype'), url('AktivGroteskEx-Bold.svg#AktivGroteskEx-Bold') format('svg');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Aktiv Grotesk Ex';
+    src: url('AktivGroteskEx-Regular.eot');
+    src: url('AktivGroteskEx-Regular.eot?#iefix') format('embedded-opentype'), url('AktivGroteskEx-Regular.woff2') format('woff2'), url('AktivGroteskEx-Regular.woff') format('woff'), url('AktivGroteskEx-Regular.ttf') format('truetype'), url('AktivGroteskEx-Regular.svg#AktivGroteskEx-Regular') format('svg');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Aktiv Grotesk Ex';
+    src: url('AktivGroteskEx-Black.eot');
+    src: url('AktivGroteskEx-Black.eot?#iefix') format('embedded-opentype'), url('AktivGroteskEx-Black.woff2') format('woff2'), url('AktivGroteskEx-Black.woff') format('woff'), url('AktivGroteskEx-Black.ttf') format('truetype'), url('AktivGroteskEx-Black.svg#AktivGroteskEx-Black') format('svg');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}

@@ -18,7 +18,7 @@ body {
 }
 
 body {
-    font-family: 'Circular', sans-serif;
+    font-family: 'Aktiv Grotesk Ex', sans-serif;
     color: #222;
     background-color: #fff;
     font-size: 14px;
@@ -96,7 +96,8 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Circular', sans-serif;
+    font-family: 'Aktiv Grotesk Ex', sans-serif;
+    font-weight: 800;
     font-style: normal;
     margin: 1em 0 .66em 0;
 }
@@ -180,7 +181,7 @@ p:last-child {
 }
 
 .bold {
-    font-family: 'Circular';
+    font-family: 'Aktiv Grotesk Ex';
     font-weight: 800;
 }
 
@@ -1762,6 +1763,7 @@ html a.social-link:hover:before {
     h1 {
         font-size: 5vw;
         line-height: 1;
+        letter-spacing: -3px;
     }
     /* LAYOUT : BOXED LAYOUT */
     .is-boxed .content {
