@@ -182,7 +182,6 @@ p:last-child {
 .bold {
     font-family: 'Circular';
     font-weight: 800;
-    letter-spacing: -0.5px;
 }
 
 
@@ -1749,7 +1748,7 @@ html a.social-link:hover:before {
 
 @media screen and (min-width: 768px) {
     body {
-        font-size: 19px;
+        font-size: 21px;
     }
     .profile-image {
         max-height: 128px;
@@ -1761,7 +1760,7 @@ html a.social-link:hover:before {
         max-height: 192px;
     }
     h1 {
-        font-size: 6vw;
+        font-size: 5vw;
         line-height: 1;
     }
     /* LAYOUT : BOXED LAYOUT */
