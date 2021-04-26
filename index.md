@@ -3,7 +3,7 @@ title: Marc Reyes &mdash; Software Engineer
 layout: default
 ---
 
-<img class="profile-image big rounded" src="{{ 'images/marc-memoji.png' | absolute_url }}" alt="Marc's Fist Bump Memoji">
+<div tooltip="✌️ I'm Marc. Feeling cute." flow="right"><img class="profile-image big rounded" src="{{ 'images/marc-memoji.png' | absolute_url }}" alt="Marc's Fist Bump Memoji"></div>
 
 ### 👋 Hello, World!
 
@@ -22,5 +22,6 @@ layout: default
 
 I build software, automate processes, and make data-driven decisions. Currently working at <a class="link-1" href="https://gcash.com" target="_blank">GCash</a> as a Machine Learning Engineer.
 
-<a class="button blue bold huge" href="https://marcrey.es/xyz" target="_blank" ref="noopener noreferrer">👉 Projects</a>
-<a class="button bold huge" href="https://marcrey.es/resume" target="_blank" ref="noopener noreferrer">🗒️ Resume</a>
+<a class="button bold huge rounded" href="https://marcrey.es/xyz" target="_blank" ref="noopener noreferrer">👉 Projects</a>
+<a class="button bold huge rounded" href="https://marcrey.es/resume" target="_blank" ref="noopener noreferrer">🗒️ Resume</a>
+<a class="button blue bold huge rounded" href="mailto:hello@marcreyes.ph?subject=Hi, Marc" target="_new" ref="noopener noreferrer">💬 hello@marcreyes.ph</a>
