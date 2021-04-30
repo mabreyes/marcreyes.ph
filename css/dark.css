@@ -14,6 +14,11 @@ a {
     background-color: rgba(255, 255, 255, 0.5) !important;
 }
 
+svg {
+    fill: rgb(191, 191, 191) !important;
+    color: rgb(41, 41, 41) !important;
+}
+
 embed[type="application/pdf"] {
     filter: invert(90%);
 }
