@@ -3,6 +3,15 @@ title: Marc Reyes &mdash; Software Engineer
 layout: default
 ---
 
+<aside class="brightness-toggle">
+  <dark-mode-toggle
+      id="dark-mode-toggle-1"
+      appearance="toggle"
+      dark="Dark"
+      light="Light"
+  ></dark-mode-toggle>
+</aside>
+
 <div tooltip="✌️ I'm Marc. Feeling cute." flow="right"><img class="profile-image big rounded" src="{{ 'images/marc-memoji.png' | absolute_url }}" alt="Marc's Fist Bump Memoji"></div>
 
 ### 👋 Hello, World!
