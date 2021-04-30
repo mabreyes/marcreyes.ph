@@ -1079,7 +1079,7 @@ html a.social-link:hover::before {
     height: 100%;
     top: 0px;
     left: 0px;
-    background: rgb(33, 33, 33);
+    background: rgb(191, 191, 191);
     content: "";
     position: absolute;
     z-index: -1;
@@ -1088,7 +1088,7 @@ html a.social-link:hover::before {
 
 .button:active,
 .button:hover {
-    color: rgb(255, 255, 255) !important;
+    color: rgb(41, 41, 41) !important;
 }
 
 .button:active {
