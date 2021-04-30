@@ -887,31 +887,3 @@ h1 {
         text-align: center;
     }
 }
-
-.github-corner:hover .octo-arm {
-    animation: 560ms ease-in-out 0s 1 normal none running octocat-wave;
-}
-
-@keyframes octocat-wave {
-    0%,
-    100% {
-        transform: rotate(0deg);
-    }
-    20%,
-    60% {
-        transform: rotate(-25deg);
-    }
-    40%,
-    80% {
-        transform: rotate(10deg);
-    }
-}
-
-@media (max-width: 500px) {
-    .github-corner:hover .octo-arm {
-        animation: 0s ease 0s 1 normal none running none;
-    }
-    .github-corner .octo-arm {
-        animation: 560ms ease-in-out 0s 1 normal none running octocat-wave;
-    }
-}
