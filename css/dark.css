@@ -709,7 +709,7 @@ body {
 }
 
 #typed {
-    color: rgb(153, 184, 230);
+    color: rgb(13, 110, 253);
 }
 
 h1 {
@@ -717,12 +717,12 @@ h1 {
 }
 
 .button.blue {
-    border-color: rgb(59, 118, 206);
-    color: rgb(153, 184, 230);
+    border-color: rgb(13, 110, 253);
+    color: rgb(13, 110, 253);
 }
 
 .button.blue::after {
-    background: rgb(59, 118, 206);
+    background: rgb(13, 110, 253);
 }
 
 [tooltip] {
