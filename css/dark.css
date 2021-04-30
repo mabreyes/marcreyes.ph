@@ -23,6 +23,10 @@ embed[type="application/pdf"] {
     filter: invert(90%);
 }
 
+* {
+    box-sizing: border-box;
+}
+
 html {
     color: rgb(191, 191, 191);
 }
