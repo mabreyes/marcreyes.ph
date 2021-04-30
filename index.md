@@ -3,14 +3,12 @@ title: Marc Reyes &mdash; Software Engineer
 layout: default
 ---
 
-<aside>
+<aside class="brightness-toggle">
   <dark-mode-toggle
       id="dark-mode-toggle-1"
-      legend="Theme Switcher"
-      appearance="switch"
+      appearance="toggle"
       dark="Dark"
       light="Light"
-      remember="Remember this"
   ></dark-mode-toggle>
 </aside>
 
