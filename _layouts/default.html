@@ -9,7 +9,16 @@ layout: compress
     {% include head.html %}
 </head>
 
-<!-- <body oncontextmenu="return false" onselectstart="return false"> -->
+<body oncontextmenu="return false" onselectstart="return false">
+    <aside class="brightness-toggle">
+        <dark-mode-toggle
+            id="dark-mode-toggle-1"
+            appearance="toggle"
+            dark="Dark"
+            light="Light"
+            permanent
+        ></dark-mode-toggle>
+      </aside>
     {% include ribbon.html %}
     <div class="content-wrap">
         <div class="content">
