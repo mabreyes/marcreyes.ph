@@ -26,6 +26,9 @@ h1 {
     padding: 0 20px 0 20px;
     box-shadow: 0 1em 2em -.5em rgba(0, 0, 0, 0.35);
     color: #F0F0F0;
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
 }
 
 [tooltip] {

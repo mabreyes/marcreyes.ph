@@ -1,5 +1,3 @@
-/* TODO: Fix margin for smaller screens  */
-
 a {
     color: rgb(140, 140, 250);
 }
@@ -21,20 +19,22 @@ svg {
     color: rgb(41, 41, 41) !important;
 }
 
+.brightness-toggle {
+    background: rgb(153, 153, 230);
+    color: rgb(41, 41, 41);
+}
+
 embed[type="application/pdf"] {
     filter: invert(90%);
 }
 
-* {
-    box-sizing: border-box;
-}
-
 html {
     color: rgb(191, 191, 191);
+    background: rgb(41, 41, 41) !important;
 }
 
 body {
-    background-color: rgb(31, 31, 31);
+    background-color: rgb(41, 41, 41);
     background-image: none !important;
 }
 
@@ -43,7 +43,7 @@ select,
 textarea,
 button {
     color: rgb(191, 191, 191);
-    background-color: rgb(31, 31, 31);
+    background-color: rgb(41, 41, 41);
 }
 
 font {
@@ -101,9 +101,17 @@ html {
     -webkit-font-smoothing: antialiased;
 }
 
-.brightness-toggle {
-    background: rgb(153, 153, 230);
-    color: rgb(41, 41, 41);
+body,
+html {
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+* {
+    box-sizing: border-box;
 }
 
 body {
@@ -143,7 +151,7 @@ html::after {
     left: 0px;
     right: 0px;
     bottom: 0px;
-    background: url("../images/preloader.gif") center center no-repeat rgb(28, 28, 33);
+    background: url("../images/preloader-dark.svg") center center no-repeat rgb(28, 28, 33);
 }
 
 html.loaded::after {
@@ -403,8 +411,72 @@ p:last-child {
     height: 100%;
 }
 
+.link-1.light::after {
+    background: rgb(28, 28, 33);
+}
+
+.link-1.light:hover {
+    color: rgb(191, 191, 191);
+}
+
 .link-1.blue::after {
     background: rgb(153, 153, 230);
+}
+
+.link-1.green::after {
+    background: rgb(36, 143, 118);
+}
+
+.link-1.red::after {
+    background: rgb(213, 90, 88);
+}
+
+.link-1.yellow::after {
+    background: rgb(102, 75, 0);
+}
+
+.link-1.pink::after {
+    background: rgb(192, 48, 86);
+}
+
+.link-1.purple::after {
+    background: rgb(85, 68, 136);
+}
+
+.link-1.tango::after {
+    background: rgb(210, 93, 75);
+}
+
+.link-1.aqua::after {
+    background: rgb(51, 143, 204);
+}
+
+.link-1.navy::after {
+    background: rgb(64, 78, 89);
+}
+
+.link-1.leather::after {
+    background: rgb(171, 152, 120);
+}
+
+.link-1.azure::after {
+    background: rgb(35, 139, 139);
+}
+
+.link-1.peach::after {
+    background: rgb(143, 68, 36);
+}
+
+.link-1.hot-pink::after {
+    background: rgb(163, 41, 106);
+}
+
+.link-1.coral::after {
+    background: rgb(212, 84, 92);
+}
+
+.link-1.grey::after {
+    background: rgb(84, 103, 115);
 }
 
 .link-2 {
@@ -449,9 +521,85 @@ p:last-child {
     transition: all 0.2s ease 0s;
 }
 
+.link-2.light::after,
+.link-2.light::before {
+    background: rgb(28, 28, 33);
+    color: rgb(191, 191, 191);
+}
+
 .link-2.blue::after,
 .link-2.blue::before {
     background: rgb(153, 153, 230);
+}
+
+.link-2.green::after,
+.link-2.green::before {
+    background: rgb(36, 143, 118);
+}
+
+.link-2.red::after,
+.link-2.red::before {
+    background: rgb(213, 90, 88);
+}
+
+.link-2.yellow::after,
+.link-2.yellow::before {
+    background: rgb(102, 75, 0);
+}
+
+.link-2.pink::after,
+.link-2.pink::before {
+    background: rgb(192, 48, 86);
+}
+
+.link-2.purple::after,
+.link-2.purple::before {
+    background: rgb(85, 68, 136);
+}
+
+.link-2.tango::after,
+.link-2.tango::before {
+    background: rgb(210, 93, 75);
+}
+
+.link-2.aqua::after,
+.link-2.aqua::before {
+    background: rgb(51, 143, 204);
+}
+
+.link-2.navy::after,
+.link-2.navy::before {
+    background: rgb(64, 78, 89);
+}
+
+.link-2.leather::after,
+.link-2.leather::before {
+    background: rgb(171, 152, 120);
+}
+
+.link-2.azure::after,
+.link-2.azure::before {
+    background: rgb(35, 139, 139);
+}
+
+.link-2.peach::after,
+.link-2.peach::before {
+    background: rgb(143, 68, 36);
+}
+
+.link-2.hot-pink::after,
+.link-2.hot-pink::before {
+    background: rgb(163, 41, 106);
+}
+
+.link-2.coral::after,
+.link-2.coral::before {
+    background: rgb(212, 84, 92);
+}
+
+.link-2.grey::after,
+.link-2.grey::before {
+    background: rgb(84, 103, 115);
 }
 
 .button {
@@ -535,12 +683,138 @@ p:last-child {
 }
 
 .button.blue {
-    border-color: rgb(153, 153, 230);
+    border-color: rgb(153, 153, 230) !important;
     color: rgb(153, 153, 230);
 }
 
 .button.blue::after {
-    background: rgb(153, 153, 230);
+    background: rgb(153, 153, 230) !important;
+}
+
+.button.green {
+    border-color: rgb(36, 143, 118);
+    color: rgb(153, 230, 212);
+}
+
+.button.green::after {
+    background: rgb(36, 143, 118);
+}
+
+.button.red {
+    border-color: rgb(213, 90, 88);
+    color: rgb(230, 154, 153);
+}
+
+.button.red::after {
+    background: rgb(213, 90, 88);
+}
+
+.button.yellow {
+    border-color: rgb(102, 75, 0);
+    color: rgb(230, 210, 153);
+}
+
+.button.yellow::after {
+    background: rgb(102, 75, 0);
+}
+
+.button.pink {
+    border-color: rgb(192, 48, 86);
+    color: rgb(230, 153, 173);
+}
+
+.button.pink::after {
+    background: rgb(192, 48, 86);
+}
+
+.button.purple {
+    border-color: rgb(85, 68, 136);
+    color: rgb(181, 170, 212);
+}
+
+.button.purple::after {
+    background: rgb(85, 68, 136);
+}
+
+.button.tango {
+    border-color: rgb(210, 93, 75);
+    color: rgb(230, 163, 153);
+}
+
+.button.tango::after {
+    background: rgb(210, 93, 75);
+}
+
+.button.aqua {
+    border-color: rgb(51, 143, 204);
+    color: rgb(153, 199, 230);
+}
+
+.button.aqua::after {
+    background: rgb(51, 143, 204);
+}
+
+.button.navy {
+    border-color: rgb(64, 78, 89);
+    color: rgb(181, 193, 201);
+}
+
+.button.navy::after {
+    background: rgb(64, 78, 89);
+}
+
+.button.leather {
+    border-color: rgb(171, 152, 120);
+    color: rgb(206, 195, 177);
+}
+
+.button.leather::after {
+    background: rgb(171, 152, 120);
+}
+
+.button.azure {
+    border-color: rgb(35, 139, 139);
+    color: rgb(153, 230, 230);
+}
+
+.button.azure::after {
+    background: rgb(35, 139, 139);
+}
+
+.button.peach {
+    border-color: rgb(143, 68, 36);
+    color: rgb(230, 176, 153);
+}
+
+.button.peach::after {
+    background: rgb(143, 68, 36);
+}
+
+.button.hot-pink {
+    border-color: rgb(163, 41, 106);
+    color: rgb(230, 153, 194);
+}
+
+.button.hot-pink::after {
+    background: rgb(163, 41, 106);
+}
+
+.button.coral {
+    border-color: rgb(212, 84, 92);
+    color: rgb(230, 153, 158);
+}
+
+.button.coral::after {
+    background: rgb(212, 84, 92);
+}
+
+.button.grey {
+    border-color: rgb(84, 103, 115);
+    color: rgb(181, 194, 201);
+}
+
+.button.grey::after {
+    background: rgb(84, 103, 115);
 }
 
 .button i {
@@ -564,12 +838,129 @@ p:last-child {
     background: rgb(18, 18, 18);
 }
 
+.highlight.light {
+    background: rgb(28, 28, 33);
+    color: rgb(191, 191, 191);
+}
+
 .highlight.blue {
-    background: rgb(153, 153, 230);
+    background: rgb(51, 51, 204);
+}
+
+.highlight.green {
+    background: rgb(36, 143, 118);
+}
+
+.highlight.red {
+    background: rgb(213, 90, 88);
+}
+
+.highlight.yellow {
+    background: rgb(102, 75, 0);
+}
+
+.highlight.pink {
+    background: rgb(192, 48, 86);
+}
+
+.highlight.purple {
+    background: rgb(85, 68, 136);
+}
+
+.highlight.tango {
+    background: rgb(210, 93, 75);
+}
+
+.highlight.aqua {
+    background: rgb(51, 143, 204);
+}
+
+.highlight.navy {
+    background: rgb(64, 78, 89);
+}
+
+.highlight.leather {
+    background: rgb(171, 152, 120);
+}
+
+.highlight.azure {
+    background: rgb(35, 139, 139);
+}
+
+.highlight.peach {
+    background: rgb(143, 68, 36);
+}
+
+.highlight.hot-pink {
+    background: rgb(163, 41, 106);
+}
+
+.highlight.coral {
+    background: rgb(212, 84, 92);
+}
+
+.highlight.grey {
+    background: rgb(84, 103, 115);
 }
 
 .text.blue {
     color: rgb(153, 153, 230);
+}
+
+.text.green {
+    color: rgb(153, 230, 212);
+}
+
+.text.red {
+    color: rgb(230, 154, 153);
+}
+
+.text.yellow {
+    color: rgb(230, 210, 153);
+}
+
+.text.pink {
+    color: rgb(230, 153, 173);
+}
+
+.text.purple {
+    color: rgb(181, 170, 212);
+}
+
+.text.tango {
+    color: rgb(230, 163, 153);
+}
+
+.text.aqua {
+    color: rgb(153, 199, 230);
+}
+
+.text.navy {
+    color: rgb(181, 193, 201);
+}
+
+.text.leather {
+    color: rgb(206, 195, 177);
+}
+
+.text.azure {
+    color: rgb(153, 230, 230);
+}
+
+.text.peach {
+    color: rgb(230, 176, 153);
+}
+
+.text.hot-pink {
+    color: rgb(230, 153, 194);
+}
+
+.text.coral {
+    color: rgb(230, 153, 158);
+}
+
+.text.grey {
+    color: rgb(181, 194, 201);
 }
 
 #typed-strings {
@@ -774,8 +1165,8 @@ h1 {
     padding: 1ch 1.5ch;
     border-radius: 50px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 1em 2em -0.5em;
-    background: rgb(191, 191, 191);
-    color: rgb(41, 41, 41);
+    background: rgb(51, 51, 51);
+    color: rgb(255, 255, 255);
     z-index: 1000;
 }
 
@@ -887,5 +1278,33 @@ h1 {
     .button {
         width: 100%;
         text-align: center;
+    }
+}
+
+.github-corner:hover .octo-arm {
+    animation: 560ms ease-in-out 0s 1 normal none running octocat-wave;
+}
+
+@keyframes octocat-wave {
+    0%,
+    100% {
+        transform: rotate(0deg);
+    }
+    20%,
+    60% {
+        transform: rotate(-25deg);
+    }
+    40%,
+    80% {
+        transform: rotate(10deg);
+    }
+}
+
+@media (max-width: 500px) {
+    .github-corner:hover .octo-arm {
+        animation: 0s ease 0s 1 normal none running none;
+    }
+    .github-corner .octo-arm {
+        animation: 560ms ease-in-out 0s 1 normal none running octocat-wave;
     }
 }
