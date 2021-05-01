@@ -64,7 +64,7 @@ html:after {
     right: 0;
     bottom: 0;
     background: white;
-    background-image: url(../images/preloader.gif);
+    background-image: url(../images/preloader-light.svg);
     background-position: center center;
     background-repeat: no-repeat;
 }

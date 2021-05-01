@@ -151,7 +151,7 @@ html::after {
     left: 0px;
     right: 0px;
     bottom: 0px;
-    background: url("../images/preloader.gif") center center no-repeat rgb(28, 28, 33);
+    background: url("../images/preloader-dark.svg") center center no-repeat rgb(28, 28, 33);
 }
 
 html.loaded::after {
