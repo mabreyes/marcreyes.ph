@@ -29,6 +29,7 @@ h1 {
     position: fixed;
     bottom: 40px;
     right: 40px;
+    z-index: 999999;
 }
 
 [tooltip] {
