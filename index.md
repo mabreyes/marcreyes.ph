@@ -9,6 +9,7 @@ layout: default
       appearance="toggle"
       dark="Dark"
       light="Light"
+      permanent
   ></dark-mode-toggle>
 </aside>
 
