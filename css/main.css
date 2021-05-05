@@ -1195,7 +1195,7 @@ html a.social-link:hover:before {
     line-height: 1;
     color: #222;
     text-decoration: none;
-    background: none;
+    background: #fff;
     cursor: pointer;
     padding: 16px 32px;
     margin: 10px 20px 0 0;
