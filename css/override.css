@@ -181,6 +181,12 @@ h1 {
     animation: tooltips-horz 300ms ease-out forwards;
 }
 
+@media (max-width: 700px) {
+    h1 {
+        font-size: 40px !important;
+    }
+}
+
 @media (max-width: 480px) {
     .button {
         width: 100%;
