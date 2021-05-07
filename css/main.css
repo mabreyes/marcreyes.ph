@@ -1,9 +1,3 @@
-/*  --------------------------------------------
-
-	1. BASE (@base) - base html elements
-	
-    -------------------------------------------- */
-
 html,
 body {
     width: 100%;
@@ -44,9 +38,6 @@ img {
     background: #FFF9CD;
 }
 
-
-/* Loader */
-
 html {
     overflow: hidden;
 }
@@ -81,13 +72,6 @@ body {
 html.loaded body {
     opacity: 1;
 }
-
-
-/*  --------------------------------------------
-
-	2. TYPOGRAPHY (@typo) - typographic styles
-	
-    -------------------------------------------- */
 
 h1,
 h2,
@@ -141,9 +125,6 @@ p:last-child {
     margin-bottom: 0;
 }
 
-
-/* LIGHT TEXT */
-
 .is-text-light {
     color: #fff;
 }
@@ -151,13 +132,6 @@ p:last-child {
 .is-text-light a {
     color: #fff;
 }
-
-
-/*  --------------------------------------------
-
-	3. HELPERS (@helpers) - shorthand helper styles
-	
-    -------------------------------------------- */
 
 .rounded {
     border-radius: 50%;
@@ -184,9 +158,6 @@ p:last-child {
     font-weight: 800;
 }
 
-
-/* SMALL TYPO */
-
 .is-small-typo h1 {
     font-size: 24px;
     line-height: 1.3;
@@ -196,9 +167,6 @@ p:last-child {
     font-size: 14px;
 }
 
-
-/* MEDIUM TYPO */
-
 .is-medium-typo h1 {
     font-size: 36px;
     line-height: 1.2;
@@ -207,16 +175,6 @@ p:last-child {
 .is-medium-typo {
     font-size: 15px;
 }
-
-
-/*  --------------------------------------------
-
-	2. LAYOUT (@layout) - layout styles
-	
-    -------------------------------------------- */
-
-
-/* CONTENT */
 
 .content-wrap {
     width: 80%;
@@ -230,9 +188,6 @@ p:last-child {
     padding: 3em 0;
 }
 
-
-/* MEDIA */
-
 .media {
     position: fixed;
     width: 100%;
@@ -241,9 +196,6 @@ p:last-child {
     background-size: cover;
     background-repeat: no-repeat;
 }
-
-
-/* MASKED */
 
 .is-masked-light .media:after,
 .is-masked-dark .media:after {
@@ -257,55 +209,34 @@ p:last-child {
     z-index: 1;
 }
 
-
-/* MASKED DARK */
-
 .is-masked-dark .media:after {
     background: rgba(35, 35, 35, 0.4);
 }
-
-
-/* MASKED GRADIENT BLUE */
 
 .is-masked-gradient-blue .media:after {
     background-image: linear-gradient(60deg, #3d3393 0%, #2b76b9 37%, #2cacd1 65%, #35eb93 100%);
     opacity: .9;
 }
 
-
-/* MASKED GRADIENT PINK */
-
 .is-masked-gradient-pink .media:after {
     background-image: linear-gradient(to right, #b8cbb8 0%, #b8cbb8 0%, #b465da 0%, #cf6cc9 33%, #ee609c 66%, #ee609c 100%);
     opacity: .9;
 }
-
-
-/* MASKED GRADIENT PURPLE */
 
 .is-masked-gradient-purple .media:after {
     background-image: linear-gradient(to top, #9795f0 0%, #fbc8d4 100%);
     opacity: .9;
 }
 
-
-/* MASKED GRADIENT RED */
-
 .is-masked-gradient-red .media:after {
     background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100%);
     opacity: .9;
 }
 
-
-/* MASKED GRADIENT GREEN */
-
 .is-masked-gradient-green .media:after {
     background-image: linear-gradient(180deg, #2af598 0%, #009efd 100%);
     opacity: .9;
 }
-
-
-/* PROFILE IMAGE */
 
 .profile-image {
     max-height: 92px;
@@ -316,15 +247,9 @@ p:last-child {
     margin-bottom: 0;
 }
 
-
-/* LOGO */
-
 .logo {
     margin-bottom: 24px;
 }
-
-
-/* FRAMED */
 
 .is-framed:after {
     content: "";
@@ -338,9 +263,6 @@ p:last-child {
     border: 15px solid #111;
 }
 
-
-/* LAYOUT : BOXED */
-
 .is-boxed .content {
     background: #fff;
 }
@@ -348,9 +270,6 @@ p:last-child {
 .is-boxed-dark .content {
     background: #111;
 }
-
-
-/* LAYOUT : SPLIT LAYOUT */
 
 .is-split-layout,
 .is-boxed {
@@ -367,16 +286,6 @@ p:last-child {
     position: relative;
     z-index: 100;
 }
-
-
-/*  --------------------------------------------
-
-	5. ELEMENTS (@elements) - common used elements
-	
-    -------------------------------------------- */
-
-
-/* SOCIAL LINKS */
 
 .social-link {
     display: inline-block;
@@ -768,24 +677,15 @@ html a.social-link:hover:before {
     background-color: #222;
 }
 
-
-/* Big Social Icons */
-
 .is-social-big .social-link:before {
     font-size: 16px;
     width: 42px;
     line-height: 42px;
 }
 
-
-/* Minmal Social Icons */
-
 .is-social-minimal .social-link:before {
     border: none !important;
 }
-
-
-/* Minmal Social Icons */
 
 .is-social-minimal-dark .social-link,
 .is-social-minimal-light .social-link,
@@ -795,16 +695,10 @@ html a.social-link:hover:before {
     color: inherit;
 }
 
-
-/* Minimal Dark Social Icons */
-
 .is-social-minimal-dark .social-link:before {
     border: none !important;
     color: inherit;
 }
-
-
-/* Minimal Light Social Icons */
 
 .is-social-minimal-light .social-link:before {
     border: none !important;
@@ -814,9 +708,6 @@ html a.social-link:hover:before {
 .is-text-light .is-social-minimal-light .social-link:not(:hover):before {
     color: rgba(255, 255, 255, 0.3);
 }
-
-
-/* Solid Social Icons */
 
 .is-social-solid .social-link:before {
     border: none !important;
@@ -831,9 +722,6 @@ html a.social-link:hover:before {
     background: rgba(255, 255, 255, 0.08);
 }
 
-
-/* Light Borders Social Icons */
-
 .is-social-light-borders .social-link:before {
     border-color: rgba(0, 0, 0, 0.09) !important;
     color: inherit;
@@ -842,9 +730,6 @@ html a.social-link:hover:before {
 .is-text-light .is-social-light-borders .social-link:before {
     border-color: rgba(255, 255, 255, 0.13) !important;
 }
-
-
-/* Dark Borders Social Icons */
 
 .is-social-dark-borders .social-link:before {
     border-color: rgba(0, 0, 0, 0.75) !important;
@@ -858,12 +743,6 @@ html a.social-link:hover:before {
 .is-social-dark-borders .social-link:hover:before {
     border-color: transparent !important;
 }
-
-
-/* LINK HOVER EFFECTS */
-
-
-/* LINK 1 */
 
 .link-1 {
     position: relative;
@@ -895,9 +774,6 @@ html a.social-link:hover:before {
     height: 100%;
 }
 
-
-/* light links */
-
 .link-1.light:after {
     background: #fff;
 }
@@ -906,113 +782,65 @@ html a.social-link:hover:before {
     color: #111;
 }
 
-
-/* blue links */
-
 .link-1.blue:after {
     background: #0100ff;
 }
-
-
-/* green links */
 
 .link-1.green:after {
     background: #00b388;
 }
 
-
-/* red links */
-
 .link-1.red:after {
     background: #ff322e;
 }
-
-
-/* yellow links */
 
 .link-1.yellow:after {
     background: #ffcc2f;
 }
 
-
-/* pink links */
-
 .link-1.pink:after {
     background: #f94877;
 }
-
-
-/* purple links */
 
 .link-1.purple:after {
     background: #554488;
 }
 
-
-/* tango links */
-
 .link-1.tango:after {
     background: #E1523D;
 }
-
-
-/* aqua links */
 
 .link-1.aqua:after {
     background: #0099ff;
 }
 
-
-/* navy links */
-
 .link-1.navy:after {
     background: #414f5a;
 }
-
-
-/* leather links */
 
 .link-1.leather:after {
     background: #AB9878;
 }
 
-
-/* azure links */
-
 .link-1.azure:after {
     background: #02ACAB;
 }
-
-
-/* peach links */
 
 .link-1.peach:after {
     background: #FEA680;
 }
 
-
-/* hot-pink links */
-
 .link-1.hot-pink:after {
     background: #FE65B7;
 }
-
-
-/* coral links */
 
 .link-1.coral:after {
     background: #F63341;
 }
 
-
-/* grey links */
-
 .link-1.grey:after {
     background: #AAB8C1;
 }
-
-
-/* LINK 2 */
 
 .link-2 {
     position: relative;
@@ -1056,146 +884,94 @@ html a.social-link:hover:before {
     transition: all ease 0.2s;
 }
 
-
-/* light links */
-
 .link-2.light:before,
 .link-2.light:after {
     background: #fff;
     color: #111;
 }
 
-
-/* blue links */
-
 .link-2.blue:before,
 .link-2.blue:after {
     background: #0100ff;
 }
-
-
-/* green links */
 
 .link-2.green:before,
 .link-2.green:after {
     background: #00b388;
 }
 
-
-/* red links */
-
 .link-2.red:before,
 .link-2.red:after {
     background: #ff322e;
 }
-
-
-/* yellow links */
 
 .link-2.yellow:before,
 .link-2.yellow:after {
     background: #ffcc2f;
 }
 
-
-/* pink links */
-
 .link-2.pink:before,
 .link-2.pink:after {
     background: #f94877;
 }
-
-
-/* purple links */
 
 .link-2.purple:before,
 .link-2.purple:after {
     background: #554488;
 }
 
-
-/* tango links */
-
 .link-2.tango:before,
 .link-2.tango:after {
     background: #E1523D;
 }
-
-
-/* aqua links */
 
 .link-2.aqua:before,
 .link-2.aqua:after {
     background: #0099ff;
 }
 
-
-/* navy links */
-
 .link-2.navy:before,
 .link-2.navy:after {
     background: #414f5a;
 }
-
-
-/* leather links */
 
 .link-2.leather:before,
 .link-2.leather:after {
     background: #AB9878;
 }
 
-
-/* azure links */
-
 .link-2.azure:before,
 .link-2.azure:after {
     background: #02ACAB;
 }
-
-
-/* peach links */
 
 .link-2.peach:before,
 .link-2.peach:after {
     background: #FEA680;
 }
 
-
-/* hot-pink links */
-
 .link-2.hot-pink:before,
 .link-2.hot-pink:after {
     background: #FE65B7;
 }
-
-
-/* coral links */
 
 .link-2.coral:before,
 .link-2.coral:after {
     background: #F63341;
 }
 
-
-/* grey links */
-
 .link-2.grey:before,
 .link-2.grey:after {
     background: #AAB8C1;
 }
 
-
-/* BUTTONS */
-
 .button {
-    border: 2px solid #222;
     font-family: inherit;
     font-size: 16px;
     line-height: 1;
     color: #222;
     text-decoration: none;
-    background: none;
+    background: #fff;
     cursor: pointer;
     padding: 16px 32px;
     margin: 10px 20px 0 0;
@@ -1203,6 +979,7 @@ html a.social-link:hover:before {
     outline: none;
     position: relative;
     transition: all 0.3s;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
     overflow: hidden;
 }
 
@@ -1241,567 +1018,348 @@ html a.social-link:hover:before {
 
 .button:hover,
 .button:active {
-    color: #fff !important;
+    color: #222 !important;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 }
 
+
+}
 .button:active {
     transition: all 0.1s;
     transform: scale(0.9);
     outline: 0;
 }
-
 .button:hover:after,
 .button:active:after {
     width: 100%;
 }
-
-
-/* light buttons */
-
 .button.light {
     border-color: #fff;
 }
-
 .button.light:after {
     background: #fff;
 }
-
 .button.light:hover,
 .button.light:active {
     color: #111 !important;
 }
-
-
-/* blue buttons */
-
 .button.blue {
     border-color: #0100ff;
     color: #0100ff;
 }
-
 .button.blue:after {
     background: #0100ff;
 }
-
-
-/* green buttons */
-
 .button.green {
     border-color: #00b388;
     color: #00b388;
 }
-
 .button.green:after {
     background: #00b388;
 }
-
-
-/* red buttons */
-
 .button.red {
     border-color: #ff322e;
     color: #ff322e;
 }
-
 .button.red:after {
     background: #ff322e;
 }
-
-
-/* yellow buttons */
-
 .button.yellow {
     border-color: #ffcc2f;
     color: #ffcc2f;
 }
-
 .button.yellow:after {
     background: #ffcc2f;
 }
-
-
-/* pink buttons */
-
 .button.pink {
     border-color: #f94877;
     color: #f94877;
 }
-
 .button.pink:after {
     background: #f94877;
 }
-
-
-/* purple buttons */
-
 .button.purple {
     border-color: #554488;
     color: #554488;
 }
-
 .button.purple:after {
     background: #554488;
 }
-
-
-/* tango buttons */
-
 .button.tango {
     border-color: #E1523D;
     color: #E1523D;
 }
-
 .button.tango:after {
     background: #E1523D;
 }
-
-
-/* aqua buttons */
-
 .button.aqua {
     border-color: #0099ff;
     color: #0099ff;
 }
-
 .button.aqua:after {
     background: #0099ff;
 }
-
-
-/* navy buttons */
-
 .button.navy {
     border-color: #414f5a;
     color: #414f5a;
 }
-
 .button.navy:after {
     background: #414f5a;
 }
-
-
-/* leather buttons */
-
 .button.leather {
     border-color: #AB9878;
     color: #AB9878;
 }
-
 .button.leather:after {
     background: #AB9878;
 }
-
-
-/* azure buttons */
-
 .button.azure {
     border-color: #02ACAB;
     color: #02ACAB;
 }
-
 .button.azure:after {
     background: #02ACAB;
 }
-
-
-/* peach buttons */
-
 .button.peach {
     border-color: #FEA680;
     color: #FEA680;
 }
-
 .button.peach:after {
     background: #FEA680;
 }
-
-
-/* hot-pink buttons */
-
 .button.hot-pink {
     border-color: #FE65B7;
     color: #FE65B7;
 }
-
 .button.hot-pink:after {
     background: #FE65B7;
 }
-
-
-/* coral buttons */
-
 .button.coral {
     border-color: #F63341;
     color: #F63341;
 }
-
 .button.coral:after {
     background: #F63341;
 }
-
-
-/* grey buttons */
-
 .button.grey {
     border-color: #AAB8C1;
     color: #AAB8C1;
 }
-
 .button.grey:after {
     background: #AAB8C1;
 }
-
-
-/* icons in buttons */
-
 .button i {
     display: inline-block;
     margin-right: 5px;
 }
-
 .button i.right {
     margin-right: 0;
     margin-left: 5px;
 }
-
 .button i:before {
     font-size: 120%;
 }
-
-
-/* HIGHLIGHT TEXT */
-
 .highlight {
     display: inline-block;
     padding: 0 10px;
     color: #fff;
     background: #111;
 }
-
-
-/* light highlights */
-
 .highlight.light {
     background: #fff;
     color: #111;
 }
-
-
-/* blue highlights */
-
 .highlight.blue {
     background: #0100ff;
 }
-
-
-/* green highlights */
-
 .highlight.green {
     background: #00b388;
 }
-
-
-/* red highlights */
-
 .highlight.red {
     background: #ff322e;
 }
-
-
-/* yellow highlights */
-
 .highlight.yellow {
     background: #ffcc2f;
 }
-
-
-/* pink highlights */
-
 .highlight.pink {
     background: #f94877;
 }
-
-
-/* purple highlights */
-
 .highlight.purple {
     background: #554488;
 }
-
-
-/* tango highlights */
-
 .highlight.tango {
     background: #E1523D;
 }
-
-
-/* aqua highlights */
-
 .highlight.aqua {
     background: #0099ff;
 }
-
-
-/* navy highlights */
-
 .highlight.navy {
     background: #414f5a;
 }
-
-
-/* leather highlights */
-
 .highlight.leather {
     background: #AB9878;
 }
-
-
-/* azure highlights */
-
 .highlight.azure {
     background: #02ACAB;
 }
-
-
-/* peach highlights */
-
 .highlight.peach {
     background: #FEA680;
 }
-
-
-/* hot-pink highlights */
-
 .highlight.hot-pink {
     background: #FE65B7;
 }
-
-
-/* coral highlights */
-
 .highlight.coral {
     background: #F63341;
 }
-
-
-/* grey highlights */
-
 .highlight.grey {
     background: #AAB8C1;
 }
-
-
-/* COLORED TEXT */
-
-
-/* blue text */
-
 .text.blue {
     color: #0100ff;
 }
-
-
-/* green text */
-
 .text.green {
     color: #00b388;
 }
-
-
-/* red text */
-
 .text.red {
     color: #ff322e;
 }
-
-
-/* yellow text */
-
 .text.yellow {
     color: #ffcc2f;
 }
-
-
-/* pink text */
-
 .text.pink {
     color: #f94877;
 }
-
-
-/* purple text */
-
 .text.purple {
     color: #554488;
 }
-
-
-/* tango text */
-
 .text.tango {
     color: #E1523D;
 }
-
-
-/* aqua text */
-
 .text.aqua {
     color: #0099ff;
 }
-
-
-/* navy text */
-
 .text.navy {
     color: #414f5a;
 }
-
-
-/* leather text */
-
 .text.leather {
     color: #AB9878;
 }
-
-
-/* azure text */
-
 .text.azure {
     color: #02ACAB;
 }
-
-
-/* peach text */
-
 .text.peach {
     color: #FEA680;
 }
-
-
-/* hot-pink text */
-
 .text.hot-pink {
     color: #FE65B7;
 }
-
-
-/* coral text */
-
 .text.coral {
     color: #F63341;
 }
-
-
-/* grey text */
-
 .text.grey {
     color: #AAB8C1;
 }
-
-
-/* TYPED TEXT */
-
 #typed-strings {
     display: none;
 }
-
 .typed-cursor {
     opacity: 1;
     -webkit-animation: blink 0.7s infinite;
     animation: blink 0.7s infinite;
 }
-
 @-webkit-keyframes blink {
     0% {
         opacity: 1;
     }
+    
     50% {
         opacity: 0;
     }
+    
     100% {
         opacity: 1;
     }
 }
-
 @keyframes blink {
     0% {
         opacity: 1;
     }
+    
     50% {
         opacity: 0;
     }
+    
     100% {
         opacity: 1;
     }
 }
-
-
-/*  --------------------------------------------
-
-	6. MEDIA QUERIES (@media) - base html elements
-	
-    -------------------------------------------- */
-
-
-/* TABLETS */
-
 @media screen and (min-width: 768px) {
     body {
         font-size: 21px;
     }
+    
     .profile-image {
         max-height: 128px;
     }
+    
     .profile-image.small {
         max-height: 92px;
     }
+    
     .profile-image.big {
         max-height: 192px;
     }
+    
     h1 {
         font-size: 5vw;
         line-height: 1;
         letter-spacing: -3px;
     }
-    /* LAYOUT : BOXED LAYOUT */
+    
     .is-boxed .content {
         padding: 3em 4em;
     }
-    /* LAYOUT : BOXED */
+    
     .is-boxed .content-wrap {
         max-width: 400px;
     }
+    
     .is-boxed .content {
         position: relative;
         z-index: 500;
         padding: 3em;
     }
+    
     .is-boxed .media {
         position: fixed;
         width: 100%;
         height: 100%;
     }
+    
     .is-boxed h1 {
         margin-bottom: 24px;
     }
+    
     .is-boxed:not(.is-small-typo) p {
         font-size: 17px;
     }
-    /* BOXED POSITIONS */
+    
     .is-v-align-top {
         align-items: flex-start;
     }
+    
     .is-v-align-bottom {
         align-items: flex-end;
     }
+    
     .is-h-align-left .content-wrap {
         margin-left: 0;
     }
+    
     .is-h-align-right .content-wrap {
         margin-right: 0;
     }
-    /* LAYOUT : SPLIT LAYOUT */
+    
     .media {
         position: fixed;
         top: 0;
@@ -1810,66 +1368,66 @@ html a.social-link:hover:before {
         height: 100%;
         bottom: 0;
     }
+    
     .is-split-layout .media {
         position: fixed;
         width: 50%;
         height: 100%;
     }
+    
     .is-split-layout .content-wrap {
         margin-right: 0;
         width: 50%;
     }
-    /* SPLIT LAYOUT MEDIA RIGHT */
+    
     .is-media-right .media {
         left: auto;
         right: 0;
     }
+    
     .is-media-right .content-wrap {
         margin-left: 0
     }
+    
     .is-split-layout .content {
         padding: 3em;
     }
 }
-
-
-/* DESKTOPS */
-
 @media screen and (min-width: 1200px) {
     .content-wrap {
         width: 50%;
     }
-    /* LAYOUT : IMAGE LEFT */
+    
     .content {
         padding: 4em 0;
     }
+    
     .is-split-layout .content {
         padding: 5em;
     }
+    
     .is-split-layout-narrow .content-wrap {
         width: 30%;
     }
+    
     .is-split-layout-narrow .media {
         width: 70%;
     }
-    /* BUTTONS */
+    
     .button.huge {
         font-size: 20px;
         padding: 22px 40px;
     }
 }
-
-
-/* DESKTOPS HIGH RES */
-
 @media screen and (min-width: 1600px) {
     .content-wrap {
         width: 50%;
     }
-    /* LAYOUT : IMAGE LEFT */
+    
     .content {
         padding: 6em 0;
     }
+    
     .is-split-layout .content {
         padding: 7em;
     }
