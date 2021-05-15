@@ -3,7 +3,7 @@ title: Marc Reyes &mdash; Software Engineer
 layout: default
 ---
 
-<div tooltip="✌️ I'm Marc. Feeling cute." flow="right"><img class="profile-image big" src="{{ 'images/marc-memoji.png' | absolute_url }}" alt="Marc's Fist Bump Memoji"></div>
+<div tooltip="✌️ I'm Marc. Feeling cute." flow="right"><img class="profile-image big" src="{{ 'images/marc-memoji.png' | cdn }}" alt="Marc's Fist Bump Memoji"></div>
 
 <h1>
     I'm Marc Reyes,<br>
