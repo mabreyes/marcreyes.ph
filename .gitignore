@@ -42,3 +42,4 @@ node_modules
 .jekyll-cache
 css/
 images/
+js/
