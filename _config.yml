@@ -4,6 +4,7 @@ description: I'm Marc Reyes, a Sofware Engineer from the Philippines.
 hero_text: I'm Marc, a Software Engineer from the Philippines.
 github_repo_url: https://github.com/mabreyes/marcreyes.ph
 hero_image: /images/hero.jpg
+cdn: https://cdn-static-s3.marcreyes.xyz/assets/marcreyesph
 compress_html:
   clippings: all
   comments: [""]
