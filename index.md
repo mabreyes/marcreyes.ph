@@ -18,7 +18,7 @@ layout: default
 
 </h1>
 
-👨‍💻 I build software, ⚙️ automate processes, and 📈 make data-driven decisions. Currently 💼 working at <a class="link-1" href="https://gcash.com" target="_blank">GCash</a> as a Machine Learning Engineer.
+👨‍💻 I build software, ⚙️ automate processes, and 📈 make data-driven decisions. Currently 💼 working at <a class="link-1" href="https://gcash.com" target="_blank">GCash</a> as a Lead Machine Learning Engineer for Credit Risk and Consumer models.
 
 <a class="button bold huge rounded" href="https://marcrey.es/xyz" target="_blank" ref="noopener noreferrer">🛠 Projects</a>
 <a class="button bold huge rounded" href="https://marcrey.es/resume" target="_blank" ref="noopener noreferrer">🗒️ Resume</a>
