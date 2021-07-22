@@ -22,4 +22,5 @@ layout: default
 
 <a class="button bold huge rounded" href="https://marcrey.es/dev" target="_blank" ref="noopener noreferrer">🛠 Projects</a>
 <a class="button bold huge rounded" href="https://marcrey.es/resume" target="_blank" ref="noopener noreferrer">🗒️ Resume</a>
+<a class="button bold huge rounded" href="https://paypal.me/marcreyesph" target="_blank" ref="noopener noreferrer">💸 Sponsor</a>
 <a class="button blue bold huge rounded" href="mailto:hello@marcreyes.ph?subject=Hi, Marc" target="_blank" ref="noopener noreferrer">💬 hello@marcreyes.ph</a>
