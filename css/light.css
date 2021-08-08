@@ -1526,7 +1526,8 @@ html a.social-link:hover:before {
         width: 90%;
     }
     p,
-    a {
+    a,
+    dark-mode-toggle {
         font-size: 18px !important;
     }
 }
