@@ -20,11 +20,11 @@ embed[type="application/pdf"] {
 
 html {
     color: rgb(191, 191, 191);
-    background: rgb(31, 31, 31) !important;
+    background: rgb(28, 28, 33) !important;
 }
 
 body {
-    background-color: rgb(31, 31, 31);
+    background-color: rgb(28, 28, 33);
     background-image: none !important;
 }
 
@@ -33,7 +33,7 @@ select,
 textarea,
 button {
     color: rgb(191, 191, 191);
-    background-color: rgb(31, 31, 31);
+    background-color: rgb(28, 28, 33);
 }
 
 font {
