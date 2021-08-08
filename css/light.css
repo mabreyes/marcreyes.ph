@@ -63,7 +63,7 @@ html:after {
 
 .navbar {
     overflow: hidden;
-    background-color: #333;
+    border-bottom: 2px solid #222;
     position: fixed;
     top: 0;
     width: 100%;
@@ -72,7 +72,7 @@ html:after {
 .navbar a {
     float: left;
     display: block;
-    color: #f2f2f2;
+    color: #222;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -90,14 +90,14 @@ html:after {
 .navbar dark-mode-toggle {
     float: right;
     display: block;
-    color: #f2f2f2;
+    color: #222;
     text-align: center;
     padding: 9px 16px;
     text-decoration: none;
 }
 
 .navbar a:hover {
-    background: #ddd;
+    /* background: #ddd; */
     color: black;
 }
 

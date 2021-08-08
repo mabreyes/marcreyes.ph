@@ -586,7 +586,7 @@ html::after {
 
 .navbar {
     overflow: hidden;
-    background-color: rgb(64, 78, 89);
+    border-bottom: 2px solid rgb(64, 78, 89);
     position: fixed;
     top: 0px;
     width: 100%;
@@ -620,7 +620,6 @@ html::after {
 }
 
 .navbar a:hover {
-    background: rgb(59, 59, 59);
     color: rgb(191, 191, 191);
 }
 
