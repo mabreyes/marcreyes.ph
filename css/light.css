@@ -54,11 +54,10 @@ html:after {
     left: 0;
     right: 0;
     bottom: 0;
-    background: white;
-    background-image: url(../images/preloader.gif);
+    background-image: url(https://cdn-static-s3.marcreyes.xyz/assets/marcreyesph/images/marc-memoji.png);
     background-position: center center;
     background-repeat: no-repeat;
-    background-size: 48px 48px;
+    background-size: 160px;
 }
 
 .navbar {

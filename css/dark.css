@@ -581,7 +581,7 @@ html::after {
     left: 0px;
     right: 0px;
     bottom: 0px;
-    background: url("https://d33wubrfki0l68.cloudfront.net/images/ccebfe2e27aeea55b56e38fa8cff9744b2c164ea/preloader.gif") center center / 48px 48px no-repeat rgb(28, 28, 33);
+    background: url(https://cdn-static-s3.marcreyes.xyz/assets/marcreyesph/images/marc-memoji.png) center center / 160px no-repeat;
 }
 
 .navbar {
