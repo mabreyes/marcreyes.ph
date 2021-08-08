@@ -590,6 +590,8 @@ html::after {
     position: fixed;
     top: 0px;
     width: 100%;
+    background: rgb(28, 28, 33);
+    z-index: 100;
 }
 
 .navbar a {
@@ -2034,5 +2036,19 @@ html a.social-link:hover::before {
     }
     .is-split-layout .content {
         padding: 7em;
+    }
+}
+
+@media (max-width: 500px) {
+    h1 {
+        font-size: 50px;
+        line-height: 1em;
+    }
+    .content-wrap {
+        width: 90%;
+    }
+    p,
+    a {
+        font-size: 18px !important;
     }
 }
