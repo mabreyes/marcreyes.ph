@@ -1531,3 +1531,9 @@ html a.social-link:hover:before {
         font-size: 18px !important;
     }
 }
+
+@media (max-width: 460px) {
+    h1 {
+        padding-top: 1.5em;
+    }
+}
