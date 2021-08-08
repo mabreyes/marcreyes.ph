@@ -1,4 +1,4 @@
 # 👨‍💻 marcreyes.ph
-I'm Marc Reyes, a Software Engineer focused on Web Development, DevOps, and Data Science from the Philippines.
+I'm Marc Reyes, a Software Engineer based in Metro Manila. Minimalist redesign because why not? Heavily designed and animated sites are overrated 🤷‍♂️.
 
-This repo is open source so you can modify this template. However, please make some attributions to me, the owner (plagiarism is bad folks).
+As always, you're free to use but please attribute to me 🥺. I love being recognized for my smol work 💖. 
