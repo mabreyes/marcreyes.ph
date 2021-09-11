@@ -12,7 +12,7 @@ body {
 }
 
 body {
-    font-family: 'Sharp Grotesk Book 20', sans-serif;
+    font-family: 'Akkurat-Mono', sans-serif;
     color: #222;
     background-color: #fff;
     font-size: 14px;
@@ -121,8 +121,8 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Sharp Grotesk SmBold 22', sans-serif;
-    /* font-weight: 500; */
+    font-family: 'Walfork', sans-serif;
+    font-weight: 800;
     font-style: normal;
     margin: 1em 0 0 0;
 }
@@ -196,7 +196,7 @@ p:last-child {
 }
 
 .bold {
-    font-family: ;
+    font-weight: bold;
 }
 
 .is-small-typo h1 {
@@ -1007,7 +1007,6 @@ html a.social-link:hover:before {
 }
 
 .button {
-    font-family: 'Sharp Grotesk SmBold 22' !important;
     border: 2px solid #222;
     font-family: inherit;
     font-size: 16px;
@@ -1405,6 +1404,7 @@ html a.social-link:hover:before {
 @media screen and (min-width: 768px) {
     body {
         font-size: 1.2vw;
+        letter-spacing: -1px;
     }
     .profile-image {
         max-height: 128px;
@@ -1417,7 +1417,7 @@ html a.social-link:hover:before {
     }
     h1 {
         font-size: 6vw;
-        letter-spacing: -1px;
+        letter-spacing: -3px;
         line-height: 1;
     }
     .is-boxed .content {
