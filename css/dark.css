@@ -592,6 +592,7 @@ html::after {
     width: 100%;
     background: rgb(28, 28, 33);
     z-index: 100;
+    transition: all 0.6s cubic-bezier(0.77, 0, 0.175, 1) 0s;
 }
 
 .navbar a {
