@@ -600,7 +600,7 @@ html::after {
     background: rgb(28, 28, 33);
     z-index: 100;
     transition: all 0.6s cubic-bezier(0.77, 0, 0.175, 1) 0s;
-    padding: 10px;
+    padding: 10px 0 10px 0;
 }
 
 .navbar a {
@@ -608,7 +608,7 @@ html::after {
     display: block;
     color: rgb(242, 242, 242);
     text-align: center;
-    padding: 14px 16px;
+    padding: 14px 16px 0 0;
     text-decoration: none;
 }
 
@@ -617,7 +617,7 @@ html::after {
     display: block;
     color: rgb(242, 242, 242);
     text-align: center;
-    padding: 14px 16px;
+    padding: 14px 0 16px 0;
     text-decoration: none;
 }
 
