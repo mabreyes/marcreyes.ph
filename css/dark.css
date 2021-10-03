@@ -552,12 +552,16 @@ body {
     line-height: 1.7;
     display: flex;
     align-items: center;
-    letter-spacing: -1px;
+    /* letter-spacing: -1px; */
 }
 
 img {
     max-width: 100%;
     height: auto;
+}
+
+p {
+    letter-spacing: -1px;
 }
 
 ::selection {
