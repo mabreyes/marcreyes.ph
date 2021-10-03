@@ -552,6 +552,7 @@ body {
     line-height: 1.7;
     display: flex;
     align-items: center;
+    letter-spacing: -1px;
 }
 
 img {
@@ -585,6 +586,8 @@ html::after {
 }
 
 .navbar {
+    font-family: Monument Extended;
+    letter-spacing: 0;
     overflow: hidden;
     border-bottom: 2px solid rgb(64, 78, 89);
     position: fixed;
@@ -593,6 +596,7 @@ html::after {
     background: rgb(28, 28, 33);
     z-index: 100;
     transition: all 0.6s cubic-bezier(0.77, 0, 0.175, 1) 0s;
+    padding: 10px;
 }
 
 .navbar a {
@@ -645,7 +649,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: Walfork, sans-serif;
+    font-family: Monument Extended, sans-serif;
     font-weight: 800;
     font-style: normal;
     margin: 1em 0px 0px;
@@ -662,7 +666,7 @@ h6:first-child {
 
 h1 {
     font-size: 9vw;
-    letter-spacing: -1px;
+    /* letter-spacing: -1px; */
     line-height: 1.1;
     margin-top: 0px;
 }
@@ -684,7 +688,7 @@ h3 {
 h4 {
     font-size: 12px;
     text-transform: uppercase;
-    letter-spacing: 5px;
+    /* letter-spacing: 5px; */
 }
 
 p:last-child {
@@ -1532,7 +1536,7 @@ html a.social-link:hover::before {
 
 .button {
     border: 2px solid rgb(33, 33, 33);
-    font-family: inherit;
+    font-family: Monument Extended;
     font-size: 16px;
     line-height: 1;
     color: rgb(191, 191, 191);
@@ -1546,6 +1550,7 @@ html a.social-link:hover::before {
     position: relative;
     transition: all 0.3s ease 0s;
     overflow: hidden;
+    letter-spacing: 0;
 }
 
 .button:only-child {
@@ -1927,7 +1932,7 @@ html a.social-link:hover::before {
 @media screen and (min-width: 768px) {
     body {
         font-size: 1.2vw;
-        letter-spacing: -1px;
+        /* letter-spacing: -1px; */
     }
     .profile-image {
         max-height: 128px;
@@ -1939,8 +1944,8 @@ html a.social-link:hover::before {
         max-height: 192px;
     }
     h1 {
-        font-size: 6vw;
-        letter-spacing: -3px;
+        font-size: 5vw;
+        /* letter-spacing: -3px; */
         line-height: 1;
     }
     .is-boxed .content {
