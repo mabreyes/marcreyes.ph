@@ -140,15 +140,15 @@ html:after {
 }
 
 .hovertext-container .hovertext-p2 {
-    transform: translateY(51px);
+    transform: translateY(60px);
 }
 
 .hovertext-container:hover .hovertext-p1 {
-    transform: translateY(-101px);
+    transform: translateY(-100px);
 }
 
 .hovertext-container:hover .hovertext-p2 {
-    transform: translateY(1px);
+    transform: translateY(0px);
 }
 
 .navbar a:hover {
