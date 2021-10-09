@@ -73,19 +73,33 @@ html:after {
     border-bottom: 2px solid #414f5a;
     position: fixed;
     top: 0;
-    background: #d3d3d3;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
     width: 100%;
     z-index: 100;
     transition: all 0.6s cubic-bezier(0.77, 0, 0.175, 1) 0s;
+    animation: gradient 15s ease infinite;
+    background-size: 400% 400%;
     padding: 10px 0 10px 0;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
 }
 
 .navbar a {
     float: left;
     display: block;
-    color: #222;
+    color: #fff;
     text-align: center;
-    padding: 14px 16px 0 0;
+    padding: 14px;
     text-decoration: none;
 }
 
@@ -101,15 +115,45 @@ html:after {
 .navbar dark-mode-toggle {
     float: right;
     display: block;
-    color: #222;
+    color: #fff;
     text-align: center;
     padding: 9px 16px;
     text-decoration: none;
 }
 
+.hovertext-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.hovertext-container a {
+    padding: 14px 16px 0 0;
+    font-size: inherit;
+    font-family: Monument Extended !important;
+    position: absolute;
+    display: block;
+    transition: all 0.5s ease;
+    color: #fff;
+}
+
+.hovertext-container .hovertext-p2 {
+    transform: translateY(51px);
+}
+
+.hovertext-container:hover .hovertext-p1 {
+    transform: translateY(-101px);
+}
+
+.hovertext-container:hover .hovertext-p2 {
+    transform: translateY(1px);
+}
+
 .navbar a:hover {
     /* background: #ddd; */
-    color: black;
+    color: #fff;
 }
 
 html.loaded:after {
@@ -1413,7 +1457,8 @@ html a.social-link:hover:before {
 }
 
 @media screen and (min-width: 768px) {
-    body {
+    body,
+    .hovertext-container a {
         font-size: 1.2vw;
         /* letter-spacing: -1px; */
     }

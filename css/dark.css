@@ -597,10 +597,24 @@ html::after {
     position: fixed;
     top: 0px;
     width: 100%;
-    background: rgb(28, 28, 33);
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
     z-index: 100;
     transition: all 0.6s cubic-bezier(0.77, 0, 0.175, 1) 0s;
+    animation: gradient 15s ease infinite;
+    background-size: 400% 400%;
     padding: 10px 0 10px 0;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
 }
 
 .navbar a {
@@ -631,7 +645,37 @@ html::after {
 }
 
 .navbar a:hover {
-    color: rgb(191, 191, 191);
+    color: #fff;
+}
+
+.hovertext-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.hovertext-container a {
+    padding: 14px 16px 0 0;
+    font-size: inherit;
+    font-family: Monument Extended !important;
+    position: absolute;
+    display: block;
+    transition: all 0.5s ease;
+    color: #fff;
+}
+
+.hovertext-container .hovertext-p2 {
+    transform: translateY(51px);
+}
+
+.hovertext-container:hover .hovertext-p1 {
+    transform: translateY(-101px);
+}
+
+.hovertext-container:hover .hovertext-p2 {
+    transform: translateY(1px);
 }
 
 html.loaded::after {
