@@ -670,11 +670,19 @@ html::after {
     transform: translateY(60px);
 }
 
-.hovertext-container:hover .hovertext-p1 {
+.navbar:hover .hovertext-p1 {
     transform: translateY(-100px);
 }
 
-.hovertext-container:hover .hovertext-p2 {
+.navbar:hover .hovertext-p2 {
+    transform: translateY(0px);
+}
+
+.navbar:active .hovertext-p1 {
+    transform: translateY(-100px);
+}
+
+.navbar:active .hovertext-p2 {
     transform: translateY(0px);
 }
 
