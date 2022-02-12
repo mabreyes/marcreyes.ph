@@ -545,7 +545,7 @@ html {
 }
 
 body {
-    font-family: Akkurat-Mono, sans-serif;
+    font-family: Modern Era Mono, sans-serif;
     color: rgb(191, 191, 191);
     background-color: rgb(28, 28, 33);
     font-size: 14px;
@@ -561,7 +561,7 @@ img {
 }
 
 p {
-    letter-spacing: -1px;
+    /* letter-spacing: -1px; */
 }
 
 ::selection {
@@ -590,7 +590,8 @@ html::after {
 }
 
 .navbar {
-    font-family: Monument Extended;
+    font-family: Modern Era Mono;
+    font-weight: 650;
     letter-spacing: 0;
     overflow: hidden;
     border-bottom: 2px solid rgb(64, 78, 89);
@@ -631,7 +632,7 @@ html::after {
 }
 
 .navbar a:hover {
-    color: rgb(191, 191, 191);
+    color: rgb(242, 242, 242);
 }
 
 html.loaded::after {
@@ -653,8 +654,8 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: Monument Extended, sans-serif;
-    font-weight: 800;
+    font-family: Modern Era, sans-serif;
+    font-weight: bold;
     font-style: normal;
     margin: 1em 0px 0px;
 }
@@ -750,7 +751,7 @@ p:last-child {
 }
 
 .content-wrap {
-    width: 80%;
+    width: 90%;
     margin: 0px auto;
     max-height: 100%;
     position: relative;
@@ -1540,7 +1541,8 @@ html a.social-link:hover::before {
 
 .button {
     border: 2px solid rgb(33, 33, 33);
-    font-family: Monument Extended;
+    font-family: Modern Era Mono;
+    font-weight: 650;
     font-size: 16px;
     line-height: 1;
     color: rgb(191, 191, 191);
@@ -2017,7 +2019,7 @@ html a.social-link:hover::before {
 
 @media screen and (min-width: 1200px) {
     .content-wrap {
-        width: 70%;
+        width: 90%;
     }
     .content {
         padding: 4em 0px;
@@ -2039,7 +2041,7 @@ html a.social-link:hover::before {
 
 @media screen and (min-width: 1600px) {
     .content-wrap {
-        width: 70%;
+        width: 90%;
     }
     .content {
         padding: 6em 0px;
