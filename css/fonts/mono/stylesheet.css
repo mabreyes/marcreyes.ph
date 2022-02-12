@@ -1,0 +1,39 @@
+/* Normal weight; normal style */
+
+@font-face {
+    font-family: 'Relative-10Pitch';
+    font-weight: normal;
+    font-style: normal;
+    src: url('Relative-10Pitch.woff');
+}
+
+
+/* Normal weight; normal style */
+
+@font-face {
+    font-family: 'MabryPro-Regular';
+    font-weight: normal;
+    font-style: normal;
+    src: url('MabryPro-Regular.woff');
+}
+
+@font-face {
+    font-family: 'Mabry-Mono';
+    src: url('mabry-mono-regular.woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Relative';
+    font-weight: normal;
+    font-style: normal;
+    src: url('relative-book-pro.woff');
+}
+
+@font-face {
+    font-family: 'Degular';
+    src: url('Degular-Medium.woff') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}

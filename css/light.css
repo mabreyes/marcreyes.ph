@@ -13,7 +13,7 @@ body {
 }
 
 body {
-    font-family: 'Akkurat-Mono', sans-serif;
+    font-family: 'Modern Era', sans-serif;
     color: #222;
     background-color: #fff;
     font-size: 14px;
@@ -67,7 +67,7 @@ html:after {
 }
 
 .navbar {
-    font-family: Monument Extended;
+    font-family: Modern Era;
     letter-spacing: 0;
     overflow: hidden;
     border-bottom: 2px solid #414f5a;
@@ -131,8 +131,8 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Monument Extended', sans-serif;
-    font-weight: 800;
+    font-family: 'Modern Era', sans-serif;
+    font-weight: 900;
     font-style: normal;
     margin: 1em 0 0 0;
 }
@@ -228,7 +228,7 @@ p:last-child {
 }
 
 .content-wrap {
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
     max-height: 100%;
     position: relative;
@@ -1018,7 +1018,7 @@ html a.social-link:hover:before {
 
 .button {
     border: 2px solid #222;
-    font-family: Monument Extended;
+    font-family: Modern Era;
     font-size: 16px;
     line-height: 1;
     color: #222;
@@ -1496,7 +1496,7 @@ html a.social-link:hover:before {
 
 @media screen and (min-width: 1200px) {
     .content-wrap {
-        width: 70%;
+        width: 90%;
     }
     .content {
         padding: 4em 0;
@@ -1518,7 +1518,7 @@ html a.social-link:hover:before {
 
 @media screen and (min-width: 1600px) {
     .content-wrap {
-        width: 70%;
+        width: 90%;
     }
     .content {
         padding: 6em 0;
