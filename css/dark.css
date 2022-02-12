@@ -561,7 +561,7 @@ img {
 }
 
 p {
-    letter-spacing: -1px;
+    /* letter-spacing: -1px; */
 }
 
 ::selection {
