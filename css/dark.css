@@ -545,7 +545,7 @@ html {
 }
 
 body {
-    font-family: Akkurat-Mono, sans-serif;
+    font-family: Modern Era Mono, sans-serif;
     color: rgb(191, 191, 191);
     background-color: rgb(28, 28, 33);
     font-size: 14px;
@@ -653,8 +653,8 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: Mabry-Mono, sans-serif;
-    font-weight: 400;
+    font-family: Modern Era, sans-serif;
+    font-weight: bold;
     font-style: normal;
     margin: 1em 0px 0px;
 }
@@ -1540,7 +1540,7 @@ html a.social-link:hover::before {
 
 .button {
     border: 2px solid rgb(33, 33, 33);
-    font-family: Mabry-Mono;
+    font-family: Modern Era Mono;
     font-size: 16px;
     line-height: 1;
     color: rgb(191, 191, 191);

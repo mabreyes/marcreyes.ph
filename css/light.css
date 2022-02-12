@@ -13,7 +13,7 @@ body {
 }
 
 body {
-    font-family: 'Modern Era', sans-serif;
+    font-family: 'Modern Era Mono', sans-serif;
     color: #222;
     background-color: #fff;
     font-size: 14px;
@@ -29,7 +29,7 @@ img {
 }
 
 p {
-    letter-spacing: -1px;
+    /* letter-spacing: -1px; */
 }
 
 ::selection {
@@ -132,7 +132,7 @@ h4,
 h5,
 h6 {
     font-family: 'Modern Era', sans-serif;
-    font-weight: 900;
+    font-weight: bold;
     font-style: normal;
     margin: 1em 0 0 0;
 }
@@ -1018,7 +1018,7 @@ html a.social-link:hover:before {
 
 .button {
     border: 2px solid #222;
-    font-family: Modern Era;
+    font-family: Modern Era Mono;
     font-size: 16px;
     line-height: 1;
     color: #222;
