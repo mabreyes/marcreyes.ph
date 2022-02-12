@@ -1,7 +1,6 @@
 @font-face {
     font-family: 'Modern Era Mono';
-    src: url('ModernEraMono-Bold.woff2') format('woff2'),
-        url('ModernEraMono-Bold.woff') format('woff');
+    src: url('ModernEraMono-Bold.woff2') format('woff2'), url('ModernEraMono-Bold.woff') format('woff');
     font-weight: bold;
     font-style: normal;
     font-display: swap;
@@ -9,17 +8,15 @@
 
 @font-face {
     font-family: 'Modern Era Mono';
-    src: url('ModernEraMono-ExtraBold.woff2') format('woff2'),
-        url('ModernEraMono-ExtraBold.woff') format('woff');
-    font-weight: bold;
+    src: url('ModernEraMono-ExtraBold.woff2') format('woff2'), url('ModernEraMono-ExtraBold.woff') format('woff');
+    font-weight: 650;
     font-style: normal;
     font-display: swap;
 }
 
 @font-face {
     font-family: 'Modern Era Mono';
-    src: url('ModernEraMono-Regular.woff2') format('woff2'),
-        url('ModernEraMono-Regular.woff') format('woff');
+    src: url('ModernEraMono-Regular.woff2') format('woff2'), url('ModernEraMono-Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -27,10 +24,8 @@
 
 @font-face {
     font-family: 'Modern Era Mono';
-    src: url('ModernEraMono-Medium.woff2') format('woff2'),
-        url('ModernEraMono-Medium.woff') format('woff');
+    src: url('ModernEraMono-Medium.woff2') format('woff2'), url('ModernEraMono-Medium.woff') format('woff');
     font-weight: 500;
     font-style: normal;
     font-display: swap;
 }
-
