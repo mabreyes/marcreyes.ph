@@ -110,7 +110,7 @@ html:after {
 
 .navbar a:hover {
     /* background: #ddd; */
-    color: black;
+    color: rgb(65, 79, 90);
 }
 
 html.loaded:after {

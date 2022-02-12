@@ -632,7 +632,7 @@ html::after {
 }
 
 .navbar a:hover {
-    color: rgb(191, 191, 191);
+    color: rgb(242, 242, 242);
 }
 
 html.loaded::after {
