@@ -1,0 +1,195 @@
+@font-face {
+    font-family: 'Sharp Grotesk Bold 15';
+    src: url('SharpGroteskBold15-Regular.eot');
+    src: url('SharpGroteskBold15-Regular.eot?#iefix') format('embedded-opentype'),
+        url('SharpGroteskBold15-Regular.woff2') format('woff2'),
+        url('SharpGroteskBold15-Regular.woff') format('woff'),
+        url('SharpGroteskBold15-Regular.ttf') format('truetype'),
+        url('SharpGroteskBold15-Regular.svg#SharpGroteskBold15-Regular') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sharp Grotesk Book 15';
+    src: url('SharpGroteskBook15-Regular.eot');
+    src: url('SharpGroteskBook15-Regular.eot?#iefix') format('embedded-opentype'),
+        url('SharpGroteskBook15-Regular.woff2') format('woff2'),
+        url('SharpGroteskBook15-Regular.woff') format('woff'),
+        url('SharpGroteskBook15-Regular.ttf') format('truetype'),
+        url('SharpGroteskBook15-Regular.svg#SharpGroteskBook15-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sharp Grotesk Medium 15';
+    src: url('SharpGroteskMedium15-Regular.eot');
+    src: url('SharpGroteskMedium15-Regular.eot?#iefix') format('embedded-opentype'),
+        url('SharpGroteskMedium15-Regular.woff2') format('woff2'),
+        url('SharpGroteskMedium15-Regular.woff') format('woff'),
+        url('SharpGroteskMedium15-Regular.ttf') format('truetype'),
+        url('SharpGroteskMedium15-Regular.svg#SharpGroteskMedium15-Regular') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sharp Grotesk SmBold 15';
+    src: url('SharpGroteskSmBold15-Regular.eot');
+    src: url('SharpGroteskSmBold15-Regular.eot?#iefix') format('embedded-opentype'),
+        url('SharpGroteskSmBold15-Regular.woff2') format('woff2'),
+        url('SharpGroteskSmBold15-Regular.woff') format('woff'),
+        url('SharpGroteskSmBold15-Regular.ttf') format('truetype'),
+        url('SharpGroteskSmBold15-Regular.svg#SharpGroteskSmBold15-Regular') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sharp Grotesk Bold 20';
+    src: url('SharpGroteskBold20-Regular.eot');
+    src: url('SharpGroteskBold20-Regular.eot?#iefix') format('embedded-opentype'),
+        url('SharpGroteskBold20-Regular.woff2') format('woff2'),
+        url('SharpGroteskBold20-Regular.woff') format('woff'),
+        url('SharpGroteskBold20-Regular.ttf') format('truetype'),
+        url('SharpGroteskBold20-Regular.svg#SharpGroteskBold20-Regular') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sharp Grotesk Book 20';
+    src: url('SharpGroteskBook20-Regular.eot');
+    src: url('SharpGroteskBook20-Regular.eot?#iefix') format('embedded-opentype'),
+        url('SharpGroteskBook20-Regular.woff2') format('woff2'),
+        url('SharpGroteskBook20-Regular.woff') format('woff'),
+        url('SharpGroteskBook20-Regular.ttf') format('truetype'),
+        url('SharpGroteskBook20-Regular.svg#SharpGroteskBook20-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sharp Grotesk Medium 20';
+    src: url('SharpGroteskMedium20-Regular.eot');
+    src: url('SharpGroteskMedium20-Regular.eot?#iefix') format('embedded-opentype'),
+        url('SharpGroteskMedium20-Regular.woff2') format('woff2'),
+        url('SharpGroteskMedium20-Regular.woff') format('woff'),
+        url('SharpGroteskMedium20-Regular.ttf') format('truetype'),
+        url('SharpGroteskMedium20-Regular.svg#SharpGroteskMedium20-Regular') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sharp Grotesk SmBold 20';
+    src: url('SharpGroteskSmBold20-Regular.eot');
+    src: url('SharpGroteskSmBold20-Regular.eot?#iefix') format('embedded-opentype'),
+        url('SharpGroteskSmBold20-Regular.woff2') format('woff2'),
+        url('SharpGroteskSmBold20-Regular.woff') format('woff'),
+        url('SharpGroteskSmBold20-Regular.ttf') format('truetype'),
+        url('SharpGroteskSmBold20-Regular.svg#SharpGroteskSmBold20-Regular') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sharp Grotesk Book 22';
+    src: url('SharpGroteskBook22-Regular.eot');
+    src: url('SharpGroteskBook22-Regular.eot?#iefix') format('embedded-opentype'),
+        url('SharpGroteskBook22-Regular.woff2') format('woff2'),
+        url('SharpGroteskBook22-Regular.woff') format('woff'),
+        url('SharpGroteskBook22-Regular.ttf') format('truetype'),
+        url('SharpGroteskBook22-Regular.svg#SharpGroteskBook22-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sharp Grotesk Medium 22';
+    src: url('SharpGroteskMedium22-Regular.eot');
+    src: url('SharpGroteskMedium22-Regular.eot?#iefix') format('embedded-opentype'),
+        url('SharpGroteskMedium22-Regular.woff2') format('woff2'),
+        url('SharpGroteskMedium22-Regular.woff') format('woff'),
+        url('SharpGroteskMedium22-Regular.ttf') format('truetype'),
+        url('SharpGroteskMedium22-Regular.svg#SharpGroteskMedium22-Regular') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sharp Grotesk SmBold 22';
+    src: url('SharpGroteskSmBold22-Regular.eot');
+    src: url('SharpGroteskSmBold22-Regular.eot?#iefix') format('embedded-opentype'),
+        url('SharpGroteskSmBold22-Regular.woff2') format('woff2'),
+        url('SharpGroteskSmBold22-Regular.woff') format('woff'),
+        url('SharpGroteskSmBold22-Regular.ttf') format('truetype'),
+        url('SharpGroteskSmBold22-Regular.svg#SharpGroteskSmBold22-Regular') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sharp Grotesk Bold 25';
+    src: url('SharpGroteskBold25-Regular.eot');
+    src: url('SharpGroteskBold25-Regular.eot?#iefix') format('embedded-opentype'),
+        url('SharpGroteskBold25-Regular.woff2') format('woff2'),
+        url('SharpGroteskBold25-Regular.woff') format('woff'),
+        url('SharpGroteskBold25-Regular.ttf') format('truetype'),
+        url('SharpGroteskBold25-Regular.svg#SharpGroteskBold25-Regular') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sharp Grotesk Book 25';
+    src: url('SharpGroteskBook25-Regular.eot');
+    src: url('SharpGroteskBook25-Regular.eot?#iefix') format('embedded-opentype'),
+        url('SharpGroteskBook25-Regular.woff2') format('woff2'),
+        url('SharpGroteskBook25-Regular.woff') format('woff'),
+        url('SharpGroteskBook25-Regular.ttf') format('truetype'),
+        url('SharpGroteskBook25-Regular.svg#SharpGroteskBook25-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sharp Grotesk Medium 25';
+    src: url('SharpGroteskMedium25-Regular.eot');
+    src: url('SharpGroteskMedium25-Regular.eot?#iefix') format('embedded-opentype'),
+        url('SharpGroteskMedium25-Regular.woff2') format('woff2'),
+        url('SharpGroteskMedium25-Regular.woff') format('woff'),
+        url('SharpGroteskMedium25-Regular.ttf') format('truetype'),
+        url('SharpGroteskMedium25-Regular.svg#SharpGroteskMedium25-Regular') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sharp Grotesk SmBold 25';
+    src: url('SharpGroteskSmBold25-Regular.eot');
+    src: url('SharpGroteskSmBold25-Regular.eot?#iefix') format('embedded-opentype'),
+        url('SharpGroteskSmBold25-Regular.woff2') format('woff2'),
+        url('SharpGroteskSmBold25-Regular.woff') format('woff'),
+        url('SharpGroteskSmBold25-Regular.ttf') format('truetype'),
+        url('SharpGroteskSmBold25-Regular.svg#SharpGroteskSmBold25-Regular') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
