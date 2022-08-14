@@ -2070,7 +2070,7 @@ html a.social-link:hover::before {
     h1 {
         padding-top: 2em;
     }
-    a:nth-child(2n) {
+    a:last-child {
         margin-bottom: 3em;
     }
     a.button {
