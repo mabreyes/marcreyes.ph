@@ -113,6 +113,13 @@ html:after {
     color: rgb(65, 79, 90);
 }
 
+path {
+    fill: none;
+    stroke: #414f5a !important;
+    stroke-width: 0.5px;
+    vector-effect: non-scaling-stroke;
+  }
+
 html.loaded:after {
     display: none;
 }
