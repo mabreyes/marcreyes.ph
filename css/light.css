@@ -67,7 +67,7 @@ html:after {
 }
 
 .navbar {
-    font-family: 'Sharp Grotesk Medium 22', sans-serif;
+    font-family: 'Favorit', sans-serif;
     font-weight: normal;
     letter-spacing: 0;
     overflow: hidden;
@@ -139,7 +139,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Sharp Grotesk Medium 22', sans-serif;
+    font-family: 'Favorit', sans-serif;
     font-weight: normal;
     font-style: normal;
     margin: 1em 0 0 0;
@@ -1026,7 +1026,7 @@ html a.social-link:hover:before {
 
 .button {
     border: 2px solid #222;
-    font-family: 'Sharp Grotesk Medium 22', sans-serif;
+    font-family: 'Favorit', sans-serif;
     font-weight: normal;
     font-size: 16px;
     line-height: 1;
@@ -1427,7 +1427,7 @@ html a.social-link:hover:before {
 
 @media screen and (min-width: 768px) {
     body {
-        font-size: 1.2vw;
+        font-size: 1.7vw;
         /* letter-spacing: -1px; */
     }
 
@@ -1444,8 +1444,8 @@ html a.social-link:hover:before {
     }
 
     h1 {
-        font-size: 5vw;
-        /* letter-spacing: -1px; */
+        font-size: 9vw;
+        letter-spacing: -3px;
         line-height: 1;
     }
 
@@ -1549,7 +1549,7 @@ html a.social-link:hover:before {
     }
 
     .button.huge {
-        font-size: 20px;
+        font-size: 1.7vw;
         padding: 22px 40px;
     }
 }
